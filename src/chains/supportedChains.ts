@@ -917,6 +917,29 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://zkevm-rpc.com'],
     },
   },
+  {
+    key: ChainKey.BAS,
+    chainType: ChainType.EVM,
+    name: 'BASE',
+    coin: CoinKey.ETH,
+    id: ChainId.BAS,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/base.svg',
+    multicallAddress: multicallAddresses[ChainId.BAS],
+
+    metamask: {
+      chainId: prefixChainId(ChainId.BAS),
+      blockExplorerUrls: ['https://basescan.org/'],
+      chainName: 'BASE',
+      nativeCurrency: {
+        name: 'Ethereum',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: ['https://mainnet.base.org'],
+    },
+  },
 
   // TESTNETS
   // 5 - Goerli
