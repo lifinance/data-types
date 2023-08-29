@@ -71,6 +71,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
+      [ChainId.LNA]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
       [ChainId.FTM]: {
         address: '0x74b23882a30290451a17c44f4f05243b6b58c76d',
         decimals: 18,
@@ -592,6 +596,11 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
         name: 'Multichain USDT',
       },
+      [ChainId.LNA]: {
+        address: '0xa219439258ca9da29e9cc4ce5596924745e12b93',
+        decimals: 6,
+        name: 'USDT',
+      },
 
       // Testnets
       [ChainId.GOR]: {
@@ -918,6 +927,11 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
         name: 'Multichain USDC',
       },
+      [ChainId.LNA]: {
+        address: '0x176211869ca2b568f2a7d4ee941e073a821ee1ff',
+        decimals: 6,
+        name: 'USDC.e',
+      },
 
       // Testnets
       [ChainId.GOR]: {
@@ -1190,6 +1204,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.FTM]: {
         address: '0x74b23882a30290451a17c44f4f05243b6b58c76d',
+        decimals: 18,
+      },
+      [ChainId.LNA]: {
+        address: '0xe5d7c2a44ffddf6b295a15c148167daaaf5cf34f',
         decimals: 18,
       },
       [ChainId.AVA]: {
@@ -1688,6 +1706,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped Ether',
     logoURI:
       'https://static.debank.com/image/coin/logo_url/eth/d61441782d4a08a7479d54aea211679e.png',
+  },
+  [ChainId.LNA]: {
+    // https://lineascan.build/address/0xe5d7c2a44ffddf6b295a15c148167daaaf5cf34f
+    address: '0xe5d7c2a44ffddf6b295a15c148167daaaf5cf34f',
+    symbol: 'WETH',
+    decimals: 18,
+    chainId: ChainId.LNA,
+    coinKey: CoinKey.WETH,
+    name: 'Wrapped Ether',
+    logoURI:
+      'https://static.debank.com/image/mtr_token/logo_url/0x79a61d3a28f8c8537a3df63092927cfa1150fb3c/61844453e63cf81301f845d7864236f6.png',
   },
   [ChainId.FTM]: {
     //
