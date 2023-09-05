@@ -866,8 +866,9 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
       },
       [ChainId.FTM]: {
-        address: '0x04068da6c83afcfa0e13ba15a6696662335d5b75',
+        address: '0x28a92dde19d9989f39a49905d7c9c2fac7799bdf',
         decimals: 6,
+        name: 'LayerZero USDC Token',
       },
       [ChainId.ARB]: {
         address: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
