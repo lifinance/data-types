@@ -39,7 +39,7 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.SOL]: {
         address: '7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs',
         decimals: 8,
-        name: 'Wrapped SOL (Wormhole)',
+        name: 'Ether (Wormhole)',
       },
       [ChainId.POL]: {
         address: '0x7ceb23fd6bc0add59e62ac25578270cff1b9f619',
@@ -214,7 +214,7 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.SOL]: {
         address: '9gP2kCy3wA1ctvYWQk75guqXuHfrEomqydHLtcTCqiLa',
         decimals: 8,
-        name: 'Wrapped BNB (Wormhole)',
+        name: 'Binance Coin (Wormhole)',
       },
       [ChainId.BSC]: {
         address: '0x0000000000000000000000000000000000000000',
@@ -1010,7 +1010,9 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.SOL]: {
         address: '33fsBLA8djQm82RpHmE3SuVrPGtZBWNYExsEUeKX1HXX',
-        decimals: 18,
+        decimals: 8,
+        name: 'Binance USD (Wormhole from Ethereum)',
+        symbol: 'BUSD',
       },
       [ChainId.FUS]: {
         address: '0x6a5F6A8121592BeCd6747a38d67451B310F7f156',
@@ -1191,7 +1193,7 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.SOL]: {
         address: 'AaAEw2VCw1XzgvKB8Rj2DyK2ZVau9fbt2bE8hZFWsMyE',
         decimals: 9,
-        name: 'Allbridge from Ethereum',
+        name: 'Wrapped ETH (Allbridge from Ethereum)',
       },
       [ChainId.BSC]: {
         address: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
@@ -1307,6 +1309,7 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.SOL]: {
         address: 'ChVzxWRmrTeSgwd3Ui3UumcN8KX7VK3WaD4KGeSKpypj',
         decimals: 8,
+        name: 'Sushi',
       },
       [ChainId.POL]: {
         address: '0x0b3f868e0be5597d5db7feb59e1cadbb0fdda50a',
@@ -1482,7 +1485,7 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.SOL]: {
         address: 'GNCjk3FmPPgZTkbQRSxr6nCvLtYMbXKMnRxg8BgJs62e',
         decimals: 9,
-        name: 'Allbridge from Celo',
+        name: 'CELO (Allbridge from Celo)',
       },
     },
   },
