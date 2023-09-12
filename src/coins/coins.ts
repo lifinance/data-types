@@ -353,6 +353,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0xe3f5a90f9cb311505cd691a46596599aa1a0ad7d',
         decimals: 18,
       },
+      [ChainId.BAS]: {
+        address: '0x50c5725949a6f0c72e6c4a641f24049a917db0cb',
+        decimals: 18,
+      },
 
       // Testnets
       [ChainId.GOR]: {
