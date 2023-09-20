@@ -1325,7 +1325,7 @@ export const supportedEVMChains: EVMChain[] = [
 export const supportedSolanaChains: SolanaChain[] = [
   {
     key: ChainKey.SOL,
-    chainType: ChainType.Solana,
+    chainType: ChainType.SVM,
     name: 'Solana',
     coin: CoinKey.SOL,
     id: ChainId.SOL,
