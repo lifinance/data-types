@@ -605,6 +605,11 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
         name: 'USDT',
       },
+      [ChainId.PZE]: {
+        address: '0x1E4a5963aBFD975d8c9021ce480b42188849D41d',
+        decimals: 6,
+        name: 'USDT',
+      },
 
       // Testnets
       [ChainId.GOR]: {
