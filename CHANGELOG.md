@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/lifinance/data-types/compare/v2.0.0...v2.1.0) (2023-10-17)
+
+
+### Features
+
+* add usdt on polygon zkevm era chain ([07c6f2d](https://github.com/lifinance/data-types/commit/07c6f2dc5fe3dca29a9dedbb181e0e0b6a848219))
+* add usdt on polygon zkevm era chain ([5cd08f8](https://github.com/lifinance/data-types/commit/5cd08f8c6ceecae61e60795c6cc8047b0591c52b))
+
 ## [2.0.0](https://github.com/lifinance/data-types/compare/v1.0.0-beta.5...v2.0.0) (2023-09-21)
 
 
