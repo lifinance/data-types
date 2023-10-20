@@ -1308,7 +1308,7 @@ export const basicCoins: BasicCoin[] = [
     key: CoinKey.SUSHI,
     name: CoinKey.SUSHI,
     logoURI:
-      'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png',
+      'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2/logo.png',
     verified: true,
     chains: {
       [ChainId.ETH]: {
