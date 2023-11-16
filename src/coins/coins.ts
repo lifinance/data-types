@@ -610,6 +610,11 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
         name: 'USDT',
       },
+      [ChainId.ERA]: {
+        address: '0x493257fD37EDB34451f62EDf8D2a0C418852bA4C',
+        decimals: 6,
+        name: 'USDT',
+      },
 
       // Testnets
       [ChainId.GOR]: {
