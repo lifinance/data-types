@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.4](https://github.com/lifinance/data-types/compare/v2.1.3...v2.1.4) (2023-11-16)
+
+
+### Bug Fixes
+
+* add usdt on zksync era ([#11](https://github.com/lifinance/data-types/issues/11)) ([2a45c1f](https://github.com/lifinance/data-types/commit/2a45c1f04464bded748153448f808086ddaaf685))
+
 ### [2.1.3](https://github.com/lifinance/data-types/compare/v2.1.2...v2.1.3) (2023-10-31)
 
 ### [2.1.2](https://github.com/lifinance/data-types/compare/v2.1.1...v2.1.2) (2023-10-20)
