@@ -384,7 +384,10 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'MOVR',
         decimals: 18,
       },
-      rpcUrls: ['https://moonriver.publicnode.com','https://rpc.api.moonriver.moonbeam.network'],
+      rpcUrls: [
+        'https://moonriver.publicnode.com',
+        'https://rpc.api.moonriver.moonbeam.network',
+      ],
     },
   },
 
@@ -412,7 +415,10 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'GLMR',
         decimals: 18,
       },
-      rpcUrls: ['https://moonbeam.publicnode.com','https://rpc.api.moonbeam.network'],
+      rpcUrls: [
+        'https://moonbeam.publicnode.com',
+        'https://rpc.api.moonbeam.network',
+      ],
     },
   },
 
