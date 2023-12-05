@@ -870,6 +870,7 @@ export const basicCoins: BasicCoin[] = [
         address: '0xd9aaec86b65d86f6a7b5b1b0c42ffa531710b6ca',
         decimals: 6,
         name: 'USD Base Coin',
+        symbol: 'USDbC',
       },
       [ChainId.ERA]: {
         address: '0x3355df6d4c9c3035724fd0e3914de96a5a83aaf4',
