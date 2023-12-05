@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.5](https://github.com/lifinance/data-types/compare/v2.1.4...v2.1.5) (2023-12-05)
+
+
+### Bug Fixes
+
+* base chain USDC symbol should be USDbC ([434c3f6](https://github.com/lifinance/data-types/commit/434c3f6baa5b592118ce43c21091bbcb70a885ee))
+
 ### [2.1.4](https://github.com/lifinance/data-types/compare/v2.1.3...v2.1.4) (2023-11-16)
 
 
