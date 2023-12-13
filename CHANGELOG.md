@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://github.com/lifinance/data-types/compare/v2.1.5...v2.2.0) (2023-12-13)
+
+
+### Features
+
+* add official USDC coin on base chain ([#13](https://github.com/lifinance/data-types/issues/13)) ([6047f76](https://github.com/lifinance/data-types/commit/6047f76ba52f985fddac6af89b7b10909acf51ae))
+
 ### [2.1.5](https://github.com/lifinance/data-types/compare/v2.1.4...v2.1.5) (2023-12-05)
 
 
