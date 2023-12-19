@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://github.com/lifinance/data-types/compare/v2.1.5...v2.2.0) (2023-12-13)
+
+
+### Features
+
+* add official USDC coin on base chain ([#13](https://github.com/lifinance/data-types/issues/13)) ([6047f76](https://github.com/lifinance/data-types/commit/6047f76ba52f985fddac6af89b7b10909acf51ae))
+
+### [2.1.5](https://github.com/lifinance/data-types/compare/v2.1.4...v2.1.5) (2023-12-05)
+
+
+### Bug Fixes
+
+* base chain USDC symbol should be USDbC ([434c3f6](https://github.com/lifinance/data-types/commit/434c3f6baa5b592118ce43c21091bbcb70a885ee))
+
+### [2.1.4](https://github.com/lifinance/data-types/compare/v2.1.3...v2.1.4) (2023-11-16)
+
+
+### Bug Fixes
+
+* add usdt on zksync era ([#11](https://github.com/lifinance/data-types/issues/11)) ([2a45c1f](https://github.com/lifinance/data-types/commit/2a45c1f04464bded748153448f808086ddaaf685))
+
 ### [2.1.3](https://github.com/lifinance/data-types/compare/v2.1.2...v2.1.3) (2023-10-31)
 
 ### [2.1.2](https://github.com/lifinance/data-types/compare/v2.1.1...v2.1.2) (2023-10-20)
