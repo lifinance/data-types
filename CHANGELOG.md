@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2.2](https://github.com/lifinance/data-types/compare/v2.2.1...v2.2.2) (2024-01-09)
+
+
+### Bug Fixes
+
+* replace dead Pocket RPC ([#15](https://github.com/lifinance/data-types/issues/15)) ([311dce4](https://github.com/lifinance/data-types/commit/311dce40d62bc8ead0239de3c41e864fd4b96c0d))
+
 ### [2.2.1](https://github.com/lifinance/data-types/compare/v2.2.0...v2.2.1) (2023-12-19)
 
 ## [2.2.0](https://github.com/lifinance/data-types/compare/v2.1.5...v2.2.0) (2023-12-13)
