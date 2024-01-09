@@ -132,9 +132,9 @@ export const supportedEVMChains: EVMChain[] = [
         decimals: 18,
       },
       rpcUrls: [
-        'https://rpc.gnosischain.com/',
+        'https://rpc.gnosis.gateway.fm',
+        'https://rpc.gnosischain.com',
         'https://rpc.ankr.com/gnosis',
-        'https://xdai-rpc.gateway.pokt.network',
       ],
     },
   },
