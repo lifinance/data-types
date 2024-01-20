@@ -1617,6 +1617,65 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
+  // > Bitcoin
+  {
+    key: CoinKey.BTC,
+    name: CoinKey.BTC,
+    logoURI: 'https://assets.coingecko.com/coins/images/1/standard/bitcoin.png',
+    verified: true,
+    chains: {
+      [ChainId.BTC]: {
+        address: 'bitcoin',
+        decimals: 8,
+        name: 'Bitcoin',
+      },
+    },
+  },
+  // > Bitcoin Cash
+  {
+    key: CoinKey.BCH,
+    name: CoinKey.BCH,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/780/standard/bitcoin-cash-circle.png',
+    verified: true,
+    chains: {
+      [ChainId.BCH]: {
+        address: 'bitcoin-cash',
+        decimals: 8,
+        name: 'Bitcoin Cash',
+      },
+    },
+  },
+  // > Bitcoin
+  {
+    key: CoinKey.LTC,
+    name: CoinKey.LTC,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/2/standard/litecoin.png',
+    verified: true,
+    chains: {
+      [ChainId.LTC]: {
+        address: 'litecoin',
+        decimals: 8,
+        name: 'Litecoin',
+      },
+    },
+  },
+  // > Doge
+  {
+    key: CoinKey.DOGE,
+    name: CoinKey.DOGE,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/5/standard/dogecoin.png',
+    verified: true,
+    chains: {
+      [ChainId.DGE]: {
+        address: 'dogecoin',
+        decimals: 8,
+        name: 'Dogecoin',
+      },
+    },
+  },
 ]
 
 export const defaultCoins: Array<Coin> = basicCoins.map((coin) => {
