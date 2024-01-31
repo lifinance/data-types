@@ -6,12 +6,9 @@ import {
   findWrappedGasOnChain,
 } from '../coins'
 
-import {
-  getChainById,
-  getChainByKey,
-  supportedEVMChains,
-} from './supportedChains'
+import { getChainById, getChainByKey } from './supportedChains'
 import { prefixChainId } from './utils'
+import { supportedEVMChains } from './supportedChains.evm'
 
 test('getChainById', () => {
   expect(getChainById(ChainId.ETH)).toBeDefined()
