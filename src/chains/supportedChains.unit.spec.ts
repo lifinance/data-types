@@ -6,12 +6,9 @@ import {
   findWrappedGasOnChain,
 } from '../coins'
 
-import {
-  getChainById,
-  getChainByKey,
-  supportedEVMChains,
-} from './supportedChains'
+import { getChainById, getChainByKey, supportedChains } from './supportedChains'
 import { prefixChainId } from './utils'
+import { supportedEVMChains } from './supportedChains.evm'
 
 test('getChainById', () => {
   expect(getChainById(ChainId.ETH)).toBeDefined()
@@ -23,7 +20,7 @@ test('getChainByKey', () => {
 
 test('native token defined for all chains', () => {
   // currently unused chains
-  const ignoredChains = [
+  const ignoredChainsForNativeToken = [
     ChainId.FSN,
     ChainId.EXP,
     ChainId.TCH,
@@ -42,8 +39,15 @@ test('native token defined for all chains', () => {
     ChainId.TLOT,
     ChainId.RSKT,
   ]
-  for (const chain of supportedEVMChains) {
-    if (ignoredChains.includes(chain.id)) continue
+  const ignoredChainsForWrappedToken = [
+    ...ignoredChainsForNativeToken,
+    ChainId.BTC,
+    ChainId.BCH,
+    ChainId.LTC,
+    ChainId.DGE,
+  ]
+  for (const chain of supportedChains) {
+    if (ignoredChainsForNativeToken.includes(chain.id)) continue
 
     try {
       const gasToken = findDefaultToken(chain.coin, chain.id)
@@ -51,6 +55,10 @@ test('native token defined for all chains', () => {
     } catch (e) {
       throw new Error(`Failed to load gas token for ${chain.name}(${chain.id})`)
     }
+  }
+
+  for (const chain of supportedChains) {
+    if (ignoredChainsForWrappedToken.includes(chain.id)) continue
 
     try {
       const wrappedGasToken = findWrappedGasOnChain(chain.id)
