@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.3.1](https://github.com/lifinance/data-types/compare/v2.3.0...v2.3.1) (2024-02-05)
+
+
+### Bug Fixes
+
+* expose chain type specific chain lists again ([eaa49d0](https://github.com/lifinance/data-types/commit/eaa49d09b8a10362dce8f55c87f260c2d7eab274))
+
 ## [2.3.0](https://github.com/lifinance/data-types/compare/v2.2.2...v2.3.0) (2024-02-01)
 
 
