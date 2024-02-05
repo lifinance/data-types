@@ -1,2 +1,5 @@
+export { supportedEVMChains } from './supportedChains.evm'
+export { supportedSolanaChains } from './supportedChains.svm'
+export { supportedUXTOChains } from './supportedChains.utxo'
 export * from './supportedChains'
 export * from './utils'
