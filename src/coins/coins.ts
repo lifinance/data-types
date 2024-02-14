@@ -357,6 +357,12 @@ export const basicCoins: BasicCoin[] = [
         address: '0x50c5725949a6f0c72e6c4a641f24049a917db0cb',
         decimals: 18,
       },
+      [ChainId.MAM]: {
+        address: '0x4c078361FC9BbB78DF910800A991C7c3DD2F6ce0',
+        decimals: 18,
+        name: 'Metis DAI',
+        symbol: 'm.DAI',
+      },
 
       // Testnets
       [ChainId.GOR]: {
@@ -614,6 +620,12 @@ export const basicCoins: BasicCoin[] = [
         address: '0x493257fD37EDB34451f62EDf8D2a0C418852bA4C',
         decimals: 6,
         name: 'USDT',
+      },
+      [ChainId.MAM]: {
+        address: '0xbB06DCA3AE6887fAbF931640f67cab3e3a16F4dC',
+        decimals: 6,
+        name: 'Metis USDT',
+        symbol: 'm.USDT',
       },
 
       // Testnets
@@ -945,6 +957,12 @@ export const basicCoins: BasicCoin[] = [
         address: '0x176211869ca2b568f2a7d4ee941e073a821ee1ff',
         decimals: 6,
         name: 'USDC.e',
+      },
+      [ChainId.MAM]: {
+        address: '0xEA32A96608495e54156Ae48931A7c20f0dcc1a21',
+        decimals: 6,
+        name: 'Metis USDC',
+        symbol: 'm.USDC',
       },
 
       // Testnets
@@ -1296,6 +1314,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.AUR]: {
         address: '0xC9BdeEd33CD01541e1eeD10f90519d2C06Fe3feB',
+        decimals: 18,
+      },
+      [ChainId.MAM]: {
+        address: '0x420000000000000000000000000000000000000A',
         decimals: 18,
       },
 
