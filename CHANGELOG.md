@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.4.1](https://github.com/lifinance/data-types/compare/v2.4.0...v2.4.1) (2024-02-15)
+
+
+### Bug Fixes
+
+* **metis:** set correct native token ([#20](https://github.com/lifinance/data-types/issues/20)) ([c6b6bb9](https://github.com/lifinance/data-types/commit/c6b6bb9dcfff80ef6a89670f54115878cfde94f5))
+
 ## [2.4.0](https://github.com/lifinance/data-types/compare/v2.3.1...v2.4.0) (2024-02-14)
 
 
