@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.4.2](https://github.com/lifinance/data-types/compare/v2.4.1...v2.4.2) (2024-03-11)
+
+
+### Bug Fixes
+
+* correct aurora weth address ([#21](https://github.com/lifinance/data-types/issues/21)) ([ea5ecdb](https://github.com/lifinance/data-types/commit/ea5ecdb0530b115600acb43d6fcd1b0f45ed2a2b))
+
 ### [2.4.1](https://github.com/lifinance/data-types/compare/v2.4.0...v2.4.1) (2024-02-15)
 
 
