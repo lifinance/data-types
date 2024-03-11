@@ -1974,12 +1974,12 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
       'https://raw.githubusercontent.com/cronus-finance/token-list/main/assets/evmos/0xD4949664cD82660AaE99bEdc034a0deA8A0bd517/logo.png',
   },
   [ChainId.AUR]: {
-    address: '0x0000000000000000000000000000000000000000',
-    symbol: 'AETH',
+    address: '0xc9bdeed33cd01541e1eed10f90519d2c06fe3feb',
+    symbol: 'WETH',
     decimals: 18,
     chainId: ChainId.AUR,
-    coinKey: 'AETH' as CoinKey,
-    name: 'AETH',
+    coinKey: 'WETH' as CoinKey,
+    name: 'WETH',
     logoURI:
       'https://static.debank.com/image/aurora_token/logo_url/aurora/d61441782d4a08a7479d54aea211679e.png',
   },
