@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.5.0](https://github.com/lifinance/data-types/compare/v2.4.2...v2.5.0) (2024-03-12)
+
+
+### Features
+
+* add Scroll base coins and chain information ([#22](https://github.com/lifinance/data-types/issues/22)) ([4337c36](https://github.com/lifinance/data-types/commit/4337c363dfed62c83a684db7ea4e5ed27de1ff18))
+
 ### [2.4.2](https://github.com/lifinance/data-types/compare/v2.4.1...v2.4.2) (2024-03-11)
 
 
