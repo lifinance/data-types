@@ -953,6 +953,38 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://rpc.linea.build'],
     },
   },
+  // 534352 - Scroll
+  {
+    key: ChainKey.SCL,
+    chainType: ChainType.EVM,
+    name: 'Scroll',
+    coin: CoinKey.ETH,
+    id: 534352,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/scroll.png',
+    multicallAddress: multicallAddresses[ChainId.SCL],
+
+    metamask: {
+      chainId: prefixChainId(534352),
+      blockExplorerUrls: [
+        'https://scrollscan.com/',
+        'https://blockscout.scroll.io/',
+      ],
+      chainName: 'SCROLL',
+      nativeCurrency: {
+        name: 'ETH',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: [
+        'https://rpc.scroll.io',
+        'https://scroll-mainnet.public.blastapi.io',
+        'https://scroll.drpc.org',
+        'https://1rpc.io/scroll	',
+      ],
+    },
+  },
 
   // TESTNETS
   // 5 - Goerli
@@ -1301,6 +1333,34 @@ export const supportedEVMChains: EVMChain[] = [
         decimals: 18,
       },
       rpcUrls: ['https://rpc.goerli.linea.build'],
+    },
+  },
+  // 534351 - Scroll Sepolia Testnet
+  {
+    key: ChainKey.SCLT,
+    chainType: ChainType.EVM,
+    name: 'Scroll Sepolia Testnet',
+    coin: CoinKey.ETH,
+    id: 534351,
+    mainnet: false,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/scroll.png',
+    multicallAddress: multicallAddresses[ChainId.SCLT],
+
+    metamask: {
+      chainId: prefixChainId(534351),
+      blockExplorerUrls: ['https://sepolia.scrollscan.com/'],
+      chainName: 'Scroll Sepolia Testnet',
+      nativeCurrency: {
+        name: 'ETH',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: [
+        'https://rpc.ankr.com/scroll_sepolia_testnet',
+        'https://sepolia-rpc.scroll.io',
+        'https://scroll-sepolia.drpc.org',
+      ],
     },
   },
   // TODO: Add
