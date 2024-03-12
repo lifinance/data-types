@@ -38,6 +38,7 @@ export const multicallAddresses: { [ChainId: number]: string } = {
   [ChainId.LNA]: '0xcA11bde05977b3631167028862bE2a173976CA11',
   [ChainId.ARN]: '0xcA11bde05977b3631167028862bE2a173976CA11',
   [ChainId.BAS]: '0xcA11bde05977b3631167028862bE2a173976CA11',
+  [ChainId.SCL]: '0xcA11bde05977b3631167028862bE2a173976CA11',
 
   // TODO
   // [ChainId.EXP]: '', // TODO
@@ -64,6 +65,7 @@ export const multicallAddresses: { [ChainId: number]: string } = {
   [ChainId.RSKT]: '0xcA11bde05977b3631167028862bE2a173976CA11',
   [ChainId.ARBG]: '0xcA11bde05977b3631167028862bE2a173976CA11',
   [ChainId.LNAT]: '0xcA11bde05977b3631167028862bE2a173976CA11',
+  [ChainId.SCLT]: '0xcA11bde05977b3631167028862bE2a173976CA11',
 
   // TODO
   // [ChainId.METT]: '', // TODO

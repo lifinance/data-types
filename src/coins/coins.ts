@@ -122,6 +122,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x85219708c49aa701871ad330a94ea0f41dff24ca',
         decimals: 18,
       },
+      [ChainId.SCL]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
 
       // Testnets
       [ChainId.GOR]: {
@@ -145,6 +149,10 @@ export const basicCoins: BasicCoin[] = [
         decimals: 18,
       },
       [ChainId.LNAT]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+      [ChainId.SCLT]: {
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
@@ -362,6 +370,10 @@ export const basicCoins: BasicCoin[] = [
         decimals: 18,
         name: 'Metis DAI',
         symbol: 'm.DAI',
+      },
+      [ChainId.SCL]: {
+        address: '0xcA77eB3fEFe3725Dc33bccB54eDEFc3D9f764f97',
+        decimals: 18,
       },
 
       // Testnets
@@ -626,6 +638,10 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
         name: 'Metis USDT',
         symbol: 'm.USDT',
+      },
+      [ChainId.SCL]: {
+        address: '0xf55BEC9cafDbE8730f096Aa55dad6D22d44099Df',
+        decimals: 6,
       },
 
       // Testnets
@@ -964,6 +980,10 @@ export const basicCoins: BasicCoin[] = [
         name: 'Metis USDC',
         symbol: 'm.USDC',
       },
+      [ChainId.SCL]: {
+        address: '0x06eFdBFf2a14a7c8E15944D1F4A48F9F95F663A4',
+        decimals: 6,
+      },
 
       // Testnets
       [ChainId.GOR]: {
@@ -1218,6 +1238,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0xF4eB217Ba2454613b15dBdea6e5f22276410e89e',
         decimals: 8,
       },
+      [ChainId.SCL]: {
+        address: '0x3C1BCa5a656e69edCD0D4E36BEbb3FcDAcA60Cf1',
+        decimals: 8,
+      },
     },
   },
 
@@ -1320,6 +1344,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x420000000000000000000000000000000000000A',
         decimals: 18,
       },
+      [ChainId.SCL]: {
+        address: '0x5300000000000000000000000000000000000004',
+        decimals: 18,
+      },
 
       // Testnets
       [ChainId.GOR]: {
@@ -1336,6 +1364,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.LNAT]: {
         address: '0x2C1b868d6596a18e32E61B901E4060C872647b6C',
+        decimals: 18,
+      },
+      [ChainId.SCLT]: {
+        address: '0x5300000000000000000000000000000000000004',
         decimals: 18,
       },
     },
