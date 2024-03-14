@@ -2025,6 +2025,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/vlx.png',
   },
+  [ChainId.SCL]: {
+    // https://scrollscan.com/token/0x5300000000000000000000000000000000000004
+    address: '0x5300000000000000000000000000000000000004',
+    symbol: 'WETH',
+    decimals: 18,
+    chainId: ChainId.SCL,
+    coinKey: CoinKey.WETH,
+    name: 'WETH',
+    logoURI:
+      'https://static.debank.com/image/era_token/logo_url/0x5aea5775959fbc2557cc8789bc1bf90a239d9a91/61844453e63cf81301f845d7864236f6.png',
+  },
 
   // Testnets
   [ChainId.GOR]: {
@@ -2103,12 +2114,12 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     logoURI:
       'https://static.debank.com/image/era_token/logo_url/0x5aea5775959fbc2557cc8789bc1bf90a239d9a91/61844453e63cf81301f845d7864236f6.png',
   },
-  [ChainId.SCL]: {
-    // https://scrollscan.com/token/0x5300000000000000000000000000000000000004
+  [ChainId.SCLT]: {
+    // https://sepolia.scrollscan.com/token/0x5300000000000000000000000000000000000004
     address: '0x5300000000000000000000000000000000000004',
     symbol: 'WETH',
     decimals: 18,
-    chainId: ChainId.SCL,
+    chainId: ChainId.SCLT,
     coinKey: CoinKey.WETH,
     name: 'WETH',
     logoURI:
