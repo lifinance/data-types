@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.6.0](https://github.com/lifinance/data-types/compare/v2.5.0...v2.6.0) (2024-03-14)
+
+
+### Features
+
+* Add wrapped gas on scroll ([#23](https://github.com/lifinance/data-types/issues/23)) ([124d3e4](https://github.com/lifinance/data-types/commit/124d3e49f4cc57c5017b701f3c749817dd490e9d))
+
 ## [2.5.0](https://github.com/lifinance/data-types/compare/v2.4.2...v2.5.0) (2024-03-12)
 
 
