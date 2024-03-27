@@ -1589,9 +1589,7 @@ export const basicCoins: BasicCoin[] = [
     verified: true,
     chains: {
       [ChainId.MAM]: {
-        // The CELO token is not a native token (0x000...).
-        // Instead, it is this ERC20 token: https://andromeda-explorer.metis.io/address/0xDeadDeAddeAddEAddeadDEaDDEAdDeaDDeAD0000
-        address: '0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000',
+        address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
     },
