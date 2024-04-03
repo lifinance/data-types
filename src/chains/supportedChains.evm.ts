@@ -122,9 +122,9 @@ export const supportedEVMChains: EVMChain[] = [
         decimals: 18,
       },
       rpcUrls: [
-        'https://rpc.gnosis.gateway.fm',
-        'https://rpc.gnosischain.com',
+        'https://gnosis-rpc.publicnode.com',
         'https://rpc.ankr.com/gnosis',
+        'https://rpc.gnosischain.com',
       ],
     },
   },
