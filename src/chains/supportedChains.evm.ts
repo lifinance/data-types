@@ -987,33 +987,6 @@ export const supportedEVMChains: EVMChain[] = [
   },
 
   // TESTNETS
-  // 5 - Goerli
-  {
-    key: ChainKey.GOR,
-    chainType: ChainType.EVM,
-    name: 'Goerli',
-    coin: CoinKey.ETH,
-    id: 5,
-    mainnet: false,
-    logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/ethereum_goerli.png',
-    tokenlistUrl:
-      'https://raw.githubusercontent.com/compound-finance/token-list/master/compound.tokenlist.json',
-    faucetUrls: ['https://goerli-faucet.slock.it/'],
-    multicallAddress: multicallAddresses[ChainId.GOR],
-
-    metamask: {
-      chainId: prefixChainId(5),
-      blockExplorerUrls: ['https://goerli.etherscan.io/'],
-      chainName: 'Ethereum Testnet Görli',
-      nativeCurrency: {
-        name: 'ETH',
-        symbol: 'ETH',
-        decimals: 18,
-      },
-      rpcUrls: ['https://rpc.ankr.com/eth_goerli'],
-    },
-  },
   // 12 - Metadium Testnet
   {
     key: ChainKey.METT,
@@ -1058,33 +1031,6 @@ export const supportedEVMChains: EVMChain[] = [
         decimals: 18,
       },
       rpcUrls: ['https://staging.diode.io:8443/'],
-    },
-  },
-  // 80001 - Mumbai Polygon Testnet
-  {
-    key: ChainKey.MUM,
-    chainType: ChainType.EVM,
-    name: 'Polygon Testnet',
-    coin: CoinKey.MATIC,
-    id: 80001,
-    mainnet: false,
-    logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/polygon_test.png',
-    tokenlistUrl:
-      'https://raw.githubusercontent.com/elkfinance/tokens/main/mumbai.tokenlist.json',
-    faucetUrls: ['https://faucet.matic.network/'],
-    multicallAddress: multicallAddresses[ChainId.MUM],
-
-    metamask: {
-      chainId: prefixChainId(80001),
-      blockExplorerUrls: ['https://explorer-mumbai.maticvigil.com/'],
-      chainName: 'Matic(Polygon) Testnet Mumbai',
-      nativeCurrency: {
-        name: 'MATIC',
-        symbol: 'tMATIC',
-        decimals: 18,
-      },
-      rpcUrls: ['https://rpc-mumbai.matic.today'],
     },
   },
   {

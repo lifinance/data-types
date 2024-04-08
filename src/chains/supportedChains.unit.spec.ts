@@ -87,10 +87,10 @@ describe('findTokenByChainIdAndAddress', () => {
     it('returns a token with the overrode name', () => {
       expect(
         findTokenByChainIdAndAddress(
-          ChainId.GOR,
-          '0x7ea6eA49B0b0Ae9c5db7907d139D9Cd3439862a1'
+          ChainId.SOL,
+          '33fsBLA8djQm82RpHmE3SuVrPGtZBWNYExsEUeKX1HXX'
         )!.name
-      ).toEqual('Goerli CXTT')
+      ).toEqual('Binance USD (Wormhole from Ethereum)')
     })
   })
 })
