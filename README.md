@@ -9,11 +9,9 @@
 
 # LI.FI - Data Types
 
-Data Types for the LI.FI stack.
-
 ## Summary
 
-This package contains all common data types for the LI.FI stack.
+This repository contains data that enriches the types defined in LI.FI's [types package](https://github.com/lifinance/types) with actual information.
 Learn more about LI.FI on (https://li.fi).
 
 Check out the [Changelog](./CHANGELOG.md) to see what changed in the last releases.
