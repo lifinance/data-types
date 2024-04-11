@@ -128,10 +128,6 @@ export const basicCoins: BasicCoin[] = [
       },
 
       // Testnets
-      [ChainId.GOR]: {
-        address: '0x0000000000000000000000000000000000000000',
-        decimals: 18,
-      },
       [ChainId.ONET]: {
         address: '0x268d6ff391b41b36a13b1693bd25f87fb4e4b392',
         decimals: 18,
@@ -197,10 +193,6 @@ export const basicCoins: BasicCoin[] = [
       },
 
       // Testnet
-      [ChainId.MUM]: {
-        address: '0x0000000000000000000000000000000000000000',
-        decimals: 18,
-      },
       [ChainId.LNAT]: {
         address: '0xa55C7E1274bE5db2275a0BDd055f81e8263b7954',
         decimals: 18,
@@ -377,14 +369,6 @@ export const basicCoins: BasicCoin[] = [
       },
 
       // Testnets
-      [ChainId.GOR]: {
-        address: '0xdc31ee1784292379fbb2964b3b9c4124d8f89c60', // other: 0xc61ba16e864efbd06a9fe30aab39d18b8f63710a'
-        decimals: 18,
-      },
-      [ChainId.MUM]: {
-        address: '0xb224913ce3851b0a0d7c0fb461eef40f2e31ddb8',
-        decimals: 18,
-      },
       // 42, 0x4f96fe3b7a6cf9725f59d353f723c1bdb64ca6aa, 18
     },
   },
@@ -643,12 +627,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0xf55BEC9cafDbE8730f096Aa55dad6D22d44099Df',
         decimals: 6,
       },
-
-      // Testnets
-      [ChainId.GOR]: {
-        address: '0x509ee0d083ddf8ac028f2a56731412edd63223b9',
-        decimals: 6,
-      },
     },
   },
 
@@ -661,14 +639,6 @@ export const basicCoins: BasicCoin[] = [
       'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png',
     verified: true,
     chains: {
-      [ChainId.GOR]: {
-        address: '0xDf0360Ad8C5ccf25095Aa97ee5F2785c8d848620',
-        decimals: 6,
-      },
-      [ChainId.MUM]: {
-        address: '0x742DfA5Aa70a8212857966D491D67B09Ce7D6ec7',
-        decimals: 6,
-      },
       [ChainId.ARBG]: {
         address: '0x6aad876244e7a1ad44ec4824ce813729e5b6c291',
         decimals: 6,
@@ -699,14 +669,6 @@ export const basicCoins: BasicCoin[] = [
       'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png',
     verified: true,
     chains: {
-      [ChainId.GOR]: {
-        address: '0x5bcc22abec37337630c0e0dd41d64fd86caee951',
-        decimals: 6,
-      },
-      [ChainId.MUM]: {
-        address: '0x6fc340be8e378c2ff56476409ef48da9a3b781a0',
-        decimals: 6,
-      },
       [ChainId.BSCT]: {
         address: '0xf49e250aeb5abdf660d643583adfd0be41464efd',
         decimals: 6,
@@ -726,10 +688,6 @@ export const basicCoins: BasicCoin[] = [
       'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png',
     verified: true,
     chains: {
-      [ChainId.GOR]: {
-        address: '0x9874a71b976daa037741d18b86bc6b2f9957fc8a',
-        decimals: 18,
-      },
       [ChainId.BSCT]: {
         address: '0x8362af3426e6c7a77438f29bdc81c8f27cd541ab',
         decimals: 18,
@@ -745,14 +703,6 @@ export const basicCoins: BasicCoin[] = [
       'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png',
     verified: true,
     chains: {
-      [ChainId.GOR]: {
-        address: '0xc9ba30be110864264577ad091c47f986318b213e',
-        decimals: 18,
-      },
-      [ChainId.MUM]: {
-        address: '0xb9C468f4308f3f937B4Fc79946244459bBC3cf65',
-        decimals: 18,
-      },
       [ChainId.BSCT]: {
         address: '0x6df6db769dd1c845596f7e65a1c86c98d6147cc3',
         decimals: 18,
@@ -772,10 +722,6 @@ export const basicCoins: BasicCoin[] = [
       'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png',
     verified: true,
     chains: {
-      [ChainId.GOR]: {
-        address: '0x5D3c0F4cA5EE99f8E8F59Ff9A5fAb04F6a7e007f',
-        decimals: 18,
-      },
       [ChainId.BSCT]: {
         address: '0x5471ea8f739dd37E9B81Be9c5c77754D8AA953E4',
         decimals: 18,
@@ -791,10 +737,6 @@ export const basicCoins: BasicCoin[] = [
       'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png',
     verified: true,
     chains: {
-      [ChainId.GOR]: {
-        address: '0xf4b2cbc3ba04c478f0dc824f4806ac39982dce73',
-        decimals: 6,
-      },
       [ChainId.BSCT]: {
         address: '0x7d43AABC515C356145049227CeE54B608342c0ad',
         decimals: 6,
@@ -809,32 +751,12 @@ export const basicCoins: BasicCoin[] = [
       'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png',
     verified: true,
     chains: {
-      [ChainId.GOR]: {
-        address: '0x9D39Fc627A6d9d9F8C831c16995b209548cc3401',
-        decimals: 6,
-      },
       [ChainId.BSCT]: {
         address: '0xC826C23327098cd8A37f140114F2173A8F62DD29',
         decimals: 6,
       },
     },
   },
-
-  // cBridge WUSDC testtoken
-  {
-    key: CoinKey.cbtWUSDC,
-    name: CoinKey.cbtWUSDC,
-    logoURI:
-      'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png',
-    verified: true,
-    chains: {
-      [ChainId.GOR]: {
-        address: '0x4a63Afc71427807586dA190Bb0D3adB461fF9589',
-        decimals: 6,
-      },
-    },
-  },
-
   // cBridge USDC testtoken
   {
     key: CoinKey.cbtUSDC,
@@ -843,20 +765,12 @@ export const basicCoins: BasicCoin[] = [
       'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png',
     verified: true,
     chains: {
-      [ChainId.MUM]: {
-        address: '0x6de33698e9e9b787e09d3bd7771ef63557e148bb',
-        decimals: 6,
-      },
       [ChainId.AVAT]: {
         address: '0x2979a1cb90EEB9e75d7fB4f9813FCC40E4a7fD8b',
         decimals: 6,
       },
       [ChainId.BSCT]: {
         address: '0x317F8d18FB16E49a958Becd0EA72f8E153d25654',
-        decimals: 6,
-      },
-      [ChainId.GOR]: {
-        address: '0xCbE56b00d173A26a5978cE90Db2E33622fD95A28',
         decimals: 6,
       },
     },
@@ -986,14 +900,6 @@ export const basicCoins: BasicCoin[] = [
       },
 
       // Testnets
-      [ChainId.GOR]: {
-        address: '0xd87ba7a50b2e7e660f678a895e4b72e7cb4ccd9c',
-        decimals: 6,
-      },
-      [ChainId.MUM]: {
-        address: '0x6d4dd09982853f08d9966ac3ca4eb5885f16f2b2',
-        decimals: 6,
-      },
       [ChainId.LNAT]: {
         address: '0x964FF70695da981027c81020B1c58d833D49A640',
         decimals: 6,
@@ -1110,14 +1016,6 @@ export const basicCoins: BasicCoin[] = [
       'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png',
     verified: false,
     chains: {
-      [ChainId.GOR]: {
-        address: '0x8a1cad3703e0beae0e0237369b4fcd04228d1682',
-        decimals: 18,
-      },
-      [ChainId.MUM]: {
-        address: '0xe71678794fff8846bff855f716b0ce9d9a78e844',
-        decimals: 18,
-      },
       [ChainId.BSCT]: {
         address: '0xd86bcb7d85163fbc81756bb9cc22225d6abccadb',
         decimals: 18,
@@ -1133,17 +1031,8 @@ export const basicCoins: BasicCoin[] = [
       'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png',
     verified: false,
     chains: {
-      [ChainId.GOR]: {
-        address: '0x7ea6eA49B0b0Ae9c5db7907d139D9Cd3439862a1',
-        name: 'Goerli CXTT',
-        decimals: 18,
-      },
       [ChainId.LNAT]: {
         address: '0xb706319d37b945727e71ae0d4353699d19112576',
-        decimals: 18,
-      },
-      [ChainId.MUM]: {
-        address: '0xeDb95D8037f769B72AAab41deeC92903A98C9E16',
         decimals: 18,
       },
       [ChainId.ARBG]: {
@@ -1350,14 +1239,6 @@ export const basicCoins: BasicCoin[] = [
       },
 
       // Testnets
-      [ChainId.GOR]: {
-        address: '0xb4fbf271143f4fbf7b91a5ded31805e42b2208d6',
-        decimals: 18,
-      },
-      [ChainId.MUM]: {
-        address: '0xa6fa4fb5f76172d178d61b04b0ecd319c5d1c0aa',
-        decimals: 18,
-      },
       [ChainId.OPTG]: {
         address: '0x4200000000000000000000000000000000000006',
         decimals: 18,
@@ -2036,28 +1917,6 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
   },
 
   // Testnets
-  [ChainId.GOR]: {
-    // https://goerli.etherscan.io/token/0xb4fbf271143f4fbf7b91a5ded31805e42b2208d6
-    address: '0xb4fbf271143f4fbf7b91a5ded31805e42b2208d6',
-    symbol: 'WETH',
-    decimals: 18,
-    chainId: ChainId.GOR,
-    coinKey: CoinKey.WETH,
-    name: 'WETH',
-    logoURI:
-      'https://static.debank.com/image/era_token/logo_url/0x5aea5775959fbc2557cc8789bc1bf90a239d9a91/61844453e63cf81301f845d7864236f6.png',
-  },
-  [ChainId.MUM]: {
-    // https://mumbai.polygonscan.com/token/0x9c3c9283d3e44854697cd22d3faa240cfb032889
-    address: '0x9c3c9283d3e44854697cd22d3faa240cfb032889',
-    symbol: 'WMATIC',
-    decimals: 18,
-    chainId: ChainId.MUM,
-    coinKey: 'WMATIC' as CoinKey,
-    name: 'WMATIC',
-    logoURI:
-      'https://static.debank.com/image/matic_token/logo_url/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270/f6e604ba0324726a3d687c618aa4f163.png',
-  },
   [ChainId.ONET]: {
     address: '0x7466d7d0c21fa05f32f5a0fa27e12bdc06348ce2',
     symbol: 'WONE',
