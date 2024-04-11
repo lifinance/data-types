@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/lifinance/data-types/compare/v2.6.2...v3.0.0) (2024-04-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove GOR and MUM support (#26)
+
+### Features
+
+* remove GOR and MUM support ([#26](https://github.com/lifinance/data-types/issues/26)) ([4fdba27](https://github.com/lifinance/data-types/commit/4fdba278146d9f85c5fab41406420c757ca3ef45))
+
 ### [2.6.2](https://github.com/lifinance/data-types/compare/v2.6.1...v2.6.2) (2024-04-03)
 
 ### [2.6.1](https://github.com/lifinance/data-types/compare/v2.6.0...v2.6.1) (2024-03-27)
