@@ -1834,7 +1834,8 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     chainId: ChainId.FUS,
     coinKey: 'WFUSE' as CoinKey,
     name: 'Wrapped Fuse',
-    logoURI: 'https://fuselogo.s3.eu-central-1.amazonaws.com/wfuse.png',
+    logoURI:
+      'https://static.debank.com/image/fuse_token/logo_url/0x0be9e53fd7edac9f859882afdda116645287c629/26d6e40e90bb2bf775820b1afef6ffb6.png',
   },
   [ChainId.MOO]: {
     address: '0xacc15dc74880c9944775448304b263d191c6077f',
