@@ -985,6 +985,33 @@ export const supportedEVMChains: EVMChain[] = [
       ],
     },
   },
+  // 534352 - Scroll
+  {
+    key: ChainKey.MOD,
+    chainType: ChainType.EVM,
+    name: 'Mode',
+    coin: CoinKey.ETH,
+    id: 34443,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/mode.png',
+    multicallAddress: multicallAddresses[ChainId.MOD],
+
+    metamask: {
+      chainId: prefixChainId(34443),
+      blockExplorerUrls: [
+        'https://explorer.mode.network/',
+        'https://modescan.io/',
+      ],
+      chainName: 'MODE',
+      nativeCurrency: {
+        name: 'ETH',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: ['https://mainnet.mode.network/', 'https://mode.drpc.org'],
+    },
+  },
 
   // TESTNETS
   // 12 - Metadium Testnet

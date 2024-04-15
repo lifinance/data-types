@@ -126,6 +126,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
+      [ChainId.MOD]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
 
       // Testnets
       [ChainId.ONET]: {
@@ -627,6 +631,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0xf55BEC9cafDbE8730f096Aa55dad6D22d44099Df',
         decimals: 6,
       },
+      [ChainId.MOD]: {
+        address: '0xf0F161fDA2712DB8b566946122a5af183995e2eD',
+        decimals: 6,
+      },
     },
   },
 
@@ -896,6 +904,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.SCL]: {
         address: '0x06eFdBFf2a14a7c8E15944D1F4A48F9F95F663A4',
+        decimals: 6,
+      },
+      [ChainId.MOD]: {
+        address: '0xd988097fb8612cc24eeC14542bC03424c656005f',
         decimals: 6,
       },
 
@@ -1235,6 +1247,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.SCL]: {
         address: '0x5300000000000000000000000000000000000004',
+        decimals: 18,
+      },
+      [ChainId.MOD]: {
+        address: '0x4200000000000000000000000000000000000006',
         decimals: 18,
       },
 
@@ -1911,6 +1927,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     symbol: 'WETH',
     decimals: 18,
     chainId: ChainId.SCL,
+    coinKey: CoinKey.WETH,
+    name: 'WETH',
+    logoURI:
+      'https://static.debank.com/image/era_token/logo_url/0x5aea5775959fbc2557cc8789bc1bf90a239d9a91/61844453e63cf81301f845d7864236f6.png',
+  },
+  [ChainId.MOD]: {
+    // https://explorer.mode.network/token/0x4200000000000000000000000000000000000006
+    address: '0x4200000000000000000000000000000000000006',
+    symbol: 'WETH',
+    decimals: 18,
+    chainId: ChainId.MOD,
     coinKey: CoinKey.WETH,
     name: 'WETH',
     logoURI:
