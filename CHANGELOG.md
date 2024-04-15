@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.1.0](https://github.com/lifinance/data-types/compare/v3.0.1...v3.1.0) (2024-04-15)
+
+
+### Features
+
+* add mode coins and chain ([d80534d](https://github.com/lifinance/data-types/commit/d80534d5dc4b756ac77424dbb234432280015763))
+
+
+### Bug Fixes
+
+* replace the token url with a new one ([2e0d748](https://github.com/lifinance/data-types/commit/2e0d7482ea83ddf169634673308d1ce72df23bbd))
+
 ### [3.0.1](https://github.com/lifinance/data-types/compare/v3.0.0...v3.0.1) (2024-04-12)
 
 ## [3.0.0](https://github.com/lifinance/data-types/compare/v2.6.2...v3.0.0) (2024-04-11)
