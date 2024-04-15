@@ -1941,7 +1941,7 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     coinKey: CoinKey.WETH,
     name: 'WETH',
     logoURI:
-      'https://static.debank.com/image/era_token/logo_url/0x5aea5775959fbc2557cc8789bc1bf90a239d9a91/61844453e63cf81301f845d7864236f6.png',
+      'https://static.debank.com/image/mtr_token/logo_url/0x79a61d3a28f8c8537a3df63092927cfa1150fb3c/61844453e63cf81301f845d7864236f6.png',
   },
 
   // Testnets
