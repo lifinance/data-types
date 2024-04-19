@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0](https://github.com/lifinance/data-types/compare/v3.0.1...v4.0.0) (2024-04-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove okx chain support (#30)
+
+### Features
+
+* add mode coins and chain ([#29](https://github.com/lifinance/data-types/issues/29)) ([e5ec629](https://github.com/lifinance/data-types/commit/e5ec629c78348f090bdbb4c820a5e7ff1ece16ac))
+* remove okx chain support ([#30](https://github.com/lifinance/data-types/issues/30)) ([ef09a8f](https://github.com/lifinance/data-types/commit/ef09a8f5cdae3569e74d98e4ed41465a68068504))
+
 ### [3.0.1](https://github.com/lifinance/data-types/compare/v3.0.0...v3.0.1) (2024-04-12)
 
 ## [3.0.0](https://github.com/lifinance/data-types/compare/v2.6.2...v3.0.0) (2024-04-11)
