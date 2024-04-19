@@ -159,33 +159,6 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://rpc.ftm.tools/', 'https://rpcapi.fantom.network'],
     },
   },
-  // 66 - OKXChain
-  {
-    key: ChainKey.OKT,
-    chainType: ChainType.EVM,
-    name: 'OKXChain',
-    coin: CoinKey.OKT,
-    id: 66,
-    mainnet: true,
-    logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/okx.svg',
-    tokenlistUrl:
-      'https://raw.githubusercontent.com/sushiswap/default-token-list/master/tokens/okex.json',
-    multicallAddress: multicallAddresses[ChainId.OKT],
-
-    // https://okc-docs.readthedocs.io/en/latest/developers/quick-start-for-mainnet.html
-    metamask: {
-      chainId: prefixChainId(66),
-      blockExplorerUrls: ['https://www.oklink.com/en/okc/'],
-      chainName: 'OKXChain Mainnet',
-      nativeCurrency: {
-        name: 'OKT',
-        symbol: 'OKT',
-        decimals: 18,
-      },
-      rpcUrls: ['https://exchainrpc.okex.org'],
-    },
-  },
   // 43114 - Avalanche
   {
     key: ChainKey.AVA,
