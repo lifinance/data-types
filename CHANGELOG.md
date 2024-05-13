@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.2.1](https://github.com/lifinance/data-types/compare/v4.2.0...v4.2.1) (2024-05-13)
+
+
+### Bug Fixes
+
+* bad explorer link ([#33](https://github.com/lifinance/data-types/issues/33)) ([a819b04](https://github.com/lifinance/data-types/commit/a819b049d95fc576ae4ad9c239247ff164d83ea5))
+
 ## [4.2.0](https://github.com/lifinance/data-types/compare/v4.1.0...v4.2.0) (2024-05-13)
 
 
