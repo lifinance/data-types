@@ -482,6 +482,24 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
+  // > MNT
+  {
+    key: CoinKey.MNT,
+    name: CoinKey.MNT,
+    logoURI:
+      'https://static.debank.com/image/mnt_token/logo_url/0x78c1b0c915c4faa5fffa6cabf0219da63d7f4cb8/a443c78c33704d48f06e5686bb87f85e.png',
+    verified: true,
+    chains: {
+      [ChainId.MNT]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+      [ChainId.ETH]: {
+        address: '0x3c3a81e81dc49A522A592e7622A7E711c06bf354',
+        decimals: 18,
+      },
+    },
+  },
 
   // OTHER STABLECOINS
   // USDT
