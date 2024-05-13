@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.1.0](https://github.com/lifinance/data-types/compare/v4.0.0...v4.1.0) (2024-05-13)
+
+
+### Features
+
+* add support assets for Mantle chain ([#31](https://github.com/lifinance/data-types/issues/31)) ([73bf84f](https://github.com/lifinance/data-types/commit/73bf84f4772ea825f8b7dcdf9229837422bf2589))
+
 ## [4.0.0](https://github.com/lifinance/data-types/compare/v3.0.1...v4.0.0) (2024-04-19)
 
 
