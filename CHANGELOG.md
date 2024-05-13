@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.2.0](https://github.com/lifinance/data-types/compare/v4.1.0...v4.2.0) (2024-05-13)
+
+
+### Features
+
+* add mantle token to base coin list ([#32](https://github.com/lifinance/data-types/issues/32)) ([fc54524](https://github.com/lifinance/data-types/commit/fc5452478eee576f3e5d6610d5b8a4d0089a5c1c))
+
 ## [4.1.0](https://github.com/lifinance/data-types/compare/v4.0.0...v4.1.0) (2024-05-13)
 
 
