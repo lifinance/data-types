@@ -958,7 +958,7 @@ export const supportedEVMChains: EVMChain[] = [
       ],
     },
   },
-  // 534352 - Scroll
+  // 34443 - Mode
   {
     key: ChainKey.MOD,
     chainType: ChainType.EVM,
@@ -983,6 +983,37 @@ export const supportedEVMChains: EVMChain[] = [
         decimals: 18,
       },
       rpcUrls: ['https://mainnet.mode.network/', 'https://mode.drpc.org'],
+    },
+  },
+  // 5000 - Mantle
+  {
+    key: ChainKey.MNT,
+    chainType: ChainType.EVM,
+    name: 'Mantle',
+    coin: CoinKey.MNT,
+    id: 5000,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/mantle.svg',
+    multicallAddress: multicallAddresses[ChainId.MNT],
+
+    metamask: {
+      chainId: prefixChainId(5000),
+      blockExplorerUrls: [
+        'https://explorer.mantle.xyz',
+        'https://mantle.socialscan.io/',
+      ],
+      chainName: 'Mantle',
+      nativeCurrency: {
+        name: 'Mantle',
+        symbol: 'MNT',
+        decimals: 18,
+      },
+      rpcUrls: [
+        'https://rpc.mantle.xyz',
+        'https://mantle.public-rpc.com',
+        'https://rpc.ankr.com/mantle',
+      ],
     },
   },
 
