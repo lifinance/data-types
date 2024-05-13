@@ -1000,7 +1000,7 @@ export const supportedEVMChains: EVMChain[] = [
     metamask: {
       chainId: prefixChainId(5000),
       blockExplorerUrls: [
-        'https://explorer.mantle.xyz',
+        'https://explorer.mantle.xyz/',
         'https://mantle.socialscan.io/',
       ],
       chainName: 'Mantle',
