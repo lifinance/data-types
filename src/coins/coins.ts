@@ -606,6 +606,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0xf0F161fDA2712DB8b566946122a5af183995e2eD',
         decimals: 6,
       },
+      [ChainId.MNT]: {
+        address: '0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE',
+        decimals: 6,
+      },
     },
   },
 
@@ -877,6 +881,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0xd988097fb8612cc24eeC14542bC03424c656005f',
         decimals: 6,
       },
+      [ChainId.MNT]: {
+        address: '0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9',
+        decimals: 6,
+      },
 
       // Testnets
       [ChainId.LNAT]: {
@@ -1106,6 +1114,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x3C1BCa5a656e69edCD0D4E36BEbb3FcDAcA60Cf1',
         decimals: 8,
       },
+      [ChainId.MNT]: {
+        address: '0xCAbAE6f6Ea1ecaB08Ad02fE02ce9A44F09aebfA2',
+        decimals: 8,
+      },
     },
   },
 
@@ -1214,6 +1226,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.MOD]: {
         address: '0x4200000000000000000000000000000000000006',
+        decimals: 18,
+      },
+      [ChainId.MNT]: {
+        address: '0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111',
         decimals: 18,
       },
 
@@ -1891,6 +1907,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'WETH',
     logoURI:
       'https://static.debank.com/image/mtr_token/logo_url/0x79a61d3a28f8c8537a3df63092927cfa1150fb3c/61844453e63cf81301f845d7864236f6.png',
+  },
+  [ChainId.MNT]: {
+    // https://explorer.mantle.xyz/token/0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8
+    address: '0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8',
+    symbol: 'WMNT',
+    decimals: 18,
+    chainId: ChainId.MNT,
+    coinKey: CoinKey.WMNT,
+    name: 'WMNT',
+    logoURI:
+      'https://static.debank.com/image/mnt_token/logo_url/0x78c1b0c915c4faa5fffa6cabf0219da63d7f4cb8/a443c78c33704d48f06e5686bb87f85e.png',
   },
 
   // Testnets
