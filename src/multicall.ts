@@ -40,6 +40,7 @@ export const multicallAddresses: { [ChainId: number]: string } = {
   [ChainId.SCL]: '0xcA11bde05977b3631167028862bE2a173976CA11',
   [ChainId.MOD]: '0xcA11bde05977b3631167028862bE2a173976CA11',
   [ChainId.MNT]: '0xcA11bde05977b3631167028862bE2a173976CA11',
+  [ChainId.BLS]: '0xcA11bde05977b3631167028862bE2a173976CA11',
 
   // TODO
   // [ChainId.EXP]: '', // TODO
