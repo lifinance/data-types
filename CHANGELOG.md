@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.3.0](https://github.com/lifinance/data-types/compare/v4.2.1...v4.3.0) (2024-05-20)
+
+
+### Features
+
+* enable Blast assets ([#34](https://github.com/lifinance/data-types/issues/34)) ([2e34aac](https://github.com/lifinance/data-types/commit/2e34aacd856676ee31bee1f97efdd6789894b260))
+
 ### [4.2.1](https://github.com/lifinance/data-types/compare/v4.2.0...v4.2.1) (2024-05-13)
 
 
