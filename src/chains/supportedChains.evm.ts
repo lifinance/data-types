@@ -1017,6 +1017,31 @@ export const supportedEVMChains: EVMChain[] = [
     },
   },
 
+  // 81457 - Blast
+  {
+    key: ChainKey.BLS,
+    chainType: ChainType.EVM,
+    name: 'Blast',
+    coin: CoinKey.ETH,
+    id: 81457,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/blast.png',
+    multicallAddress: multicallAddresses[ChainId.BLS],
+
+    metamask: {
+      chainId: prefixChainId(81457),
+      blockExplorerUrls: ['https://blastscan.io/', 'https://blastexplorer.io/'],
+      chainName: 'Blast',
+      nativeCurrency: {
+        name: 'Ethereum',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.blast.io', 'https://rpc.ankr.com/blast'],
+    },
+  },
+
   // TESTNETS
   // 12 - Metadium Testnet
   {

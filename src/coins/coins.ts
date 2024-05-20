@@ -1013,6 +1013,21 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // USDB
+  {
+    key: CoinKey.USDB,
+    name: CoinKey.USDB,
+    logoURI:
+      'https://static.debank.com/image/blast_token/logo_url/0x4300000000000000000000000000000000000003/43c9fafca023ddd62f7900f357b26714.png',
+    verified: true,
+    chains: {
+      [ChainId.BLS]: {
+        address: '0x4300000000000000000000000000000000000003',
+        decimals: 18,
+      },
+    },
+  },
+
   // TEST COIN
   {
     key: CoinKey.TEST,
@@ -1248,6 +1263,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.MNT]: {
         address: '0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111',
+        decimals: 18,
+      },
+      [ChainId.BLS]: {
+        address: '0x4300000000000000000000000000000000000004',
         decimals: 18,
       },
 
@@ -1936,6 +1955,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'WMNT',
     logoURI:
       'https://static.debank.com/image/mnt_token/logo_url/0x78c1b0c915c4faa5fffa6cabf0219da63d7f4cb8/a443c78c33704d48f06e5686bb87f85e.png',
+  },
+  [ChainId.BLS]: {
+    // https://blastscan.io/token/0x4300000000000000000000000000000000000004
+    address: '0x4300000000000000000000000000000000000004',
+    symbol: 'WETH',
+    decimals: 18,
+    chainId: ChainId.BLS,
+    coinKey: CoinKey.WETH,
+    name: 'WETH',
+    logoURI:
+      'https://static.debank.com/image/mtr_token/logo_url/0x79a61d3a28f8c8537a3df63092927cfa1150fb3c/61844453e63cf81301f845d7864236f6.png',
   },
 
   // Testnets
