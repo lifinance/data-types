@@ -124,6 +124,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
+      [ChainId.BLS]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
 
       // Testnets
       [ChainId.ONET]: {
