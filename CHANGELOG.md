@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.4.0](https://github.com/lifinance/data-types/compare/v4.3.0...v4.4.0) (2024-05-21)
+
+
+### Features
+
+* add ETH on blast ([#35](https://github.com/lifinance/data-types/issues/35)) ([5e95922](https://github.com/lifinance/data-types/commit/5e9592222acb1fd5e5bd4d7c9b3e2550857d5249))
+
 ## [4.3.0](https://github.com/lifinance/data-types/compare/v4.2.1...v4.3.0) (2024-05-20)
 
 
