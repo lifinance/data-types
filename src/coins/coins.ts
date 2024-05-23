@@ -505,6 +505,21 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // > RSK
+  {
+    key: CoinKey.RBTC,
+    name: 'Rootstock Smart Bitcoin',
+    logoURI:
+      'https://static.debank.com/image/mnt_token/logo_url/0x78c1b0c915c4faa5fffa6cabf0219da63d7f4cb8/a443c78c33704d48f06e5686bb87f85e.png',
+    verified: true,
+    chains: {
+      [ChainId.RSK]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+
   // OTHER STABLECOINS
   // USDT
   {
@@ -631,6 +646,12 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.MNT]: {
         address: '0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE',
         decimals: 6,
+      },
+      [ChainId.RSK]: {
+        address: '0xEf213441a85DF4d7acBdAe0Cf78004E1e486BB96',
+        decimals: 18,
+        name: 'rUSDT',
+        symbol: 'rUSDT',
       },
     },
   },
@@ -1154,6 +1175,11 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.MNT]: {
         address: '0xCAbAE6f6Ea1ecaB08Ad02fE02ce9A44F09aebfA2',
         decimals: 8,
+      },
+      [ChainId.RSK]: {
+        address: '0x542FDA317318eBf1d3DeAF76E0B632741a7e677d',
+        decimals: 18,
+        symbol: 'WRBTC',
       },
     },
   },
@@ -1970,6 +1996,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'WETH',
     logoURI:
       'https://static.debank.com/image/mtr_token/logo_url/0x79a61d3a28f8c8537a3df63092927cfa1150fb3c/61844453e63cf81301f845d7864236f6.png',
+  },
+  [ChainId.RSK]: {
+    address: '0x542FDA317318eBf1d3DeAF76E0B632741a7e677d',
+    symbol: 'WRBTC',
+    decimals: 18,
+    chainId: ChainId.RSK,
+    coinKey: CoinKey.WBTC,
+    name: 'Wrapped BTC',
+    logoURI:
+      'https://static.debank.com/image/rsk_token/logo_url/0x542fda317318ebf1d3deaf76e0b632741a7e677d/4785a26ef5bb5df987e67ad49fc62137.png',
   },
 
   // Testnets
