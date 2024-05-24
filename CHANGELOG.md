@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.4.1](https://github.com/lifinance/data-types/compare/v4.4.0...v4.4.1) (2024-05-24)
+
+
+### Bug Fixes
+
+* update mantle icon ([#37](https://github.com/lifinance/data-types/issues/37)) ([9811b2e](https://github.com/lifinance/data-types/commit/9811b2e5d9bf50fdd33c63649c5ee0814bd5bfad))
+
 ## [4.4.0](https://github.com/lifinance/data-types/compare/v4.3.0...v4.4.0) (2024-05-21)
 
 
