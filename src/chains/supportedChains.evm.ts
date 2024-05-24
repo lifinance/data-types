@@ -994,7 +994,7 @@ export const supportedEVMChains: EVMChain[] = [
     id: 5000,
     mainnet: true,
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/mantle.svg',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/mantle.png',
     multicallAddress: multicallAddresses[ChainId.MNT],
 
     metamask: {
