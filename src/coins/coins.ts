@@ -648,7 +648,7 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
       },
       [ChainId.RSK]: {
-        address: '0xEf213441a85DF4d7acBdAe0Cf78004E1e486BB96',
+        address: '0xef213441a85df4d7acbdae0cf78004e1e486bb96',
         decimals: 18,
         name: 'rUSDT',
         symbol: 'rUSDT',
@@ -1177,7 +1177,7 @@ export const basicCoins: BasicCoin[] = [
         decimals: 8,
       },
       [ChainId.RSK]: {
-        address: '0x542FDA317318eBf1d3DeAF76E0B632741a7e677d',
+        address: '0x542fda317318ebf1d3deaf76e0b632741a7e677d',
         decimals: 18,
         symbol: 'WRBTC',
       },
@@ -1998,7 +1998,7 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
       'https://static.debank.com/image/mtr_token/logo_url/0x79a61d3a28f8c8537a3df63092927cfa1150fb3c/61844453e63cf81301f845d7864236f6.png',
   },
   [ChainId.RSK]: {
-    address: '0x542FDA317318eBf1d3DeAF76E0B632741a7e677d',
+    address: '0x542fda317318ebf1d3deaf76e0b632741a7e677d',
     symbol: 'WRBTC',
     decimals: 18,
     chainId: ChainId.RSK,
