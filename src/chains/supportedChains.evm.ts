@@ -680,29 +680,7 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://rpc.genesisl1.org'],
     },
   },
-  // 30 RSK Mainnet
-  {
-    key: ChainKey.RSK,
-    chainType: ChainType.EVM,
-    name: 'RSK Mainnet',
-    coin: CoinKey.RBTC,
-    id: 30,
-    mainnet: true,
-    multicallAddress: multicallAddresses[ChainId.RSK],
 
-    metamask: {
-      chainId: prefixChainId(30),
-      blockExplorerUrls: ['https://explorer.rsk.co/'],
-      chainName: 'RSK Mainnet',
-
-      nativeCurrency: {
-        name: 'RBTC',
-        symbol: 'RBTC',
-        decimals: 18,
-      },
-      rpcUrls: ['https://public-node.rsk.co'],
-    },
-  },
   // 35 TBWG Chain
   {
     key: ChainKey.TBW,
@@ -1039,6 +1017,31 @@ export const supportedEVMChains: EVMChain[] = [
         decimals: 18,
       },
       rpcUrls: ['https://rpc.blast.io', 'https://rpc.ankr.com/blast'],
+    },
+  },
+
+  // 30 - Rootstock
+  {
+    key: ChainKey.RSK,
+    chainType: ChainType.EVM,
+    name: 'Rootstock',
+    coin: CoinKey.RBTC,
+    id: 30,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/rootstock.svg',
+    multicallAddress: multicallAddresses[ChainId.RSK],
+
+    metamask: {
+      chainId: prefixChainId(30),
+      blockExplorerUrls: ['https://explorer.rootstock.io/'],
+      chainName: 'Rootstock',
+      nativeCurrency: {
+        name: 'Rootstock Smart Bitcoin',
+        symbol: 'RBTC',
+        decimals: 18,
+      },
+      rpcUrls: ['https://public-node.rsk.co', 'https://mycrypto.rsk.co'],
     },
   },
 
