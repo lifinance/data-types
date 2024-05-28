@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.5.0](https://github.com/lifinance/data-types/compare/v4.4.1...v4.5.0) (2024-05-28)
+
+
+### Features
+
+* add Rootstock support ([#36](https://github.com/lifinance/data-types/issues/36)) ([d155c3a](https://github.com/lifinance/data-types/commit/d155c3a2674291479bdba665dc2074860d10f78e))
+
 ### [4.4.1](https://github.com/lifinance/data-types/compare/v4.4.0...v4.4.1) (2024-05-24)
 
 
