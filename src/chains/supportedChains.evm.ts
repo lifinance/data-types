@@ -61,7 +61,7 @@ export const supportedEVMChains: EVMChain[] = [
       },
       rpcUrls: [
         'https://polygon-rpc.com/',
-        'https://rpc-mainnet.maticvigil.com/',
+        'https://polygon.llamarpc.com/',
       ],
     },
   },
