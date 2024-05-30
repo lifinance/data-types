@@ -59,10 +59,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'MATIC',
         decimals: 18,
       },
-      rpcUrls: [
-        'https://polygon-rpc.com/',
-        'https://polygon.llamarpc.com/',
-      ],
+      rpcUrls: ['https://polygon-rpc.com/', 'https://polygon.llamarpc.com/'],
     },
   },
   // 56 - Binance Smart Chain
@@ -516,7 +513,7 @@ export const supportedEVMChains: EVMChain[] = [
 
     metamask: {
       chainId: prefixChainId(42220),
-      blockExplorerUrls: ['https://explorer.celo.org/'],
+      blockExplorerUrls: ['https://celoscan.io/'],
       chainName: 'Celo Mainnet',
 
       nativeCurrency: {
@@ -524,7 +521,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'CELO',
         decimals: 18,
       },
-      rpcUrls: ['https://forno.celo.org'],
+      rpcUrls: ['https://forno.celo.org', 'https://rpc.ankr.com/celo'],
     },
   },
   // 122 Fuse Mainnet
