@@ -32,12 +32,6 @@ test('native token defined for all chains', () => {
     ChainId.GL1,
     ChainId.RSK,
     ChainId.TBW,
-    ChainId.METT,
-    ChainId.DIOT,
-    ChainId.HECT,
-    ChainId.FUST,
-    ChainId.TLOT,
-    ChainId.RSKT,
   ]
   const ignoredChainsForWrappedToken = [
     ...ignoredChainsForNativeToken,
@@ -76,10 +70,10 @@ describe('findTokenByChainIdAndAddress', () => {
     it('returns a token with the coin name', () => {
       expect(
         findTokenByChainIdAndAddress(
-          ChainId.LNAT,
-          '0xb706319d37b945727e71ae0d4353699d19112576'
+          ChainId.LNA,
+          '0xa219439258ca9da29e9cc4ce5596924745e12b93'
         )!.name
-      ).toEqual(CoinKey.CXTT)
+      ).toEqual(CoinKey.USDT)
     })
   })
 
