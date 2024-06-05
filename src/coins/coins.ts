@@ -1283,6 +1283,56 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
+  // frxETH
+  {
+    key: CoinKey.frxETH,
+    name: CoinKey.frxETH,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/28284/standard/frxETH_icon.png',
+    verified: true,
+    chains: {
+      [ChainId.POL]: {
+        address: '0x01e91A094f5559f211e4ad4bED01468aBb64Bde3',
+        decimals: 18,
+      },
+      [ChainId.ARB]: {
+        address: '0xEcc68d0451E20292406967Fe7C04280E5238Ac7D',
+        decimals: 18,
+      },
+      [ChainId.AVA]: {
+        address: '0x939b1a17C0d0Aa3fEA634Ad9157c88245A53C713',
+        decimals: 18,
+      },
+      [ChainId.LNA]: {
+        address: '0xEcc68d0451E20292406967Fe7C04280E5238Ac7D',
+        decimals: 18,
+      },
+      [ChainId.SCL]: {
+        address: '0xEcc68d0451E20292406967Fe7C04280E5238Ac7D',
+        decimals: 18,
+      },
+      [ChainId.OPT]: {
+        address: '0xEcc68d0451E20292406967Fe7C04280E5238Ac7D',
+        decimals: 18,
+      },
+      [ChainId.FTM]: {
+        address: '0x39Db1A30122031751e803Fabf329C44efBBfBf4B',
+        decimals: 18,
+      },
+      [ChainId.MOO]: {
+        address: '0x29C795559e4Db87054Ba70fafC454214c20aDbD4',
+        decimals: 18,
+      },
+      [ChainId.BAS]: {
+        address: '0xEcc68d0451E20292406967Fe7C04280E5238Ac7D',
+        decimals: 18,
+      },
+      [ChainId.BSC]: {
+        address: '0x39Db1A30122031751e803Fabf329C44efBBfBf4B',
+        decimals: 18,
+      },
+    },
+  },
   // > Solana
   {
     key: CoinKey.SOL,
