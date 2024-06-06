@@ -1041,4 +1041,29 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://public-node.rsk.co', 'https://mycrypto.rsk.co'],
     },
   },
+
+  // 1329 - SEI
+  {
+    key: ChainKey.SEI,
+    chainType: ChainType.EVM,
+    name: 'SEI',
+    coin: CoinKey.WSEI,
+    id: 1329,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/sei.svg',
+    multicallAddress: multicallAddresses[ChainId.SEI],
+
+    metamask: {
+      chainId: prefixChainId(1329),
+      blockExplorerUrls: ['https://seitrace.com/', 'https://seistream.app/'],
+      chainName: 'SEI v2',
+      nativeCurrency: {
+        name: 'Wrapped SEI',
+        symbol: 'WSEI',
+        decimals: 18,
+      },
+      rpcUrls: ['https://evm-rpc.sei-apis.com'],
+    },
+  },
 ]

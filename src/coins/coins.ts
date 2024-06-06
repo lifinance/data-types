@@ -588,6 +588,10 @@ export const basicCoins: BasicCoin[] = [
         name: 'rUSDT',
         symbol: 'rUSDT',
       },
+      [ChainId.SEI]: {
+        address: '0xB75D0B03c06A926e488e2659DF1A861F860bD3d1',
+        decimals: 6,
+      },
     },
   },
 
@@ -716,6 +720,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.MNT]: {
         address: '0x09Bc4E0D864854c6aFB6eB9A9cdF58aC190D0dF9',
+        decimals: 6,
+      },
+      [ChainId.SEI]: {
+        address: '0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1',
         decimals: 6,
       },
     },
@@ -1329,6 +1337,20 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.BSC]: {
         address: '0x39Db1A30122031751e803Fabf329C44efBBfBf4B',
+        decimals: 18,
+      },
+    },
+  },
+
+  // SEI
+  {
+    key: CoinKey.WSEI,
+    name: CoinKey.WSEI,
+    logoURI: 'https://cdn.sei.io/sei-app/sei-icon.png',
+    verified: true,
+    chains: {
+      [ChainId.SEI]: {
+        address: '0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7',
         decimals: 18,
       },
     },
