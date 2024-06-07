@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.7.0](https://github.com/lifinance/data-types/compare/v4.6.1...v4.7.0) (2024-06-07)
+
+
+### Features
+
+* add tokens ([#42](https://github.com/lifinance/data-types/issues/42)) ([2140dd4](https://github.com/lifinance/data-types/commit/2140dd45616e1e719410a6cbac3c10f2e6a466bf))
+
 ### [4.6.1](https://github.com/lifinance/data-types/compare/v4.6.0...v4.6.1) (2024-06-05)
 
 ## [4.6.0](https://github.com/lifinance/data-types/compare/v4.5.2...v4.6.0) (2024-06-03)
