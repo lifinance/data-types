@@ -445,7 +445,7 @@ export const basicCoins: BasicCoin[] = [
     key: CoinKey.RBTC,
     name: 'Rootstock Smart Bitcoin',
     logoURI:
-      'https://static.debank.com/image/mnt_token/logo_url/0x78c1b0c915c4faa5fffa6cabf0219da63d7f4cb8/a443c78c33704d48f06e5686bb87f85e.png',
+      'https://assets.coingecko.com/coins/images/5070/standard/rsk-logo.jpg?1696505596',
     verified: true,
     chains: {
       [ChainId.RSK]: {
