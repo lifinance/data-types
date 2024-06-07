@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.7.1](https://github.com/lifinance/data-types/compare/v4.7.0...v4.7.1) (2024-06-07)
+
+
+### Bug Fixes
+
+* wrong logo for rbtc ([#43](https://github.com/lifinance/data-types/issues/43)) ([bd8f111](https://github.com/lifinance/data-types/commit/bd8f11140f93a12b403fefa53009984d789cbb0a))
+
 ## [4.7.0](https://github.com/lifinance/data-types/compare/v4.6.1...v4.7.0) (2024-06-07)
 
 
