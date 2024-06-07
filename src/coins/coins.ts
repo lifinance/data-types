@@ -445,7 +445,7 @@ export const basicCoins: BasicCoin[] = [
     key: CoinKey.RBTC,
     name: 'Rootstock Smart Bitcoin',
     logoURI:
-      'https://assets.coingecko.com/coins/images/5070/standard/rsk-logo.jpg?1696505596',
+      'https://static.debank.com/image/rsk_token/logo_url/0x542fda317318ebf1d3deaf76e0b632741a7e677d/4785a26ef5bb5df987e67ad49fc62137.png',
     verified: true,
     chains: {
       [ChainId.RSK]: {
@@ -917,11 +917,6 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.MNT]: {
         address: '0xCAbAE6f6Ea1ecaB08Ad02fE02ce9A44F09aebfA2',
         decimals: 8,
-      },
-      [ChainId.RSK]: {
-        address: '0x542fda317318ebf1d3deaf76e0b632741a7e677d',
-        decimals: 18,
-        symbol: 'WRBTC',
       },
     },
   },
@@ -1795,7 +1790,7 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     decimals: 18,
     chainId: ChainId.RSK,
     coinKey: CoinKey.WBTC,
-    name: 'Wrapped BTC',
+    name: 'Wrapped RBTC',
     logoURI:
       'https://static.debank.com/image/rsk_token/logo_url/0x542fda317318ebf1d3deaf76e0b632741a7e677d/4785a26ef5bb5df987e67ad49fc62137.png',
   },
