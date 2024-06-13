@@ -1047,7 +1047,7 @@ export const supportedEVMChains: EVMChain[] = [
     key: ChainKey.SEI,
     chainType: ChainType.EVM,
     name: 'SEI',
-    coin: CoinKey.WSEI,
+    coin: CoinKey.SEI,
     id: 1329,
     mainnet: true,
     logoURI:
@@ -1059,11 +1059,11 @@ export const supportedEVMChains: EVMChain[] = [
       blockExplorerUrls: ['https://seitrace.com/', 'https://seistream.app/'],
       chainName: 'SEI v2',
       nativeCurrency: {
-        name: 'Wrapped SEI',
-        symbol: 'WSEI',
+        name: 'SEI',
+        symbol: 'SEI',
         decimals: 18,
       },
-      rpcUrls: ['https://evm-rpc.sei-apis.com'],
+      rpcUrls: ['https://evm-rpc.sei-apis.com', 'https://rpc.ankr.com/sei'],
     },
   },
 ]

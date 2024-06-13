@@ -1339,13 +1339,13 @@ export const basicCoins: BasicCoin[] = [
 
   // SEI
   {
-    key: CoinKey.WSEI,
-    name: CoinKey.WSEI,
+    key: CoinKey.SEI,
+    name: CoinKey.SEI,
     logoURI: 'https://cdn.sei.io/sei-app/sei-icon.png',
     verified: true,
     chains: {
       [ChainId.SEI]: {
-        address: '0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7',
+        address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
     },
@@ -1593,7 +1593,7 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
       'https://static.debank.com/image/mtr_token/logo_url/0x79a61d3a28f8c8537a3df63092927cfa1150fb3c/61844453e63cf81301f845d7864236f6.png',
   },
   [ChainId.FTM]: {
-    //
+    // https://ftmscan.com/address/0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83
     address: '0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83',
     symbol: 'wFTM',
     decimals: 18,
@@ -1793,6 +1793,15 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped RBTC',
     logoURI:
       'https://static.debank.com/image/rsk_token/logo_url/0x542fda317318ebf1d3deaf76e0b632741a7e677d/4785a26ef5bb5df987e67ad49fc62137.png',
+  },
+  [ChainId.SEI]: {
+    address: '0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7',
+    symbol: 'WSEI',
+    decimals: 18,
+    chainId: ChainId.SEI,
+    coinKey: CoinKey.WSEI,
+    name: 'Wrapped SEI',
+    logoURI: 'https://cdn.sei.io/sei-app/sei-icon.png',
   },
 }
 
