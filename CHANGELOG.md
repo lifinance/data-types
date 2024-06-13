@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.8.0](https://github.com/lifinance/data-types/compare/v4.7.2...v4.8.0) (2024-06-13)
+
+
+### Features
+
+* update sei assets ([#45](https://github.com/lifinance/data-types/issues/45)) ([d4db146](https://github.com/lifinance/data-types/commit/d4db1469335e9f01d53daf3f2bbebc6b12ddf2bd))
+
 ### [4.7.2](https://github.com/lifinance/data-types/compare/v4.7.1...v4.7.2) (2024-06-11)
 
 ### [4.7.1](https://github.com/lifinance/data-types/compare/v4.7.0...v4.7.1) (2024-06-07)
