@@ -1088,7 +1088,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": ^17.7.1
     "@commitlint/config-conventional": ^17.7.0
-    "@lifi/types": ^13.12.0
+    "@lifi/types": ^13.13.0
     "@types/jest": ^29.5.4
     "@typescript-eslint/eslint-plugin": ^6.5.0
     "@typescript-eslint/parser": ^6.5.0
@@ -1106,10 +1106,10 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@lifi/types@npm:^13.12.0":
-  version: 13.12.0
-  resolution: "@lifi/types@npm:13.12.0"
-  checksum: 04f80f460d7f5dacc30a850ca9c3ae23b3a45f49b5d9cf88b5dce1a1423ec246e7bef2960e483154d3c88ca9a014366ce36813500c2dec331865aeec25a85e24
+"@lifi/types@npm:^13.13.0":
+  version: 13.13.0
+  resolution: "@lifi/types@npm:13.13.0"
+  checksum: 21bb56bbeea30b4fe7986842c71f20e7ea30ff15825ec4f5ba6a5726ca566bb8873844fe2082ef6346853eeee0ce3223ea2d1475304f188ae17d96bf03eb46f7
   languageName: node
   linkType: hard
 
