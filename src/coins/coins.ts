@@ -1795,6 +1795,7 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
       'https://static.debank.com/image/rsk_token/logo_url/0x542fda317318ebf1d3deaf76e0b632741a7e677d/4785a26ef5bb5df987e67ad49fc62137.png',
   },
   [ChainId.SEI]: {
+    // https://seitrace.com/token/0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7
     address: '0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7',
     symbol: 'WSEI',
     decimals: 18,
