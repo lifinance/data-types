@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.8.1](https://github.com/lifinance/data-types/compare/v4.8.0...v4.8.1) (2024-06-18)
+
+
+### Bug Fixes
+
+* native metis token address ([#46](https://github.com/lifinance/data-types/issues/46)) ([8994672](https://github.com/lifinance/data-types/commit/8994672a14cc2a19df5d14091f2b4f24fdf9192f))
+
 ## [4.8.0](https://github.com/lifinance/data-types/compare/v4.7.2...v4.8.0) (2024-06-13)
 
 
