@@ -1251,7 +1251,7 @@ export const basicCoins: BasicCoin[] = [
     verified: true,
     chains: {
       [ChainId.MAM]: {
-        address: '0x0000000000000000000000000000000000000000',
+        address: '0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000',
         decimals: 18,
       },
     },
