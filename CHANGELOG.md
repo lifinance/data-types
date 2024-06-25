@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.9.0](https://github.com/lifinance/data-types/compare/v4.8.1...v4.9.0) (2024-06-25)
+
+
+### Features
+
+* add fraxtal chain and token support ([#50](https://github.com/lifinance/data-types/issues/50)) ([d95f41e](https://github.com/lifinance/data-types/commit/d95f41e72b2aea4fdc2a6f7081cae8db9772a606))
+
 ### [4.8.1](https://github.com/lifinance/data-types/compare/v4.8.0...v4.8.1) (2024-06-18)
 
 
