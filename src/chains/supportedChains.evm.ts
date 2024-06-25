@@ -1066,4 +1066,28 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://evm-rpc.sei-apis.com', 'https://rpc.ankr.com/sei'],
     },
   },
+  // 252 - Fraxtal
+  {
+    key: ChainKey.FRA,
+    chainType: ChainType.EVM,
+    name: 'Fraxtal',
+    coin: CoinKey.frxETH,
+    id: 252,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/fraxtal.svg',
+    multicallAddress: multicallAddresses[ChainId.FRA],
+
+    metamask: {
+      chainId: prefixChainId(252),
+      blockExplorerUrls: ['https://fraxscan.com/'],
+      chainName: 'Fraxtal',
+      nativeCurrency: {
+        name: 'Frax Ethereum',
+        symbol: 'frxETH',
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.frax.com/'],
+    },
+  },
 ]
