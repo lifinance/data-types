@@ -833,6 +833,61 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // Frax
+  {
+    key: CoinKey.FRAX,
+    name: CoinKey.FRAX,
+    logoURI:
+      'https://static.debank.com/image/movr_token/logo_url/0x965f84d915a9efa2dd81b653e3ae736555d945f4/1f2c42cba1add081f314ee899ab67816.png',
+    verified: true,
+    chains: {
+      [ChainId.FRA]: {
+        address: '0xfc00000000000000000000000000000000000001',
+        decimals: 18,
+      },
+      [ChainId.ETH]: {
+        address: '0x853d955aCEf822Db058eb8505911ED77F175b99e',
+        decimals: 18,
+      },
+      [ChainId.ARB]: {
+        address: '0x17FC002b466eEc40DaE837Fc4bE5c67993ddBd6F',
+        decimals: 18,
+      },
+      [ChainId.OPT]: {
+        address: '0x2E3D870790dC77A83DD1d18184Acc7439A53f475',
+        decimals: 18,
+      },
+      [ChainId.BSC]: {
+        address: '0x90C97F71E18723b0Cf0dfa30ee176Ab653E89F40',
+        decimals: 18,
+      },
+      [ChainId.FTM]: {
+        address: '0xdc301622e621166BD8E82f2cA0A26c13Ad0BE355',
+        decimals: 18,
+      },
+      [ChainId.AVA]: {
+        address: '0xdc42728b0ea910349ed3c6e1c9dc06b5fb591f98',
+        decimals: 18,
+      },
+      [ChainId.MOR]: {
+        address: '0x1A93B23281CC1CDE4C4741353F3064709A16197d',
+        decimals: 18,
+      },
+      [ChainId.POL]: {
+        address: '0x45c32fA6DF82ead1e2EF74d17b76547EDdFaFF89',
+        decimals: 18,
+      },
+      [ChainId.PZE]: {
+        address: '0xFf8544feD5379D9ffa8D47a74cE6b91e632AC44D',
+        decimals: 18,
+      },
+      [ChainId.MOO]: {
+        address: '0x322E86852e492a7Ee17f28a78c663da38FB33bfb',
+        decimals: 18,
+      },
+    },
+  },
+
   // > WBTC
   {
     key: CoinKey.WBTC,
@@ -1294,6 +1349,10 @@ export const basicCoins: BasicCoin[] = [
       'https://assets.coingecko.com/coins/images/28284/standard/frxETH_icon.png',
     verified: true,
     chains: {
+      [ChainId.FRA]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
       [ChainId.POL]: {
         address: '0x01e91A094f5559f211e4ad4bED01468aBb64Bde3',
         decimals: 18,
@@ -1803,6 +1862,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     coinKey: CoinKey.WSEI,
     name: 'Wrapped SEI',
     logoURI: 'https://cdn.sei.io/sei-app/sei-icon.png',
+  },
+  [ChainId.FRA]: {
+    // https://fraxscan.com/token/0xfc00000000000000000000000000000000000006
+    address: '0xfc00000000000000000000000000000000000006',
+    symbol: 'wfrxETH',
+    decimals: 18,
+    chainId: ChainId.FRA,
+    coinKey: CoinKey.wfrxETH,
+    name: 'Wrapped Frax ETH',
+    logoURI:
+      'https://static.debank.com/image/frax_token/logo_url/0xfc00000000000000000000000000000000000006/4313f25f6c5196e8fce2c80fa34c73d0.png',
   },
 }
 
