@@ -767,6 +767,12 @@ export const basicCoins: BasicCoin[] = [
         name: 'USD Base Coin',
         symbol: 'USDbC',
       },
+      [ChainId.DAI]: {
+        address: '0x2a22f9c3b484c3629090feed35f17ff8f88f76f0',
+        decimals: 6,
+        name: 'Bridged USDC Coin',
+        symbol: 'USDC.e',
+      },
     },
   },
   // BUSD
