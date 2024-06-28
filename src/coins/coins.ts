@@ -1355,6 +1355,10 @@ export const basicCoins: BasicCoin[] = [
       'https://assets.coingecko.com/coins/images/28284/standard/frxETH_icon.png',
     verified: true,
     chains: {
+      [ChainId.ETH]: {
+        address: '0x5E8422345238F34275888049021821E8E08CAa1f',
+        decimals: 18,
+      },
       [ChainId.FRA]: {
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
