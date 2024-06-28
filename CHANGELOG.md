@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.10.0](https://github.com/lifinance/data-types/compare/v4.9.1...v4.10.0) (2024-06-28)
+
+
+### Features
+
+* add frxETH on ETH chain ([#51](https://github.com/lifinance/data-types/issues/51)) ([3366065](https://github.com/lifinance/data-types/commit/3366065db8a159909e9ab063b1fccc2b70b6aeb6))
+
 ### [4.9.1](https://github.com/lifinance/data-types/compare/v4.9.0...v4.9.1) (2024-06-27)
 
 ## [4.9.0](https://github.com/lifinance/data-types/compare/v4.8.1...v4.9.0) (2024-06-25)
