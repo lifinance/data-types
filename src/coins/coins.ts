@@ -1427,9 +1427,9 @@ export const basicCoins: BasicCoin[] = [
     verified: true,
     chains: {
       [ChainId.SOL]: {
-        address: 'So11111111111111111111111111111111111111112',
+        address: '11111111111111111111111111111111',
         decimals: 9,
-        name: 'Wrapped SOL',
+        name: 'SOL',
       },
       [ChainId.ETH]: {
         address: '0xD31a59c85aE9D8edEFeC411D448f90841571b89c',
@@ -1566,11 +1566,11 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
   },
   [ChainId.SOL]: {
     address: 'So11111111111111111111111111111111111111112',
-    symbol: 'SOL',
+    symbol: 'WSOL',
     decimals: 9,
     chainId: ChainId.SOL,
-    coinKey: CoinKey.SOL,
-    name: 'Wrapped SOL',
+    coinKey: CoinKey.WSOL,
+    name: 'WSOL',
     logoURI: 'https://assets.coingecko.com/coins/images/4128/small/solana.png',
   },
   [ChainId.BSC]: {
