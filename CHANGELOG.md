@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.10.1](https://github.com/lifinance/data-types/compare/v4.10.0...v4.10.1) (2024-07-16)
+
+
+### Bug Fixes
+
+* update SOL and wSOL ([#52](https://github.com/lifinance/data-types/issues/52)) ([a6aa04d](https://github.com/lifinance/data-types/commit/a6aa04dc511d44076b0ea78656597cca8bec105b))
+
 ## [4.10.0](https://github.com/lifinance/data-types/compare/v4.9.1...v4.10.0) (2024-06-28)
 
 
