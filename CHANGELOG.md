@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.10.3](https://github.com/lifinance/data-types/compare/v4.10.2...v4.10.3) (2024-07-17)
+
+
+### Bug Fixes
+
+* update wSOL logoUri ([5e2bf9b](https://github.com/lifinance/data-types/commit/5e2bf9bd949f115ff2c2e55f290277f484f408fc))
+
 ### [4.10.2](https://github.com/lifinance/data-types/compare/v4.10.1...v4.10.2) (2024-07-17)
 
 
