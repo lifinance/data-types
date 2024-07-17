@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.10.4](https://github.com/lifinance/data-types/compare/v4.10.3...v4.10.4) (2024-07-17)
+
+
+### Bug Fixes
+
+* yarn lock ([2333100](https://github.com/lifinance/data-types/commit/2333100fc30c193959b84834ef4192a7361e023a))
+
 ### [4.10.3](https://github.com/lifinance/data-types/compare/v4.10.2...v4.10.3) (2024-07-17)
 
 
