@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.10.5](https://github.com/lifinance/data-types/compare/v4.10.4...v4.10.5) (2024-07-17)
+
+
+### Bug Fixes
+
+* improve solana icons ([#53](https://github.com/lifinance/data-types/issues/53)) ([c1f2bcb](https://github.com/lifinance/data-types/commit/c1f2bcb2571654def3fe7d805951709016bba5b2))
+
 ### [4.10.4](https://github.com/lifinance/data-types/compare/v4.10.3...v4.10.4) (2024-07-17)
 
 
