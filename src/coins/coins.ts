@@ -1423,7 +1423,7 @@ export const basicCoins: BasicCoin[] = [
   {
     key: CoinKey.SOL,
     name: CoinKey.SOL,
-    logoURI: 'https://assets.coingecko.com/coins/images/4128/small/solana.png',
+    logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/5426.png',
     verified: true,
     chains: {
       [ChainId.SOL]: {
@@ -1572,7 +1572,7 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     coinKey: CoinKey.WSOL,
     name: 'wSOL',
     logoURI:
-      'https://assets.coingecko.com/coins/images/21629/standard/solana.jpg',
+      'https://assets.coingecko.com/coins/images/4128/standard/solana.png',
   },
   [ChainId.BSC]: {
     // https://bscscan.com/token/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c
