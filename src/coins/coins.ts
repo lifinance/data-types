@@ -1566,12 +1566,13 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
   },
   [ChainId.SOL]: {
     address: 'So11111111111111111111111111111111111111112',
-    symbol: 'WSOL',
+    symbol: 'wSOL',
     decimals: 9,
     chainId: ChainId.SOL,
     coinKey: CoinKey.WSOL,
-    name: 'WSOL',
-    logoURI: 'https://assets.coingecko.com/coins/images/4128/small/solana.png',
+    name: 'wSOL',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/21629/standard/solana.jpg',
   },
   [ChainId.BSC]: {
     // https://bscscan.com/token/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c
