@@ -16,7 +16,7 @@ describe.concurrent('SVM chains RPC check', () => {
 
   test.for(rpcUrls)(
     `should successfully get chain ID from $chainName - $chainId RPC: $rpcUrl`,
-    { timeout: 10_000 },
+    { timeout: 10_000, retry: 3 },
     async ({ rpcUrl }) => {
       const connection = new Connection(rpcUrl)
       const accountPublicKey = new PublicKey(WalletAddress)
@@ -49,7 +49,7 @@ describe.concurrent('SVM chains block explorer check', () => {
 
   test.for(blockExplorerUrls)(
     `block explorer should be alive $chainName - $chainId - $blockExplorerUrl`,
-    { timeout: 10_000 },
+    { timeout: 10_000, retry: 3 },
     async ({ blockExplorerUrl }) => {
       const response = await fetch(blockExplorerUrl)
       expect(response.url).toBe(blockExplorerUrl)

@@ -12,7 +12,7 @@ describe.concurrent('UTXO chains RPC check', () => {
 
   test.for(rpcUrls)(
     `should successfully get chain ID from $chainName - $chainId RPC: $rpcUrl`,
-    { timeout: 10_000 },
+    { timeout: 10_000, retry: 3 },
     async ({ rpcUrl }) => {
       const response = await fetch(rpcUrl, {
         method: 'POST',
@@ -45,7 +45,7 @@ describe.concurrent('UTXO chains block explorer check', () => {
 
   test.for(blockExplorerUrls)(
     `block explorer should be alive $chainName - $chainId - $blockExplorerUrl`,
-    { timeout: 10_000 },
+    { timeout: 10_000, retry: 3 },
     async ({ blockExplorerUrl }) => {
       const response = await fetch(blockExplorerUrl)
       expect(response.url).toBe(blockExplorerUrl)
