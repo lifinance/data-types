@@ -600,7 +600,7 @@ export const supportedEVMChains: EVMChain[] = [
     multicallAddress: multicallAddresses[ChainId.EVM],
     metamask: {
       chainId: prefixChainId(9001),
-      blockExplorerUrls: ['https://www.mintscan.io/evmos'],
+      blockExplorerUrls: ['https://www.mintscan.io/evmos/'],
       chainName: 'Evmos',
       nativeCurrency: {
         name: 'EVMOS',

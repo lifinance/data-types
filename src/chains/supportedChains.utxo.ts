@@ -14,7 +14,7 @@ export const supportedUXTOChains: UTXOChain[] = [
     faucetUrls: [],
     metamask: {
       chainId: ChainId.BTC.toString(),
-      blockExplorerUrls: ['https://blockchair.com/bitcoin'],
+      blockExplorerUrls: ['https://blockchair.com/bitcoin/'],
       chainName: 'Bitcoin',
       nativeCurrency: {
         name: 'BTC',
@@ -36,7 +36,7 @@ export const supportedUXTOChains: UTXOChain[] = [
     faucetUrls: [],
     metamask: {
       chainId: ChainId.BCH.toString(),
-      blockExplorerUrls: ['https://www.blockchair.com/bitcoin-cash'],
+      blockExplorerUrls: ['https://blockchair.com/bitcoin-cash/'],
       chainName: 'Bitcoin Cash',
       nativeCurrency: {
         name: 'BCH',
@@ -58,7 +58,7 @@ export const supportedUXTOChains: UTXOChain[] = [
     faucetUrls: [],
     metamask: {
       chainId: ChainId.LTC.toString(),
-      blockExplorerUrls: ['https://blockchair.com/litecoin'],
+      blockExplorerUrls: ['https://blockchair.com/litecoin/'],
       chainName: 'Litecoin',
       nativeCurrency: {
         name: 'LTC',
@@ -80,7 +80,7 @@ export const supportedUXTOChains: UTXOChain[] = [
     faucetUrls: [],
     metamask: {
       chainId: ChainId.DGE.toString(),
-      blockExplorerUrls: ['https://blockchair.com/dogecoin'],
+      blockExplorerUrls: ['https://blockchair.com/dogecoin/'],
       chainName: 'Dogecoin',
       nativeCurrency: {
         name: 'DODGE',

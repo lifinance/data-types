@@ -35,6 +35,7 @@ describe.concurrent('EVM chains block explorer check', () => {
 
   test.for(blockExplorerUrls)(
     `block explorer should be alive $chainName - $chainId - $blockExplorerUrl`,
+    { timeout: 10_000 },
     async ({ blockExplorerUrl }) => {
       const response = await fetch(blockExplorerUrl)
       expect(response.url).toBe(blockExplorerUrl)
