@@ -1,4 +1,4 @@
-import { Chain, ChainKey } from '@lifi/types'
+import type { Chain, ChainKey } from '@lifi/types'
 import { supportedEVMChains } from './supportedChains.evm'
 import { supportedSolanaChains } from './supportedChains.svm'
 import { supportedUXTOChains } from './supportedChains.utxo'

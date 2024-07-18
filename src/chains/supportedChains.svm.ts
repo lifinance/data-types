@@ -1,4 +1,5 @@
-import { SolanaChain, ChainKey, ChainType, CoinKey, ChainId } from '@lifi/types'
+import type { SolanaChain } from '@lifi/types'
+import { ChainId, ChainKey, ChainType, CoinKey } from '@lifi/types'
 
 export const supportedSolanaChains: SolanaChain[] = [
   {
@@ -24,7 +25,10 @@ export const supportedSolanaChains: SolanaChain[] = [
         symbol: 'SOL',
         decimals: 9,
       },
-      rpcUrls: ['https://api.mainnet-beta.solana.com'],
+      rpcUrls: [
+        'https://api.mainnet-beta.solana.com',
+        'https://solana-rpc.publicnode.com',
+      ],
     },
   },
 ]

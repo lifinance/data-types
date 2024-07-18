@@ -1,14 +1,13 @@
 import { ChainId, ChainKey, CoinKey } from '@lifi/types'
-
+import { describe, expect, it, test } from 'vitest'
 import {
   findDefaultToken,
   findTokenByChainIdAndAddress,
   findWrappedGasOnChain,
 } from '../coins'
-
 import { getChainById, getChainByKey, supportedChains } from './supportedChains'
-import { prefixChainId } from './utils'
 import { supportedEVMChains } from './supportedChains.evm'
+import { prefixChainId } from './utils'
 
 test('getChainById', () => {
   expect(getChainById(ChainId.ETH)).toBeDefined()
@@ -41,7 +40,9 @@ test('native token defined for all chains', () => {
     ChainId.DGE,
   ]
   for (const chain of supportedChains) {
-    if (ignoredChainsForNativeToken.includes(chain.id)) continue
+    if (ignoredChainsForNativeToken.includes(chain.id)) {
+      continue
+    }
 
     try {
       const gasToken = findDefaultToken(chain.coin, chain.id)
@@ -52,7 +53,9 @@ test('native token defined for all chains', () => {
   }
 
   for (const chain of supportedChains) {
-    if (ignoredChainsForWrappedToken.includes(chain.id)) continue
+    if (ignoredChainsForWrappedToken.includes(chain.id)) {
+      continue
+    }
 
     try {
       const wrappedGasToken = findWrappedGasOnChain(chain.id)
