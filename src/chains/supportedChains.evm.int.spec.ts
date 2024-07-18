@@ -13,6 +13,7 @@ describe.concurrent('EVM chains RPC check', () => {
 
   test.for(rpcUrls)(
     `should successfully get chain ID from $chainName - $chainId RPC: $rpcUrl`,
+    { timeout: 10_000 },
     async ({ rpcUrl, chainId }) => {
       const client = createPublicClient({
         transport: http(rpcUrl),

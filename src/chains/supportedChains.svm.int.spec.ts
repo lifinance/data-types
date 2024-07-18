@@ -16,6 +16,7 @@ describe.concurrent('SVM chains RPC check', () => {
 
   test.for(rpcUrls)(
     `should successfully get chain ID from $chainName - $chainId RPC: $rpcUrl`,
+    { timeout: 10_000 },
     async ({ rpcUrl }) => {
       const connection = new Connection(rpcUrl)
       const accountPublicKey = new PublicKey(WalletAddress)

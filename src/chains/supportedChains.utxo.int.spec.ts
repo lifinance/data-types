@@ -12,6 +12,7 @@ describe.concurrent('UTXO chains RPC check', () => {
 
   test.for(rpcUrls)(
     `should successfully get chain ID from $chainName - $chainId RPC: $rpcUrl`,
+    { timeout: 10_000 },
     async ({ rpcUrl }) => {
       const response = await fetch(rpcUrl, {
         method: 'POST',
