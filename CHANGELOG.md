@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0](https://github.com/lifinance/data-types/compare/v4.10.5...v5.0.0) (2024-07-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* improve data types and add tests (#54)
+
+### Features
+
+* improve data types and add tests ([#54](https://github.com/lifinance/data-types/issues/54)) ([e747f05](https://github.com/lifinance/data-types/commit/e747f055e9282ad19fbcb0516339aab3260a6099))
+
 ### [4.10.5](https://github.com/lifinance/data-types/compare/v4.10.4...v4.10.5) (2024-07-17)
 
 
