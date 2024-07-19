@@ -1,5 +1,5 @@
-import { UTXOChain } from '@lifi/types'
-import { ChainKey, ChainType, CoinKey, ChainId } from '@lifi/types'
+import type { UTXOChain } from '@lifi/types'
+import { ChainId, ChainKey, ChainType, CoinKey } from '@lifi/types'
 
 export const supportedUXTOChains: UTXOChain[] = [
   {
@@ -12,13 +12,9 @@ export const supportedUXTOChains: UTXOChain[] = [
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/bitcoin.svg',
     faucetUrls: [],
-
     metamask: {
       chainId: ChainId.BTC.toString(),
-      blockExplorerUrls: [
-        'https://blockchair.com/bitcoin',
-        'https://bitcoinexplorer.org/',
-      ],
+      blockExplorerUrls: ['https://blockchair.com/bitcoin/'],
       chainName: 'Bitcoin',
       nativeCurrency: {
         name: 'BTC',
@@ -38,10 +34,9 @@ export const supportedUXTOChains: UTXOChain[] = [
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/bitcoincash.svg',
     faucetUrls: [],
-
     metamask: {
       chainId: ChainId.BCH.toString(),
-      blockExplorerUrls: ['https://www.blockchair.com/bitcoin-cash'],
+      blockExplorerUrls: ['https://blockchair.com/bitcoin-cash/'],
       chainName: 'Bitcoin Cash',
       nativeCurrency: {
         name: 'BCH',
@@ -61,10 +56,9 @@ export const supportedUXTOChains: UTXOChain[] = [
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/litecoin.svg',
     faucetUrls: [],
-
     metamask: {
       chainId: ChainId.LTC.toString(),
-      blockExplorerUrls: ['https://blockchair.com/litecoin'],
+      blockExplorerUrls: ['https://blockchair.com/litecoin/'],
       chainName: 'Litecoin',
       nativeCurrency: {
         name: 'LTC',
@@ -84,10 +78,9 @@ export const supportedUXTOChains: UTXOChain[] = [
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/dogecoin.svg',
     faucetUrls: [],
-
     metamask: {
       chainId: ChainId.DGE.toString(),
-      blockExplorerUrls: ['https://blockchair.com/dogecoin'],
+      blockExplorerUrls: ['https://blockchair.com/dogecoin/'],
       chainName: 'Dogecoin',
       nativeCurrency: {
         name: 'DODGE',

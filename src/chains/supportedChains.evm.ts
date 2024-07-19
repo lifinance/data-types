@@ -1,8 +1,14 @@
-import { EVMChain, ChainKey, ChainType, CoinKey, ChainId } from '@lifi/types'
+import type { EVMChain } from '@lifi/types'
+import { ChainId, ChainKey, ChainType, CoinKey } from '@lifi/types'
 import { multicallAddresses } from '../multicall'
 import { prefixChainId } from './utils'
 
-// chainNames aligned with https://github.com/ethereum-lists/chains/tree/master/_data/chains
+/**
+ * ChainNames aligned with https://github.com/ethereum-lists/chains/tree/master/_data/chains
+ *
+ * RPC list https://chainlist.org
+ * Please make sure to maintain the order of the RPCs with the most reliable on top, it does matter!
+ */
 export const supportedEVMChains: EVMChain[] = [
   // 1 - Ethereum
   {
@@ -16,7 +22,6 @@ export const supportedEVMChains: EVMChain[] = [
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/ethereum.svg',
     tokenlistUrl: 'https://gateway.ipfs.io/ipns/tokens.uniswap.org',
     multicallAddress: multicallAddresses[ChainId.ETH],
-
     metamask: {
       chainId: prefixChainId(1),
       blockExplorerUrls: ['https://etherscan.io/'],
@@ -27,7 +32,11 @@ export const supportedEVMChains: EVMChain[] = [
         decimals: 18,
       },
       rpcUrls: [
+        'https://ethereum-rpc.publicnode.com',
+        'https://eth.drpc.org',
+        'https://eth.public-rpc.com',
         'https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161',
+        'https://rpc.ankr.com/eth',
       ],
     },
   },
@@ -45,21 +54,21 @@ export const supportedEVMChains: EVMChain[] = [
       'https://unpkg.com/quickswap-default-token-list@1.0.71/build/quickswap-default.tokenlist.json',
     faucetUrls: ['https://stakely.io/faucet/polygon-matic'],
     multicallAddress: multicallAddresses[ChainId.POL],
-
-    // https://docs.matic.network/docs/develop/metamask/config-matic/
     metamask: {
       chainId: prefixChainId(137),
-      blockExplorerUrls: [
-        'https://polygonscan.com/',
-        'https://explorer-mainnet.maticvigil.com/',
-      ],
-      chainName: 'Matic(Polygon) Mainnet',
+      blockExplorerUrls: ['https://polygonscan.com/'],
+      chainName: 'Polygon Mainnet',
       nativeCurrency: {
         name: 'MATIC',
         symbol: 'MATIC',
         decimals: 18,
       },
-      rpcUrls: ['https://polygon-rpc.com/', 'https://polygon.llamarpc.com/'],
+      rpcUrls: [
+        'https://polygon-bor-rpc.publicnode.com',
+        'https://polygon.drpc.org',
+        'https://polygon-rpc.com',
+        'https://rpc.ankr.com/polygon',
+      ],
     },
   },
   // 56 - Binance Smart Chain
@@ -76,21 +85,22 @@ export const supportedEVMChains: EVMChain[] = [
       'https://tokens.pancakeswap.finance/pancakeswap-extended.json',
     faucetUrls: ['https://stakely.io/faucet/bsc-chain-bnb'],
     multicallAddress: multicallAddresses[ChainId.BSC],
-
     // https://docs.binance.org/smart-chain/wallet/metamask.html
     metamask: {
       chainId: prefixChainId(56),
       blockExplorerUrls: ['https://bscscan.com/'],
-      chainName: 'Binance Smart Chain Mainnet',
+      chainName: 'BNB Smart Chain Mainnet',
       nativeCurrency: {
         name: 'BNB',
         symbol: 'BNB',
         decimals: 18,
       },
       rpcUrls: [
-        'https://bsc-dataseed.binance.org/',
-        'https://bsc-dataseed1.defibit.io/',
-        'https://bsc-dataseed1.ninicoin.io/',
+        'https://bsc-dataseed.binance.org',
+        'https://bsc-dataseed.bnbchain.org',
+        'https://bsc-rpc.publicnode.com',
+        'https://bsc-dataseed1.defibit.io',
+        'https://bsc-dataseed1.ninicoin.io',
       ],
     },
   },
@@ -107,21 +117,21 @@ export const supportedEVMChains: EVMChain[] = [
     tokenlistUrl: 'https://tokens.honeyswap.org/',
     faucetUrls: ['https://stakely.io/faucet/xdai-chain'],
     multicallAddress: multicallAddresses[ChainId.DAI],
-
     // https://www.xdaichain.com/for-users/wallets/metamask/metamask-setup
     metamask: {
       chainId: prefixChainId(100),
-      blockExplorerUrls: ['https://blockscout.com/xdai/mainnet/'],
-      chainName: 'Gnosis Chain',
+      blockExplorerUrls: ['https://gnosis.blockscout.com/'],
+      chainName: 'Gnosis',
       nativeCurrency: {
-        name: 'xDai',
-        symbol: 'xDai',
+        name: 'XDAI',
+        symbol: 'XDAI',
         decimals: 18,
       },
       rpcUrls: [
-        'https://gnosis-rpc.publicnode.com',
-        'https://rpc.ankr.com/gnosis',
         'https://rpc.gnosischain.com',
+        'https://gnosis-rpc.publicnode.com',
+        'https://gnosis.drpc.org',
+        'https://rpc.ankr.com/gnosis',
       ],
     },
   },
@@ -142,7 +152,6 @@ export const supportedEVMChains: EVMChain[] = [
       'https://docs.spookyswap.finance/getting-started/how-to-get-fantom-gas',
     ],
     multicallAddress: multicallAddresses[ChainId.FTM],
-
     // https://docs.fantom.foundation/tutorials/set-up-metamask
     metamask: {
       chainId: prefixChainId(250),
@@ -153,7 +162,13 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'FTM',
         decimals: 18,
       },
-      rpcUrls: ['https://rpc.ftm.tools/', 'https://rpcapi.fantom.network'],
+      rpcUrls: [
+        'https://rpcapi.fantom.network',
+        'https://rpc.fantom.network',
+        'https://fantom-rpc.publicnode.com',
+        'https://fantom.drpc.org',
+        'https://rpc.ftm.tools',
+      ],
     },
   },
   // 43114 - Avalanche
@@ -169,18 +184,23 @@ export const supportedEVMChains: EVMChain[] = [
     tokenlistUrl:
       'https://raw.githubusercontent.com/sushiswap/default-token-list/master/tokens/avalanche.json',
     multicallAddress: multicallAddresses[ChainId.AVA],
-
     // https://support.avax.network/en/articles/4626956-how-do-i-set-up-metamask-on-avalanche
     metamask: {
       chainId: prefixChainId(43114),
-      blockExplorerUrls: ['https://cchain.explorer.avax.network/'],
-      chainName: 'Avalanche Mainnet',
+      blockExplorerUrls: ['https://snowtrace.io/'],
+      chainName: 'Avalanche C-Chain',
       nativeCurrency: {
         name: 'AVAX',
         symbol: 'AVAX',
         decimals: 18,
       },
-      rpcUrls: ['https://api.avax.network/ext/bc/C/rpc'],
+      rpcUrls: [
+        'https://api.avax.network/ext/bc/C/rpc',
+        'https://avalanche-c-chain-rpc.publicnode.com',
+        'https://avalanche.drpc.org',
+        'https://avalanche.public-rpc.com',
+        'https://rpc.ankr.com/avalanche',
+      ],
     },
   },
   // 42161 - Arbitrum
@@ -197,43 +217,21 @@ export const supportedEVMChains: EVMChain[] = [
       'https://raw.githubusercontent.com/sushiswap/default-token-list/master/tokens/arbitrum.json',
     faucetUrls: ['https://bridge.arbitrum.io/'],
     multicallAddress: multicallAddresses[ChainId.ARB],
-
     metamask: {
       chainId: prefixChainId(42161),
       blockExplorerUrls: ['https://arbiscan.io/'],
-      chainName: 'Arbitrum',
+      chainName: 'Arbitrum One',
       nativeCurrency: {
-        name: 'AETH',
-        symbol: 'AETH',
-        decimals: 18, // check
-      },
-      rpcUrls: ['https://arb1.arbitrum.io/rpc'],
-    },
-  },
-  // 128 - Huobi ECO Chain Mainnet
-  {
-    key: ChainKey.HEC,
-    chainType: ChainType.EVM,
-    name: 'Huobi ECO Chain Mainnet',
-    coin: CoinKey.HT,
-    id: 128,
-    mainnet: true,
-    logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/heco.png',
-    tokenlistUrl:
-      'https://raw.githubusercontent.com/sushiswap/default-token-list/master/tokens/heco.json',
-    multicallAddress: multicallAddresses[ChainId.HEC],
-
-    metamask: {
-      chainId: prefixChainId(128),
-      blockExplorerUrls: ['https://hecoinfo.com/'],
-      chainName: 'Huobi ECO Chain Mainnet',
-      nativeCurrency: {
-        name: 'HT',
-        symbol: 'HT',
+        name: 'ETH',
+        symbol: 'ETH',
         decimals: 18,
       },
-      rpcUrls: ['https://http-mainnet.hecochain.com'],
+      rpcUrls: [
+        'https://arb1.arbitrum.io/rpc',
+        'https://arbitrum-one-rpc.publicnode.com',
+        'https://arbitrum.drpc.org',
+        'https://rpc.ankr.com/arbitrum',
+      ],
     },
   },
   // 10 - Optimism
@@ -249,17 +247,21 @@ export const supportedEVMChains: EVMChain[] = [
     tokenlistUrl: 'https://static.optimism.io/optimism.tokenlist.json',
     faucetUrls: ['https://gateway.optimism.io/'],
     multicallAddress: multicallAddresses[ChainId.OPT],
-
     metamask: {
       chainId: prefixChainId(10),
       blockExplorerUrls: ['https://optimistic.etherscan.io/'],
-      chainName: 'Optimism',
+      chainName: 'OP Mainnet',
       nativeCurrency: {
         name: 'ETH',
         symbol: 'ETH',
         decimals: 18,
       },
-      rpcUrls: ['https://mainnet.optimism.io/'],
+      rpcUrls: [
+        'https://mainnet.optimism.io/',
+        'https://optimism-rpc.publicnode.com',
+        'https://optimism.drpc.org',
+        'https://rpc.ankr.com/optimism',
+      ],
     },
   },
 
@@ -274,19 +276,17 @@ export const supportedEVMChains: EVMChain[] = [
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/fusion.png',
     mainnet: true,
     multicallAddress: multicallAddresses[ChainId.FSN],
-
     // https://support.avax.network/en/articles/4626956-how-do-i-set-up-metamask-on-avalanche
     metamask: {
       chainId: prefixChainId(32659),
-      blockExplorerUrls: ['https://fsnex.com/'],
+      blockExplorerUrls: ['https://fsnscan.com/'],
       chainName: 'Fusion Mainnet',
-
       nativeCurrency: {
         name: 'FSN',
         symbol: 'FSN',
         decimals: 18,
       },
-      rpcUrls: ['https://fsnmainnet2.anyswap.exchange'],
+      rpcUrls: ['https://mainnet.fusionnetwork.io'],
     },
   },
 
@@ -304,13 +304,11 @@ export const supportedEVMChains: EVMChain[] = [
       'https://d1xrz6ki9z98vb.cloudfront.net/venomswap/lists/venomswap-default.tokenlist.json',
     faucetUrls: ['https://stakely.io/faucet/harmony-one'],
     multicallAddress: multicallAddresses[ChainId.ONE],
-
     // https://docs.harmony.one/home/developers/wallets/metamask/connect-metamask-to-the-harmony-chain
     metamask: {
       chainId: prefixChainId(1666600000),
       blockExplorerUrls: ['https://explorer.harmony.one/'],
       chainName: 'Harmony Mainnet Shard 0',
-
       nativeCurrency: {
         name: 'ONE',
         symbol: 'ONE',
@@ -333,18 +331,20 @@ export const supportedEVMChains: EVMChain[] = [
     tokenlistUrl:
       'https://raw.githubusercontent.com/sushiswap/default-token-list/master/tokens/moonriver.json',
     multicallAddress: multicallAddresses[ChainId.MOR],
-
     metamask: {
       chainId: prefixChainId(1285),
-      blockExplorerUrls: ['https://blockscout.moonriver.moonbeam.network/'],
+      blockExplorerUrls: ['https://moonriver.moonscan.io/'],
       chainName: 'Moonriver',
-
       nativeCurrency: {
         name: 'Moonriver',
         symbol: 'MOVR',
         decimals: 18,
       },
-      rpcUrls: ['https://rpc.api.moonriver.moonbeam.network'],
+      rpcUrls: [
+        'https://rpc.api.moonriver.moonbeam.network',
+        'https://moonriver-rpc.publicnode.com',
+        'https://moonriver.drpc.org',
+      ],
     },
   },
 
@@ -361,143 +361,27 @@ export const supportedEVMChains: EVMChain[] = [
     tokenlistUrl:
       'https://raw.githubusercontent.com/BeamSwap/beamswap-tokenlist/main/tokenlist.json',
     multicallAddress: multicallAddresses[ChainId.MOO],
-
     metamask: {
       chainId: prefixChainId(1284),
-      blockExplorerUrls: ['https://blockscout.moonbeam.network/'],
+      blockExplorerUrls: ['https://moonbeam.moonscan.io/'],
       chainName: 'Moonbeam',
-
       nativeCurrency: {
         name: 'GLMR',
         symbol: 'GLMR',
         decimals: 18,
       },
-      rpcUrls: ['https://rpc.api.moonbeam.network'],
-    },
-  },
-
-  // 2 - Expanse Network
-  {
-    key: ChainKey.EXP,
-    chainType: ChainType.EVM,
-    name: 'Expanse Network',
-    coin: CoinKey.EXP,
-    id: 2,
-    mainnet: true,
-    logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/expanse.png',
-    multicallAddress: multicallAddresses[ChainId.EXP],
-
-    metamask: {
-      chainId: prefixChainId(2),
-      blockExplorerUrls: ['https://expanse.tech/'],
-      chainName: 'Expanse Network',
-
-      nativeCurrency: {
-        name: 'EXP',
-        symbol: 'EXP',
-        decimals: 18,
-      },
-      rpcUrls: ['https://node.expanse.tech'],
-    },
-  },
-  // 7 - ThaiChain
-  {
-    key: ChainKey.TCH,
-    chainType: ChainType.EVM,
-    name: 'ThaiChain',
-    coin: CoinKey.TCH,
-    id: 7,
-    mainnet: true,
-    multicallAddress: multicallAddresses[ChainId.TCH],
-
-    metamask: {
-      chainId: prefixChainId(7),
-      blockExplorerUrls: ['https://thaichain.io/'],
-      chainName: 'ThaiChain',
-
-      nativeCurrency: {
-        name: 'TCH',
-        symbol: 'TCH',
-        decimals: 18,
-      },
-      rpcUrls: ['https://rpc.dome.cloud/'],
-    },
-  },
-  // 8 - Ubiq
-  {
-    key: ChainKey.UBQ,
-    chainType: ChainType.EVM,
-    name: 'Ubiq',
-    coin: CoinKey.UBQ,
-    id: 8,
-    mainnet: true,
-    multicallAddress: multicallAddresses[ChainId.UBQ],
-
-    metamask: {
-      chainId: prefixChainId(8),
-      blockExplorerUrls: ['https://ubiqscan.io/'],
-      chainName: 'Ubiq',
-
-      nativeCurrency: {
-        name: 'UBQ',
-        symbol: 'UBQ',
-        decimals: 18,
-      },
-      rpcUrls: ['https://rpc.octano.dev/'],
-    },
-  },
-  // 11 - Metadium Mainnet
-  {
-    key: ChainKey.MET,
-    chainType: ChainType.EVM,
-    name: 'Metadium Mainnet',
-    coin: CoinKey.META,
-    id: 11,
-    mainnet: true,
-    multicallAddress: multicallAddresses[ChainId.MET],
-
-    metamask: {
-      chainId: prefixChainId(11),
-      blockExplorerUrls: ['https://metadium.com/'],
-      chainName: 'Metadium Mainnet',
-
-      nativeCurrency: {
-        name: 'META',
-        symbol: 'META',
-        decimals: 18,
-      },
-      rpcUrls: ['https://api.metadium.com/prod'],
-    },
-  },
-  // 15 - Diode Prenet
-  {
-    key: ChainKey.DIO,
-    chainType: ChainType.EVM,
-    name: 'DIODE',
-    coin: CoinKey.DIODE,
-    id: 15,
-    mainnet: true,
-    multicallAddress: multicallAddresses[ChainId.DIO],
-
-    metamask: {
-      chainId: prefixChainId(15),
-      blockExplorerUrls: ['https://diode.io/prenet/'],
-      chainName: 'Diode Prenet',
-
-      nativeCurrency: {
-        name: 'Diodes',
-        symbol: 'DIODE',
-        decimals: 18,
-      },
-      rpcUrls: ['https://prenet.diode.io:8443/'],
+      rpcUrls: [
+        'https://rpc.api.moonbeam.network',
+        'https://moonbeam-rpc.publicnode.com',
+        'https://moonbeam.drpc.org',
+      ],
     },
   },
   // 42220 Celo Mainnet
   {
     key: ChainKey.CEL,
     chainType: ChainType.EVM,
-    name: 'CELO',
+    name: 'Celo',
     coin: CoinKey.CELO,
     id: 42220,
     mainnet: true,
@@ -510,18 +394,20 @@ export const supportedEVMChains: EVMChain[] = [
       'https://free-online-app.com/faucet-for-eth-evm-chains/',
     ],
     multicallAddress: multicallAddresses[ChainId.CEL],
-
     metamask: {
       chainId: prefixChainId(42220),
       blockExplorerUrls: ['https://celoscan.io/'],
       chainName: 'Celo Mainnet',
-
       nativeCurrency: {
         name: 'CELO',
         symbol: 'CELO',
         decimals: 18,
       },
-      rpcUrls: ['https://forno.celo.org', 'https://rpc.ankr.com/celo'],
+      rpcUrls: [
+        'https://forno.celo.org',
+        'https://celo.drpc.org',
+        'https://rpc.ankr.com/celo',
+      ],
     },
   },
   // 122 Fuse Mainnet
@@ -537,18 +423,16 @@ export const supportedEVMChains: EVMChain[] = [
     tokenlistUrl:
       'https://raw.githubusercontent.com/sushiswap/default-token-list/master/tokens/fuse.json',
     multicallAddress: multicallAddresses[ChainId.FUS],
-
     metamask: {
       chainId: prefixChainId(122),
       blockExplorerUrls: ['https://explorer.fuse.io/'],
       chainName: 'Fuse Mainnet',
-
       nativeCurrency: {
         name: 'FUSE',
         symbol: 'FUSE',
         decimals: 18,
       },
-      rpcUrls: ['https://rpc.fuse.io'],
+      rpcUrls: ['https://rpc.fuse.io', 'https://fuse.drpc.org'],
     },
   },
   // 40 Telos EVM Mainnet
@@ -562,12 +446,10 @@ export const supportedEVMChains: EVMChain[] = [
     tokenlistUrl:
       'https://raw.githubusercontent.com/sushiswap/default-token-list/master/tokens/telos.json',
     multicallAddress: multicallAddresses[ChainId.TLO],
-
     metamask: {
       chainId: prefixChainId(40),
-      blockExplorerUrls: ['https://telos.net/'],
+      blockExplorerUrls: ['https://www.telos.net/'],
       chainName: 'Telos EVM Mainnet',
-
       nativeCurrency: {
         name: 'Telos',
         symbol: 'TLOS',
@@ -589,18 +471,20 @@ export const supportedEVMChains: EVMChain[] = [
     tokenlistUrl:
       'https://raw.githubusercontent.com/cronaswap/cronaswap-tokenlists/main/cronaswap-default.tokenlist.json',
     multicallAddress: multicallAddresses[ChainId.CRO],
-
     metamask: {
       chainId: prefixChainId(25),
-      blockExplorerUrls: ['https://cronos.crypto.org/explorer/'],
-      chainName: 'Cronos',
-
+      blockExplorerUrls: ['https://cronos.org/explorer/'],
+      chainName: 'Cronos Mainnet',
       nativeCurrency: {
         name: 'Crypto.org Coin',
         symbol: 'CRO',
         decimals: 18,
       },
-      rpcUrls: ['https://evm-cronos.crypto.org'],
+      rpcUrls: [
+        'https://evm.cronos.org',
+        'https://evm-cronos.crypto.org',
+        'https://cronos.drpc.org',
+      ],
     },
   },
   // 288 Boba Network
@@ -617,88 +501,16 @@ export const supportedEVMChains: EVMChain[] = [
     tokenlistUrl:
       'https://raw.githubusercontent.com/OolongSwap/boba-community-token-list/main/build/boba.tokenlist.json',
     multicallAddress: multicallAddresses[ChainId.BOB],
-
     metamask: {
       chainId: prefixChainId(288),
-      blockExplorerUrls: ['https://blockexplorer.boba.network/'],
-      chainName: 'Boba',
-
+      blockExplorerUrls: ['https://bobascan.com/'],
+      chainName: 'Boba Network',
       nativeCurrency: {
         name: 'ETH',
         symbol: 'ETH',
         decimals: 18,
       },
-      rpcUrls: ['https://mainnet.boba.network/'],
-    },
-  },
-  // 27 ShibaChain
-  {
-    key: ChainKey.SHI,
-    chainType: ChainType.EVM,
-    name: 'Shiba',
-    coin: CoinKey.SHIB,
-    id: 27,
-    mainnet: true,
-    multicallAddress: multicallAddresses[ChainId.SHI],
-
-    metamask: {
-      chainId: prefixChainId(27),
-      blockExplorerUrls: ['https://exp.shibachain.net/'],
-      chainName: 'Shiba',
-
-      nativeCurrency: {
-        name: 'SHIB',
-        symbol: 'SHIB',
-        decimals: 18,
-      },
-      rpcUrls: ['https://rpc.shibachain.net'],
-    },
-  },
-  // 29 Genesis L1
-  {
-    key: ChainKey.GL1,
-    chainType: ChainType.EVM,
-    name: 'Genesis L1',
-    coin: CoinKey.L1,
-    id: 29,
-    mainnet: true,
-    multicallAddress: multicallAddresses[ChainId.GL1],
-
-    metamask: {
-      chainId: prefixChainId(29),
-      blockExplorerUrls: ['https://explorer.genesisl1.org/'],
-      chainName: 'Genesis L1',
-
-      nativeCurrency: {
-        name: 'L1',
-        symbol: 'L1',
-        decimals: 18,
-      },
-      rpcUrls: ['https://rpc.genesisl1.org'],
-    },
-  },
-
-  // 35 TBWG Chain
-  {
-    key: ChainKey.TBW,
-    chainType: ChainType.EVM,
-    name: 'TBWG',
-    coin: CoinKey.TBG,
-    id: 35,
-    mainnet: true,
-    multicallAddress: multicallAddresses[ChainId.TBW],
-
-    metamask: {
-      chainId: prefixChainId(35),
-      blockExplorerUrls: ['https://tbwg.io/'],
-      chainName: 'TBWG',
-
-      nativeCurrency: {
-        name: 'TBG',
-        symbol: 'TBG',
-        decimals: 18,
-      },
-      rpcUrls: ['https://rpc.tbwg.io'],
+      rpcUrls: ['https://mainnet.boba.network', 'https://replica.boba.network'],
     },
   },
   // 106 Velas EVM Mainnet
@@ -713,12 +525,10 @@ export const supportedEVMChains: EVMChain[] = [
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/velas.png',
     faucetUrls: ['https://stakely.io/faucet/velas-vlx'],
-
     metamask: {
       chainId: prefixChainId(106),
       blockExplorerUrls: ['https://evmexplorer.velas.com/'],
-      chainName: 'Velas',
-
+      chainName: 'Velas EVM Mainnet',
       nativeCurrency: {
         name: 'VLX',
         symbol: 'VLX',
@@ -741,18 +551,16 @@ export const supportedEVMChains: EVMChain[] = [
     tokenlistUrl:
       'https://raw.githubusercontent.com/digitalnativeinc/default-token-list/dnf/tokens/metis.json',
     multicallAddress: multicallAddresses[ChainId.MAM],
-
     metamask: {
       chainId: prefixChainId(1088),
       blockExplorerUrls: ['https://andromeda-explorer.metis.io/'],
-      chainName: 'Metis',
-
+      chainName: 'Metis Andromeda Mainnet',
       nativeCurrency: {
         name: 'METIS',
         symbol: 'METIS',
         decimals: 18,
       },
-      rpcUrls: ['https://andromeda.metis.io/?owner=1088'],
+      rpcUrls: ['https://andromeda.metis.io', 'https://metis.drpc.org'],
     },
   },
   // 1313161554 Aurora Mainnet
@@ -767,12 +575,10 @@ export const supportedEVMChains: EVMChain[] = [
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/aurora.png',
     tokenlistUrl: 'https://aurora.dev/tokens.json',
     multicallAddress: multicallAddresses[ChainId.AUR],
-
     metamask: {
       chainId: prefixChainId(1313161554),
-      blockExplorerUrls: ['https://aurorascan.dev/'],
-      chainName: 'Aurora',
-
+      blockExplorerUrls: ['https://explorer.aurora.dev/'],
+      chainName: 'Aurora Mainnet',
       nativeCurrency: {
         name: 'ETH',
         symbol: 'ETH',
@@ -792,17 +598,20 @@ export const supportedEVMChains: EVMChain[] = [
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/evmos.svg',
     multicallAddress: multicallAddresses[ChainId.EVM],
-
     metamask: {
       chainId: prefixChainId(9001),
-      blockExplorerUrls: ['https://evm.evmos.org/'],
+      blockExplorerUrls: ['https://www.mintscan.io/evmos/'],
       chainName: 'Evmos',
       nativeCurrency: {
         name: 'EVMOS',
         symbol: 'EVMOS',
         decimals: 18,
       },
-      rpcUrls: ['https://eth.bd.evmos.org:8545'],
+      rpcUrls: [
+        'https://evmos.lava.build',
+        'https://evmos-evm-rpc.publicnode.com',
+        'https://evmos.drpc.org',
+      ],
     },
   },
 
@@ -810,18 +619,17 @@ export const supportedEVMChains: EVMChain[] = [
   {
     key: ChainKey.ERA,
     chainType: ChainType.EVM,
-    name: 'zkSync Era',
+    name: 'zkSync',
     coin: CoinKey.ETH,
     id: 324,
     mainnet: true,
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/zksync.svg',
     multicallAddress: multicallAddresses[ChainId.ERA],
-
     metamask: {
       chainId: prefixChainId(324),
       blockExplorerUrls: ['https://explorer.zksync.io/'],
-      chainName: 'zkSync Era Mainnet',
+      chainName: 'zkSync Mainnet',
       nativeCurrency: {
         name: 'ETH',
         symbol: 'ETH',
@@ -852,30 +660,34 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'ETH',
         decimals: 18,
       },
-      rpcUrls: ['https://zkevm-rpc.com'],
+      rpcUrls: ['https://zkevm-rpc.com', 'https://polygon-zkevm.drpc.org'],
     },
   },
   {
     key: ChainKey.BAS,
     chainType: ChainType.EVM,
-    name: 'BASE',
+    name: 'Base',
     coin: CoinKey.ETH,
     id: ChainId.BAS,
     mainnet: true,
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/base.svg',
     multicallAddress: multicallAddresses[ChainId.BAS],
-
     metamask: {
       chainId: prefixChainId(ChainId.BAS),
       blockExplorerUrls: ['https://basescan.org/'],
-      chainName: 'BASE',
+      chainName: 'Base',
       nativeCurrency: {
         name: 'Ethereum',
         symbol: 'ETH',
         decimals: 18,
       },
-      rpcUrls: ['https://mainnet.base.org'],
+      rpcUrls: [
+        'https://mainnet.base.org',
+        'https://base-rpc.publicnode.com',
+        'https://base.drpc.org',
+        'https://rpc.ankr.com/base',
+      ],
     },
   },
   {
@@ -888,11 +700,10 @@ export const supportedEVMChains: EVMChain[] = [
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/linea.svg',
     multicallAddress: multicallAddresses[ChainId.LNA],
-
     metamask: {
       chainId: prefixChainId(59144),
       blockExplorerUrls: ['https://lineascan.build/'],
-      chainName: 'LINEA',
+      chainName: 'Linea',
       nativeCurrency: {
         name: 'ETH',
         symbol: 'ETH',
@@ -912,14 +723,10 @@ export const supportedEVMChains: EVMChain[] = [
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/scroll.png',
     multicallAddress: multicallAddresses[ChainId.SCL],
-
     metamask: {
       chainId: prefixChainId(534352),
-      blockExplorerUrls: [
-        'https://scrollscan.com/',
-        'https://blockscout.scroll.io/',
-      ],
-      chainName: 'SCROLL',
+      blockExplorerUrls: ['https://scrollscan.com/'],
+      chainName: 'Scroll',
       nativeCurrency: {
         name: 'ETH',
         symbol: 'ETH',
@@ -927,9 +734,9 @@ export const supportedEVMChains: EVMChain[] = [
       },
       rpcUrls: [
         'https://rpc.scroll.io',
-        'https://scroll-mainnet.public.blastapi.io',
         'https://scroll.drpc.org',
-        'https://1rpc.io/scroll	',
+        'https://scroll-mainnet.public.blastapi.io',
+        'https://1rpc.io/scroll',
       ],
     },
   },
@@ -951,13 +758,13 @@ export const supportedEVMChains: EVMChain[] = [
         'https://explorer.mode.network/',
         'https://modescan.io/',
       ],
-      chainName: 'MODE',
+      chainName: 'Mode',
       nativeCurrency: {
         name: 'ETH',
         symbol: 'ETH',
         decimals: 18,
       },
-      rpcUrls: ['https://mainnet.mode.network/', 'https://mode.drpc.org'],
+      rpcUrls: ['https://mainnet.mode.network', 'https://mode.drpc.org'],
     },
   },
   // 5000 - Mantle
@@ -971,12 +778,11 @@ export const supportedEVMChains: EVMChain[] = [
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/mantle.png',
     multicallAddress: multicallAddresses[ChainId.MNT],
-
     metamask: {
       chainId: prefixChainId(5000),
       blockExplorerUrls: [
         'https://explorer.mantle.xyz/',
-        'https://mantle.socialscan.io/',
+        'https://mantlescan.xyz/',
       ],
       chainName: 'Mantle',
       nativeCurrency: {
@@ -986,6 +792,8 @@ export const supportedEVMChains: EVMChain[] = [
       },
       rpcUrls: [
         'https://rpc.mantle.xyz',
+        'https://mantle-rpc.publicnode.com',
+        'https://mantle.drpc.org',
         'https://mantle.public-rpc.com',
         'https://rpc.ankr.com/mantle',
       ],
@@ -1003,7 +811,6 @@ export const supportedEVMChains: EVMChain[] = [
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/blast.png',
     multicallAddress: multicallAddresses[ChainId.BLS],
-
     metamask: {
       chainId: prefixChainId(81457),
       blockExplorerUrls: ['https://blastscan.io/', 'https://blastexplorer.io/'],
@@ -1013,7 +820,12 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'ETH',
         decimals: 18,
       },
-      rpcUrls: ['https://rpc.blast.io', 'https://rpc.ankr.com/blast'],
+      rpcUrls: [
+        'https://rpc.blast.io',
+        'https://blast-rpc.publicnode.com',
+        'https://blast.drpc.org',
+        'https://rpc.ankr.com/blast',
+      ],
     },
   },
 
@@ -1028,11 +840,10 @@ export const supportedEVMChains: EVMChain[] = [
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/rootstock.svg',
     multicallAddress: multicallAddresses[ChainId.RSK],
-
     metamask: {
       chainId: prefixChainId(30),
       blockExplorerUrls: ['https://explorer.rootstock.io/'],
-      chainName: 'Rootstock',
+      chainName: 'Rootstock Mainnet',
       nativeCurrency: {
         name: 'Rootstock Smart Bitcoin',
         symbol: 'RBTC',
@@ -1046,24 +857,23 @@ export const supportedEVMChains: EVMChain[] = [
   {
     key: ChainKey.SEI,
     chainType: ChainType.EVM,
-    name: 'SEI',
+    name: 'Sei',
     coin: CoinKey.SEI,
     id: 1329,
     mainnet: true,
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/sei.svg',
     multicallAddress: multicallAddresses[ChainId.SEI],
-
     metamask: {
       chainId: prefixChainId(1329),
       blockExplorerUrls: ['https://seitrace.com/', 'https://seistream.app/'],
-      chainName: 'SEI v2',
+      chainName: 'Sei Network',
       nativeCurrency: {
         name: 'SEI',
         symbol: 'SEI',
         decimals: 18,
       },
-      rpcUrls: ['https://evm-rpc.sei-apis.com', 'https://rpc.ankr.com/sei'],
+      rpcUrls: ['https://evm-rpc.sei-apis.com'],
     },
   },
   // 252 - Fraxtal
@@ -1077,7 +887,6 @@ export const supportedEVMChains: EVMChain[] = [
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/fraxtal.svg',
     multicallAddress: multicallAddresses[ChainId.FRA],
-
     metamask: {
       chainId: prefixChainId(252),
       blockExplorerUrls: ['https://fraxscan.com/'],
@@ -1087,7 +896,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'frxETH',
         decimals: 18,
       },
-      rpcUrls: ['https://rpc.frax.com/'],
+      rpcUrls: ['https://rpc.frax.com'],
     },
   },
 ]

@@ -1,5 +1,5 @@
-/* eslint-disable max-lines */
-import { ChainId, Coin, CoinKey, StaticToken } from '@lifi/types'
+import type { Coin, StaticToken } from '@lifi/types'
+import { ChainId, CoinKey } from '@lifi/types'
 
 type BasicToken = {
   address: string

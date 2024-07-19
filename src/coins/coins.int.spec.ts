@@ -1,9 +1,8 @@
-import { StaticToken } from '@lifi/types'
+import type { StaticToken } from '@lifi/types'
+import { describe, expect, test } from 'vitest'
 import { defaultCoins, wrappedTokens } from './coins'
 
-jest.setTimeout(20_000)
-
-describe('Coin logo test', () => {
+describe.concurrent('Coin logo test', { timeout: 30_000 }, () => {
   const allImages: string[] = []
 
   // default coins
