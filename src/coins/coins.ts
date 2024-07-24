@@ -891,6 +891,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x322E86852e492a7Ee17f28a78c663da38FB33bfb',
         decimals: 18,
       },
+      [ChainId.SEI]: {
+        address: '0x80Eede496655FB9047dd39d9f418d5483ED600df',
+        decimals: 18,
+      },
     },
   },
 
@@ -1401,6 +1405,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.BSC]: {
         address: '0x39Db1A30122031751e803Fabf329C44efBBfBf4B',
+        decimals: 18,
+      },
+      [ChainId.SEI]: {
+        address: '0x43eDD7f3831b08FE70B7555ddD373C8bF65a9050',
         decimals: 18,
       },
     },
