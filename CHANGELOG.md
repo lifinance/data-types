@@ -2,7 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [5.0.1](https://github.com/lifinance/data-types/compare/v5.0.0...v5.0.1) (2024-07-25)
+## [5.1.0](https://github.com/lifinance/data-types/compare/v5.0.0...v5.1.0) (2024-07-25)
+
+
+### Features
+
+* bump types ([#56](https://github.com/lifinance/data-types/issues/56)) ([df3dcbd](https://github.com/lifinance/data-types/commit/df3dcbd5a80e680d8a2456ff2ee335940a7bd37d))
 
 ## [5.0.0](https://github.com/lifinance/data-types/compare/v4.10.5...v5.0.0) (2024-07-19)
 
