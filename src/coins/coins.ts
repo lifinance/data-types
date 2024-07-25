@@ -92,11 +92,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0x6983d1e6def3690c4d616b13597a09e6193ea013',
         decimals: 18,
       },
-      [ChainId.HEC]: {
-        address: '0x64ff637fb478863b7468bc97d30a5bf3a428a1fd',
-        decimals: 18,
-        name: 'Heco-Peg ETH Token',
-      },
       [ChainId.BOB]: {
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
@@ -358,20 +353,6 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
-  // > HT
-  {
-    key: CoinKey.HT,
-    name: CoinKey.HT,
-    logoURI:
-      'https://static.debank.com/image/heco_token/logo_url/heco/c399dcddde07e1944c4dd8f922832b53.png',
-    verified: true,
-    chains: {
-      [ChainId.HEC]: {
-        address: '0x0000000000000000000000000000000000000000',
-        decimals: 18,
-      },
-    },
-  },
   // > ONE
   {
     key: CoinKey.ONE,
@@ -515,10 +496,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0x66e428c3f67a68878562e79a0234c1f83c208770',
         decimals: 6,
       },
-      [ChainId.HEC]: {
-        address: '0xa71edc38d189767582c38a3145b5873052c3e47a',
-        decimals: 18,
-      },
       [ChainId.FUS]: {
         address: '0xfadbbf8ce7d5b7041be672561bba99f79c532e10',
         decimals: 6,
@@ -659,10 +636,6 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.MOR]: {
         address: '0xe3f5a90f9cb311505cd691a46596599aa1a0ad7d',
-        decimals: 6,
-      },
-      [ChainId.HEC]: {
-        address: '0x9362bbef4b8313a8aa9f0c9808b80577aa26b73b',
         decimals: 6,
       },
       [ChainId.CRO]: {
@@ -1049,10 +1022,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0x639a647fbe20b6c8ac19e48e2de44ea792c62c5c',
         decimals: 18,
       },
-      [ChainId.HEC]: {
-        address: '0x639a647fbe20b6c8ac19e48e2de44ea792c62c5c',
-        decimals: 18,
-      },
       [ChainId.CRO]: {
         address: '0xe44fd7fcb2b1581822d0c862b68222998a0c299a',
         decimals: 18,
@@ -1152,10 +1121,6 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.MOR]: {
         address: '0xf390830df829cf22c53c8840554b98eafc5dcbc2',
-        decimals: 18,
-      },
-      [ChainId.HEC]: {
-        address: '0x52e00b2da5bd7940ffe26b609a42f957f31118d5',
         decimals: 18,
       },
       [ChainId.FUS]: {
@@ -1719,16 +1684,6 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     coinKey: 'WMOVR' as CoinKey,
     name: 'WMOVR',
     logoURI: 'https://assets.coingecko.com/coins/images/17984/small/9285.png',
-  },
-  [ChainId.HEC]: {
-    address: '0x5545153ccfca01fbd7dd11c0b23ba694d9509a6f',
-    symbol: 'wHT',
-    decimals: 18,
-    chainId: ChainId.HEC,
-    coinKey: 'wHT' as CoinKey,
-    name: 'wHT',
-    logoURI:
-      'https://static.debank.com/image/heco_token/logo_url/heco/c399dcddde07e1944c4dd8f922832b53.png',
   },
   [ChainId.CRO]: {
     address: '0x5c7f8a570d578ed84e63fdfa7b1ee72deae1ae23',

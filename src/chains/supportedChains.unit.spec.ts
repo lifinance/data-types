@@ -19,19 +19,7 @@ test('getChainByKey', () => {
 
 test('native token defined for all chains', () => {
   // currently unused chains
-  const ignoredChainsForNativeToken = [
-    ChainId.FSN,
-    ChainId.EXP,
-    ChainId.TCH,
-    ChainId.UBQ,
-    ChainId.MET,
-    ChainId.DIO,
-    ChainId.TLO,
-    ChainId.SHI,
-    ChainId.GL1,
-    ChainId.RSK,
-    ChainId.TBW,
-  ]
+  const ignoredChainsForNativeToken = [ChainId.FSN, ChainId.TLO, ChainId.RSK]
   const ignoredChainsForWrappedToken = [
     ...ignoredChainsForNativeToken,
     ChainId.BTC,
