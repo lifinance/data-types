@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.2.0](https://github.com/lifinance/data-types/compare/v5.1.0...v5.2.0) (2024-07-29)
+
+
+### Features
+
+* enable taiko ([#58](https://github.com/lifinance/data-types/issues/58)) ([86cf72e](https://github.com/lifinance/data-types/commit/86cf72e95a935ac9949cf5ab2d2f955df1be9fca))
+
 ## [5.1.0](https://github.com/lifinance/data-types/compare/v5.0.0...v5.1.0) (2024-07-25)
 
 
