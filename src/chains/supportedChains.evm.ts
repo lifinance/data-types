@@ -920,7 +920,11 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'ETH',
         decimals: 18,
       },
-      rpcUrls: ['https://rpc.taiko.xyz', 'https://rpc.taiko.tools'],
+      rpcUrls: [
+        'https://rpc.mainnet.taiko.xyz',
+        'https://rpc.taiko.xyz',
+        'https://rpc.taiko.tools',
+      ],
     },
   },
 ]
