@@ -899,4 +899,32 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://rpc.frax.com'],
     },
   },
+
+  // 167000 - Taiko
+  {
+    key: ChainKey.TAI,
+    chainType: ChainType.EVM,
+    name: 'Taiko',
+    coin: CoinKey.ETH,
+    id: 167000,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/taiko.png',
+    multicallAddress: multicallAddresses[ChainId.TAI],
+    metamask: {
+      chainId: prefixChainId(167000),
+      blockExplorerUrls: ['https://taikoscan.io/'],
+      chainName: 'Taiko Mainnet',
+      nativeCurrency: {
+        name: 'Ethereum',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: [
+        'https://rpc.mainnet.taiko.xyz',
+        'https://rpc.taiko.xyz',
+        'https://rpc.taiko.tools',
+      ],
+    },
+  },
 ]
