@@ -569,6 +569,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0xB75D0B03c06A926e488e2659DF1A861F860bD3d1',
         decimals: 6,
       },
+      [ChainId.TAI]: {
+        address: '0x2DEF195713CF4a606B49D07E520e22C17899a736',
+        decimals: 6,
+      },
     },
   },
 
@@ -697,6 +701,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.SEI]: {
         address: '0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1',
+        decimals: 6,
+      },
+      [ChainId.TAI]: {
+        address: '0x07d83526730c7438048D55A4fc0b850e2aaB6f0b',
         decimals: 6,
       },
     },
@@ -1847,6 +1855,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped Frax ETH',
     logoURI:
       'https://static.debank.com/image/frax_token/logo_url/0xfc00000000000000000000000000000000000006/4313f25f6c5196e8fce2c80fa34c73d0.png',
+  },
+  [ChainId.TAI]: {
+    // https://taikoscan.io/address/0xa51894664a773981c6c112c43ce576f315d5b1b6
+    address: '0xa51894664a773981c6c112c43ce576f315d5b1b6',
+    symbol: 'WETH',
+    decimals: 18,
+    chainId: ChainId.TAI,
+    coinKey: CoinKey.WETH,
+    name: 'WETH',
+    logoURI:
+      'https://static.debank.com/image/mtr_token/logo_url/0x79a61d3a28f8c8537a3df63092927cfa1150fb3c/61844453e63cf81301f845d7864236f6.png',
   },
 }
 
