@@ -914,17 +914,13 @@ export const supportedEVMChains: EVMChain[] = [
     metamask: {
       chainId: prefixChainId(167000),
       blockExplorerUrls: ['https://taikoscan.io/'],
-      chainName: 'Taiko',
+      chainName: 'Taiko Mainnet',
       nativeCurrency: {
         name: 'Ethereum',
         symbol: 'ETH',
         decimals: 18,
       },
-      rpcUrls: [
-        'https://rpc.mainnet.taiko.xyz',
-        'https://rpc.ankr.com/taiko',
-        'https://taiko.blockpi.network/v1/rpc/public',
-      ],
+      rpcUrls: ['https://rpc.taiko.xyz', 'https://rpc.taiko.tools'],
     },
   },
 ]
