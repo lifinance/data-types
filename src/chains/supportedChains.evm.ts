@@ -927,4 +927,29 @@ export const supportedEVMChains: EVMChain[] = [
       ],
     },
   },
+
+  // 1625 - Gravity
+  {
+    key: ChainKey.GRA,
+    chainType: ChainType.EVM,
+    name: 'Gravity',
+    coin: CoinKey.G,
+    id: 1625,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/gravity.svg',
+    multicallAddress: multicallAddresses[ChainId.GRA],
+
+    metamask: {
+      chainId: prefixChainId(1625),
+      blockExplorerUrls: ['https://explorer.gravity.xyz/'],
+      chainName: 'Gravity Alpha Mainnet',
+      nativeCurrency: {
+        name: 'G',
+        symbol: 'G.',
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.gravity.xyz/ '],
+    },
+  },
 ]

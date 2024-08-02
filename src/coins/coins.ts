@@ -577,6 +577,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x2DEF195713CF4a606B49D07E520e22C17899a736',
         decimals: 6,
       },
+      [ChainId.GRA]: {
+        address: '0x816E810f9F787d669FB71932DeabF6c83781Cd48',
+        decimals: 6,
+      },
     },
   },
 
@@ -755,7 +759,13 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.DAI]: {
         address: '0x2a22f9c3b484c3629090feed35f17ff8f88f76f0',
         decimals: 6,
-        name: 'Bridged USDC Coin',
+        name: 'Bridged USD Coin',
+        symbol: 'USDC.e',
+      },
+      [ChainId.GRA]: {
+        address: '0xFbDa5F676cB37624f28265A144A48B0d6e87d3b6',
+        decimals: 6,
+        name: 'Bridged USD Coin',
         symbol: 'USDC.e',
       },
     },
@@ -1451,6 +1461,31 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
+  // Gravity
+  {
+    key: CoinKey.G,
+    name: CoinKey.G,
+    logoURI: 'https://assets.gravity.xyz/token_logo.png',
+    verified: true,
+    chains: {
+      [ChainId.ETH]: {
+        address: '0x9C7BEBa8F6eF6643aBd725e45a4E8387eF260649',
+        decimals: 18,
+      },
+      [ChainId.BSC]: {
+        address: '0x9c7beba8f6ef6643abd725e45a4e8387ef260649',
+        decimals: 18,
+      },
+      [ChainId.BAS]: {
+        address: '0x9C7BEBa8F6eF6643aBd725e45a4E8387eF260649',
+        decimals: 18,
+      },
+      [ChainId.GRA]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
   // > Bitcoin
   {
     key: CoinKey.BTC,
@@ -1870,6 +1905,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'WETH',
     logoURI:
       'https://static.debank.com/image/mtr_token/logo_url/0x79a61d3a28f8c8537a3df63092927cfa1150fb3c/61844453e63cf81301f845d7864236f6.png',
+  },
+  [ChainId.GRA]: {
+    // https://explorer.gravity.xyz/address/0xBB859E225ac8Fb6BE1C7e38D87b767e95Fef0EbD
+    address: '0xBB859E225ac8Fb6BE1C7e38D87b767e95Fef0EbD',
+    symbol: 'WG',
+    decimals: 18,
+    chainId: ChainId.GRA,
+    coinKey: CoinKey.WG,
+    name: 'WETH',
+    logoURI: 'https://assets.gravity.xyz/token_logo.png',
   },
 }
 
