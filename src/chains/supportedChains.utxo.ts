@@ -14,7 +14,7 @@ export const supportedUXTOChains: UTXOChain[] = [
     faucetUrls: [],
     metamask: {
       chainId: ChainId.BTC.toString(),
-      blockExplorerUrls: ['https://blockchair.com/bitcoin/'],
+      blockExplorerUrls: ['https://www.okx.com/zh-hans/web3/explorer/btc/'],
       chainName: 'Bitcoin',
       nativeCurrency: {
         name: 'BTC',
@@ -36,7 +36,7 @@ export const supportedUXTOChains: UTXOChain[] = [
     faucetUrls: [],
     metamask: {
       chainId: ChainId.BCH.toString(),
-      blockExplorerUrls: ['https://blockchair.com/bitcoin-cash/'],
+      blockExplorerUrls: ['https://www.okx.com/zh-hans/web3/explorer/bch/'],
       chainName: 'Bitcoin Cash',
       nativeCurrency: {
         name: 'BCH',
@@ -58,7 +58,7 @@ export const supportedUXTOChains: UTXOChain[] = [
     faucetUrls: [],
     metamask: {
       chainId: ChainId.LTC.toString(),
-      blockExplorerUrls: ['https://blockchair.com/litecoin/'],
+      blockExplorerUrls: ['https://www.okx.com/zh-hans/web3/explorer/ltc/'],
       chainName: 'Litecoin',
       nativeCurrency: {
         name: 'LTC',
@@ -80,7 +80,7 @@ export const supportedUXTOChains: UTXOChain[] = [
     faucetUrls: [],
     metamask: {
       chainId: ChainId.DGE.toString(),
-      blockExplorerUrls: ['https://blockchair.com/dogecoin/'],
+      blockExplorerUrls: ['https://www.okx.com/zh-hans/web3/explorer/doge/'],
       chainName: 'Dogecoin',
       nativeCurrency: {
         name: 'DODGE',

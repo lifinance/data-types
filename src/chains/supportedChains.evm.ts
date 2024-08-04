@@ -939,7 +939,6 @@ export const supportedEVMChains: EVMChain[] = [
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/gravity.svg',
     multicallAddress: multicallAddresses[ChainId.GRA],
-
     metamask: {
       chainId: prefixChainId(1625),
       blockExplorerUrls: ['https://explorer.gravity.xyz/'],
