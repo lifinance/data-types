@@ -48,8 +48,7 @@ describe.concurrent('UTXO chains block explorer check', () => {
     { timeout: 10_000, retry: 3 },
     async ({ blockExplorerUrl }) => {
       const response = await fetch(blockExplorerUrl)
-      // Remove trailing slash
-      expect(response.url).toBe(blockExplorerUrl.slice(0, -1))
+      expect(response.url).toBe(blockExplorerUrl)
       expect(response.ok).toBe(true)
       expect(response.status).toBe(200)
     }
