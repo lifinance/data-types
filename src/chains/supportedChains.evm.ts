@@ -948,7 +948,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'G.',
         decimals: 18,
       },
-      rpcUrls: ['https://rpc.gravity.xyz/ '],
+      rpcUrls: ['https://rpc.gravity.xyz/'],
     },
   },
 ]
