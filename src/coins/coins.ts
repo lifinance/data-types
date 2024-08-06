@@ -1913,7 +1913,7 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     decimals: 18,
     chainId: ChainId.GRA,
     coinKey: CoinKey.WG,
-    name: 'WETH',
+    name: 'WG',
     logoURI: 'https://assets.gravity.xyz/token_logo.png',
   },
 }
