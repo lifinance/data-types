@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.4.0](https://github.com/lifinance/data-types/compare/v5.1.0...v5.4.0) (2024-08-07)
+
+
+### Features
+
+* add gravity chain ([#59](https://github.com/lifinance/data-types/issues/59)) ([eedaef0](https://github.com/lifinance/data-types/commit/eedaef05b37f51b0568db3a4b83fa456b3ba6089))
+* enable taiko ([#58](https://github.com/lifinance/data-types/issues/58)) ([86cf72e](https://github.com/lifinance/data-types/commit/86cf72e95a935ac9949cf5ab2d2f955df1be9fca))
+
+
+### Bug Fixes
+
+* update the version ([edc8e32](https://github.com/lifinance/data-types/commit/edc8e323054378d08d3dbad245608c9c3b6cbf84))
+* wrong token name ([#60](https://github.com/lifinance/data-types/issues/60)) ([1ae332d](https://github.com/lifinance/data-types/commit/1ae332d9359457f65effe9fa4714e89daf44351f))
+
 ## [5.1.0](https://github.com/lifinance/data-types/compare/v5.0.0...v5.1.0) (2024-07-25)
 
 
