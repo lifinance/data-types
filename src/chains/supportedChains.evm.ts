@@ -945,10 +945,41 @@ export const supportedEVMChains: EVMChain[] = [
       chainName: 'Gravity Alpha Mainnet',
       nativeCurrency: {
         name: 'G',
-        symbol: 'G.',
+        symbol: 'G',
         decimals: 18,
       },
       rpcUrls: ['https://rpc.gravity.xyz/'],
+    },
+  },
+
+  // 13371 - Immutable zkEVM
+  {
+    key: ChainKey.IMX,
+    chainType: ChainType.EVM,
+    name: 'Immutable zkEVM',
+    coin: CoinKey.IMX,
+    id: 13371,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/imx.svg',
+    multicallAddress: multicallAddresses[ChainId.IMX],
+
+    metamask: {
+      chainId: prefixChainId(13371),
+      blockExplorerUrls: [
+        'https://immutable-mainnet.blockscout.com/',
+        'https://explorer.immutable.com/',
+      ],
+      chainName: 'Immutable',
+      nativeCurrency: {
+        name: 'ImmutableX',
+        symbol: 'IMX',
+        decimals: 18,
+      },
+      rpcUrls: [
+        'https://rpc.immutable.com/',
+        'https://immutable-zkevm.drpc.org',
+      ],
     },
   },
 ]

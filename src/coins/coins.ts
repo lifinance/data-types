@@ -581,6 +581,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x816E810f9F787d669FB71932DeabF6c83781Cd48',
         decimals: 6,
       },
+      [ChainId.IMX]: {
+        address: '0x68bcc7F1190AF20e7b572BCfb431c3Ac10A936Ab',
+        decimals: 6,
+      },
     },
   },
 
@@ -713,6 +717,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.TAI]: {
         address: '0x07d83526730c7438048D55A4fc0b850e2aaB6f0b',
+        decimals: 6,
+      },
+      [ChainId.IMX]: {
+        address: '0x6de8aCC0D406837030CE4dd28e7c08C5a96a30d2',
         decimals: 6,
       },
     },
@@ -978,6 +986,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0xCAbAE6f6Ea1ecaB08Ad02fE02ce9A44F09aebfA2',
         decimals: 8,
       },
+      [ChainId.IMX]: {
+        address: '0x235F9A2Dc29E51cE7D103bcC5Dfb4F5c9c3371De',
+        decimals: 8,
+      },
     },
   },
 
@@ -1090,6 +1102,14 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.BLS]: {
         address: '0x4300000000000000000000000000000000000004',
+        decimals: 18,
+      },
+      [ChainId.GRA]: {
+        address: '0xf6f832466Cd6C21967E0D954109403f36Bc8ceaA',
+        decimals: 18,
+      },
+      [ChainId.IMX]: {
+        address: '0x52a6c53869ce09a731cd772f245b97a4401d3348',
         decimals: 18,
       },
     },
@@ -1481,6 +1501,24 @@ export const basicCoins: BasicCoin[] = [
         decimals: 18,
       },
       [ChainId.GRA]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+  // Immutable X
+  {
+    key: CoinKey.IMX,
+    name: CoinKey.IMX,
+    logoURI:
+      'https://static.debank.com/image/eth_token/logo_url/0xf57e7e7c23978c3caec3c3548e3d615c346e79ff/7a875818146ec0508d3e5f5b14f1b4eb.png',
+    verified: true,
+    chains: {
+      [ChainId.ETH]: {
+        address: '0xf57e7e7c23978c3caec3c3548e3d615c346e79ff',
+        decimals: 18,
+      },
+      [ChainId.IMX]: {
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
@@ -1913,8 +1951,19 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     decimals: 18,
     chainId: ChainId.GRA,
     coinKey: CoinKey.WG,
-    name: 'WG',
+    name: 'Wrapped G',
     logoURI: 'https://assets.gravity.xyz/token_logo.png',
+  },
+  [ChainId.IMX]: {
+    // https://explorer.immutable.com/address/0x3a0c2ba54d6cbd3121f01b96dfd20e99d1696c9d
+    address: '0x3a0c2ba54d6cbd3121f01b96dfd20e99d1696c9d',
+    symbol: 'WIMX',
+    decimals: 18,
+    chainId: ChainId.IMX,
+    coinKey: CoinKey.WIMX,
+    name: 'Wrapped IMX',
+    logoURI:
+      'https://static.debank.com/image/eth_token/logo_url/0xf57e7e7c23978c3caec3c3548e3d615c346e79ff/7a875818146ec0508d3e5f5b14f1b4eb.png',
   },
 }
 
