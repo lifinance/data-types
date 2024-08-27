@@ -547,7 +547,7 @@ export const supportedEVMChains: EVMChain[] = [
     id: 1088,
     mainnet: true,
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/metis.png',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/metis.svg',
     tokenlistUrl:
       'https://raw.githubusercontent.com/digitalnativeinc/default-token-list/dnf/tokens/metis.json',
     multicallAddress: multicallAddresses[ChainId.MAM],
