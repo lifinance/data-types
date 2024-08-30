@@ -152,10 +152,6 @@ export const basicCoins: BasicCoin[] = [
         decimals: 18,
         name: 'Matic Token',
       },
-      [ChainId.POL]: {
-        address: '0x0000000000000000000000000000000000000000',
-        decimals: 18,
-      },
       [ChainId.DAI]: {
         address: '0x7122d7661c4564b7c6cd4878b06766489a6028a2',
         decimals: 18,
@@ -165,6 +161,40 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.VEL]: {
         address: '0x6ab0b8c1a35f9f4ce107ccbd05049cb1dbd99ec5',
         decimals: 18,
+      },
+    },
+  },
+  // > WMATIC
+  {
+    key: 'WMATIC' as CoinKey,
+    name: CoinKey.POL,
+    logoURI:
+      'https://static.debank.com/image/matic_token/logo_url/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270/f6e604ba0324726a3d687c618aa4f163.png',
+    verified: true,
+    chains: {
+      [ChainId.POL]: {
+        address: '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',
+        decimals: 18,
+      },
+    },
+  },
+  // > POL migrated from MATIC
+  {
+    key: CoinKey.POL,
+    name: CoinKey.POL,
+    logoURI:
+      'https://static.debank.com/image/matic_token/logo_url/matic/6f5a6b6f0732a7a235131bd7804d357c.png',
+    verified: true,
+    chains: {
+      [ChainId.ETH]: {
+        address: '0x455e53CBB86018Ac2B8092FdCd39d8444aFFC3F6',
+        decimals: 18,
+        name: 'Polygon Ecosystem Token',
+      },
+      [ChainId.POL]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+        name: 'Polygon Ecosystem Token',
       },
     },
   },

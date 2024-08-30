@@ -45,8 +45,8 @@ export const supportedEVMChains: EVMChain[] = [
     key: ChainKey.POL,
     chainType: ChainType.EVM,
     name: 'Polygon',
-    coin: CoinKey.MATIC,
-    id: 137,
+    coin: CoinKey.POL,
+    id: ChainId.POL,
     mainnet: true,
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/polygon.svg',
@@ -59,8 +59,8 @@ export const supportedEVMChains: EVMChain[] = [
       blockExplorerUrls: ['https://polygonscan.com/'],
       chainName: 'Polygon Mainnet',
       nativeCurrency: {
-        name: 'MATIC',
-        symbol: 'MATIC',
+        name: 'Polygon Ecosystem Token',
+        symbol: 'POL',
         decimals: 18,
       },
       rpcUrls: [
