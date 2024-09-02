@@ -164,20 +164,6 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
-  // > WMATIC
-  {
-    key: 'WMATIC' as CoinKey,
-    name: CoinKey.POL,
-    logoURI:
-      'https://static.debank.com/image/matic_token/logo_url/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270/f6e604ba0324726a3d687c618aa4f163.png',
-    verified: true,
-    chains: {
-      [ChainId.POL]: {
-        address: '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',
-        decimals: 18,
-      },
-    },
-  },
   // > POL migrated from MATIC
   {
     key: CoinKey.POL,
@@ -1676,11 +1662,11 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
   [ChainId.POL]: {
     // https://polygonscan.com/token/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270
     address: '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',
-    symbol: 'WMATIC',
+    symbol: 'WPOL',
     decimals: 18,
     chainId: ChainId.POL,
-    coinKey: 'WMATIC' as CoinKey,
-    name: 'WMATIC',
+    coinKey: CoinKey.WPOL,
+    name: 'WPOL',
     logoURI:
       'https://static.debank.com/image/matic_token/logo_url/0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270/f6e604ba0324726a3d687c618aa4f163.png',
   },
