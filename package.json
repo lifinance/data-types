@@ -1,6 +1,6 @@
 {
   "name": "@lifi/data-types",
-  "version": "5.5.0",
+  "version": "5.6.0",
   "description": "Data types for the LI.FI stack",
   "keywords": [
     "sdk",
@@ -78,7 +78,7 @@
     ]
   },
   "dependencies": {
-    "@lifi/types": "^15.3.1"
+    "@lifi/types": "^15.4.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
