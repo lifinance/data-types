@@ -1128,6 +1128,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x52a6c53869ce09a731cd772f245b97a4401d3348',
         decimals: 18,
       },
+      [ChainId.SEI]: {
+        address: '0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8',
+        decimals: 18,
+      },
     },
   },
 

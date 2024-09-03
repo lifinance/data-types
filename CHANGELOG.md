@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.7.0](https://github.com/lifinance/data-types/compare/v5.1.0...v5.7.0) (2024-09-03)
+
+
+### Features
+
+* add gravity chain ([#59](https://github.com/lifinance/data-types/issues/59)) ([eedaef0](https://github.com/lifinance/data-types/commit/eedaef05b37f51b0568db3a4b83fa456b3ba6089))
+* add immutable-x chain ([#62](https://github.com/lifinance/data-types/issues/62)) ([d440f96](https://github.com/lifinance/data-types/commit/d440f96ff5cb7a00e110fb25f5d6cb51632cec23))
+* enable taiko ([#58](https://github.com/lifinance/data-types/issues/58)) ([86cf72e](https://github.com/lifinance/data-types/commit/86cf72e95a935ac9949cf5ab2d2f955df1be9fca))
+* support migration from Matic to Pol ([#64](https://github.com/lifinance/data-types/issues/64)) ([8773a23](https://github.com/lifinance/data-types/commit/8773a23f1c4dcb120fbd4f66fe4524029676b4e3))
+
+
+### Bug Fixes
+
+* update the version ([#61](https://github.com/lifinance/data-types/issues/61)) ([8b8000d](https://github.com/lifinance/data-types/commit/8b8000d6df4d9d0afc15eae458e51873e716c48f))
+* wrong token name ([#60](https://github.com/lifinance/data-types/issues/60)) ([1ae332d](https://github.com/lifinance/data-types/commit/1ae332d9359457f65effe9fa4714e89daf44351f))
+
 ## [5.6.0](https://github.com/lifinance/data-types/compare/v5.1.0...v5.6.0) (2024-09-02)
 
 
