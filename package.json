@@ -78,7 +78,7 @@
     ]
   },
   "dependencies": {
-    "@lifi/types": "^15.4.0"
+    "@lifi/types": "^15.9.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",

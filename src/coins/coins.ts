@@ -601,6 +601,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x68bcc7F1190AF20e7b572BCfb431c3Ac10A936Ab',
         decimals: 6,
       },
+      [ChainId.KAI]: {
+        address: '0x9025095263d1e548dc890a7589a4c78038ac40ab',
+        decimals: 6,
+      },
     },
   },
 
@@ -788,6 +792,12 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.GRA]: {
         address: '0xFbDa5F676cB37624f28265A144A48B0d6e87d3b6',
+        decimals: 6,
+        name: 'Bridged USD Coin',
+        symbol: 'USDC.e',
+      },
+      [ChainId.KAI]: {
+        address: '0xe2053bcf56d2030d2470fb454574237cf9ee3d4b',
         decimals: 6,
         name: 'Bridged USD Coin',
         symbol: 'USDC.e',
@@ -1130,6 +1140,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.SEI]: {
         address: '0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8',
+        decimals: 18,
+      },
+      [ChainId.TAI]: {
+        address: '0x55acee547df909cf844e32dd66ee55a6f81dc71b',
         decimals: 18,
       },
     },
@@ -1539,6 +1553,20 @@ export const basicCoins: BasicCoin[] = [
         decimals: 18,
       },
       [ChainId.IMX]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+  // KLAY
+  {
+    key: CoinKey.KLAY,
+    name: CoinKey.KLAY,
+    logoURI:
+      'https://static.debank.com/image/klay_token/logo_url/0x19aac5f612f524b754ca7e7c41cbfa2e981a4432/1866fc790849a903e0594ce0f55b758d.png',
+    verified: true,
+    chains: {
+      [ChainId.KAI]: {
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
@@ -1984,6 +2012,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped IMX',
     logoURI:
       'https://static.debank.com/image/eth_token/logo_url/0xf57e7e7c23978c3caec3c3548e3d615c346e79ff/7a875818146ec0508d3e5f5b14f1b4eb.png',
+  },
+  [ChainId.KAI]: {
+    // https://kaiascan.io/token/0x19aac5f612f524b754ca7e7c41cbfa2e981a4432
+    address: '0x19aac5f612f524b754ca7e7c41cbfa2e981a4432',
+    symbol: 'WKLAY',
+    decimals: 18,
+    chainId: ChainId.KAI,
+    coinKey: CoinKey.WKLAY,
+    name: 'Wrapped IMX',
+    logoURI:
+      'https://static.debank.com/image/klay_token/logo_url/0x19aac5f612f524b754ca7e7c41cbfa2e981a4432/1866fc790849a903e0594ce0f55b758d.png',
   },
 }
 
