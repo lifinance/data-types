@@ -1006,7 +1006,7 @@ export const supportedEVMChains: EVMChain[] = [
       },
       rpcUrls: [
         'https://public-en.node.kaia.io',
-        'https://klaytn-mainnet.g.allthatnode.com/full/evm',
+        'https://klaytn-rpc.gateway.pokt.network',
       ],
     },
   },
