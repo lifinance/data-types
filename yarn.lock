@@ -152,6 +152,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@commitlint/format@npm:7.6.1":
+  version: 7.6.1
+  resolution: "@commitlint/format@npm:7.6.1"
+  dependencies:
+    babel-runtime: "npm:^6.23.0"
+    chalk: "npm:^2.0.1"
+  checksum: 10/a6e034909318e8a8dcad21139df02c77896d289ae6e290085309ae64b20f0a648ddb062c43a30e481143b820b3bf1d589caa47ca7bb4c9b0cbee1717eb4771d0
+  languageName: node
+  linkType: hard
+
 "@commitlint/format@npm:^19.3.0":
   version: 19.3.0
   resolution: "@commitlint/format@npm:19.3.0"
@@ -590,7 +600,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": "npm:^19.3.0"
     "@commitlint/config-conventional": "npm:^19.2.2"
-    "@lifi/types": "npm:^15.4.0"
+    "@lifi/types": "npm:^15.8.0"
     "@solana/web3.js": "npm:^1.95.1"
     "@types/fs-extra": "npm:^11.0.4"
     "@typescript-eslint/eslint-plugin": "npm:^7.17.0"
@@ -611,10 +621,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@lifi/types@npm:^15.4.0":
-  version: 15.4.0
-  resolution: "@lifi/types@npm:15.4.0"
-  checksum: 10/fd74e6360fbc05ab715646ebf6193f075b4d0af55c39329f9254c2c81c7cc39dd31f8a508743d3b69c09dd710aad6084f6c5af8413619fbcdb279748f2b0baeb
+"@lifi/types@npm:^15.8.0":
+  version: 15.9.0
+  resolution: "@lifi/types@npm:15.9.0"
+  dependencies:
+    "@commitlint/format": "npm:7.6.1"
+  checksum: 10/12832af169da86ecfa4ca8a810f4b657241317b183aefa8cb19be8339a1faf4d1d89555e6bcb58ce4baec9a123a789c694fb3274e7c5a36f75dfcc4aba1711a6
   languageName: node
   linkType: hard
 
@@ -1388,6 +1400,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"babel-runtime@npm:^6.23.0":
+  version: 6.26.0
+  resolution: "babel-runtime@npm:6.26.0"
+  dependencies:
+    core-js: "npm:^2.4.0"
+    regenerator-runtime: "npm:^0.11.0"
+  checksum: 10/2cdf0f083b9598a43cdb11cbf1e7060584079a9a2230f06aec997ba81e887ef17fdcb5ad813a484ee099e06d2de0cea832bdd3011c06325acb284284c754ee8f
+  languageName: node
+  linkType: hard
+
 "balanced-match@npm:^1.0.0":
   version: 1.0.2
   resolution: "balanced-match@npm:1.0.2"
@@ -1577,7 +1599,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^2.4.2":
+"chalk@npm:^2.0.1, chalk@npm:^2.4.2":
   version: 2.4.2
   resolution: "chalk@npm:2.4.2"
   dependencies:
@@ -1981,6 +2003,13 @@ __metadata:
   bin:
     conventional-recommended-bump: cli.js
   checksum: 10/5561a4163e097b502e5372420ae9eee240a2b0e00e8cca3f5d8a7110c35021a5fe61a18d457961ace815d58beecc0192ebd26da40c6affcfc038be2d3a5f77c4
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^2.4.0":
+  version: 2.6.12
+  resolution: "core-js@npm:2.6.12"
+  checksum: 10/7c624eb00a59c74c769d5d80f751f3bf1fc6201205b6562f27286ad5e00bbca1483f2f7eb0c2854b86f526ef5c7dc958b45f2ff536f8a31b8e9cb1a13a96efca
   languageName: node
   linkType: hard
 
@@ -4632,6 +4661,13 @@ __metadata:
     indent-string: "npm:^4.0.0"
     strip-indent: "npm:^3.0.0"
   checksum: 10/fa1ef20404a2d399235e83cc80bd55a956642e37dd197b4b612ba7327bf87fa32745aeb4a1634b2bab25467164ab4ed9c15be2c307923dd08b0fe7c52431ae6b
+  languageName: node
+  linkType: hard
+
+"regenerator-runtime@npm:^0.11.0":
+  version: 0.11.1
+  resolution: "regenerator-runtime@npm:0.11.1"
+  checksum: 10/64e62d78594c227e7d5269811bca9e4aa6451332adaae8c79a30cab0fa98733b1ad90bdb9d038095c340c6fad3b414a49a8d9e0b6b424ab7ff8f94f35704f8a2
   languageName: node
   linkType: hard
 
