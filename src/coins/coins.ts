@@ -1142,7 +1142,7 @@ export const basicCoins: BasicCoin[] = [
         address: '0x160345fC359604fC6e70E3c5fAcbdE5F7A9342d8',
         decimals: 18,
       },
-      [ChainId.TAI]: {
+      [ChainId.KAI]: {
         address: '0x55acee547df909cf844e32dd66ee55a6f81dc71b',
         decimals: 18,
       },
