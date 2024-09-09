@@ -2020,7 +2020,7 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     decimals: 18,
     chainId: ChainId.KAI,
     coinKey: CoinKey.WKLAY,
-    name: 'Wrapped IMX',
+    name: 'Wrapped KLAY',
     logoURI:
       'https://static.debank.com/image/klay_token/logo_url/0x19aac5f612f524b754ca7e7c41cbfa2e981a4432/1866fc790849a903e0594ce0f55b758d.png',
   },
