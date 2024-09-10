@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.9.0](https://github.com/lifinance/data-types/compare/v5.8.0...v5.9.0) (2024-09-10)
+
+
+### Features
+
+* add klay chain ([#67](https://github.com/lifinance/data-types/issues/67)) ([8b40948](https://github.com/lifinance/data-types/commit/8b409486bf098ffc49fdb14377231622a43f3a8a))
+
 ## [5.8.0](https://github.com/lifinance/data-types/compare/v5.1.0...v5.8.0) (2024-09-06)
 
 
