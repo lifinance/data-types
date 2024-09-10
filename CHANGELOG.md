@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.10.0](https://github.com/lifinance/data-types/compare/v5.9.0...v5.10.0) (2024-09-10)
+
+
+### Features
+
+* sync type version ([#68](https://github.com/lifinance/data-types/issues/68)) ([2355135](https://github.com/lifinance/data-types/commit/23551354289197e61a440af9a4cfa3d789322f1a))
+
 ## [5.9.0](https://github.com/lifinance/data-types/compare/v5.8.0...v5.9.0) (2024-09-10)
 
 
