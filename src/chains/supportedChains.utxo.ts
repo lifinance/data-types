@@ -14,14 +14,21 @@ export const supportedUXTOChains: UTXOChain[] = [
     faucetUrls: [],
     metamask: {
       chainId: ChainId.BTC.toString(),
-      blockExplorerUrls: ['https://blockchair.com/bitcoin/'],
+      blockExplorerUrls: [
+        'https://mempool.space/',
+        'https://blockchair.com/bitcoin/',
+      ],
       chainName: 'Bitcoin',
       nativeCurrency: {
         name: 'BTC',
         symbol: 'BTC',
         decimals: 8,
       },
-      rpcUrls: ['https://node-router.thorswap.net/bitcoin'],
+      rpcUrls: [
+        'https://node-router.thorswap.net/bitcoin',
+        'https://rpc.ankr.com/btc',
+        'https://bitcoin-rpc.publicnode.com',
+      ],
     },
   },
   {
