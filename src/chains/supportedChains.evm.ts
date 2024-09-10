@@ -982,4 +982,32 @@ export const supportedEVMChains: EVMChain[] = [
       ],
     },
   },
+
+  // 8217 - Kaia
+  {
+    key: ChainKey.KAI,
+    chainType: ChainType.EVM,
+    name: 'Kaia',
+    coin: CoinKey.KLAY,
+    id: 8217,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/kaia.svg',
+    multicallAddress: multicallAddresses[ChainId.KAI],
+
+    metamask: {
+      chainId: prefixChainId(8217),
+      blockExplorerUrls: ['https://kaiascan.io/', 'https://kaiascope.com/'],
+      chainName: 'Kaia Mainnet',
+      nativeCurrency: {
+        name: 'KAIA',
+        symbol: 'KAIA',
+        decimals: 18,
+      },
+      rpcUrls: [
+        'https://public-en.node.kaia.io',
+        'https://klaytn-pokt.nodies.app',
+      ],
+    },
+  },
 ]
