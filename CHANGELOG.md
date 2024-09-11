@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.10.1](https://github.com/lifinance/data-types/compare/v5.10.0...v5.10.1) (2024-09-11)
+
+
+### Bug Fixes
+
+* add more block explorers and RPCs for Bitcoin ([#69](https://github.com/lifinance/data-types/issues/69)) ([5768f0a](https://github.com/lifinance/data-types/commit/5768f0acc16074a080e255b79d2afb7be0afa253))
+
 ## [5.10.0](https://github.com/lifinance/data-types/compare/v5.9.0...v5.10.0) (2024-09-10)
 
 
