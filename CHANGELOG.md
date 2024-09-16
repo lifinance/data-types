@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.11.0](https://github.com/lifinance/data-types/compare/v5.10.1...v5.11.0) (2024-09-16)
+
+
+### Features
+
+* add usdc on kaiai ([#70](https://github.com/lifinance/data-types/issues/70)) ([c28d8f1](https://github.com/lifinance/data-types/commit/c28d8f1905a13b42b64ce77a427eb87aaeb3e13b))
+
 ### [5.10.1](https://github.com/lifinance/data-types/compare/v5.10.0...v5.10.1) (2024-09-11)
 
 
