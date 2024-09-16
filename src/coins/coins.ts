@@ -743,6 +743,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x6de8aCC0D406837030CE4dd28e7c08C5a96a30d2',
         decimals: 6,
       },
+      [ChainId.KAI]: {
+        address: '0x6270b58be569a7c0b8f47594f191631ae5b2c86c',
+        decimals: 6,
+      },
     },
   },
   // USDC.e
