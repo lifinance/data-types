@@ -808,6 +808,85 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
+  // axlUSDC
+  // axlUSDC is a wrapped, multi-chain representation of USDC, a dollar stablecoin.
+  {
+    key: CoinKey.AXLUSDC,
+    name: 'Axelar Wrapped USDC',
+    logoURI:
+      'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png',
+    verified: true,
+    chains: {
+      [ChainId.BSC]: {
+        address: '0x4268B8F0B87b6Eae5d897996E6b845ddbD99Adf3',
+        decimals: 18,
+      },
+      [ChainId.AVA]: {
+        address: '0xfaB550568C688d5D8A52C7d794cb93Edc26eC0eC',
+        decimals: 6,
+      },
+      [ChainId.POL]: {
+        address: '0x750e4C4984a9e0f12978eA6742Bc1c5D248f40ed',
+        decimals: 6,
+      },
+      [ChainId.FTM]: {
+        address: '0x1B6382DBDEa11d97f24495C9A90b7c88469134a4',
+        decimals: 6,
+      },
+      [ChainId.MOO]: {
+        address: '0xca01a1d0993565291051daff390892518acfad3a',
+        decimals: 6,
+      },
+      [ChainId.ARB]: {
+        address: '0xeb466342c4d449bc9f53a865d5cb90586f405215',
+        decimals: 6,
+      },
+      [ChainId.BAS]: {
+        address: '0xeb466342c4d449bc9f53a865d5cb90586f405215',
+        decimals: 6,
+      },
+      [ChainId.OPT]: {
+        address: '0xeb466342c4d449bc9f53a865d5cb90586f405215',
+        decimals: 6,
+      },
+      [ChainId.LNA]: {
+        address: '0xeb466342c4d449bc9f53a865d5cb90586f405215',
+        decimals: 6,
+      },
+      [ChainId.ONE]: {
+        address: '0x985458e523db3d53125813ed68c274899e9dfab4',
+        decimals: 6,
+      },
+      [ChainId.SCL]: {
+        address: '0xeb466342c4d449bc9f53a865d5cb90586f405215',
+        decimals: 6,
+      },
+      [ChainId.MNT]: {
+        address: '0xeb466342c4d449bc9f53a865d5cb90586f405215',
+        decimals: 6,
+      },
+      [ChainId.BLS]: {
+        address: '0xeb466342c4d449bc9f53a865d5cb90586f405215',
+        decimals: 6,
+      },
+      [ChainId.CEL]: {
+        address: '0xeb466342c4d449bc9f53a865d5cb90586f405215',
+        decimals: 6,
+      },
+      [ChainId.EVM]: {
+        address: '0x15c3eb3b621d1bff62cba1c9536b7c1ae9149b57',
+        decimals: 6,
+      },
+      [ChainId.FRA]: {
+        address: '0xEB466342C4d449BC9f53A865D5Cb90586f405215',
+        decimals: 6,
+      },
+      [ChainId.IMX]: {
+        address: '0xEB466342C4d449BC9f53A865D5Cb90586f405215',
+        decimals: 6,
+      },
+    },
+  },
   // BUSD
   {
     key: CoinKey.BUSD,
