@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.12.0](https://github.com/lifinance/data-types/compare/v5.11.0...v5.12.0) (2024-09-20)
+
+
+### Features
+
+* add axlusdc coin ([#71](https://github.com/lifinance/data-types/issues/71)) ([9dbcc72](https://github.com/lifinance/data-types/commit/9dbcc72b7b14c78f89a0aeab99ddcdcbf708cbcf))
+
 ## [5.11.0](https://github.com/lifinance/data-types/compare/v5.10.1...v5.11.0) (2024-09-16)
 
 
