@@ -45,6 +45,7 @@ export const multicallAddresses: { [ChainId: number]: string } = {
   [ChainId.GRA]: '0xcA11bde05977b3631167028862bE2a173976CA11',
   [ChainId.IMX]: '0xcA11bde05977b3631167028862bE2a173976CA11',
   [ChainId.KAI]: '0xcA11bde05977b3631167028862bE2a173976CA11',
+  [ChainId.XLY]: '0xcA11bde05977b3631167028862bE2a173976CA11',
 
   // TODO
   // [ChainId.EXP]: '', // TODO

@@ -333,6 +333,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0xcA77eB3fEFe3725Dc33bccB54eDEFc3D9f764f97',
         decimals: 18,
       },
+      [ChainId.XLY]: {
+        address: '0xc5015b9d9161dca7e18e32f6f25c4ad850731fd4',
+        decimals: 18,
+      },
     },
   },
   // > FTM
@@ -605,6 +609,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x9025095263d1e548dc890a7589a4c78038ac40ab',
         decimals: 6,
       },
+      [ChainId.XLY]: {
+        address: '0x1e4a5963abfd975d8c9021ce480b42188849d41d',
+        decimals: 6,
+      },
     },
   },
 
@@ -745,6 +753,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.KAI]: {
         address: '0x6270b58be569a7c0b8f47594f191631ae5b2c86c',
+        decimals: 6,
+      },
+      [ChainId.XLY]: {
+        address: '0x74b7f16337b8972027f6196a17a631ac6de26d22',
         decimals: 6,
       },
     },
@@ -1099,6 +1111,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x235F9A2Dc29E51cE7D103bcC5Dfb4F5c9c3371De',
         decimals: 8,
       },
+      [ChainId.XLY]: {
+        address: '0xea034fb02eb1808c2cc3adbc15f447b93cbe08e1',
+        decimals: 8,
+      },
     },
   },
 
@@ -1227,6 +1243,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.KAI]: {
         address: '0x55acee547df909cf844e32dd66ee55a6f81dc71b',
+        decimals: 18,
+      },
+      [ChainId.XLY]: {
+        address: '0x5a77f1443d16ee5761d310e38b62f77f726bc71c',
         decimals: 18,
       },
     },
@@ -1655,6 +1675,26 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
+
+  // OKB
+  {
+    key: CoinKey.OKB,
+    name: CoinKey.OKB,
+    logoURI:
+      'https://static.debank.com/image/xlayer_token/logo_url/0xe538905cf8410324e03a5a23c1c177a474d59b2b/b58d6980429c56560d9241765bdf9c2b.png',
+    verified: true,
+    chains: {
+      [ChainId.XLY]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+      [ChainId.ETH]: {
+        address: '0x75231f58b43240c9718dd58b4967c5114342a86c',
+        decimals: 18,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
@@ -2106,6 +2146,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped KLAY',
     logoURI:
       'https://static.debank.com/image/klay_token/logo_url/0x19aac5f612f524b754ca7e7c41cbfa2e981a4432/1866fc790849a903e0594ce0f55b758d.png',
+  },
+  [ChainId.XLY]: {
+    // https://www.okx.com/web3/explorer/xlayer/token/0xe538905cf8410324e03a5a23c1c177a474d59b2b
+    address: '0xe538905cf8410324e03a5a23c1c177a474d59b2b',
+    symbol: 'WOKB',
+    decimals: 18,
+    chainId: ChainId.XLY,
+    coinKey: CoinKey.WOKB,
+    name: 'Wrapped OKB',
+    logoURI:
+      'https://static.debank.com/image/xlayer_token/logo_url/0xe538905cf8410324e03a5a23c1c177a474d59b2b/b58d6980429c56560d9241765bdf9c2b.png',
   },
 }
 
