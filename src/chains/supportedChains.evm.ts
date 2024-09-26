@@ -1010,4 +1010,32 @@ export const supportedEVMChains: EVMChain[] = [
       ],
     },
   },
+
+  // 196 - XLayer
+  {
+    key: ChainKey.XLY,
+    chainType: ChainType.EVM,
+    name: 'XLayer',
+    coin: CoinKey.OKB,
+    id: 196,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/xlayer.svg',
+    multicallAddress: multicallAddresses[ChainId.XLY],
+
+    metamask: {
+      chainId: prefixChainId(196),
+      blockExplorerUrls: [
+        'https://www.oklink.com/xlayer/',
+        'https://www.okx.com/web3/explorer/xlayer/',
+      ],
+      chainName: 'X Layer Mainnet',
+      nativeCurrency: {
+        name: 'OKB',
+        symbol: 'OKB',
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.xlayer.tech/', 'https://xlayerrpc.okx.com'],
+    },
+  },
 ]
