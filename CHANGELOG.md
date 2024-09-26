@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.13.0](https://github.com/lifinance/data-types/compare/v5.12.3-beta.2...v5.13.0) (2024-09-26)
+
+
+### Features
+
+* add new chain xlay ([#72](https://github.com/lifinance/data-types/issues/72)) ([66e2b66](https://github.com/lifinance/data-types/commit/66e2b66d1a6153aff1c075e85ae06e3a50987939))
+
 ### [5.12.2](https://github.com/lifinance/data-types/compare/v5.12.0...v5.12.2) (2024-09-26)
 
 ### [5.12.1](https://github.com/lifinance/data-types/compare/v5.12.0...v5.12.1) (2024-09-26)
