@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.13.1](https://github.com/lifinance/data-types/compare/v5.13.0...v5.13.1) (2024-10-02)
+
+
+### Bug Fixes
+
+* usdce aurora and add native usdc ([#73](https://github.com/lifinance/data-types/issues/73)) ([33bc073](https://github.com/lifinance/data-types/commit/33bc073fc43ef86a5d760dcc08a0ad96906cbc71))
+
 ## [5.13.0](https://github.com/lifinance/data-types/compare/v5.12.3-beta.2...v5.13.0) (2024-09-26)
 
 
