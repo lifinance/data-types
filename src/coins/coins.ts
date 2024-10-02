@@ -707,7 +707,7 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
       },
       [ChainId.AUR]: {
-        address: '0xB12BFcA5A55806AaF64E99521918A4bf0fC40802',
+        address: '0x368EBb46ACa6b8D0787C96B2b20bD3CC3F2c45F7',
         decimals: 6,
       },
       // https://evmexplorer.velas.com/token/0xe2C120f188eBd5389F71Cf4d9C16d05b62A58993
@@ -814,6 +814,12 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.KAI]: {
         address: '0xe2053bcf56d2030d2470fb454574237cf9ee3d4b',
+        decimals: 6,
+        name: 'Bridged USD Coin',
+        symbol: 'USDC.e',
+      },
+      [ChainId.AUR]: {
+        address: '0xB12BFcA5A55806AaF64E99521918A4bf0fC40802',
         decimals: 6,
         name: 'Bridged USD Coin',
         symbol: 'USDC.e',
