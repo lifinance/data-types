@@ -1624,6 +1624,20 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
+  {
+    key: CoinKey.WSOL,
+    name: CoinKey.WSOL,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/4128/standard/solana.png',
+    verified: true,
+    chains: {
+      [ChainId.SOL]: {
+        address: 'So11111111111111111111111111111111111111112',
+        decimals: 9,
+        name: 'wSOL',
+      },
+    },
+  },
   // Gravity
   {
     key: CoinKey.G,
