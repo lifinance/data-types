@@ -599,7 +599,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": "npm:^19.5.0"
     "@commitlint/config-conventional": "npm:^19.2.2"
-    "@lifi/types": "npm:^v15.15.0"
+    "@lifi/types": "npm:^15.17.0-beta.0"
     "@solana/web3.js": "npm:^1.95.1"
     "@types/fs-extra": "npm:^11.0.4"
     "@typescript-eslint/eslint-plugin": "npm:^7.17.0"
@@ -620,10 +620,10 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@lifi/types@npm:^v15.15.0":
-  version: 15.15.0
-  resolution: "@lifi/types@npm:15.15.0"
-  checksum: 10/0c4d1d7df9626531bf9c4ccb9bc2a72ffa60299984943dd563a623ab623f7476f82e6c8ae1c7741f5eb24ff0c69b858bec435a1ba235da726e3fa50ab7a9f000
+"@lifi/types@npm:^15.17.0-beta.0":
+  version: 15.17.0-beta.0
+  resolution: "@lifi/types@npm:15.17.0-beta.0"
+  checksum: 10/2ff2d96abe822ae0f0cebef57fc724a47ea99613bd2ff5e95de8e422e8609ad595401abaa40c77f2abb5a2291471c8f67510d90992e8fef0d578791aa1b4dde1
   languageName: node
   linkType: hard
 

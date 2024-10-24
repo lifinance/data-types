@@ -1038,4 +1038,35 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://rpc.xlayer.tech/', 'https://xlayerrpc.okx.com'],
     },
   },
+
+  // 204 - opBNB
+  {
+    key: ChainKey.OPB,
+    chainType: ChainType.EVM,
+    name: 'opBNB',
+    coin: CoinKey.BNB,
+    id: 204,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/opbnb.svg',
+    multicallAddress: multicallAddresses[ChainId.OPB],
+
+    metamask: {
+      chainId: prefixChainId(204),
+      blockExplorerUrls: [
+        'https://opbnb.bscscan.com/',
+        'https://opbnbscan.com/',
+      ],
+      chainName: 'opBNB Mainnet',
+      nativeCurrency: {
+        name: 'BNB',
+        symbol: 'BNB',
+        decimals: 18,
+      },
+      rpcUrls: [
+        'https://opbnb-mainnet-rpc.bnbchain.org',
+        'https://1rpc.io/opbnb',
+      ],
+    },
+  },
 ]
