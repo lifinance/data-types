@@ -1902,7 +1902,7 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     symbol: 'WBNB',
     decimals: 18,
     chainId: ChainId.BSC,
-    coinKey: 'WBNB' as CoinKey,
+    coinKey: CoinKey.WBNB,
     name: 'WBNB',
     logoURI:
       'https://static.debank.com/image/coin/logo_url/bnb/9784283a36f23a58982fc964574ea530.png',
@@ -2251,8 +2251,18 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     logoURI:
       'https://static.debank.com/image/xlayer_token/logo_url/0xe538905cf8410324e03a5a23c1c177a474d59b2b/b58d6980429c56560d9241765bdf9c2b.png',
   },
+  [ChainId.OPB]: {
+    // https://opbnb.bscscan.com/token/0x4200000000000000000000000000000000000006
+    address: '0x4200000000000000000000000000000000000006',
+    symbol: 'WBNB',
+    decimals: 18,
+    chainId: ChainId.OPB,
+    coinKey: CoinKey.WBNB,
+    name: 'Wrapped BNB',
+    logoURI:
+      'https://static.debank.com/image/bsc_token/logo_url/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c/1177dec1b9b7f58a799c3f22d93b04e1.png',
+  },
 }
-
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
   const coin = defaultCoins.find((coin) => coin.key === coinKey)
   if (!coin) {
