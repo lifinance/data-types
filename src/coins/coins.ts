@@ -127,6 +127,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
+      [ChainId.OPB]: {
+        address: '0xE7798f023fC62146e8Aa1b36Da45fb70855a77Ea',
+        decimals: 18,
+      },
     },
   },
   // > MATIC
@@ -205,16 +209,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
-      [ChainId.POL]: {
-        address: '0xa649325aa7c5093d12d6f98eb4378deae68ce23f',
-        decimals: 18,
-      },
-      [ChainId.DAI]: {
-        address: '0xca8d20f3e0144a72c6b5d576e9bd3fd8557e2b04',
-        decimals: 18,
-        symbol: 'WBNB',
-        name: 'Wrapped BNB',
-      },
       [ChainId.ONE]: {
         address: '0xb1f6e61e1e113625593a22fa6aa94f8052bc39e0',
         decimals: 18,
@@ -227,6 +221,22 @@ export const basicCoins: BasicCoin[] = [
       // https://evmexplorer.velas.com/token/0x2B8e9cD44C9e09D936149549a8d207c918ecB5C4
       [ChainId.VEL]: {
         address: '0x2b8e9cd44c9e09d936149549a8d207c918ecb5c4',
+        decimals: 18,
+      },
+      [ChainId.OPB]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+      [ChainId.CRO]: {
+        address: '0xfA9343C3897324496A05fC75abeD6bAC29f8A40f',
+        decimals: 18,
+      },
+      [ChainId.ERA]: {
+        address: '0x7400793aad94c8ca801aa036357d10f5fd0ce08f',
+        decimals: 18,
+      },
+      [ChainId.LNA]: {
+        address: '0xf5C6825015280CdfD0b56903F9F8B5A2233476F5',
         decimals: 18,
       },
     },
@@ -611,6 +621,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.XLY]: {
         address: '0x1e4a5963abfd975d8c9021ce480b42188849d41d',
+        decimals: 6,
+      },
+      [ChainId.OPB]: {
+        address: '0x9e5aac1ba1a2e6aed6b32689dfcf62a509ca96f3',
         decimals: 6,
       },
     },
@@ -1715,6 +1729,65 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // WBNB
+  {
+    key: CoinKey.WBNB,
+    name: CoinKey.WBNB,
+    logoURI:
+      'https://static.debank.com/image/coin/logo_url/bnb/9784283a36f23a58982fc964574ea530.png',
+    verified: true,
+    chains: {
+      [ChainId.BSC]: {
+        address: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
+        decimals: 18,
+      },
+      [ChainId.OPB]: {
+        address: '0x4200000000000000000000000000000000000006',
+        decimals: 18,
+      },
+      [ChainId.DAI]: {
+        address: '0xca8d20f3e0144a72c6b5d576e9bd3fd8557e2b04',
+        decimals: 18,
+      },
+      [ChainId.ETH]: {
+        address: '0x418D75f65a02b3D53B2418FB8E1fe493759c7605',
+        decimals: 18,
+        name: 'Wormhole: WBNB Token',
+      },
+      [ChainId.POL]: {
+        address: '0xecdcb5b88f8e3c15f95c720c51c71c9e2080525d',
+        decimals: 18,
+      },
+      [ChainId.AVA]: {
+        address: '0x442F7f22b1EE2c842bEAFf52880d4573E9201158',
+        decimals: 18,
+      },
+      [ChainId.AUR]: {
+        address: '0x2bF9b864cdc97b08B6D79ad4663e71B8aB65c45c',
+        decimals: 18,
+      },
+    },
+  },
+
+  // FDUSD
+  {
+    key: CoinKey.FDUSD,
+    name: CoinKey.FDUSD,
+    logoURI:
+      'https://static.debank.com/image/eth_token/logo_url/0xc5f0f7b66764f6ec8c8dff7ba683102295e16409/9c61b134f82d8780005895d8fb6b19ab.png',
+    verified: true,
+    chains: {
+      [ChainId.ETH]: {
+        address: '0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409',
+        decimals: 18,
+      },
+      [ChainId.BSC]: {
+        address: '0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409',
+        decimals: 18,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
@@ -1829,7 +1902,7 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     symbol: 'WBNB',
     decimals: 18,
     chainId: ChainId.BSC,
-    coinKey: 'WBNB' as CoinKey,
+    coinKey: CoinKey.WBNB,
     name: 'WBNB',
     logoURI:
       'https://static.debank.com/image/coin/logo_url/bnb/9784283a36f23a58982fc964574ea530.png',
@@ -2178,8 +2251,18 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     logoURI:
       'https://static.debank.com/image/xlayer_token/logo_url/0xe538905cf8410324e03a5a23c1c177a474d59b2b/b58d6980429c56560d9241765bdf9c2b.png',
   },
+  [ChainId.OPB]: {
+    // https://opbnb.bscscan.com/token/0x4200000000000000000000000000000000000006
+    address: '0x4200000000000000000000000000000000000006',
+    symbol: 'WBNB',
+    decimals: 18,
+    chainId: ChainId.OPB,
+    coinKey: CoinKey.WBNB,
+    name: 'Wrapped BNB',
+    logoURI:
+      'https://static.debank.com/image/bsc_token/logo_url/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c/1177dec1b9b7f58a799c3f22d93b04e1.png',
+  },
 }
-
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
   const coin = defaultCoins.find((coin) => coin.key === coinKey)
   if (!coin) {
