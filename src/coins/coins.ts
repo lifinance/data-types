@@ -209,11 +209,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
-      [ChainId.POL]: {
-        address: '0xa649325aa7c5093d12d6f98eb4378deae68ce23f',
-        decimals: 18,
-        name: 'Multichain: BNB Token',
-      },
       [ChainId.ONE]: {
         address: '0xb1f6e61e1e113625593a22fa6aa94f8052bc39e0',
         decimals: 18,
