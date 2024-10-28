@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.14.0](https://github.com/lifinance/data-types/compare/v5.13.2...v5.14.0) (2024-10-28)
+
+
+### Features
+
+* add opbnb assets ([#75](https://github.com/lifinance/data-types/issues/75)) ([1919a70](https://github.com/lifinance/data-types/commit/1919a70d4f03a36505c5f82f00b5a77edb5f6257))
+
 ### [5.13.2](https://github.com/lifinance/data-types/compare/v5.13.1...v5.13.2) (2024-10-17)
 
 
