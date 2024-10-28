@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.13.2](https://github.com/lifinance/data-types/compare/v5.13.1...v5.13.2) (2024-10-17)
+
+
+### Bug Fixes
+
+* add wsol as basic coin ([#74](https://github.com/lifinance/data-types/issues/74)) ([4c30b56](https://github.com/lifinance/data-types/commit/4c30b569cec91b99b028baa58602fbae5aa4c00c))
+
 ### [5.13.1](https://github.com/lifinance/data-types/compare/v5.13.0...v5.13.1) (2024-10-02)
 
 
