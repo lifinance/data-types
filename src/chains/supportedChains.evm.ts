@@ -469,22 +469,21 @@ export const supportedEVMChains: EVMChain[] = [
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/cronos.svg',
     tokenlistUrl:
-      'https://raw.githubusercontent.com/cronaswap/cronaswap-tokenlists/main/cronaswap-default.tokenlist.json',
+      'https://raw.githubusercontent.com/cronaswap/default-token-list/refs/heads/main/assets/tokens/cronos.json',
     multicallAddress: multicallAddresses[ChainId.CRO],
     metamask: {
       chainId: prefixChainId(25),
-      blockExplorerUrls: ['https://cronos.org/explorer/'],
+      blockExplorerUrls: [
+        'https://explorer.cronos.org/',
+        'https://cronoscan.com/',
+      ],
       chainName: 'Cronos Mainnet',
       nativeCurrency: {
-        name: 'Crypto.org Coin',
+        name: 'Cronos',
         symbol: 'CRO',
         decimals: 18,
       },
-      rpcUrls: [
-        'https://evm.cronos.org',
-        'https://evm-cronos.crypto.org',
-        'https://cronos.drpc.org',
-      ],
+      rpcUrls: ['https://evm.cronos.org', 'https://cronos.drpc.org'],
     },
   },
   // 288 Boba Network
