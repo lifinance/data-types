@@ -41,7 +41,6 @@ describe.concurrent('EVM chains block explorer check', () => {
     async ({ blockExplorerUrl }) => {
       const response = await fetch(blockExplorerUrl)
 
-      // Ensure the / is removed from the end of the URL
       expect(isSameUrl(blockExplorerUrl, response.url)).toBeTruthy()
       expect(response.ok).toBeTruthy()
       expect(response.status).toBe(200)
