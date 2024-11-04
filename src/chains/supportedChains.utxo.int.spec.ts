@@ -35,28 +35,8 @@ describe.concurrent('UTXO chains RPC check', () => {
   )
 })
 
-describe.only('UTXO chains block explorer check', () => {
-  const blockExplorerUrls = supportedUXTOChains.flatMap((chain) =>
-    chain.metamask.blockExplorerUrls.map((blockExplorerUrl) => ({
-      blockExplorerUrl: blockExplorerUrl,
-      chainId: chain.id,
-      chainName: chain.name,
-    }))
-  )
-
-  test.for(blockExplorerUrls)(
-    `block explorer should be alive $chainName - $chainId - $blockExplorerUrl`,
-    { timeout: 10_000, retry: 3 },
-    async ({ blockExplorerUrl }) => {
-      const response = await fetch(blockExplorerUrl)
-      expect(isSameUrl(blockExplorerUrl, response.url)).toBeTruthy()
-      expect(response.ok).toBe(true)
-      expect(response.status).toBe(200)
-    }
-  )
-})
-
-describe.concurrent('UTXO chains block explorer check', () => {
+// Execute the test sequentially to avoid rate limiting from the block explorer
+describe('UTXO chains block explorer check', () => {
   const blockExplorerUrls = supportedUXTOChains.flatMap((chain) =>
     chain.metamask.blockExplorerUrls.map((blockExplorerUrl) => ({
       blockExplorerUrl: blockExplorerUrl,
