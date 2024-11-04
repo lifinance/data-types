@@ -1,6 +1,7 @@
 import { createPublicClient, http } from 'viem'
 import { describe, expect, test } from 'vitest'
 import { supportedEVMChains } from './supportedChains.evm'
+import { isSameUrl } from './utils'
 
 describe.concurrent('EVM chains RPC check', () => {
   const rpcUrls = supportedEVMChains.flatMap((chain) =>
@@ -39,8 +40,10 @@ describe.concurrent('EVM chains block explorer check', () => {
     { timeout: 10_000, retry: 3 },
     async ({ blockExplorerUrl }) => {
       const response = await fetch(blockExplorerUrl)
-      expect(response.url).toBe(blockExplorerUrl)
-      expect(response.ok).toBe(true)
+
+      // Ensure the / is removed from the end of the URL
+      expect(isSameUrl(blockExplorerUrl, response.url)).toBeTruthy()
+      expect(response.ok).toBeTruthy()
       expect(response.status).toBe(200)
     }
   )
