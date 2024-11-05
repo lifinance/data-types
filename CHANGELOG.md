@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.15.0](https://github.com/lifinance/data-types/compare/v5.14.0...v5.15.0) (2024-11-05)
+
+
+### Features
+
+* update cronos assets ([#76](https://github.com/lifinance/data-types/issues/76)) ([dfb636a](https://github.com/lifinance/data-types/commit/dfb636a2501575b131cca2566c5f8faf934059c4))
+
 ## [5.14.0](https://github.com/lifinance/data-types/compare/v5.13.2...v5.14.0) (2024-10-28)
 
 
