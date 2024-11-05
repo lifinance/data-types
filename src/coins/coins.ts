@@ -385,6 +385,10 @@ export const basicCoins: BasicCoin[] = [
         decimals: 8,
         name: 'Avalanche (Wormhole)',
       },
+      [ChainId.CRO]: {
+        address: '0x8d58088D4E8Ffe75A8b6357ba5ff17B93B912640',
+        decimals: 9,
+      },
     },
   },
   // > ONE
@@ -1636,6 +1640,11 @@ export const basicCoins: BasicCoin[] = [
         symbol: 'WSOL',
         name: 'Token Wrapped SOL (Wormhole)',
       },
+      [ChainId.CRO]: {
+        address: '0xc9DE0F3e08162312528FF72559db82590b481800',
+        decimals: 9,
+        symbol: 'SOL',
+      },
     },
   },
   {
@@ -2039,8 +2048,8 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     symbol: 'WCRO',
     decimals: 18,
     chainId: ChainId.CRO,
-    coinKey: 'WCRO' as CoinKey,
-    name: 'WCRO',
+    coinKey: CoinKey.WCRO,
+    name: 'Wrapped Cronos',
     logoURI:
       'https://raw.githubusercontent.com/cronaswap/default-token-list/main/assets/tokens/cronos/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/logo.png',
   },
