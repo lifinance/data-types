@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.15.1](https://github.com/lifinance/data-types/compare/v5.15.0...v5.15.1) (2024-11-08)
+
+
+### Bug Fixes
+
+* usdt decimals on opbnb ([#79](https://github.com/lifinance/data-types/issues/79)) ([1ea93d3](https://github.com/lifinance/data-types/commit/1ea93d35c391d9c280582b0b5997a1062b541f02))
+
 ## [5.15.0](https://github.com/lifinance/data-types/compare/v5.14.0...v5.15.0) (2024-11-05)
 
 
