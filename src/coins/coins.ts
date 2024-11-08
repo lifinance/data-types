@@ -629,7 +629,7 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.OPB]: {
         address: '0x9e5aac1ba1a2e6aed6b32689dfcf62a509ca96f3',
-        decimals: 6,
+        decimals: 18,
       },
     },
   },
