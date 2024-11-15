@@ -1,6 +1,7 @@
 import { Connection, PublicKey } from '@solana/web3.js'
 import { describe, expect, test } from 'vitest'
 import { supportedSolanaChains } from './supportedChains.svm'
+import { isSameUrl } from './utils'
 
 const TokenProgramAddress = 'TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA'
 const WalletAddress = '6AUWsSCRFSCbrHKH9s84wfzJXtD6mNzAHs11x6pGEcmJ'
@@ -22,8 +23,19 @@ describe.concurrent('SVM chains RPC check', () => {
       const accountPublicKey = new PublicKey(WalletAddress)
       const tokenProgramPublicKey = new PublicKey(TokenProgramAddress)
       const [blockHeight, slot, balance, tokenAccountsByOwner] =
+        // connection.getBlockHeight() with https://solana-rpc.publicnode.com will result in 500 error
         await Promise.allSettled([
-          connection.getBlockHeight(),
+          fetch(rpcUrl, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              jsonrpc: '2.0',
+              id: 1,
+              method: 'getBlockHeight',
+            }),
+          }),
           connection.getSlot(),
           connection.getBalance(accountPublicKey),
           connection.getParsedTokenAccountsByOwner(accountPublicKey, {
@@ -52,8 +64,8 @@ describe.concurrent('SVM chains block explorer check', () => {
     { timeout: 10_000, retry: 3 },
     async ({ blockExplorerUrl }) => {
       const response = await fetch(blockExplorerUrl)
-      expect(response.url).toBe(blockExplorerUrl)
-      expect(response.ok).toBe(true)
+      expect(isSameUrl(blockExplorerUrl, response.url)).toBeTruthy()
+      expect(response.ok).toBeTruthy()
       expect(response.status).toBe(200)
     }
   )

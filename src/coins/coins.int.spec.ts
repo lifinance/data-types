@@ -23,7 +23,7 @@ describe.concurrent('Coin logo test', { timeout: 30_000 }, () => {
     ...Object.values(wrappedTokens).map((token: StaticToken) => token.logoURI!)
   )
 
-  test.each([...new Set(allImages)])(
+  test.each(Array.from(new Set(allImages)))(
     'check that logoURI %s is valid',
     async (image) => {
       expect(image.startsWith('https://')).toBeTruthy()
