@@ -1,6 +1,6 @@
 import type { StaticToken } from '@lifi/types'
 import { describe, expect, test } from 'vitest'
-import { defaultCoins, wrappedTokens } from './coins'
+import { defaultCoins, wrappedTokens } from './coins.js'
 
 describe.concurrent('Coin logo test', { timeout: 30_000 }, () => {
   const allImages: string[] = []

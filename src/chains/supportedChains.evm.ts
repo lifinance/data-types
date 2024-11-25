@@ -1,7 +1,7 @@
 import type { EVMChain } from '@lifi/types'
 import { ChainId, ChainKey, ChainType, CoinKey } from '@lifi/types'
-import { multicallAddresses } from '../multicall'
-import { prefixChainId } from './utils'
+import { multicallAddresses } from '../multicall.js'
+import { prefixChainId } from './utils.js'
 
 /**
  * ChainNames aligned with https://github.com/ethereum-lists/chains/tree/master/_data/chains
