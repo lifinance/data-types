@@ -15,8 +15,8 @@ export const supportedUXTOChains: UTXOChain[] = [
     metamask: {
       chainId: ChainId.BTC.toString(),
       blockExplorerUrls: [
-        'https://mempool.space/',
         'https://blockchair.com/bitcoin/',
+        'https://mempool.space/',
       ],
       chainName: 'Bitcoin',
       nativeCurrency: {
