@@ -1,7 +1,7 @@
 import type { Chain, ChainKey } from '@lifi/types'
-import { supportedEVMChains } from './supportedChains.evm'
-import { supportedSolanaChains } from './supportedChains.svm'
-import { supportedUXTOChains } from './supportedChains.utxo'
+import { supportedEVMChains } from './supportedChains.evm.js'
+import { supportedSolanaChains } from './supportedChains.svm.js'
+import { supportedUXTOChains } from './supportedChains.utxo.js'
 
 // This assignment is required to avoid breaking
 // changes with the new non EVM support types release

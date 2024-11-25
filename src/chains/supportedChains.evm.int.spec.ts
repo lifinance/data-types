@@ -1,6 +1,6 @@
 import { createPublicClient, http } from 'viem'
 import { describe, expect, test } from 'vitest'
-import { supportedEVMChains } from './supportedChains.evm'
+import { supportedEVMChains } from './supportedChains.evm.js'
 
 describe.concurrent('EVM chains RPC check', () => {
   const rpcUrls = supportedEVMChains.flatMap((chain) =>

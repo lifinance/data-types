@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest'
-import { supportedUXTOChains } from './supportedChains.utxo'
+import { supportedUXTOChains } from './supportedChains.utxo.js'
 
 describe.concurrent('UTXO chains RPC check', () => {
   const rpcUrls = supportedUXTOChains.flatMap((chain) =>
