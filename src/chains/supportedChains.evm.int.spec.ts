@@ -42,7 +42,7 @@ describe.concurrent('EVM chains block explorer check', () => {
       const response = await fetch(blockExplorerUrl)
 
       expect(isSameUrl(blockExplorerUrl, response.url)).toBeTruthy()
-      expect(response.ok).toBeTruthy()
+      expect(response.ok).toBe(true)
       expect(response.status).toBe(200)
     }
   )

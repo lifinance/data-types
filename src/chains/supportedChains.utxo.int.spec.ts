@@ -28,7 +28,7 @@ describe.concurrent('UTXO chains RPC check', () => {
         }),
       })
       const data = await response.json()
-      expect(response.ok).toBeTruthy()
+      expect(response.ok).toBe(true)
       expect(response.status).toBe(200)
       expect(data.result.blocks).toBeGreaterThan(0)
     }

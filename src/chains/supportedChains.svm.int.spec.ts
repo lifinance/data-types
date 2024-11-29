@@ -65,7 +65,7 @@ describe.concurrent('SVM chains block explorer check', () => {
     async ({ blockExplorerUrl }) => {
       const response = await fetch(blockExplorerUrl)
       expect(isSameUrl(blockExplorerUrl, response.url)).toBeTruthy()
-      expect(response.ok).toBeTruthy()
+      expect(response.ok).toBe(true)
       expect(response.status).toBe(200)
     }
   )
