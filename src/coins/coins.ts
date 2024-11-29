@@ -131,6 +131,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0xE7798f023fC62146e8Aa1b36Da45fb70855a77Ea',
         decimals: 18,
       },
+      [ChainId.WCC]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
     },
   },
   // > MATIC
@@ -842,6 +846,12 @@ export const basicCoins: BasicCoin[] = [
         name: 'Bridged USD Coin',
         symbol: 'USDC.e',
       },
+      [ChainId.WCC]: {
+        address: '0x79A02482A880bCE3F13e09Da970dC34db4CD24d1',
+        decimals: 6,
+        name: 'Bridged USDC (world-chain-mainnet)',
+        symbol: 'USDC.e',
+      },
     },
   },
   // axlUSDC
@@ -1137,6 +1147,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.XLY]: {
         address: '0xea034fb02eb1808c2cc3adbc15f447b93cbe08e1',
+        decimals: 8,
+      },
+      [ChainId.WCC]: {
+        address: '0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3',
         decimals: 8,
       },
     },
@@ -1801,6 +1815,29 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // WLD
+  {
+    key: CoinKey.WLD,
+    name: CoinKey.WLD,
+    logoURI:
+      'https://static.debank.com/image/eth_token/logo_url/0x163f8c2467924be0ae7b5347228cabf260318753/30ac094d49a4b6e7561810c16ddc8c69.png',
+    verified: true,
+    chains: {
+      [ChainId.ETH]: {
+        address: '0x163f8c2467924be0ae7b5347228cabf260318753',
+        decimals: 18,
+      },
+      [ChainId.OPT]: {
+        address: '0xdC6fF44d5d932Cbd77B52E5612Ba0529DC6226F1',
+        decimals: 18,
+      },
+      [ChainId.WCC]: {
+        address: '0x79A02482A880bCE3F13e09Da970dC34db4CD24d1',
+        decimals: 18,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
@@ -2274,6 +2311,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped BNB',
     logoURI:
       'https://static.debank.com/image/bsc_token/logo_url/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c/1177dec1b9b7f58a799c3f22d93b04e1.png',
+  },
+  [ChainId.WCC]: {
+    // https://worldscan.org/token/0x4200000000000000000000000000000000000006
+    address: '0x4200000000000000000000000000000000000006',
+    symbol: 'WETH',
+    decimals: 18,
+    chainId: ChainId.WCC,
+    coinKey: CoinKey.WETH,
+    name: 'WETH',
+    logoURI:
+      'https://static.debank.com/image/world_token/logo_url/world/48bfb74adddd170e936578aec422836d.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {

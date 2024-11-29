@@ -1068,4 +1068,32 @@ export const supportedEVMChains: EVMChain[] = [
       ],
     },
   },
+
+  // 480 - WCC
+  {
+    key: ChainKey.WCC,
+    chainType: ChainType.EVM,
+    name: 'World Chain',
+    coin: CoinKey.ETH,
+    id: ChainId.WCC,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/world.svg',
+    multicallAddress: multicallAddresses[ChainId.WCC],
+
+    metamask: {
+      chainId: prefixChainId(480),
+      blockExplorerUrls: ['worldscan.org'],
+      chainName: 'Worldchain Mainnet',
+      nativeCurrency: {
+        name: 'Ethereum',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: [
+        'https://worldchain-mainnet.g.alchemy.com/public',
+        'https://worldchain-mainnet.gateway.tenderly.co',
+      ],
+    },
+  },
 ]
