@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.16.0](https://github.com/lifinance/data-types/compare/v5.15.5...v5.16.0) (2024-12-09)
+
+
+### Features
+
+* add worldcoin assets ([#85](https://github.com/lifinance/data-types/issues/85)) ([adddbe8](https://github.com/lifinance/data-types/commit/adddbe8d17e8875f040c64c54d893b9e155ffc36))
+
 ### [5.15.5](https://github.com/lifinance/data-types/compare/v5.15.4...v5.15.5) (2024-11-25)
 
 ### [5.15.4](https://github.com/lifinance/data-types/compare/v5.15.3...v5.15.4) (2024-11-25)
