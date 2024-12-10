@@ -1107,7 +1107,7 @@ export const supportedEVMChains: EVMChain[] = [
     mainnet: true,
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/lisk.svg',
-    multicallAddress: multicallAddresses[ChainId.ETH],
+    multicallAddress: multicallAddresses[ChainId.LSK],
 
     metamask: {
       chainId: prefixChainId(1135),
