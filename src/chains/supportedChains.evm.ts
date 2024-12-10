@@ -1083,7 +1083,7 @@ export const supportedEVMChains: EVMChain[] = [
 
     metamask: {
       chainId: prefixChainId(480),
-      blockExplorerUrls: ['worldscan.org'],
+      blockExplorerUrls: ['https://worldscan.org/'],
       chainName: 'Worldchain Mainnet',
       nativeCurrency: {
         name: 'Ethereum',
