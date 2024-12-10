@@ -1096,4 +1096,29 @@ export const supportedEVMChains: EVMChain[] = [
       ],
     },
   },
+
+  // 1135 - LSK
+  {
+    key: ChainKey.LSK,
+    chainType: ChainType.EVM,
+    name: 'Lisk',
+    coin: CoinKey.ETH,
+    id: ChainId.LSK,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/lisk.svg',
+    multicallAddress: multicallAddresses[ChainId.ETH],
+
+    metamask: {
+      chainId: prefixChainId(1135),
+      blockExplorerUrls: ['https://blockscout.lisk.com/'],
+      chainName: 'Lisk',
+      nativeCurrency: {
+        name: 'Ethereum',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.api.lisk.com', 'https://lisk.drpc.org'],
+    },
+  },
 ]
