@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.17.0](https://github.com/lifinance/data-types/compare/v5.16.0...v5.17.0) (2024-12-10)
+
+
+### Features
+
+* add weth to worldchain and fix worldchain explorer ([#86](https://github.com/lifinance/data-types/issues/86)) ([fc70f19](https://github.com/lifinance/data-types/commit/fc70f19d928c8a63ab3df61837d83ef61482923a))
+
 ## [5.16.0](https://github.com/lifinance/data-types/compare/v5.15.5...v5.16.0) (2024-12-09)
 
 
