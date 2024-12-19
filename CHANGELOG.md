@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.18.0](https://github.com/lifinance/data-types/compare/v5.17.0...v5.18.0) (2024-12-19)
+
+
+### Features
+
+* add wbtc on sei chain ([#88](https://github.com/lifinance/data-types/issues/88)) ([1e1c759](https://github.com/lifinance/data-types/commit/1e1c7597a1c8a5cd05108244f141007c0e6ee3bb))
+
 ## [5.17.0](https://github.com/lifinance/data-types/compare/v5.16.0...v5.17.0) (2024-12-10)
 
 
