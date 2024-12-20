@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.19.0](https://github.com/lifinance/data-types/compare/v5.18.0...v5.19.0) (2024-12-20)
+
+
+### Features
+
+* add lisk token assets ([#87](https://github.com/lifinance/data-types/issues/87)) ([d842b1a](https://github.com/lifinance/data-types/commit/d842b1a9dfc4ede713d98a087d61776fbc34da71))
+
 ## [5.18.0](https://github.com/lifinance/data-types/compare/v5.17.0...v5.18.0) (2024-12-19)
 
 
