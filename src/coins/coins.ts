@@ -135,6 +135,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
+      [ChainId.LSK]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
     },
   },
   // > MATIC
@@ -635,6 +639,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x9e5aac1ba1a2e6aed6b32689dfcf62a509ca96f3',
         decimals: 18,
       },
+      [ChainId.LSK]: {
+        address: '0x05d032ac25d322df992303dca074ee7392c117b9',
+        decimals: 6,
+      },
     },
   },
 
@@ -850,6 +858,12 @@ export const basicCoins: BasicCoin[] = [
         address: '0x79A02482A880bCE3F13e09Da970dC34db4CD24d1',
         decimals: 6,
         name: 'Bridged USDC (world-chain-mainnet)',
+        symbol: 'USDC.e',
+      },
+      [ChainId.LSK]: {
+        address: '0xf242275d3a6527d877f2c927a82d9b057609cc71',
+        decimals: 6,
+        name: 'Bridged USDC (Lisk)',
         symbol: 'USDC.e',
       },
     },
@@ -1157,6 +1171,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
         decimals: 8,
       },
+      [ChainId.LSK]: {
+        address: '0x03c7054bcb39f7b2e5b2c7acb37583e32d70cfa3',
+        decimals: 8,
+      },
     },
   },
 
@@ -1296,6 +1314,10 @@ export const basicCoins: BasicCoin[] = [
         decimals: 18,
       },
       [ChainId.WCC]: {
+        address: '0x4200000000000000000000000000000000000006',
+        decimals: 18,
+      },
+      [ChainId.LSK]: {
         address: '0x4200000000000000000000000000000000000006',
         decimals: 18,
       },
@@ -1846,6 +1868,25 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // LSK
+  {
+    key: CoinKey.LSK,
+    name: CoinKey.LSK,
+    logoURI:
+      'https://static.debank.com/image/lisk_token/logo_url/0xac485391eb2d7d88253a7f1ef18c37f4242d1a24/b8f1b2ca1cb34102fe9118b5670c07e2.png',
+    verified: true,
+    chains: {
+      [ChainId.LSK]: {
+        address: '0xac485391EB2d7D88253a7F1eF18C37f4242D1A24',
+        decimals: 18,
+      },
+      [ChainId.ETH]: {
+        address: '0x6033F7f88332B8db6ad452B7C6D5bB643990aE3f',
+        decimals: 18,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
@@ -2330,6 +2371,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'WETH',
     logoURI:
       'https://static.debank.com/image/world_token/logo_url/world/48bfb74adddd170e936578aec422836d.png',
+  },
+  [ChainId.LSK]: {
+    // https://blockscout.lisk.com/token/0x4200000000000000000000000000000000000006
+    address: '0x4200000000000000000000000000000000000006',
+    symbol: 'WETH',
+    decimals: 18,
+    chainId: ChainId.LSK,
+    coinKey: CoinKey.WETH,
+    name: 'WETH',
+    logoURI:
+      'https://static.debank.com/image/lyra_token/logo_url/lyra/48bfb74adddd170e936578aec422836d.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {

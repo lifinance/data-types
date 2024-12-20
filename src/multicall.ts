@@ -48,6 +48,7 @@ export const multicallAddresses: { [ChainId: number]: string } = {
   [ChainId.XLY]: '0xcA11bde05977b3631167028862bE2a173976CA11',
   [ChainId.OPB]: '0xcA11bde05977b3631167028862bE2a173976CA11',
   [ChainId.WCC]: '0xcA11bde05977b3631167028862bE2a173976CA11',
+  [ChainId.LSK]: '0xcA11bde05977b3631167028862bE2a173976CA11',
 
   // TODO
   // [ChainId.EXP]: '', // TODO
