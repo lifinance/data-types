@@ -1,7 +1,7 @@
 import type { EVMChain } from '@lifi/types'
 import { ChainId, ChainKey, ChainType, CoinKey } from '@lifi/types'
-import { multicallAddresses } from '../multicall'
-import { prefixChainId } from './utils'
+import { multicallAddresses } from '../multicall.js'
+import { prefixChainId } from './utils.js'
 
 /**
  * ChainNames aligned with https://github.com/ethereum-lists/chains/tree/master/_data/chains
@@ -35,7 +35,6 @@ export const supportedEVMChains: EVMChain[] = [
         'https://ethereum-rpc.publicnode.com',
         'https://eth.drpc.org',
         'https://eth.public-rpc.com',
-        'https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161',
         'https://rpc.ankr.com/eth',
       ],
     },
@@ -469,22 +468,21 @@ export const supportedEVMChains: EVMChain[] = [
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/cronos.svg',
     tokenlistUrl:
-      'https://raw.githubusercontent.com/cronaswap/cronaswap-tokenlists/main/cronaswap-default.tokenlist.json',
+      'https://raw.githubusercontent.com/cronaswap/default-token-list/refs/heads/main/assets/tokens/cronos.json',
     multicallAddress: multicallAddresses[ChainId.CRO],
     metamask: {
       chainId: prefixChainId(25),
-      blockExplorerUrls: ['https://cronos.org/explorer/'],
+      blockExplorerUrls: [
+        'https://explorer.cronos.org/',
+        'https://cronoscan.com/',
+      ],
       chainName: 'Cronos Mainnet',
       nativeCurrency: {
-        name: 'Crypto.org Coin',
+        name: 'Cronos',
         symbol: 'CRO',
         decimals: 18,
       },
-      rpcUrls: [
-        'https://evm.cronos.org',
-        'https://evm-cronos.crypto.org',
-        'https://cronos.drpc.org',
-      ],
+      rpcUrls: ['https://evm.cronos.org', 'https://cronos.drpc.org'],
     },
   },
   // 288 Boba Network
@@ -1067,6 +1065,59 @@ export const supportedEVMChains: EVMChain[] = [
         'https://opbnb-mainnet-rpc.bnbchain.org',
         'https://1rpc.io/opbnb',
       ],
+    },
+  },
+
+  // 480 - WCC
+  {
+    key: ChainKey.WCC,
+    chainType: ChainType.EVM,
+    name: 'World Chain',
+    coin: CoinKey.ETH,
+    id: ChainId.WCC,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/world.svg',
+    multicallAddress: multicallAddresses[ChainId.WCC],
+
+    metamask: {
+      chainId: prefixChainId(480),
+      blockExplorerUrls: ['https://worldscan.org/'],
+      chainName: 'Worldchain Mainnet',
+      nativeCurrency: {
+        name: 'Ethereum',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: [
+        'https://worldchain-mainnet.g.alchemy.com/public',
+        'https://worldchain-mainnet.gateway.tenderly.co',
+      ],
+    },
+  },
+
+  // 1135 - LSK
+  {
+    key: ChainKey.LSK,
+    chainType: ChainType.EVM,
+    name: 'Lisk',
+    coin: CoinKey.ETH,
+    id: ChainId.LSK,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/lisk.svg',
+    multicallAddress: multicallAddresses[ChainId.LSK],
+
+    metamask: {
+      chainId: prefixChainId(1135),
+      blockExplorerUrls: ['https://blockscout.lisk.com/'],
+      chainName: 'Lisk',
+      nativeCurrency: {
+        name: 'Ethereum',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.api.lisk.com', 'https://lisk.drpc.org'],
     },
   },
 ]

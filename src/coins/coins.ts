@@ -131,6 +131,14 @@ export const basicCoins: BasicCoin[] = [
         address: '0xE7798f023fC62146e8Aa1b36Da45fb70855a77Ea',
         decimals: 18,
       },
+      [ChainId.WCC]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+      [ChainId.LSK]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
     },
   },
   // > MATIC
@@ -385,6 +393,10 @@ export const basicCoins: BasicCoin[] = [
         decimals: 8,
         name: 'Avalanche (Wormhole)',
       },
+      [ChainId.CRO]: {
+        address: '0x8d58088D4E8Ffe75A8b6357ba5ff17B93B912640',
+        decimals: 9,
+      },
     },
   },
   // > ONE
@@ -625,6 +637,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.OPB]: {
         address: '0x9e5aac1ba1a2e6aed6b32689dfcf62a509ca96f3',
+        decimals: 18,
+      },
+      [ChainId.LSK]: {
+        address: '0x05d032ac25d322df992303dca074ee7392c117b9',
         decimals: 6,
       },
     },
@@ -836,6 +852,18 @@ export const basicCoins: BasicCoin[] = [
         address: '0xB12BFcA5A55806AaF64E99521918A4bf0fC40802',
         decimals: 6,
         name: 'Bridged USD Coin',
+        symbol: 'USDC.e',
+      },
+      [ChainId.WCC]: {
+        address: '0x79A02482A880bCE3F13e09Da970dC34db4CD24d1',
+        decimals: 6,
+        name: 'Bridged USDC (world-chain-mainnet)',
+        symbol: 'USDC.e',
+      },
+      [ChainId.LSK]: {
+        address: '0xf242275d3a6527d877f2c927a82d9b057609cc71',
+        decimals: 6,
+        name: 'Bridged USDC (Lisk)',
         symbol: 'USDC.e',
       },
     },
@@ -1135,6 +1163,18 @@ export const basicCoins: BasicCoin[] = [
         address: '0xea034fb02eb1808c2cc3adbc15f447b93cbe08e1',
         decimals: 8,
       },
+      [ChainId.WCC]: {
+        address: '0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3',
+        decimals: 8,
+      },
+      [ChainId.SEI]: {
+        address: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
+        decimals: 8,
+      },
+      [ChainId.LSK]: {
+        address: '0x03c7054bcb39f7b2e5b2c7acb37583e32d70cfa3',
+        decimals: 8,
+      },
     },
   },
 
@@ -1267,6 +1307,18 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.XLY]: {
         address: '0x5a77f1443d16ee5761d310e38b62f77f726bc71c',
+        decimals: 18,
+      },
+      [ChainId.TAI]: {
+        address: '0xA51894664A773981C6C112C43ce576f315d5b1B6',
+        decimals: 18,
+      },
+      [ChainId.WCC]: {
+        address: '0x4200000000000000000000000000000000000006',
+        decimals: 18,
+      },
+      [ChainId.LSK]: {
+        address: '0x4200000000000000000000000000000000000006',
         decimals: 18,
       },
     },
@@ -1636,6 +1688,11 @@ export const basicCoins: BasicCoin[] = [
         symbol: 'WSOL',
         name: 'Token Wrapped SOL (Wormhole)',
       },
+      [ChainId.CRO]: {
+        address: '0xc9DE0F3e08162312528FF72559db82590b481800',
+        decimals: 9,
+        symbol: 'SOL',
+      },
     },
   },
   {
@@ -1783,6 +1840,48 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.BSC]: {
         address: '0xc5f0f7b66764F6ec8C8Dff7BA683102295E16409',
+        decimals: 18,
+      },
+    },
+  },
+
+  // WLD
+  {
+    key: CoinKey.WLD,
+    name: CoinKey.WLD,
+    logoURI:
+      'https://static.debank.com/image/eth_token/logo_url/0x163f8c2467924be0ae7b5347228cabf260318753/30ac094d49a4b6e7561810c16ddc8c69.png',
+    verified: true,
+    chains: {
+      [ChainId.ETH]: {
+        address: '0x163f8c2467924be0ae7b5347228cabf260318753',
+        decimals: 18,
+      },
+      [ChainId.OPT]: {
+        address: '0xdC6fF44d5d932Cbd77B52E5612Ba0529DC6226F1',
+        decimals: 18,
+      },
+      [ChainId.WCC]: {
+        address: '0x2cFc85d8E48F8EAB294be644d9E25C3030863003',
+        decimals: 18,
+      },
+    },
+  },
+
+  // LSK
+  {
+    key: CoinKey.LSK,
+    name: CoinKey.LSK,
+    logoURI:
+      'https://static.debank.com/image/lisk_token/logo_url/0xac485391eb2d7d88253a7f1ef18c37f4242d1a24/b8f1b2ca1cb34102fe9118b5670c07e2.png',
+    verified: true,
+    chains: {
+      [ChainId.LSK]: {
+        address: '0xac485391EB2d7D88253a7F1eF18C37f4242D1A24',
+        decimals: 18,
+      },
+      [ChainId.ETH]: {
+        address: '0x6033F7f88332B8db6ad452B7C6D5bB643990aE3f',
         decimals: 18,
       },
     },
@@ -2039,8 +2138,8 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     symbol: 'WCRO',
     decimals: 18,
     chainId: ChainId.CRO,
-    coinKey: 'WCRO' as CoinKey,
-    name: 'WCRO',
+    coinKey: CoinKey.WCRO,
+    name: 'Wrapped Cronos',
     logoURI:
       'https://raw.githubusercontent.com/cronaswap/default-token-list/main/assets/tokens/cronos/0x5C7F8A570d578ED84E63fdFA7b1eE72dEae1AE23/logo.png',
   },
@@ -2261,6 +2360,28 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped BNB',
     logoURI:
       'https://static.debank.com/image/bsc_token/logo_url/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c/1177dec1b9b7f58a799c3f22d93b04e1.png',
+  },
+  [ChainId.WCC]: {
+    // https://worldscan.org/token/0x4200000000000000000000000000000000000006
+    address: '0x4200000000000000000000000000000000000006',
+    symbol: 'WETH',
+    decimals: 18,
+    chainId: ChainId.WCC,
+    coinKey: CoinKey.WETH,
+    name: 'WETH',
+    logoURI:
+      'https://static.debank.com/image/world_token/logo_url/world/48bfb74adddd170e936578aec422836d.png',
+  },
+  [ChainId.LSK]: {
+    // https://blockscout.lisk.com/token/0x4200000000000000000000000000000000000006
+    address: '0x4200000000000000000000000000000000000006',
+    symbol: 'WETH',
+    decimals: 18,
+    chainId: ChainId.LSK,
+    coinKey: CoinKey.WETH,
+    name: 'WETH',
+    logoURI:
+      'https://static.debank.com/image/lyra_token/logo_url/lyra/48bfb74adddd170e936578aec422836d.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {

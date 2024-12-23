@@ -4,10 +4,14 @@ import {
   findDefaultToken,
   findTokenByChainIdAndAddress,
   findWrappedGasOnChain,
-} from '../coins'
-import { getChainById, getChainByKey, supportedChains } from './supportedChains'
-import { supportedEVMChains } from './supportedChains.evm'
-import { prefixChainId } from './utils'
+} from '../coins/index.js'
+import {
+  getChainById,
+  getChainByKey,
+  supportedChains,
+} from './supportedChains.js'
+import { supportedEVMChains } from './supportedChains.evm.js'
+import { prefixChainId } from './utils.js'
 
 test('getChainById', () => {
   expect(getChainById(ChainId.ETH)).toBeDefined()
@@ -88,6 +92,7 @@ describe('validate chains', () => {
       chain.metamask.blockExplorerUrls.forEach((blockExplorerUrl) => {
         expect(blockExplorerUrl.startsWith('https://')).toBeTruthy()
         expect(blockExplorerUrl.endsWith('/')).toBeTruthy()
+        expect(new URL(blockExplorerUrl)).toBeDefined()
       })
 
       const chainId = prefixChainId(chain.id)

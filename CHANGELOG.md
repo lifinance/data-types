@@ -2,6 +2,61 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.19.0](https://github.com/lifinance/data-types/compare/v5.18.0...v5.19.0) (2024-12-20)
+
+
+### Features
+
+* add lisk token assets ([#87](https://github.com/lifinance/data-types/issues/87)) ([d842b1a](https://github.com/lifinance/data-types/commit/d842b1a9dfc4ede713d98a087d61776fbc34da71))
+
+## [5.18.0](https://github.com/lifinance/data-types/compare/v5.17.0...v5.18.0) (2024-12-19)
+
+
+### Features
+
+* add wbtc on sei chain ([#88](https://github.com/lifinance/data-types/issues/88)) ([1e1c759](https://github.com/lifinance/data-types/commit/1e1c7597a1c8a5cd05108244f141007c0e6ee3bb))
+
+## [5.17.0](https://github.com/lifinance/data-types/compare/v5.16.0...v5.17.0) (2024-12-10)
+
+
+### Features
+
+* add weth to worldchain and fix worldchain explorer ([#86](https://github.com/lifinance/data-types/issues/86)) ([fc70f19](https://github.com/lifinance/data-types/commit/fc70f19d928c8a63ab3df61837d83ef61482923a))
+
+## [5.16.0](https://github.com/lifinance/data-types/compare/v5.15.5...v5.16.0) (2024-12-09)
+
+
+### Features
+
+* add worldcoin assets ([#85](https://github.com/lifinance/data-types/issues/85)) ([adddbe8](https://github.com/lifinance/data-types/commit/adddbe8d17e8875f040c64c54d893b9e155ffc36))
+
+### [5.15.5](https://github.com/lifinance/data-types/compare/v5.15.4...v5.15.5) (2024-11-25)
+
+### [5.15.4](https://github.com/lifinance/data-types/compare/v5.15.3...v5.15.4) (2024-11-25)
+
+### [5.15.3](https://github.com/lifinance/data-types/compare/v5.15.2...v5.15.3) (2024-11-15)
+
+
+### Bug Fixes
+
+* add WETH for TAI ([#82](https://github.com/lifinance/data-types/issues/82)) ([dcd8bd6](https://github.com/lifinance/data-types/commit/dcd8bd678316ab938d5313274ea548e1543ad933))
+
+### [5.15.2](https://github.com/lifinance/data-types/compare/v5.15.1...v5.15.2) (2024-11-08)
+
+### [5.15.1](https://github.com/lifinance/data-types/compare/v5.15.0...v5.15.1) (2024-11-08)
+
+
+### Bug Fixes
+
+* usdt decimals on opbnb ([#79](https://github.com/lifinance/data-types/issues/79)) ([1ea93d3](https://github.com/lifinance/data-types/commit/1ea93d35c391d9c280582b0b5997a1062b541f02))
+
+## [5.15.0](https://github.com/lifinance/data-types/compare/v5.14.0...v5.15.0) (2024-11-05)
+
+
+### Features
+
+* update cronos assets ([#76](https://github.com/lifinance/data-types/issues/76)) ([dfb636a](https://github.com/lifinance/data-types/commit/dfb636a2501575b131cca2566c5f8faf934059c4))
+
 ## [5.14.0](https://github.com/lifinance/data-types/compare/v5.13.2...v5.14.0) (2024-10-28)
 
 
