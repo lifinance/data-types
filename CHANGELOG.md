@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.19.1](https://github.com/lifinance/data-types/compare/v5.19.0...v5.19.1) (2025-01-03)
+
+
+### Bug Fixes
+
+* update usdc addresses on era ([#89](https://github.com/lifinance/data-types/issues/89)) ([5771310](https://github.com/lifinance/data-types/commit/57713104c602ce762a7ec98116c11b51fd4158ef))
+
 ## [5.19.0](https://github.com/lifinance/data-types/compare/v5.18.0...v5.19.0) (2024-12-20)
 
 
