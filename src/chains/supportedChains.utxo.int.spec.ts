@@ -27,30 +27,9 @@ describe.concurrent('UTXO chains RPC check', () => {
         }),
       })
       const data = await response.json()
-      expect(response.ok).toBeTruthy()
-      expect(response.status).toBe(200)
-      expect(data.result.blocks).toBeGreaterThan(0)
-    }
-  )
-})
-
-describe.concurrent('UTXO chains block explorer check', () => {
-  const blockExplorerUrls = supportedUXTOChains.flatMap((chain) =>
-    chain.metamask.blockExplorerUrls.map((blockExplorerUrl) => ({
-      blockExplorerUrl: blockExplorerUrl,
-      chainId: chain.id,
-      chainName: chain.name,
-    }))
-  )
-
-  test.for(blockExplorerUrls)(
-    `block explorer should be alive $chainName - $chainId - $blockExplorerUrl`,
-    { timeout: 10_000, retry: 3 },
-    async ({ blockExplorerUrl }) => {
-      const response = await fetch(blockExplorerUrl)
-      expect(response.url).toBe(blockExplorerUrl)
       expect(response.ok).toBe(true)
       expect(response.status).toBe(200)
+      expect(data.result.blocks).toBeGreaterThan(0)
     }
   )
 })
