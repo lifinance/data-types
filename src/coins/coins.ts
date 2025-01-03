@@ -684,7 +684,7 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
       },
       [ChainId.ERA]: {
-        address: '0x3355df6d4c9c3035724fd0e3914de96a5a83aaf4',
+        address: '0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4',
         decimals: 6,
       },
       [ChainId.PZE]: {
@@ -864,6 +864,12 @@ export const basicCoins: BasicCoin[] = [
         address: '0xf242275d3a6527d877f2c927a82d9b057609cc71',
         decimals: 6,
         name: 'Bridged USDC (Lisk)',
+        symbol: 'USDC.e',
+      },
+      [ChainId.ERA]: {
+        address: '0x3355df6d4c9c3035724fd0e3914de96a5a83aaf4',
+        decimals: 6,
+        name: 'Bridged USD Coin',
         symbol: 'USDC.e',
       },
     },
