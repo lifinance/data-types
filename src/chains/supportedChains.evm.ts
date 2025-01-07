@@ -1121,4 +1121,29 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://rpc.api.lisk.com', 'https://lisk.drpc.org'],
     },
   },
+
+  // 146 - Sonic
+  {
+    key: ChainKey.SON,
+    chainType: ChainType.EVM,
+    name: 'Sonic',
+    coin: CoinKey.S,
+    id: ChainId.SON,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/sonic.png',
+    multicallAddress: multicallAddresses[ChainId.SON],
+
+    metamask: {
+      chainId: prefixChainId(146),
+      blockExplorerUrls: ['https://sonicscan.org/'],
+      chainName: 'Sonic Network',
+      nativeCurrency: {
+        name: 'Sonic',
+        symbol: 'S',
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.soniclabs.com', 'https://sonic.drpc.org'],
+    },
+  },
 ]

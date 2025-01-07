@@ -872,6 +872,12 @@ export const basicCoins: BasicCoin[] = [
         name: 'Bridged USD Coin',
         symbol: 'USDC.e',
       },
+      [ChainId.SON]: {
+        address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
+        decimals: 6,
+        name: 'Bridged USDC (Sonic Labs)',
+        symbol: 'USDC.e',
+      },
     },
   },
   // axlUSDC
@@ -1325,6 +1331,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.LSK]: {
         address: '0x4200000000000000000000000000000000000006',
+        decimals: 18,
+      },
+      [ChainId.SON]: {
+        address: '0x50c42dEAcD8Fc9773493ED674b675bE577f2634b',
         decimals: 18,
       },
     },
@@ -1893,6 +1903,21 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // Sonic
+  {
+    key: CoinKey.S,
+    name: CoinKey.S,
+    logoURI:
+      'https://static.debank.com/image/sonic_token/logo_url/0x039e2fb66102314ce7b64ce5ce3e5183bc94ad38/b4cc70d040518a88adac18d906fcbfff.png',
+    verified: true,
+    chains: {
+      [ChainId.SON]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
@@ -2388,6 +2413,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'WETH',
     logoURI:
       'https://static.debank.com/image/lyra_token/logo_url/lyra/48bfb74adddd170e936578aec422836d.png',
+  },
+  [ChainId.SON]: {
+    // https://sonicscan.org/token/0x039e2fb66102314ce7b64ce5ce3e5183bc94ad38
+    address: '0x039e2fb66102314ce7b64ce5ce3e5183bc94ad38',
+    symbol: 'WETH',
+    decimals: 18,
+    chainId: ChainId.SON,
+    coinKey: CoinKey.WETH,
+    name: 'WETH',
+    logoURI:
+      'https://static.debank.com/image/sonic_token/logo_url/0x039e2fb66102314ce7b64ce5ce3e5183bc94ad38/b4cc70d040518a88adac18d906fcbfff.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
