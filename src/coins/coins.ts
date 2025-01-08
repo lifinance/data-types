@@ -139,6 +139,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
+      [ChainId.ABS]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
     },
   },
   // > MATIC
@@ -1327,6 +1331,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x4200000000000000000000000000000000000006',
         decimals: 18,
       },
+      [ChainId.ABS]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
     },
   },
 
@@ -2384,6 +2392,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     symbol: 'WETH',
     decimals: 18,
     chainId: ChainId.LSK,
+    coinKey: CoinKey.WETH,
+    name: 'WETH',
+    logoURI:
+      'https://static.debank.com/image/lyra_token/logo_url/lyra/48bfb74adddd170e936578aec422836d.png',
+  },
+  [ChainId.ABS]: {
+    // https://blockscout.lisk.com/token/0x4200000000000000000000000000000000000006
+    address: '0x4200000000000000000000000000000000000006',
+    symbol: 'WETH',
+    decimals: 18,
+    chainId: ChainId.ABS,
     coinKey: CoinKey.WETH,
     name: 'WETH',
     logoURI:
