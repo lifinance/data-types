@@ -1131,7 +1131,7 @@ export const supportedEVMChains: EVMChain[] = [
     id: ChainId.SON,
     mainnet: true,
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/sonic.png',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/sonic.svg',
     multicallAddress: multicallAddresses[ChainId.SON],
 
     metamask: {
