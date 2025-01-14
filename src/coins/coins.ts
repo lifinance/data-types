@@ -2421,7 +2421,7 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     decimals: 18,
     chainId: ChainId.SON,
     coinKey: CoinKey.wS,
-    name: 'wS',
+    name: 'Wrapped Sonic',
     logoURI:
       'https://static.debank.com/image/sonic_token/logo_url/0x039e2fb66102314ce7b64ce5ce3e5183bc94ad38/b4cc70d040518a88adac18d906fcbfff.png',
   },
