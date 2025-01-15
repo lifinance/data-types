@@ -647,6 +647,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x05d032ac25d322df992303dca074ee7392c117b9',
         decimals: 6,
       },
+      [ChainId.ABS]: {
+        address: '0x0709F39376dEEe2A2dfC94A58EdEb2Eb9DF012bD',
+        decimals: 6,
+      },
     },
   },
 
@@ -874,6 +878,12 @@ export const basicCoins: BasicCoin[] = [
         address: '0x3355df6d4c9c3035724fd0e3914de96a5a83aaf4',
         decimals: 6,
         name: 'Bridged USD Coin',
+        symbol: 'USDC.e',
+      },
+      [ChainId.ABS]: {
+        address: '0x84A71ccD554Cc1b02749b35d22F684CC8ec987e1',
+        decimals: 6,
+        name: 'Bridged USD (Stargate)',
         symbol: 'USDC.e',
       },
     },
@@ -1332,7 +1342,7 @@ export const basicCoins: BasicCoin[] = [
         decimals: 18,
       },
       [ChainId.ABS]: {
-        address: '0x0000000000000000000000000000000000000000',
+        address: '0x3439153EB7AF838Ad19d56E1571FBD09333C2809',
         decimals: 18,
       },
     },
@@ -2398,8 +2408,8 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
       'https://static.debank.com/image/lyra_token/logo_url/lyra/48bfb74adddd170e936578aec422836d.png',
   },
   [ChainId.ABS]: {
-    // https://blockscout.lisk.com/token/0x4200000000000000000000000000000000000006
-    address: '0x4200000000000000000000000000000000000006',
+    // https://explorer.mainnet.abs.xyz/address/0x3439153EB7AF838Ad19d56E1571FBD09333C2809
+    address: '0x3439153EB7AF838Ad19d56E1571FBD09333C2809',
     symbol: 'WETH',
     decimals: 18,
     chainId: ChainId.ABS,
