@@ -1143,7 +1143,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'ETH',
         decimals: 18,
       },
-      rpcUrls: ['https://api.raas.matterhosted.dev/'],
+      rpcUrls: [],
     },
   },
 ]
