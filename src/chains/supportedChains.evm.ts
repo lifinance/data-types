@@ -35,7 +35,6 @@ export const supportedEVMChains: EVMChain[] = [
         'https://ethereum-rpc.publicnode.com',
         'https://eth.drpc.org',
         'https://eth.public-rpc.com',
-        'https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161',
         'https://rpc.ankr.com/eth',
       ],
     },
