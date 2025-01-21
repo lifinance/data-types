@@ -124,7 +124,7 @@ dist
 .pnp.*
 
 # ignore lock files of other package managers
-pnpm-lock.yaml
+yarn.lock
 package-lock.json
 
 .DS_Store
