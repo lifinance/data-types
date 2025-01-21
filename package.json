@@ -50,7 +50,7 @@
     "!src/**/*.tsbuildinfo"
   ],
   "scripts": {
-    "build": "yarn clean && yarn build:cjs && yarn build:esm && yarn build:types",
+    "build": "pnpm clean && pnpm build:cjs && pnpm build:esm && pnpm build:types",
     "build:cjs": "tsc --project ./tsconfig.build.json --module commonjs --outDir ./src/_cjs --removeComments --verbatimModuleSyntax false && printf '{\"type\":\"commonjs\"}' > ./src/_cjs/package.json",
     "build:esm": "tsc --project ./tsconfig.build.json --module es2015 --outDir ./src/_esm && printf '{\"type\": \"module\",\"sideEffects\":false}' > ./src/_esm/package.json",
     "build:types": "tsc --project ./tsconfig.build.json --module esnext --declarationDir ./src/_types --emitDeclarationOnly --declaration --declarationMap",
@@ -60,8 +60,8 @@
     "postinstall": "husky install",
     "postpack": "pinst --enable",
     "pre-commit": "lint-staged",
-    "pre-push": "yarn build",
-    "prepublishOnly": "yarn node scripts/prepublishOnly.js",
+    "pre-push": "pnpm build",
+    "prepublishOnly": "pnpm node scripts/prepublishOnly.js",
     "prepack": "pinst --disable",
     "prettier:fix": "prettier --write ./src/.",
     "release": "standard-version -a",
@@ -69,12 +69,12 @@
     "release:beta": "standard-version -a --prerelease beta --skip.changelog",
     "typecheck": "tsc --noEmit",
     "test": "vitest --run",
-    "test:cov": "yarn test --coverage"
+    "test:cov": "pnpm test --coverage"
   },
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
-      "yarn run lint:fix",
-      "yarn run prettier:fix"
+      "pnpm run lint:fix",
+      "pnpm run prettier:fix"
     ]
   },
   "dependencies": {
@@ -87,7 +87,7 @@
     "@types/fs-extra": "^11.0.4",
     "@typescript-eslint/eslint-plugin": "^7.17.0",
     "@typescript-eslint/parser": "^7.17.0",
-    "@vitest/coverage-v8": "^2.0.4",
+    "@vitest/coverage-v8": "^3.0.3",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
@@ -99,9 +99,9 @@
     "standard-version": "^9.5.0",
     "typescript": "^5.5.4",
     "viem": "^2.18.0",
-    "vitest": "^2.0.4"
+    "vitest": "^3.0.3"
   },
-  "packageManager": "yarn@4.3.1",
+  "packageManager": "pnpm@9.15.4",
   "publishConfig": {
     "access": "public"
   }

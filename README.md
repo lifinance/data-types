@@ -19,7 +19,7 @@ Check out the [Changelog](./CHANGELOG.md) to see what changed in the last releas
 ## Installation
 
 ```bash
-yarn add @lifi/data-types
+pnpm add @lifi/data-types
 ```
 
 or
