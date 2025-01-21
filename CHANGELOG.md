@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.20.0](https://github.com/lifinance/data-types/compare/v5.19.1...v5.20.0) (2025-01-16)
+
+
+### Features
+
+* add new chain abstract ([#91](https://github.com/lifinance/data-types/issues/91)) ([2368997](https://github.com/lifinance/data-types/commit/2368997a6352ef56fa58bbcd9094751fe61832c1))
+
+
+### Bug Fixes
+
+* abstract setting issues ([bfa9b3b](https://github.com/lifinance/data-types/commit/bfa9b3bc8b5693bcb073260847e4bfc008715939))
+
+### [5.19.2](https://github.com/lifinance/data-types/compare/v5.20.0-beta.4...v5.19.2) (2025-01-15)
+
 ### [5.19.1](https://github.com/lifinance/data-types/compare/v5.19.0...v5.19.1) (2025-01-03)
 
 

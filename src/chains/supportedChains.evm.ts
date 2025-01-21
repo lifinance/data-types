@@ -1122,6 +1122,31 @@ export const supportedEVMChains: EVMChain[] = [
     },
   },
 
+  // 2741 - Abstract
+  {
+    key: ChainKey.ABS,
+    chainType: ChainType.EVM,
+    name: 'Abstract',
+    coin: CoinKey.ETH,
+    id: ChainId.ABS,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/abstract.svg',
+    multicallAddress: multicallAddresses[ChainId.ABS],
+
+    metamask: {
+      chainId: prefixChainId(2741),
+      blockExplorerUrls: ['https://explorer.mainnet.abs.xyz/'],
+      chainName: 'Abstract',
+      nativeCurrency: {
+        name: 'Ethereum',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: [],
+    },
+  },
+
   // 146 - Sonic
   {
     key: ChainKey.SON,
