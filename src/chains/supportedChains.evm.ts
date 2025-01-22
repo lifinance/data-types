@@ -1135,7 +1135,7 @@ export const supportedEVMChains: EVMChain[] = [
 
     metamask: {
       chainId: prefixChainId(2741),
-      blockExplorerUrls: ['https://explorer.mainnet.abs.xyz/'],
+      blockExplorerUrls: ['https://abscan.org/'],
       chainName: 'Abstract',
       nativeCurrency: {
         name: 'Ethereum',
