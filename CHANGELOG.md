@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.22.0](https://github.com/lifinance/data-types/compare/v5.19.1...v5.22.0) (2025-01-22)
+
+
+### Features
+
+* add new chain abstract ([#91](https://github.com/lifinance/data-types/issues/91)) ([2368997](https://github.com/lifinance/data-types/commit/2368997a6352ef56fa58bbcd9094751fe61832c1))
+* migrate to pnpm ([#93](https://github.com/lifinance/data-types/issues/93)) ([14bda56](https://github.com/lifinance/data-types/commit/14bda5660ae68aeafedf50b25f1b21d40d56e12a))
+
+
+### Bug Fixes
+
+* abstract explorer update ([450974a](https://github.com/lifinance/data-types/commit/450974a9ad3e108bbd10ee1f59118b1123e17696))
+* abstract setting issues ([#92](https://github.com/lifinance/data-types/issues/92)) ([7345611](https://github.com/lifinance/data-types/commit/73456110ee019b3a6647dc23537dacb5e9da3fdb))
+* remove old eth rpc url ([#94](https://github.com/lifinance/data-types/issues/94)) ([6e3b3be](https://github.com/lifinance/data-types/commit/6e3b3bed674fc20583f14a17756dc403353c2402))
+* update pnpm-lock.yaml ([c41ff58](https://github.com/lifinance/data-types/commit/c41ff580afa57cf488fec76043d0c29f61480a01))
+
 ## [5.21.0](https://github.com/lifinance/data-types/compare/v5.19.1...v5.21.0) (2025-01-21)
 
 
