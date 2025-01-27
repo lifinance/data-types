@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.23.0](https://github.com/lifinance/data-types/compare/v5.19.1...v5.23.0) (2025-01-27)
+
+
+### Features
+
+* add new abstract RPC url ([#96](https://github.com/lifinance/data-types/issues/96)) ([7c7485c](https://github.com/lifinance/data-types/commit/7c7485c538524e30378cc7320b9220139e60ab7b))
+* add new chain abstract ([#91](https://github.com/lifinance/data-types/issues/91)) ([2368997](https://github.com/lifinance/data-types/commit/2368997a6352ef56fa58bbcd9094751fe61832c1))
+* migrate to pnpm ([#93](https://github.com/lifinance/data-types/issues/93)) ([14bda56](https://github.com/lifinance/data-types/commit/14bda5660ae68aeafedf50b25f1b21d40d56e12a))
+
+
+### Bug Fixes
+
+* abstract explorer update ([#95](https://github.com/lifinance/data-types/issues/95)) ([0917df0](https://github.com/lifinance/data-types/commit/0917df0e26a06d695083a78717800b517cb97c9c))
+* abstract setting issues ([#92](https://github.com/lifinance/data-types/issues/92)) ([7345611](https://github.com/lifinance/data-types/commit/73456110ee019b3a6647dc23537dacb5e9da3fdb))
+* remove old eth rpc url ([#94](https://github.com/lifinance/data-types/issues/94)) ([6e3b3be](https://github.com/lifinance/data-types/commit/6e3b3bed674fc20583f14a17756dc403353c2402))
+
 ## [5.22.0](https://github.com/lifinance/data-types/compare/v5.19.1...v5.22.0) (2025-01-22)
 
 
