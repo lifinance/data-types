@@ -1142,7 +1142,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'ETH',
         decimals: 18,
       },
-      rpcUrls: [],
+      rpcUrls: ['https://rpc.fsd.adfasd32442ds.com'],
     },
   },
 ]
