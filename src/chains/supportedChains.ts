@@ -1,5 +1,6 @@
 import type { Chain, ChainKey } from '@lifi/types'
 import { supportedEVMChains } from './supportedChains.evm.js'
+import { supportedMVMChains } from './supportedChains.mvm.js'
 import { supportedSolanaChains } from './supportedChains.svm.js'
 import { supportedUXTOChains } from './supportedChains.utxo.js'
 
@@ -9,6 +10,7 @@ import { supportedUXTOChains } from './supportedChains.utxo.js'
 export const supportedChains = [
   ...supportedEVMChains,
   ...supportedSolanaChains,
+  ...supportedMVMChains,
   ...supportedUXTOChains,
 ]
 

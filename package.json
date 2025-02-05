@@ -83,6 +83,7 @@
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.2.2",
+    "@mysten/sui": "^1.21.1",
     "@solana/web3.js": "^1.95.1",
     "@types/fs-extra": "^11.0.4",
     "@typescript-eslint/eslint-plugin": "^7.17.0",
