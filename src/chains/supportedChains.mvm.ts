@@ -10,7 +10,7 @@ export const supportedMVMChains: MVMChain[] = [
     id: ChainId.SUI,
     mainnet: true,
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/solana.svg',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/sui.svg',
     faucetUrls: ['https://stakely.io/faucet/sui-sui'],
     metamask: {
       chainId: ChainId.SUI.toString(),
