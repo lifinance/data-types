@@ -486,6 +486,21 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // > SUI
+  {
+    key: CoinKey.SUI,
+    name: CoinKey.SUI,
+    logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/20947.png',
+    verified: true,
+    chains: {
+      [ChainId.SUI]: {
+        address:
+          '0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI',
+        decimals: 9,
+      },
+    },
+  },
+
   // OTHER STABLECOINS
   // USDT
   {
@@ -503,6 +518,12 @@ export const basicCoins: BasicCoin[] = [
         address: 'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB',
         decimals: 6,
         name: 'USDT',
+      },
+      [ChainId.SUI]: {
+        address:
+          '0xc060006111016b8a020ad5b33834984a437aaa7d3c74c18e09a95d48aceab08c::coin::COIN',
+        decimals: 6,
+        name: 'Tether USD',
       },
       [ChainId.BSC]: {
         address: '0x55d398326f99059ff775485246999027b3197955',
@@ -670,6 +691,12 @@ export const basicCoins: BasicCoin[] = [
         address: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',
         decimals: 6,
         name: 'USD Coin',
+      },
+      [ChainId.SUI]: {
+        address:
+          '0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC',
+        decimals: 6,
+        name: 'USDC',
       },
       [ChainId.BSC]: {
         address: '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d',
@@ -1107,6 +1134,12 @@ export const basicCoins: BasicCoin[] = [
         decimals: 8,
         name: 'Wrapped BTC (Wormhole)',
       },
+      [ChainId.SUI]: {
+        address:
+          '0x027792d9fed7f9844eb4839566001bb6f6cb4804f66aa2da6fe1ee242d896881::coin::COIN',
+        decimals: 8,
+        name: 'Wrapped BTC (Wormhole)',
+      },
       [ChainId.POL]: {
         address: '0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6',
         decimals: 8,
@@ -1214,6 +1247,12 @@ export const basicCoins: BasicCoin[] = [
         address: 'AaAEw2VCw1XzgvKB8Rj2DyK2ZVau9fbt2bE8hZFWsMyE',
         decimals: 9,
         name: 'Wrapped ETH (Allbridge from Ethereum)',
+      },
+      [ChainId.SUI]: {
+        address:
+          '0xaf8cd5edc19c4512f4259f0bee101a40d41ebed738ade5874359610ef8eeced5::coin::COIN',
+        decimals: 8,
+        name: 'Wrapped ETH (Wormhole)',
       },
       [ChainId.BSC]: {
         address: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
@@ -1682,6 +1721,12 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.ETH]: {
         address: '0xD31a59c85aE9D8edEFeC411D448f90841571b89c',
         decimals: 9,
+        name: 'Wrapped SOL (Wormhole)',
+      },
+      [ChainId.SUI]: {
+        address:
+          '0xb7844e289a8410e50fb3ca48d69eb9cf29e27d223ef90353fe1bd8e27ff8f3f8::coin::COIN',
+        decimals: 8,
         name: 'Wrapped SOL (Wormhole)',
       },
       [ChainId.POL]: {
