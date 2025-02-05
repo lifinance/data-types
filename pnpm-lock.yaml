@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@lifi/types':
-        specifier: ^v16.6.0
-        version: 16.6.0
+        specifier: ^v16.8.0-beta.0
+        version: 16.8.0-beta.0
     devDependencies:
       '@commitlint/cli':
         specifier: ^19.5.0
@@ -388,8 +388,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@lifi/types@16.6.0':
-    resolution: {integrity: sha512-7X0M+O9EvXepsODkvUS5f31CWskNcv8NeG1G0RRTctGe3p79cRPKfVmYTJOkbKibX00nhdzMBsVyafzedazsnA==}
+  '@lifi/types@16.8.0-beta.0':
+    resolution: {integrity: sha512-BXEtohmmgeW28EZG0qQiF4TwqLeRZRJhkAOvTjmauz85jq34FaZtTx4cNBCEifPMUUKPqguoifvjLkmRHDcyfw==}
 
   '@noble/curves@1.7.0':
     resolution: {integrity: sha512-UTMhXK9SeDhFJVrHeUJ5uZlI6ajXg10O6Ddocf9S6GjbSBVZsJo88HzKwXznNfGpMTRDyJkqMjNDPYgf0qFWnw==}
@@ -2776,7 +2776,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@lifi/types@16.6.0': {}
+  '@lifi/types@16.8.0-beta.0': {}
 
   '@noble/curves@1.7.0':
     dependencies:
