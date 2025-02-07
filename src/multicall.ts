@@ -71,4 +71,5 @@ export const multicallAddresses: { [ChainId: number]: string } = {
   // [ChainId.SOLT]: '', // NOT NEEDED
   // [ChainId.TERT]: '', // NOT NEEDED
   // [ChainId.OAST]: '', // NOT NEEDED
+  // [ChainId.SUI]: '', // NOT NEEDED
 }

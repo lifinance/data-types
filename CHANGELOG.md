@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.24.0](https://github.com/lifinance/data-types/compare/v5.23.0...v5.24.0) (2025-02-05)
+
+
+### Features
+
+* Add MVM ecosystem and SUI chain ([#97](https://github.com/lifinance/data-types/issues/97)) ([268b804](https://github.com/lifinance/data-types/commit/268b804acfb74b53ba801903b5402af3e3bc1a49))
+
 ## [5.23.0](https://github.com/lifinance/data-types/compare/v5.19.1...v5.23.0) (2025-01-27)
 
 
