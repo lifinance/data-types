@@ -1960,7 +1960,7 @@ export const basicCoins: BasicCoin[] = [
     key: CoinKey.BYUSD,
     name: CoinKey.BYUSD,
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/bera-unknown.svg',
+      'https://hub.berachain.com/_next/image/?url=https%3A%2F%2Fres.cloudinary.com%2Fduv0g402y%2Fimage%2Fupload%2Fv1738732576%2Ftokens%2Fy6wa21vehnappbe2cruf.png&w=3840&q=75&dpl=dpl_FBim27rRDfMcGJQxRsgz2AneXzpt',
     verified: true,
     chains: {
       [ChainId.BER]: {
