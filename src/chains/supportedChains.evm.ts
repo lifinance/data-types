@@ -1159,16 +1159,14 @@ export const supportedEVMChains: EVMChain[] = [
 
     metamask: {
       chainId: prefixChainId(80094),
-      blockExplorerUrls: ['https://80094.routescan.io/'],
-      chainName: 'Berachain',
+      blockExplorerUrls: ['https://berascan.com/'],
+      chainName: 'Berachain Mainnet',
       nativeCurrency: {
         name: 'Bera',
         symbol: 'BERA',
         decimals: 18,
       },
-      rpcUrls: [
-        'https://solemn-weathered-general.furtim-network.quiknode.pro/d13ab14cb3a3c8d920b07c1c11c7cfb1118ebd8d/',
-      ],
+      rpcUrls: ['https://rpc.berachain.com'],
     },
   },
 ]

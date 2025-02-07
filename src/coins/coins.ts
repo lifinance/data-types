@@ -1955,6 +1955,21 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // BYUSD
+  {
+    key: CoinKey.BYUSD,
+    name: CoinKey.BYUSD,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/bera-unknown.svg',
+    verified: true,
+    chains: {
+      [ChainId.BER]: {
+        address: '0x688e72142674041f8f6Af4c808a4045cA1D6aC82',
+        decimals: 6,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
@@ -2463,7 +2478,7 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
       'https://static.debank.com/image/lyra_token/logo_url/lyra/48bfb74adddd170e936578aec422836d.png',
   },
   [ChainId.BER]: {
-    // https://80094.routescan.io/token/0x6969696969696969696969696969696969696969?chainid=80094
+    // https://berascan.com/address/0x6969696969696969696969696969696969696969
     address: '0x6969696969696969696969696969696969696969',
     symbol: 'WBERA',
     decimals: 18,
