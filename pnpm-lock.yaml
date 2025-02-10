@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@lifi/types':
-        specifier: ^16.8.0
-        version: 16.8.0
+        specifier: v16.8.0-beta.2
+        version: 16.8.0-beta.2
     devDependencies:
       '@commitlint/cli':
         specifier: ^19.5.0
@@ -429,8 +429,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@lifi/types@16.8.0':
-    resolution: {integrity: sha512-PBu5TDo1hFJEjBgnSZfQq/2g2BJo9Z181EVoKCgWLQxB/r7AuDjF5xTFyX776fsosaQNGPwooSGYEWJzeqUmew==}
+  '@lifi/types@16.8.0-beta.2':
+    resolution: {integrity: sha512-MTFEXNwnIUnRAe4a4lJOqvd4dBKGwCf1huOcLmQ+4LMQq/QcK1ARud8SbEmIElpavaWlnHgQtWFvvu4eAvh3iQ==}
 
   '@mysten/bcs@1.3.0':
     resolution: {integrity: sha512-V3V9GwIXEiUS7y8hkCwH3oseWpxs75YOOtfy7xdfyAdSftlFpTYgj5elclwYx8pgHdzg7pHdy6no77LHYGQCaQ==}
@@ -2017,7 +2017,6 @@ packages:
     engines: {node: '>=0.6.0', teleport: '>=0.2.0'}
     deprecated: |-
       You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
-
       (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
 
   queue-microtask@1.2.3:
@@ -2882,7 +2881,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@lifi/types@16.8.0': {}
+  '@lifi/types@16.8.0-beta.2': {}
 
   '@mysten/bcs@1.3.0':
     dependencies:

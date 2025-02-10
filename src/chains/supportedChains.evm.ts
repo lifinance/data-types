@@ -1145,4 +1145,28 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://rpc.fsd.adfasd32442ds.com'],
     },
   },
+
+  {
+    key: ChainKey.BER,
+    chainType: ChainType.EVM,
+    name: 'BERA',
+    coin: CoinKey.BERA,
+    id: ChainId.BER,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/bera.svg',
+    multicallAddress: multicallAddresses[ChainId.BER],
+
+    metamask: {
+      chainId: prefixChainId(80094),
+      blockExplorerUrls: ['https://berascan.com/', 'https://beratrail.io/'],
+      chainName: 'Berachain Mainnet',
+      nativeCurrency: {
+        name: 'Bera',
+        symbol: 'BERA',
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.berachain.com'],
+    },
+  },
 ]
