@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.25.0](https://github.com/lifinance/data-types/compare/v5.24.0...v5.25.0) (2025-02-10)
+
+
+### Features
+
+* add Bera assets ([#98](https://github.com/lifinance/data-types/issues/98)) ([68b3dab](https://github.com/lifinance/data-types/commit/68b3dab4a3f8127c9a5a0c97cde6b129554bebcc))
+
 ### [5.24.1](https://github.com/lifinance/data-types/compare/v5.24.0-beta.3...v5.24.1) (2025-02-10)
 
 ## [5.24.0](https://github.com/lifinance/data-types/compare/v5.23.0...v5.24.0) (2025-02-05)
