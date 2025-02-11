@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.26.0](https://github.com/lifinance/data-types/compare/v5.24.0...v5.26.0) (2025-02-10)
+
+
+### Features
+
+* add Bera assets ([#98](https://github.com/lifinance/data-types/issues/98)) ([68b3dab](https://github.com/lifinance/data-types/commit/68b3dab4a3f8127c9a5a0c97cde6b129554bebcc))
+
+
+### Bug Fixes
+
+* update decimals for weth on berachain ([84e3e11](https://github.com/lifinance/data-types/commit/84e3e11de8cdd37893583ce6ac96019c4f771e68))
+
 ## [5.25.0](https://github.com/lifinance/data-types/compare/v5.24.0...v5.25.0) (2025-02-10)
 
 

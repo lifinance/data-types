@@ -1396,7 +1396,7 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.BER]: {
         address: '0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590',
-        decimals: 6,
+        decimals: 18,
       },
     },
   },
