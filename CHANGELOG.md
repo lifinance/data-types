@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.27.0](https://github.com/lifinance/data-types/compare/v5.24.0...v5.27.0) (2025-02-12)
+
+
+### Features
+
+* add Bera assets ([#98](https://github.com/lifinance/data-types/issues/98)) ([68b3dab](https://github.com/lifinance/data-types/commit/68b3dab4a3f8127c9a5a0c97cde6b129554bebcc))
+
+
+### Bug Fixes
+
+* rename BERA -> Berachain ([#101](https://github.com/lifinance/data-types/issues/101)) ([332b324](https://github.com/lifinance/data-types/commit/332b324e58e0a49679442689954a923cb6f5a611))
+* rename SUI -> Sui ([#102](https://github.com/lifinance/data-types/issues/102)) ([410076a](https://github.com/lifinance/data-types/commit/410076a4e9781a1bf579da57114a757af5974761))
+* update decimals for weth on berachain ([#100](https://github.com/lifinance/data-types/issues/100)) ([f9e6dcd](https://github.com/lifinance/data-types/commit/f9e6dcd0acc53426e6c78c631dbeb4a30d1646e7))
+
 ## [5.26.0](https://github.com/lifinance/data-types/compare/v5.24.0...v5.26.0) (2025-02-10)
 
 
