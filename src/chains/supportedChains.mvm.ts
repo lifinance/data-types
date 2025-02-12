@@ -5,7 +5,7 @@ export const supportedMVMChains: MVMChain[] = [
   {
     key: ChainKey.SUI,
     chainType: ChainType.MVM,
-    name: 'SUI',
+    name: 'Sui',
     coin: CoinKey.SUI,
     id: ChainId.SUI,
     mainnet: true,
@@ -15,9 +15,9 @@ export const supportedMVMChains: MVMChain[] = [
     metamask: {
       chainId: ChainId.SUI.toString(),
       blockExplorerUrls: ['https://www.suiscan.xyz/', 'https://suivision.xyz/'],
-      chainName: 'SUI',
+      chainName: 'Sui',
       nativeCurrency: {
-        name: 'SUI',
+        name: 'Sui',
         symbol: 'SUI',
         decimals: 9,
       },
