@@ -486,6 +486,21 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // > SUI
+  {
+    key: CoinKey.SUI,
+    name: CoinKey.SUI,
+    logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/20947.png',
+    verified: true,
+    chains: {
+      [ChainId.SUI]: {
+        address:
+          '0x0000000000000000000000000000000000000000000000000000000000000002::sui::SUI',
+        decimals: 9,
+      },
+    },
+  },
+
   // OTHER STABLECOINS
   // USDT
   {
@@ -503,6 +518,12 @@ export const basicCoins: BasicCoin[] = [
         address: 'Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB',
         decimals: 6,
         name: 'USDT',
+      },
+      [ChainId.SUI]: {
+        address:
+          '0xc060006111016b8a020ad5b33834984a437aaa7d3c74c18e09a95d48aceab08c::coin::COIN',
+        decimals: 6,
+        name: 'Tether USD',
       },
       [ChainId.BSC]: {
         address: '0x55d398326f99059ff775485246999027b3197955',
@@ -670,6 +691,12 @@ export const basicCoins: BasicCoin[] = [
         address: 'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',
         decimals: 6,
         name: 'USD Coin',
+      },
+      [ChainId.SUI]: {
+        address:
+          '0xdba34672e30cb065b1f93e3ab55318768fd6fef66c15942c9f7cb846e2f900e7::usdc::USDC',
+        decimals: 6,
+        name: 'USDC',
       },
       [ChainId.BSC]: {
         address: '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d',
@@ -890,6 +917,12 @@ export const basicCoins: BasicCoin[] = [
         address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
         decimals: 6,
         name: 'Bridged USDC (Sonic Labs)',
+        symbol: 'USDC.e',
+      },
+      [ChainId.BER]: {
+        address: '0x549943e04f40284185054145c6E4e9568C1D3241',
+        decimals: 6,
+        name: 'Bridged USD (Stargate)',
         symbol: 'USDC.e',
       },
     },
@@ -1113,6 +1146,12 @@ export const basicCoins: BasicCoin[] = [
         decimals: 8,
         name: 'Wrapped BTC (Wormhole)',
       },
+      [ChainId.SUI]: {
+        address:
+          '0x027792d9fed7f9844eb4839566001bb6f6cb4804f66aa2da6fe1ee242d896881::coin::COIN',
+        decimals: 8,
+        name: 'Wrapped BTC (Wormhole)',
+      },
       [ChainId.POL]: {
         address: '0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6',
         decimals: 8,
@@ -1201,6 +1240,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x03c7054bcb39f7b2e5b2c7acb37583e32d70cfa3',
         decimals: 8,
       },
+      [ChainId.BER]: {
+        address: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
+        decimals: 8,
+      },
     },
   },
 
@@ -1220,6 +1263,12 @@ export const basicCoins: BasicCoin[] = [
         address: 'AaAEw2VCw1XzgvKB8Rj2DyK2ZVau9fbt2bE8hZFWsMyE',
         decimals: 9,
         name: 'Wrapped ETH (Allbridge from Ethereum)',
+      },
+      [ChainId.SUI]: {
+        address:
+          '0xaf8cd5edc19c4512f4259f0bee101a40d41ebed738ade5874359610ef8eeced5::coin::COIN',
+        decimals: 8,
+        name: 'Wrapped ETH (Wormhole)',
       },
       [ChainId.BSC]: {
         address: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
@@ -1349,6 +1398,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.ABS]: {
         address: '0x3439153EB7AF838Ad19d56E1571FBD09333C2809',
+        decimals: 18,
+      },
+      [ChainId.BER]: {
+        address: '0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590',
         decimals: 18,
       },
       [ChainId.SON]: {
@@ -1694,6 +1747,12 @@ export const basicCoins: BasicCoin[] = [
         decimals: 9,
         name: 'Wrapped SOL (Wormhole)',
       },
+      [ChainId.SUI]: {
+        address:
+          '0xb7844e289a8410e50fb3ca48d69eb9cf29e27d223ef90353fe1bd8e27ff8f3f8::coin::COIN',
+        decimals: 8,
+        name: 'Wrapped SOL (Wormhole)',
+      },
       [ChainId.POL]: {
         address: '0xd93f7E271cB87c23AaA73edC008A79646d1F9912',
         decimals: 9,
@@ -1917,6 +1976,51 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.ETH]: {
         address: '0x6033F7f88332B8db6ad452B7C6D5bB643990aE3f',
         decimals: 18,
+      },
+    },
+  },
+
+  // BERA
+  {
+    key: CoinKey.BERA,
+    name: CoinKey.BERA,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/bera.svg',
+    verified: true,
+    chains: {
+      [ChainId.BER]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+
+  // Honey
+  {
+    key: CoinKey.HONEY,
+    name: CoinKey.HONEY,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/honey.svg',
+    verified: true,
+    chains: {
+      [ChainId.BER]: {
+        address: '0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce',
+        decimals: 18,
+      },
+    },
+  },
+
+  // BYUSD
+  {
+    key: CoinKey.BYUSD,
+    name: CoinKey.BYUSD,
+    logoURI:
+      'https://hub.berachain.com/_next/image/?url=https%3A%2F%2Fres.cloudinary.com%2Fduv0g402y%2Fimage%2Fupload%2Fv1738732576%2Ftokens%2Fy6wa21vehnappbe2cruf.png&w=3840&q=75&dpl=dpl_FBim27rRDfMcGJQxRsgz2AneXzpt',
+    verified: true,
+    chains: {
+      [ChainId.BER]: {
+        address: '0x688e72142674041f8f6Af4c808a4045cA1D6aC82',
+        decimals: 6,
       },
     },
   },
@@ -2442,6 +2546,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'WETH',
     logoURI:
       'https://static.debank.com/image/lyra_token/logo_url/lyra/48bfb74adddd170e936578aec422836d.png',
+  },
+  [ChainId.BER]: {
+    // https://berascan.com/address/0x6969696969696969696969696969696969696969
+    address: '0x6969696969696969696969696969696969696969',
+    symbol: 'WBERA',
+    decimals: 18,
+    chainId: ChainId.BER,
+    coinKey: CoinKey.WBERA,
+    name: 'Wrapped Bera',
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/wbera.svg',
   },
   [ChainId.SON]: {
     // https://sonicscan.org/token/0x039e2fb66102314ce7b64ce5ce3e5183bc94ad38

@@ -50,6 +50,7 @@ export const multicallAddresses: { [ChainId: number]: string } = {
   [ChainId.WCC]: '0xcA11bde05977b3631167028862bE2a173976CA11',
   [ChainId.LSK]: '0xcA11bde05977b3631167028862bE2a173976CA11',
   [ChainId.ABS]: '0xAa4De41dba0Ca5dCBb288b7cC6b708F3aaC759E7',
+  [ChainId.BER]: '0xcA11bde05977b3631167028862bE2a173976CA11',
   [ChainId.SON]: '0xcA11bde05977b3631167028862bE2a173976CA11',
 
   // TODO
@@ -71,4 +72,5 @@ export const multicallAddresses: { [ChainId: number]: string } = {
   // [ChainId.SOLT]: '', // NOT NEEDED
   // [ChainId.TERT]: '', // NOT NEEDED
   // [ChainId.OAST]: '', // NOT NEEDED
+  // [ChainId.SUI]: '', // NOT NEEDED
 }

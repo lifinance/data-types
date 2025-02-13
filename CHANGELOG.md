@@ -2,6 +2,94 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.27.0](https://github.com/lifinance/data-types/compare/v5.24.0...v5.27.0) (2025-02-12)
+
+
+### Features
+
+* add Bera assets ([#98](https://github.com/lifinance/data-types/issues/98)) ([68b3dab](https://github.com/lifinance/data-types/commit/68b3dab4a3f8127c9a5a0c97cde6b129554bebcc))
+
+
+### Bug Fixes
+
+* rename BERA -> Berachain ([#101](https://github.com/lifinance/data-types/issues/101)) ([332b324](https://github.com/lifinance/data-types/commit/332b324e58e0a49679442689954a923cb6f5a611))
+* rename SUI -> Sui ([#102](https://github.com/lifinance/data-types/issues/102)) ([410076a](https://github.com/lifinance/data-types/commit/410076a4e9781a1bf579da57114a757af5974761))
+* update decimals for weth on berachain ([#100](https://github.com/lifinance/data-types/issues/100)) ([f9e6dcd](https://github.com/lifinance/data-types/commit/f9e6dcd0acc53426e6c78c631dbeb4a30d1646e7))
+
+## [5.26.0](https://github.com/lifinance/data-types/compare/v5.24.0...v5.26.0) (2025-02-10)
+
+
+### Features
+
+* add Bera assets ([#98](https://github.com/lifinance/data-types/issues/98)) ([68b3dab](https://github.com/lifinance/data-types/commit/68b3dab4a3f8127c9a5a0c97cde6b129554bebcc))
+
+
+### Bug Fixes
+
+* update decimals for weth on berachain ([84e3e11](https://github.com/lifinance/data-types/commit/84e3e11de8cdd37893583ce6ac96019c4f771e68))
+
+## [5.25.0](https://github.com/lifinance/data-types/compare/v5.24.0...v5.25.0) (2025-02-10)
+
+
+### Features
+
+* add Bera assets ([#98](https://github.com/lifinance/data-types/issues/98)) ([68b3dab](https://github.com/lifinance/data-types/commit/68b3dab4a3f8127c9a5a0c97cde6b129554bebcc))
+
+### [5.24.1](https://github.com/lifinance/data-types/compare/v5.24.0-beta.3...v5.24.1) (2025-02-10)
+
+## [5.24.0](https://github.com/lifinance/data-types/compare/v5.23.0...v5.24.0) (2025-02-05)
+
+
+### Features
+
+* Add MVM ecosystem and SUI chain ([#97](https://github.com/lifinance/data-types/issues/97)) ([268b804](https://github.com/lifinance/data-types/commit/268b804acfb74b53ba801903b5402af3e3bc1a49))
+
+## [5.23.0](https://github.com/lifinance/data-types/compare/v5.19.1...v5.23.0) (2025-01-27)
+
+
+### Features
+
+* add new abstract RPC url ([#96](https://github.com/lifinance/data-types/issues/96)) ([7c7485c](https://github.com/lifinance/data-types/commit/7c7485c538524e30378cc7320b9220139e60ab7b))
+* add new chain abstract ([#91](https://github.com/lifinance/data-types/issues/91)) ([2368997](https://github.com/lifinance/data-types/commit/2368997a6352ef56fa58bbcd9094751fe61832c1))
+* migrate to pnpm ([#93](https://github.com/lifinance/data-types/issues/93)) ([14bda56](https://github.com/lifinance/data-types/commit/14bda5660ae68aeafedf50b25f1b21d40d56e12a))
+
+
+### Bug Fixes
+
+* abstract explorer update ([#95](https://github.com/lifinance/data-types/issues/95)) ([0917df0](https://github.com/lifinance/data-types/commit/0917df0e26a06d695083a78717800b517cb97c9c))
+* abstract setting issues ([#92](https://github.com/lifinance/data-types/issues/92)) ([7345611](https://github.com/lifinance/data-types/commit/73456110ee019b3a6647dc23537dacb5e9da3fdb))
+* remove old eth rpc url ([#94](https://github.com/lifinance/data-types/issues/94)) ([6e3b3be](https://github.com/lifinance/data-types/commit/6e3b3bed674fc20583f14a17756dc403353c2402))
+
+## [5.22.0](https://github.com/lifinance/data-types/compare/v5.19.1...v5.22.0) (2025-01-22)
+
+
+### Features
+
+* add new chain abstract ([#91](https://github.com/lifinance/data-types/issues/91)) ([2368997](https://github.com/lifinance/data-types/commit/2368997a6352ef56fa58bbcd9094751fe61832c1))
+* migrate to pnpm ([#93](https://github.com/lifinance/data-types/issues/93)) ([14bda56](https://github.com/lifinance/data-types/commit/14bda5660ae68aeafedf50b25f1b21d40d56e12a))
+
+
+### Bug Fixes
+
+* abstract explorer update ([450974a](https://github.com/lifinance/data-types/commit/450974a9ad3e108bbd10ee1f59118b1123e17696))
+* abstract setting issues ([#92](https://github.com/lifinance/data-types/issues/92)) ([7345611](https://github.com/lifinance/data-types/commit/73456110ee019b3a6647dc23537dacb5e9da3fdb))
+* remove old eth rpc url ([#94](https://github.com/lifinance/data-types/issues/94)) ([6e3b3be](https://github.com/lifinance/data-types/commit/6e3b3bed674fc20583f14a17756dc403353c2402))
+* update pnpm-lock.yaml ([c41ff58](https://github.com/lifinance/data-types/commit/c41ff580afa57cf488fec76043d0c29f61480a01))
+
+## [5.21.0](https://github.com/lifinance/data-types/compare/v5.19.1...v5.21.0) (2025-01-21)
+
+
+### Features
+
+* add new chain abstract ([#91](https://github.com/lifinance/data-types/issues/91)) ([2368997](https://github.com/lifinance/data-types/commit/2368997a6352ef56fa58bbcd9094751fe61832c1))
+* migrate to pnpm ([#93](https://github.com/lifinance/data-types/issues/93)) ([14bda56](https://github.com/lifinance/data-types/commit/14bda5660ae68aeafedf50b25f1b21d40d56e12a))
+
+
+### Bug Fixes
+
+* abstract setting issues ([#92](https://github.com/lifinance/data-types/issues/92)) ([7345611](https://github.com/lifinance/data-types/commit/73456110ee019b3a6647dc23537dacb5e9da3fdb))
+* remove old eth rpc url ([9ec4977](https://github.com/lifinance/data-types/commit/9ec4977a6519675395f7c6d187f33778b22c64b7))
+
 ## [5.20.0](https://github.com/lifinance/data-types/compare/v5.19.1...v5.20.0) (2025-01-16)
 
 
