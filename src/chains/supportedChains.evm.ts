@@ -1160,7 +1160,7 @@ export const supportedEVMChains: EVMChain[] = [
     metamask: {
       chainId: prefixChainId(80094),
       blockExplorerUrls: ['https://berascan.com/', 'https://beratrail.io/'],
-      chainName: 'Berachain',
+      chainName: 'Berachain Mainnet',
       nativeCurrency: {
         name: 'Bera',
         symbol: 'BERA',
