@@ -1146,6 +1146,7 @@ export const supportedEVMChains: EVMChain[] = [
     },
   },
 
+  // 80094 - Berachain
   {
     key: ChainKey.BER,
     chainType: ChainType.EVM,
@@ -1184,7 +1185,10 @@ export const supportedEVMChains: EVMChain[] = [
 
     metamask: {
       chainId: prefixChainId(146),
-      blockExplorerUrls: ['https://sonicscan.org/'],
+      blockExplorerUrls: [
+        'https://explorer.soniclabs.com',
+        'https://sonicscan.org/',
+      ],
       chainName: 'Sonic Network',
       nativeCurrency: {
         name: 'Sonic',

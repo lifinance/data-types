@@ -672,6 +672,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0709F39376dEEe2A2dfC94A58EdEb2Eb9DF012bD',
         decimals: 6,
       },
+      [ChainId.SON]: {
+        address: '0x6047828dc181963ba44974801FF68e538dA5eaF9',
+        decimals: 6,
+      },
     },
   },
 
@@ -913,16 +917,16 @@ export const basicCoins: BasicCoin[] = [
         name: 'Bridged USD (Stargate)',
         symbol: 'USDC.e',
       },
-      [ChainId.SON]: {
-        address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
-        decimals: 6,
-        name: 'Bridged USDC (Sonic Labs)',
-        symbol: 'USDC.e',
-      },
       [ChainId.BER]: {
         address: '0x549943e04f40284185054145c6E4e9568C1D3241',
         decimals: 6,
         name: 'Bridged USD (Stargate)',
+        symbol: 'USDC.e',
+      },
+      [ChainId.SON]: {
+        address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
+        decimals: 6,
+        name: 'Bridged USDC (Sonic Labs)',
         symbol: 'USDC.e',
       },
     },
@@ -1241,6 +1245,10 @@ export const basicCoins: BasicCoin[] = [
         decimals: 8,
       },
       [ChainId.BER]: {
+        address: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
+        decimals: 8,
+      },
+      [ChainId.SON]: {
         address: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
         decimals: 8,
       },
