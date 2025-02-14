@@ -1223,7 +1223,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'ETH',
         decimals: 18,
       },
-      rpcUrls: ['http://mainnet.unichain.org/'],
+      rpcUrls: ['https://mainnet.unichain.org'],
     },
   },
 ]
