@@ -1754,6 +1754,26 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
+
+  // APE
+  {
+    key: CoinKey.APE,
+    name: CoinKey.APE,
+    logoURI:
+      'https://static.debank.com/image/ape_token/logo_url/ape/2357165eac1453c46f526704b51a801b.png',
+    verified: true,
+    chains: {
+      [ChainId.APE]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+      [ChainId.ETH]: {
+        address: '0x4d224452801aced8b2f0aebe155379bb5d594381',
+        decimals: 18,
+      },
+    },
+  },
+
   // > Solana
   {
     key: CoinKey.SOL,
@@ -2603,6 +2623,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'WETH',
     logoURI:
       'https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png',
+  },
+  [ChainId.APE]: {
+    // https://apescan.io/token/0x48b62137edfa95a428d35c09e44256a739f6b557
+    address: '0x48b62137EdfA95a428D35C09E44256a739F6B557',
+    symbol: 'WAPE',
+    decimals: 18,
+    chainId: ChainId.APE,
+    coinKey: CoinKey.WAPE,
+    name: 'WAPE',
+    logoURI:
+      'https://static.debank.com/image/ape_token/logo_url/ape/2357165eac1453c46f526704b51a801b.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {

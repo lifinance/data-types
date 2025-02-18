@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@lifi/types':
-        specifier: ^16.9.0-beta.2
-        version: 16.9.0-beta.2
+        specifier: 16.9.0-beta.3
+        version: 16.9.0-beta.3
     devDependencies:
       '@commitlint/cli':
         specifier: ^19.5.0
@@ -429,8 +429,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@lifi/types@16.9.0-beta.2':
-    resolution: {integrity: sha512-EmmYshQ/Twh/LN862CS5Z0MYWdwWmSoMHWA+QPJtRrU4h+dsd0ctR86Cd3m+DJVKMV4OIU38hTrQtNC88JP6RQ==}
+  '@lifi/types@16.9.0-beta.3':
+    resolution: {integrity: sha512-ej18HnNHiatmz2f8aZiG2apzODVS+xchC/WCaeDD5+uMkkGtldAbsi2ASVxdirbl0j8F5FA3e7trbtFugD8ciw==}
 
   '@mysten/bcs@1.3.0':
     resolution: {integrity: sha512-V3V9GwIXEiUS7y8hkCwH3oseWpxs75YOOtfy7xdfyAdSftlFpTYgj5elclwYx8pgHdzg7pHdy6no77LHYGQCaQ==}
@@ -2881,7 +2881,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@lifi/types@16.9.0-beta.2': {}
+  '@lifi/types@16.9.0-beta.3': {}
 
   '@mysten/bcs@1.3.0':
     dependencies:
