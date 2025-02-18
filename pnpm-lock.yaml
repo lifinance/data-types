@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@lifi/types':
-        specifier: 17.0.0-beta.5
+        specifier: ^17.0.0-beta.5
         version: 17.0.0-beta.5
     devDependencies:
       '@commitlint/cli':
