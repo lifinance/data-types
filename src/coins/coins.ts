@@ -913,6 +913,12 @@ export const basicCoins: BasicCoin[] = [
         name: 'Bridged USD (Stargate)',
         symbol: 'USDC.e',
       },
+      [ChainId.BER]: {
+        address: '0x549943e04f40284185054145c6E4e9568C1D3241',
+        decimals: 6,
+        name: 'Bridged USD (Stargate)',
+        symbol: 'USDC.e',
+      },
     },
   },
   // axlUSDC
@@ -1228,6 +1234,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x03c7054bcb39f7b2e5b2c7acb37583e32d70cfa3',
         decimals: 8,
       },
+      [ChainId.BER]: {
+        address: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
+        decimals: 8,
+      },
     },
   },
 
@@ -1382,6 +1392,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.ABS]: {
         address: '0x3439153EB7AF838Ad19d56E1571FBD09333C2809',
+        decimals: 18,
+      },
+      [ChainId.BER]: {
+        address: '0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590',
         decimals: 18,
       },
     },
@@ -1956,6 +1970,51 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // BERA
+  {
+    key: CoinKey.BERA,
+    name: CoinKey.BERA,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/bera.svg',
+    verified: true,
+    chains: {
+      [ChainId.BER]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+
+  // Honey
+  {
+    key: CoinKey.HONEY,
+    name: CoinKey.HONEY,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/honey.svg',
+    verified: true,
+    chains: {
+      [ChainId.BER]: {
+        address: '0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce',
+        decimals: 18,
+      },
+    },
+  },
+
+  // BYUSD
+  {
+    key: CoinKey.BYUSD,
+    name: CoinKey.BYUSD,
+    logoURI:
+      'https://hub.berachain.com/_next/image/?url=https%3A%2F%2Fres.cloudinary.com%2Fduv0g402y%2Fimage%2Fupload%2Fv1738732576%2Ftokens%2Fy6wa21vehnappbe2cruf.png&w=3840&q=75&dpl=dpl_FBim27rRDfMcGJQxRsgz2AneXzpt',
+    verified: true,
+    chains: {
+      [ChainId.BER]: {
+        address: '0x688e72142674041f8f6Af4c808a4045cA1D6aC82',
+        decimals: 6,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
@@ -2462,6 +2521,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'WETH',
     logoURI:
       'https://static.debank.com/image/lyra_token/logo_url/lyra/48bfb74adddd170e936578aec422836d.png',
+  },
+  [ChainId.BER]: {
+    // https://berascan.com/address/0x6969696969696969696969696969696969696969
+    address: '0x6969696969696969696969696969696969696969',
+    symbol: 'WBERA',
+    decimals: 18,
+    chainId: ChainId.BER,
+    coinKey: CoinKey.WBERA,
+    name: 'Wrapped Bera',
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/wbera.svg',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
