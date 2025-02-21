@@ -672,6 +672,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0709F39376dEEe2A2dfC94A58EdEb2Eb9DF012bD',
         decimals: 6,
       },
+      [ChainId.SON]: {
+        address: '0x6047828dc181963ba44974801FF68e538dA5eaF9',
+        decimals: 6,
+      },
     },
   },
 
@@ -917,6 +921,12 @@ export const basicCoins: BasicCoin[] = [
         address: '0x549943e04f40284185054145c6E4e9568C1D3241',
         decimals: 6,
         name: 'Bridged USD (Stargate)',
+        symbol: 'USDC.e',
+      },
+      [ChainId.SON]: {
+        address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
+        decimals: 6,
+        name: 'Bridged USDC (Sonic Labs)',
         symbol: 'USDC.e',
       },
     },
@@ -1238,6 +1248,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
         decimals: 8,
       },
+      [ChainId.SON]: {
+        address: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
+        decimals: 8,
+      },
     },
   },
 
@@ -1396,6 +1410,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.BER]: {
         address: '0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590',
+        decimals: 18,
+      },
+      [ChainId.SON]: {
+        address: '0x50c42dEAcD8Fc9773493ED674b675bE577f2634b',
         decimals: 18,
       },
     },
@@ -2015,6 +2033,21 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // Sonic
+  {
+    key: CoinKey.S,
+    name: CoinKey.S,
+    logoURI:
+      'https://static.debank.com/image/sonic_token/logo_url/0x039e2fb66102314ce7b64ce5ce3e5183bc94ad38/b4cc70d040518a88adac18d906fcbfff.png',
+    verified: true,
+    chains: {
+      [ChainId.SON]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
@@ -2532,6 +2565,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped Bera',
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/wbera.svg',
+  },
+  [ChainId.SON]: {
+    // https://sonicscan.org/token/0x039e2fb66102314ce7b64ce5ce3e5183bc94ad38
+    address: '0x039e2fB66102314Ce7b64Ce5Ce3E5183bc94aD38',
+    symbol: 'wS',
+    decimals: 18,
+    chainId: ChainId.SON,
+    coinKey: CoinKey.wS,
+    name: 'Wrapped Sonic',
+    logoURI:
+      'https://static.debank.com/image/sonic_token/logo_url/0x039e2fb66102314ce7b64ce5ce3e5183bc94ad38/b4cc70d040518a88adac18d906fcbfff.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
