@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [5.28.0](https://github.com/lifinance/data-types/compare/v5.28.0-beta.0...v5.28.0) (2025-02-21)
 
+## [5.28.0](https://github.com/lifinance/data-types/compare/v5.28.0-beta.0...v5.28.0) (2025-02-21)
+
 ## [5.27.0](https://github.com/lifinance/data-types/compare/v5.24.0...v5.27.0) (2025-02-12)
 
 
