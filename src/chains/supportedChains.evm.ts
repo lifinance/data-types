@@ -1203,7 +1203,7 @@ export const supportedEVMChains: EVMChain[] = [
   {
     key: ChainKey.UNI,
     chainType: ChainType.EVM,
-    name: 'ETH',
+    name: 'Unichain',
     coin: CoinKey.ETH,
     id: 130,
     mainnet: true,
