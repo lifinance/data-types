@@ -684,6 +684,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x6047828dc181963ba44974801FF68e538dA5eaF9',
         decimals: 6,
       },
+      [ChainId.SON]: {
+        address: '0x6047828dc181963ba44974801FF68e538dA5eaF9',
+        decimals: 6,
+      },
     },
   },
 

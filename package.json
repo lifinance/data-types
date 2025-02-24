@@ -57,7 +57,7 @@
     "clean": "rm -rf dist tsconfig.tsbuildinfo tsconfig.build.tsbuildinfo src/tsconfig.build.tsbuildinfo src/_esm src/_cjs src/_types",
     "lint:fix": "eslint --ext .tsx --ext .ts ./src --fix",
     "package": "npm run build && npm pack",
-    "postinstall": "husky install",
+    "postinstall": "husky",
     "postpack": "pinst --enable",
     "pre-commit": "lint-staged",
     "pre-push": "pnpm build",
@@ -78,7 +78,7 @@
     ]
   },
   "dependencies": {
-    "@lifi/types": "^16.9.0-beta.2"
+    "@lifi/types": "16.9.0-beta.4"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
