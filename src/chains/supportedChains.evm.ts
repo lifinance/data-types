@@ -793,7 +793,6 @@ export const supportedEVMChains: EVMChain[] = [
         'https://mantle-rpc.publicnode.com',
         'https://mantle.drpc.org',
         'https://mantle.public-rpc.com',
-        'https://rpc.ankr.com/mantle',
       ],
     },
   },
