@@ -143,6 +143,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
+      [ChainId.UNI]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
     },
   },
   // > MATIC
@@ -357,6 +361,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.XLY]: {
         address: '0xc5015b9d9161dca7e18e32f6f25c4ad850731fd4',
+        decimals: 18,
+      },
+      [ChainId.UNI]: {
+        address: '0x20CAb320A855b39F724131C69424240519573f81',
         decimals: 18,
       },
     },
@@ -826,6 +834,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.XLY]: {
         address: '0x74b7f16337b8972027f6196a17a631ac6de26d22',
+        decimals: 6,
+      },
+      [ChainId.UNI]: {
+        address: '0x078D782b760474a361dDA0AF3839290b0EF57AD6',
         decimals: 6,
       },
     },
@@ -1414,6 +1426,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.SON]: {
         address: '0x50c42dEAcD8Fc9773493ED674b675bE577f2634b',
+        decimals: 18,
+      },
+      [ChainId.UNI]: {
+        address: '0x4200000000000000000000000000000000000006',
         decimals: 18,
       },
     },
@@ -2136,7 +2152,7 @@ export const defaultCoins: Array<Coin> = basicCoins.map((coin) => {
 // Wrapped version of gas on chain
 export const wrappedTokens: { [ChainId: string]: StaticToken } = {
   [ChainId.ETH]: {
-    // https://ww7.etherscan.io/token/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
+    // https://etherscan.io/token/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
     address: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
     symbol: 'WETH',
     decimals: 18,
@@ -2576,6 +2592,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped Sonic',
     logoURI:
       'https://static.debank.com/image/sonic_token/logo_url/0x039e2fb66102314ce7b64ce5ce3e5183bc94ad38/b4cc70d040518a88adac18d906fcbfff.png',
+  },
+  [ChainId.UNI]: {
+    // https://uniscan.xyz/token/0x4200000000000000000000000000000000000006
+    address: '0x4200000000000000000000000000000000000006',
+    symbol: 'WETH',
+    decimals: 18,
+    chainId: ChainId.UNI,
+    coinKey: CoinKey.WETH,
+    name: 'WETH',
+    logoURI:
+      'https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
