@@ -1147,6 +1147,7 @@ export const supportedEVMChains: EVMChain[] = [
   },
 
   // 80094 - Berachain
+  // 80094 - Berachain
   {
     key: ChainKey.BER,
     chainType: ChainType.EVM,
@@ -1196,6 +1197,59 @@ export const supportedEVMChains: EVMChain[] = [
         decimals: 18,
       },
       rpcUrls: ['https://rpc.soniclabs.com', 'https://sonic.drpc.org'],
+    },
+  },
+
+  // 130 - Unichain
+  {
+    key: ChainKey.UNI,
+    chainType: ChainType.EVM,
+    name: 'ETH',
+    coin: CoinKey.ETH,
+    id: 130,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/unichain.svg',
+    multicallAddress: multicallAddresses[ChainId.UNI],
+
+    metamask: {
+      chainId: prefixChainId(130),
+      blockExplorerUrls: [
+        'https://unichain.blockscout.com/',
+        'https://uniscan.xyz/',
+      ],
+      chainName: 'Unichain',
+      nativeCurrency: {
+        name: 'Ether',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: ['https://mainnet.unichain.org'],
+    },
+  },
+
+  // 33139 - Apechain
+  {
+    key: ChainKey.APE,
+    chainType: ChainType.EVM,
+    name: 'Apechain',
+    coin: CoinKey.APE,
+    id: 33139,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/apechain.svg',
+    multicallAddress: multicallAddresses[ChainId.APE],
+
+    metamask: {
+      chainId: prefixChainId(33139),
+      blockExplorerUrls: ['https://apescan.io/'],
+      chainName: 'ApeChain',
+      nativeCurrency: {
+        name: 'ApeCoin',
+        symbol: 'APE',
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.apechain.com'],
     },
   },
 ]
