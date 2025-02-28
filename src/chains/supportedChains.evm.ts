@@ -1198,4 +1198,32 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://rpc.soniclabs.com', 'https://sonic.drpc.org'],
     },
   },
+
+  // 130 - Unichain
+  {
+    key: ChainKey.UNI,
+    chainType: ChainType.EVM,
+    name: 'Unichain',
+    coin: CoinKey.ETH,
+    id: 130,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/unichain.svg',
+    multicallAddress: multicallAddresses[ChainId.UNI],
+
+    metamask: {
+      chainId: prefixChainId(130),
+      blockExplorerUrls: [
+        'https://unichain.blockscout.com/',
+        'https://uniscan.xyz/',
+      ],
+      chainName: 'Unichain',
+      nativeCurrency: {
+        name: 'Ether',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: ['https://mainnet.unichain.org'],
+    },
+  },
 ]
