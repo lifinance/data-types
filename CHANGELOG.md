@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.1.0](https://github.com/lifinance/data-types/compare/v5.28.0-beta.6...v6.1.0) (2025-02-28)
+
+
+### Features
+
+* sync package.json with main ([3f2f9d1](https://github.com/lifinance/data-types/commit/3f2f9d12b194d74683ab3382ad2e4e9493899cb7))
+
 ## [5.28.0](https://github.com/lifinance/data-types/compare/v5.28.0-beta.0...v5.28.0) (2025-02-21)
 
 ## [5.27.0](https://github.com/lifinance/data-types/compare/v5.24.0...v5.27.0) (2025-02-12)
