@@ -1226,4 +1226,28 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://mainnet.unichain.org'],
     },
   },
+
+  {
+    key: ChainKey.INK,
+    chainType: ChainType.EVM,
+    name: 'Ink',
+    coin: CoinKey.ETH,
+    id: 57073,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/ink.svg',
+    multicallAddress: multicallAddresses[ChainId.INK],
+
+    metamask: {
+      chainId: prefixChainId(57079),
+      blockExplorerUrls: ['https://explorer.inkonchain.com/'],
+      chainName: 'Ink',
+      nativeCurrency: {
+        name: 'Ether',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc-gel.inkonchain.com'],
+    },
+  },
 ]

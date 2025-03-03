@@ -147,6 +147,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
+      [ChainId.INK]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
     },
   },
   // > MATIC
@@ -1429,6 +1433,10 @@ export const basicCoins: BasicCoin[] = [
         decimals: 18,
       },
       [ChainId.UNI]: {
+        address: '0x4200000000000000000000000000000000000006',
+        decimals: 18,
+      },
+      [ChainId.INK]: {
         address: '0x4200000000000000000000000000000000000006',
         decimals: 18,
       },
