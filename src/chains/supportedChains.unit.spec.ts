@@ -30,6 +30,7 @@ test('native token defined for all chains', () => {
     ChainId.BCH,
     ChainId.LTC,
     ChainId.DGE,
+    ChainId.SUI,
   ]
   for (const chain of supportedChains) {
     if (ignoredChainsForNativeToken.includes(chain.id)) {
@@ -92,6 +93,7 @@ describe('validate chains', () => {
       chain.metamask.blockExplorerUrls.forEach((blockExplorerUrl) => {
         expect(blockExplorerUrl.startsWith('https://')).toBeTruthy()
         expect(blockExplorerUrl.endsWith('/')).toBeTruthy()
+        expect(new URL(blockExplorerUrl)).toBeDefined()
       })
 
       const chainId = prefixChainId(chain.id)

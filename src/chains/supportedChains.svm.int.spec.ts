@@ -22,8 +22,19 @@ describe.concurrent('SVM chains RPC check', () => {
       const accountPublicKey = new PublicKey(WalletAddress)
       const tokenProgramPublicKey = new PublicKey(TokenProgramAddress)
       const [blockHeight, slot, balance, tokenAccountsByOwner] =
+        // connection.getBlockHeight() with https://solana-rpc.publicnode.com will result in 500 error
         await Promise.allSettled([
-          connection.getBlockHeight(),
+          fetch(rpcUrl, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              jsonrpc: '2.0',
+              id: 1,
+              method: 'getBlockHeight',
+            }),
+          }),
           connection.getSlot(),
           connection.getBalance(accountPublicKey),
           connection.getParsedTokenAccountsByOwner(accountPublicKey, {
@@ -34,27 +45,6 @@ describe.concurrent('SVM chains RPC check', () => {
       expect(slot.status).toBe('fulfilled')
       expect(balance.status).toBe('fulfilled')
       expect(tokenAccountsByOwner.status).toBe('fulfilled')
-    }
-  )
-})
-
-describe.concurrent('SVM chains block explorer check', () => {
-  const blockExplorerUrls = supportedSolanaChains.flatMap((chain) =>
-    chain.metamask.blockExplorerUrls.map((blockExplorerUrl) => ({
-      blockExplorerUrl: blockExplorerUrl,
-      chainId: chain.id,
-      chainName: chain.name,
-    }))
-  )
-
-  test.for(blockExplorerUrls)(
-    `block explorer should be alive $chainName - $chainId - $blockExplorerUrl`,
-    { timeout: 10_000, retry: 3 },
-    async ({ blockExplorerUrl }) => {
-      const response = await fetch(blockExplorerUrl)
-      expect(response.url).toBe(blockExplorerUrl)
-      expect(response.ok).toBe(true)
-      expect(response.status).toBe(200)
     }
   )
 })

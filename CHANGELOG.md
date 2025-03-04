@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.2.0](https://github.com/lifinance/data-types/compare/v6.0.0...v6.2.0) (2025-03-03)
+
+
+### Features
+
+* add relayer supported flag ([833096c](https://github.com/lifinance/data-types/commit/833096c03dd71941ae1c1c682e78fab946574cc2))
+* add unichain assets ([#104](https://github.com/lifinance/data-types/issues/104)) ([e44d8b2](https://github.com/lifinance/data-types/commit/e44d8b229e65e20c86b31d305f6329cc81fdd297))
+
+## [6.1.0](https://github.com/lifinance/data-types/compare/v5.28.0-beta.6...v6.1.0) (2025-02-28)
+
+
+### Features
+
+* sync package.json with main ([3f2f9d1](https://github.com/lifinance/data-types/commit/3f2f9d12b194d74683ab3382ad2e4e9493899cb7))
+
 ## [5.28.0](https://github.com/lifinance/data-types/compare/v5.28.0-beta.0...v5.28.0) (2025-02-21)
 
 ## [5.27.0](https://github.com/lifinance/data-types/compare/v5.24.0...v5.27.0) (2025-02-12)
