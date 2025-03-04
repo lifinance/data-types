@@ -22,6 +22,7 @@ export const supportedEVMChains: EVMChain[] = [
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/ethereum.svg',
     tokenlistUrl: 'https://gateway.ipfs.io/ipns/tokens.uniswap.org',
     multicallAddress: multicallAddresses[ChainId.ETH],
+    relayerSupported: true,
     metamask: {
       chainId: prefixChainId(1),
       blockExplorerUrls: ['https://etherscan.io/'],
@@ -53,6 +54,7 @@ export const supportedEVMChains: EVMChain[] = [
       'https://unpkg.com/quickswap-default-token-list@1.0.71/build/quickswap-default.tokenlist.json',
     faucetUrls: ['https://stakely.io/faucet/polygon-matic'],
     multicallAddress: multicallAddresses[ChainId.POL],
+    relayerSupported: true,
     metamask: {
       chainId: prefixChainId(137),
       blockExplorerUrls: ['https://polygonscan.com/'],
@@ -84,6 +86,7 @@ export const supportedEVMChains: EVMChain[] = [
       'https://tokens.pancakeswap.finance/pancakeswap-extended.json',
     faucetUrls: ['https://stakely.io/faucet/bsc-chain-bnb'],
     multicallAddress: multicallAddresses[ChainId.BSC],
+    relayerSupported: true,
     // https://docs.binance.org/smart-chain/wallet/metamask.html
     metamask: {
       chainId: prefixChainId(56),
@@ -183,6 +186,7 @@ export const supportedEVMChains: EVMChain[] = [
     tokenlistUrl:
       'https://raw.githubusercontent.com/sushiswap/default-token-list/master/tokens/avalanche.json',
     multicallAddress: multicallAddresses[ChainId.AVA],
+    relayerSupported: true,
     // https://support.avax.network/en/articles/4626956-how-do-i-set-up-metamask-on-avalanche
     metamask: {
       chainId: prefixChainId(43114),
@@ -216,6 +220,7 @@ export const supportedEVMChains: EVMChain[] = [
       'https://raw.githubusercontent.com/sushiswap/default-token-list/master/tokens/arbitrum.json',
     faucetUrls: ['https://bridge.arbitrum.io/'],
     multicallAddress: multicallAddresses[ChainId.ARB],
+    relayerSupported: true,
     metamask: {
       chainId: prefixChainId(42161),
       blockExplorerUrls: ['https://arbiscan.io/'],
@@ -246,6 +251,7 @@ export const supportedEVMChains: EVMChain[] = [
     tokenlistUrl: 'https://static.optimism.io/optimism.tokenlist.json',
     faucetUrls: ['https://gateway.optimism.io/'],
     multicallAddress: multicallAddresses[ChainId.OPT],
+    relayerSupported: true,
     metamask: {
       chainId: prefixChainId(10),
       blockExplorerUrls: ['https://optimistic.etherscan.io/'],
@@ -624,6 +630,7 @@ export const supportedEVMChains: EVMChain[] = [
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/zksync.svg',
     multicallAddress: multicallAddresses[ChainId.ERA],
+    relayerSupported: true,
     metamask: {
       chainId: prefixChainId(324),
       blockExplorerUrls: ['https://explorer.zksync.io/'],
@@ -671,6 +678,7 @@ export const supportedEVMChains: EVMChain[] = [
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/base.svg',
     multicallAddress: multicallAddresses[ChainId.BAS],
+    relayerSupported: true,
     metamask: {
       chainId: prefixChainId(ChainId.BAS),
       blockExplorerUrls: ['https://basescan.org/'],
@@ -793,7 +801,6 @@ export const supportedEVMChains: EVMChain[] = [
         'https://mantle-rpc.publicnode.com',
         'https://mantle.drpc.org',
         'https://mantle.public-rpc.com',
-        'https://rpc.ankr.com/mantle',
       ],
     },
   },
@@ -809,6 +816,7 @@ export const supportedEVMChains: EVMChain[] = [
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/blast.png',
     multicallAddress: multicallAddresses[ChainId.BLS],
+    relayerSupported: true,
     metamask: {
       chainId: prefixChainId(81457),
       blockExplorerUrls: ['https://blastscan.io/', 'https://blastexplorer.io/'],
@@ -1157,7 +1165,7 @@ export const supportedEVMChains: EVMChain[] = [
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/bera.svg',
     multicallAddress: multicallAddresses[ChainId.BER],
-
+    relayerSupported: true,
     metamask: {
       chainId: prefixChainId(80094),
       blockExplorerUrls: ['https://berascan.com/', 'https://beratrail.io/'],
@@ -1203,14 +1211,14 @@ export const supportedEVMChains: EVMChain[] = [
   {
     key: ChainKey.UNI,
     chainType: ChainType.EVM,
-    name: 'Unichain',
+    name: 'ETH',
     coin: CoinKey.ETH,
     id: 130,
     mainnet: true,
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/unichain.svg',
     multicallAddress: multicallAddresses[ChainId.UNI],
-
+    relayerSupported: true,
     metamask: {
       chainId: prefixChainId(130),
       blockExplorerUrls: [
@@ -1224,6 +1232,56 @@ export const supportedEVMChains: EVMChain[] = [
         decimals: 18,
       },
       rpcUrls: ['https://mainnet.unichain.org'],
+    },
+  },
+
+  // 33139 - Apechain
+  {
+    key: ChainKey.APE,
+    chainType: ChainType.EVM,
+    name: 'Apechain',
+    coin: CoinKey.APE,
+    id: 33139,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/apechain.svg',
+    multicallAddress: multicallAddresses[ChainId.APE],
+
+    metamask: {
+      chainId: prefixChainId(33139),
+      blockExplorerUrls: ['https://apescan.io/'],
+      chainName: 'ApeChain',
+      nativeCurrency: {
+        name: 'ApeCoin',
+        symbol: 'APE',
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.apechain.com'],
+    },
+  },
+
+  // 1868 - Soneium
+  {
+    key: ChainKey.SOE,
+    chainType: ChainType.EVM,
+    name: 'Soneium',
+    coin: CoinKey.ETH,
+    id: 1868,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/soneium.svg',
+    multicallAddress: multicallAddresses[ChainId.SOE],
+
+    metamask: {
+      chainId: prefixChainId(1868),
+      blockExplorerUrls: ['https://soneium.blockscout.com/'],
+      chainName: 'Soneium',
+      nativeCurrency: {
+        name: 'Ether',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.soneium.org/'],
     },
   },
 

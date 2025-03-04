@@ -147,6 +147,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
+      [ChainId.SOE]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
       [ChainId.INK]: {
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
@@ -688,6 +692,12 @@ export const basicCoins: BasicCoin[] = [
         address: '0x6047828dc181963ba44974801FF68e538dA5eaF9',
         decimals: 6,
       },
+      [ChainId.SOE]: {
+        address: '0x3A337a6adA9d885b6Ad95ec48F9b75f197b5AE35',
+        decimals: 18,
+        name: 'Bridged USDT (Soneium)',
+        symbol: 'USDT',
+      },
     },
   },
 
@@ -943,6 +953,12 @@ export const basicCoins: BasicCoin[] = [
         address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
         decimals: 6,
         name: 'Bridged USDC (Sonic Labs)',
+        symbol: 'USDC.e',
+      },
+      [ChainId.SOE]: {
+        address: '0xba9986d2381edf1da03b0b9c1f8b00dc4aacc369',
+        decimals: 6,
+        name: 'Bridged USDC (Soneium)',
         symbol: 'USDC.e',
       },
     },
@@ -1265,6 +1281,10 @@ export const basicCoins: BasicCoin[] = [
         decimals: 8,
       },
       [ChainId.SON]: {
+        address: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
+        decimals: 8,
+      },
+      [ChainId.SOE]: {
         address: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
         decimals: 8,
       },
@@ -1762,6 +1782,26 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
+
+  // APE
+  {
+    key: CoinKey.APE,
+    name: CoinKey.APE,
+    logoURI:
+      'https://static.debank.com/image/ape_token/logo_url/ape/2357165eac1453c46f526704b51a801b.png',
+    verified: true,
+    chains: {
+      [ChainId.APE]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+      [ChainId.ETH]: {
+        address: '0x4d224452801aced8b2f0aebe155379bb5d594381',
+        decimals: 18,
+      },
+    },
+  },
+
   // > Solana
   {
     key: CoinKey.SOL,
@@ -2607,6 +2647,28 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     symbol: 'WETH',
     decimals: 18,
     chainId: ChainId.UNI,
+    coinKey: CoinKey.WETH,
+    name: 'WETH',
+    logoURI:
+      'https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png',
+  },
+  [ChainId.APE]: {
+    // https://apescan.io/token/0x48b62137edfa95a428d35c09e44256a739f6b557
+    address: '0x48b62137EdfA95a428D35C09E44256a739F6B557',
+    symbol: 'WAPE',
+    decimals: 18,
+    chainId: ChainId.APE,
+    coinKey: CoinKey.WAPE,
+    name: 'WAPE',
+    logoURI:
+      'https://static.debank.com/image/ape_token/logo_url/ape/2357165eac1453c46f526704b51a801b.png',
+  },
+  [ChainId.SOE]: {
+    // https://soneium.blockscout.com/address/0x4200000000000000000000000000000000000006
+    address: '0x4200000000000000000000000000000000000006',
+    symbol: 'WETH',
+    decimals: 18,
+    chainId: ChainId.SOE,
     coinKey: CoinKey.WETH,
     name: 'WETH',
     logoURI:
