@@ -1211,7 +1211,7 @@ export const supportedEVMChains: EVMChain[] = [
   {
     key: ChainKey.UNI,
     chainType: ChainType.EVM,
-    name: 'Unichain',
+    name: 'ETH',
     coin: CoinKey.ETH,
     id: 130,
     mainnet: true,
@@ -1257,6 +1257,31 @@ export const supportedEVMChains: EVMChain[] = [
         decimals: 18,
       },
       rpcUrls: ['https://rpc.apechain.com'],
+    },
+  },
+
+  // 1868 - Soneium
+  {
+    key: ChainKey.SOE,
+    chainType: ChainType.EVM,
+    name: 'Soneium',
+    coin: CoinKey.ETH,
+    id: 1868,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/soneium.svg',
+    multicallAddress: multicallAddresses[ChainId.SOE],
+
+    metamask: {
+      chainId: prefixChainId(1868),
+      blockExplorerUrls: ['https://soneium.blockscout.com/'],
+      chainName: 'Soneium',
+      nativeCurrency: {
+        name: 'Ether',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.soneium.org/'],
     },
   },
 ]
