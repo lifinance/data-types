@@ -151,6 +151,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
+      [ChainId.INK]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
     },
   },
   // > MATIC
@@ -957,6 +961,12 @@ export const basicCoins: BasicCoin[] = [
         name: 'Bridged USDC (Soneium)',
         symbol: 'USDC.e',
       },
+      [ChainId.INK]: {
+        address: '0xF1815bd50389c46847f0Bda824eC8da914045D14',
+        decimals: 6,
+        name: 'Bridged USDC (Stargate)',
+        symbol: 'USDC.e',
+      },
     },
   },
   // axlUSDC
@@ -1449,6 +1459,10 @@ export const basicCoins: BasicCoin[] = [
         decimals: 18,
       },
       [ChainId.UNI]: {
+        address: '0x4200000000000000000000000000000000000006',
+        decimals: 18,
+      },
+      [ChainId.INK]: {
         address: '0x4200000000000000000000000000000000000006',
         decimals: 18,
       },
@@ -2661,6 +2675,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     symbol: 'WETH',
     decimals: 18,
     chainId: ChainId.SOE,
+    coinKey: CoinKey.WETH,
+    name: 'WETH',
+    logoURI:
+      'https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png',
+  },
+  [ChainId.INK]: {
+    address: '0x4200000000000000000000000000000000000006',
+    symbol: 'WETH',
+    decimals: 18,
+    chainId: ChainId.INK,
     coinKey: CoinKey.WETH,
     name: 'WETH',
     logoURI:
