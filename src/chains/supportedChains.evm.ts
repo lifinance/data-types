@@ -1234,4 +1234,29 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://mainnet.unichain.org'],
     },
   },
+
+  // 33139 - Apechain
+  {
+    key: ChainKey.APE,
+    chainType: ChainType.EVM,
+    name: 'Apechain',
+    coin: CoinKey.APE,
+    id: 33139,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/apechain.svg',
+    multicallAddress: multicallAddresses[ChainId.APE],
+
+    metamask: {
+      chainId: prefixChainId(33139),
+      blockExplorerUrls: ['https://apescan.io/'],
+      chainName: 'ApeChain',
+      nativeCurrency: {
+        name: 'ApeCoin',
+        symbol: 'APE',
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.apechain.com'],
+    },
+  },
 ]
