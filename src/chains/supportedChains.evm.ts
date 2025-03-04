@@ -1155,7 +1155,6 @@ export const supportedEVMChains: EVMChain[] = [
   },
 
   // 80094 - Berachain
-  // 80094 - Berachain
   {
     key: ChainKey.BER,
     chainType: ChainType.EVM,
