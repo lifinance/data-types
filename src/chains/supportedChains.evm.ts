@@ -1295,6 +1295,7 @@ export const supportedEVMChains: EVMChain[] = [
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/ink.svg',
     multicallAddress: multicallAddresses[ChainId.INK],
+    relayerSupported: true,
 
     metamask: {
       chainId: prefixChainId(57079),
