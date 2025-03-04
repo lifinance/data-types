@@ -1246,6 +1246,7 @@ export const supportedEVMChains: EVMChain[] = [
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/apechain.svg',
     multicallAddress: multicallAddresses[ChainId.APE],
+    relayerSupported: true,
 
     metamask: {
       chainId: prefixChainId(33139),
@@ -1271,6 +1272,7 @@ export const supportedEVMChains: EVMChain[] = [
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/soneium.svg',
     multicallAddress: multicallAddresses[ChainId.SOE],
+    relayerSupported: true,
 
     metamask: {
       chainId: prefixChainId(1868),
