@@ -92,6 +92,7 @@ describe('validate chains', () => {
       chain.metamask.blockExplorerUrls.forEach((blockExplorerUrl) => {
         expect(blockExplorerUrl.startsWith('https://')).toBeTruthy()
         expect(blockExplorerUrl.endsWith('/')).toBeTruthy()
+        expect(new URL(blockExplorerUrl)).toBeDefined()
       })
 
       const chainId = prefixChainId(chain.id)
