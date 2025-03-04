@@ -1218,7 +1218,7 @@ export const supportedEVMChains: EVMChain[] = [
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/unichain.svg',
     multicallAddress: multicallAddresses[ChainId.UNI],
-
+    relayerSupported: true,
     metamask: {
       chainId: prefixChainId(130),
       blockExplorerUrls: [
