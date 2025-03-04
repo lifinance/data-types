@@ -961,6 +961,12 @@ export const basicCoins: BasicCoin[] = [
         name: 'Bridged USDC (Soneium)',
         symbol: 'USDC.e',
       },
+      [ChainId.INK]: {
+        address: '0xF1815bd50389c46847f0Bda824eC8da914045D14',
+        decimals: 6,
+        name: 'Bridged USDC (Stargate)',
+        symbol: 'USDC.e',
+      },
     },
   },
   // axlUSDC
