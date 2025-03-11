@@ -694,7 +694,7 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.SOE]: {
         address: '0x3A337a6adA9d885b6Ad95ec48F9b75f197b5AE35',
-        decimals: 18,
+        decimals: 6,
         name: 'Bridged USDT (Soneium)',
         symbol: 'USDT',
       },
