@@ -1260,7 +1260,7 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: [
         'https://apechain.drpc.org',
         'https://rpc.apechain.com',
-        'https://apechain.calderachain.xyz/http'
+        'https://apechain.calderachain.xyz/http',
       ],
     },
   },
@@ -1303,7 +1303,7 @@ export const supportedEVMChains: EVMChain[] = [
     relayerSupported: true,
 
     metamask: {
-      chainId: prefixChainId(57079),
+      chainId: prefixChainId(57073),
       blockExplorerUrls: ['https://explorer.inkonchain.com/'],
       chainName: 'Ink',
       nativeCurrency: {
