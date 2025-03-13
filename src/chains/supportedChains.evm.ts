@@ -1246,17 +1246,22 @@ export const supportedEVMChains: EVMChain[] = [
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/apechain.svg',
     multicallAddress: multicallAddresses[ChainId.APE],
+    relayerSupported: true,
 
     metamask: {
       chainId: prefixChainId(33139),
       blockExplorerUrls: ['https://apescan.io/'],
-      chainName: 'ApeChain',
+      chainName: 'Apechain',
       nativeCurrency: {
         name: 'ApeCoin',
         symbol: 'APE',
         decimals: 18,
       },
-      rpcUrls: ['https://rpc.apechain.com'],
+      rpcUrls: [
+        'https://apechain.drpc.org',
+        'https://rpc.apechain.com',
+        'https://apechain.calderachain.xyz/http'
+      ],
     },
   },
 
