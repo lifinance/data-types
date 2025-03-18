@@ -2,13 +2,6 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [6.4.0](https://github.com/lifinance/data-types/compare/v6.3.3...v6.4.0) (2025-03-18)
-
-
-### Features
-
-* **explorer:** use suivision as default explorer for Sui ([82b0a82](https://github.com/lifinance/data-types/commit/82b0a8297713058dc8b3e79590cb91cd226cc69e))
-
 ### [6.3.3](https://github.com/lifinance/data-types/compare/v6.3.1...v6.3.3) (2025-03-12)
 
 
