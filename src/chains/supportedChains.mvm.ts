@@ -14,7 +14,7 @@ export const supportedMVMChains: MVMChain[] = [
     faucetUrls: ['https://stakely.io/faucet/sui-sui'],
     metamask: {
       chainId: ChainId.SUI.toString(),
-      blockExplorerUrls: ['https://www.suiscan.xyz/', 'https://suivision.xyz/'],
+      blockExplorerUrls: ['https://suivision.xyz/', 'https://www.suiscan.xyz/'],
       chainName: 'Sui',
       nativeCurrency: {
         name: 'Sui',
