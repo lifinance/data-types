@@ -15,9 +15,9 @@ export const supportedSolanaChains: SolanaChain[] = [
     metamask: {
       chainId: ChainId.SOL.toString(),
       blockExplorerUrls: [
+        'https://solana.fm/',
         'https://explorer.solana.com/',
         'https://solscan.io/',
-        'https://solana.fm/',
       ],
       chainName: 'Solana',
       nativeCurrency: {

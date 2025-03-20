@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.5.0](https://github.com/lifinance/data-types/compare/v6.3.3...v6.5.0) (2025-03-20)
+
+
+### Features
+
+* **explorer:** use suivision as default explorer for Sui ([#114](https://github.com/lifinance/data-types/issues/114)) ([feb1df6](https://github.com/lifinance/data-types/commit/feb1df6082e2c743f2b5663270f9e995e0878f7f))
+* update solana default explorer ([099e7d7](https://github.com/lifinance/data-types/commit/099e7d740460ae470504cd958e2c8f44343ac6b6))
+
 ### [6.4.1](https://github.com/lifinance/data-types/compare/v6.4.0...v6.4.1) (2025-03-18)
 
 ## [6.4.0](https://github.com/lifinance/data-types/compare/v6.3.3...v6.4.0) (2025-03-18)
