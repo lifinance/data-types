@@ -2118,6 +2118,21 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // ApeUSD
+  {
+    key: CoinKey.APEUSD,
+    name: CoinKey.APEUSD,
+    logoURI:
+      'https://static.debank.com/image/ape_token/logo_url/0xa2235d059f80e176d931ef76b6c51953eb3fbef4/40654fa96aad2dd085f5bef5ab5fab37.png',
+    verified: true,
+    chains: {
+      [ChainId.APE]: {
+        address: '0xA2235d059F80e176D931Ef76b6C51953Eb3fBEf4',
+        decimals: 18,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
