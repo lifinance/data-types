@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.7.0](https://github.com/lifinance/data-types/compare/v6.6.1...v6.7.0) (2025-03-24)
+
+
+### Features
+
+* add usdce, usdt and weth ([0fb134c](https://github.com/lifinance/data-types/commit/0fb134ca8c12835050d7f192308015cb9cfa7aa5))
+
+### [6.6.1](https://github.com/lifinance/data-types/compare/v6.6.0...v6.6.1) (2025-03-21)
+
+## [6.6.0](https://github.com/lifinance/data-types/compare/v6.3.3...v6.6.0) (2025-03-21)
+
+
+### Features
+
+* add apeusd ([6cd6706](https://github.com/lifinance/data-types/commit/6cd6706f53942fb8414296bd42528d417c8af086))
+* **explorer:** use suivision as default explorer for Sui ([#114](https://github.com/lifinance/data-types/issues/114)) ([feb1df6](https://github.com/lifinance/data-types/commit/feb1df6082e2c743f2b5663270f9e995e0878f7f))
+* update solana default explorer ([#116](https://github.com/lifinance/data-types/issues/116)) ([01998df](https://github.com/lifinance/data-types/commit/01998df25bbd2ff67692a356a5a47db2203de535))
+
 ## [6.5.0](https://github.com/lifinance/data-types/compare/v6.3.3...v6.5.0) (2025-03-20)
 
 

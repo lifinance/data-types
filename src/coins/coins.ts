@@ -698,6 +698,10 @@ export const basicCoins: BasicCoin[] = [
         name: 'Bridged USDT (Soneium)',
         symbol: 'USDT',
       },
+      [ChainId.APE]: {
+        address: '0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8',
+        decimals: 6,
+      },
     },
   },
 
@@ -966,6 +970,10 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
         name: 'Bridged USDC (Stargate)',
         symbol: 'USDC.e',
+      },
+      [ChainId.APE]: {
+        address: '0xF1815bd50389c46847f0Bda824eC8da914045D14',
+        decimals: 6,
       },
     },
   },
@@ -1464,6 +1472,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.INK]: {
         address: '0x4200000000000000000000000000000000000006',
+        decimals: 18,
+      },
+      [ChainId.APE]: {
+        address: '0xf4d9235269a96aadafc9adae454a0618ebe37949',
         decimals: 18,
       },
     },
@@ -2113,6 +2125,21 @@ export const basicCoins: BasicCoin[] = [
     chains: {
       [ChainId.SON]: {
         address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+
+  // ApeUSD
+  {
+    key: CoinKey.APEUSD,
+    name: CoinKey.APEUSD,
+    logoURI:
+      'https://static.debank.com/image/ape_token/logo_url/0xa2235d059f80e176d931ef76b6c51953eb3fbef4/40654fa96aad2dd085f5bef5ab5fab37.png',
+    verified: true,
+    chains: {
+      [ChainId.APE]: {
+        address: '0xA2235d059F80e176D931Ef76b6C51953Eb3fBEf4',
         decimals: 18,
       },
     },
