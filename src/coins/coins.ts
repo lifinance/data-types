@@ -698,6 +698,10 @@ export const basicCoins: BasicCoin[] = [
         name: 'Bridged USDT (Soneium)',
         symbol: 'USDT',
       },
+      [ChainId.APE]: {
+        address: '0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8',
+        decimals: 6,
+      },
     },
   },
 
@@ -966,6 +970,10 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
         name: 'Bridged USDC (Stargate)',
         symbol: 'USDC.e',
+      },
+      [ChainId.APE]: {
+        address: '0xF1815bd50389c46847f0Bda824eC8da914045D14',
+        decimals: 6,
       },
     },
   },
@@ -1464,6 +1472,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.INK]: {
         address: '0x4200000000000000000000000000000000000006',
+        decimals: 18,
+      },
+      [ChainId.APE]: {
+        address: '0xf4d9235269a96aadafc9adae454a0618ebe37949',
         decimals: 18,
       },
     },
