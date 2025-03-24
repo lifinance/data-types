@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.7.0](https://github.com/lifinance/data-types/compare/v6.6.1...v6.7.0) (2025-03-24)
+
+
+### Features
+
+* add usdce, usdt and weth ([0fb134c](https://github.com/lifinance/data-types/commit/0fb134ca8c12835050d7f192308015cb9cfa7aa5))
+
 ### [6.6.1](https://github.com/lifinance/data-types/compare/v6.6.0...v6.6.1) (2025-03-21)
 
 ## [6.6.0](https://github.com/lifinance/data-types/compare/v6.3.3...v6.6.0) (2025-03-21)
