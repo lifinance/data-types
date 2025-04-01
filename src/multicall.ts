@@ -56,7 +56,7 @@ export const multicallAddresses: { [ChainId: number]: string } = {
   [ChainId.APE]: '0xcA11bde05977b3631167028862bE2a173976CA11',
   [ChainId.SOE]: '0xcA11bde05977b3631167028862bE2a173976CA11',
   [ChainId.INK]: '0xcA11bde05977b3631167028862bE2a173976CA11',
-  [ChainId.LNS]: '0x5900c97b683e69CD752aF7DC7003d69315E2a288', // TODO: this is Multicall2 which wont work. Putting for now to progress util 3 is deployed
+  [ChainId.LNS]: '0xeee5a340Cdc9c179Db25dea45AcfD5FE8d4d3eB8',
 
   // TODO
   // [ChainId.EXP]: '', // TODO
