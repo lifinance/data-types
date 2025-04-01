@@ -2153,6 +2153,20 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // Lens
+  {
+    key: CoinKey.GHO,
+    name: CoinKey.GHO,
+    logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/23508.png',
+    verified: true,
+    chains: {
+      [ChainId.LNS]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
