@@ -858,6 +858,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x078D782b760474a361dDA0AF3839290b0EF57AD6',
         decimals: 6,
       },
+      [ChainId.LNS]: {
+        address: '0x88F08E304EC4f90D644Cec3Fb69b8aD414acf884',
+        decimals: 6,
+      },
     },
   },
   // USDC.e
@@ -1476,6 +1480,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.APE]: {
         address: '0xf4d9235269a96aadafc9adae454a0618ebe37949',
+        decimals: 18,
+      },
+      [ChainId.LNS]: {
+        address: '0xE5ecd226b3032910CEaa43ba92EE8232f8237553',
         decimals: 18,
       },
     },
