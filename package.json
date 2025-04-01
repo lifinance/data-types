@@ -1,6 +1,6 @@
 {
   "name": "@lifi/data-types",
-  "version": "6.7.0",
+  "version": "6.8.0-beta.0",
   "description": "Data types for the LI.FI stack",
   "keywords": [
     "sdk",
