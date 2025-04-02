@@ -2744,7 +2744,7 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     symbol: 'WGHO',
     decimals: 18,
     chainId: ChainId.LNS,
-    coinKey: CoinKey.GHO,
+    coinKey: CoinKey.WGHO,
     name: 'WGHO',
     logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/23508.png',
   },
