@@ -2740,7 +2740,7 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
       'https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png',
   },
   [ChainId.LNS]: {
-    address: '0x20b01A0cCbe845552074F1028D94e811d20f11a3',
+    address: '0x6bDc36E20D267Ff0dd6097799f82e78907105e2F',
     symbol: 'WGHO',
     decimals: 18,
     chainId: ChainId.LNS,
