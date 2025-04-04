@@ -1309,4 +1309,29 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://rpc-gel.inkonchain.com'],
     },
   },
+
+  {
+    key: ChainKey.LNS,
+    chainType: ChainType.EVM,
+    name: 'Lens',
+    coin: CoinKey.GHO,
+    id: ChainId.LNS,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/lens.svg',
+    multicallAddress: multicallAddresses[ChainId.LNS],
+    relayerSupported: false,
+
+    metamask: {
+      chainId: prefixChainId(ChainId.LNS),
+      blockExplorerUrls: ['https://explorer.lens.xyz/'],
+      chainName: 'Lens',
+      nativeCurrency: {
+        name: 'GHO',
+        symbol: 'GHO',
+        decimals: 18,
+      },
+      rpcUrls: ['https://api.lens.matterhosted.dev'],
+    },
+  },
 ]

@@ -858,6 +858,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x078D782b760474a361dDA0AF3839290b0EF57AD6',
         decimals: 6,
       },
+      [ChainId.LNS]: {
+        address: '0x88F08E304EC4f90D644Cec3Fb69b8aD414acf884',
+        decimals: 6,
+      },
     },
   },
   // USDC.e
@@ -1476,6 +1480,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.APE]: {
         address: '0xf4d9235269a96aadafc9adae454a0618ebe37949',
+        decimals: 18,
+      },
+      [ChainId.LNS]: {
+        address: '0xE5ecd226b3032910CEaa43ba92EE8232f8237553',
         decimals: 18,
       },
     },
@@ -2145,6 +2153,20 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // Lens
+  {
+    key: CoinKey.GHO,
+    name: CoinKey.GHO,
+    logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/23508.png',
+    verified: true,
+    chains: {
+      [ChainId.LNS]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
@@ -2716,6 +2738,15 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'WETH',
     logoURI:
       'https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png',
+  },
+  [ChainId.LNS]: {
+    address: '0x6bDc36E20D267Ff0dd6097799f82e78907105e2F',
+    symbol: 'WGHO',
+    decimals: 18,
+    chainId: ChainId.LNS,
+    coinKey: CoinKey.WGHO,
+    name: 'WGHO',
+    logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/23508.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
