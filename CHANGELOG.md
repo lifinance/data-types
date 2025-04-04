@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.8.0](https://github.com/lifinance/data-types/compare/v6.3.3...v6.8.0) (2025-04-04)
+
+
+### Features
+
+* add apeusd ([#117](https://github.com/lifinance/data-types/issues/117)) ([9694660](https://github.com/lifinance/data-types/commit/9694660338ab399740c971afcc5f9c1a980f0af4))
+* **chains:** add Lens ([#118](https://github.com/lifinance/data-types/issues/118)) ([4709a70](https://github.com/lifinance/data-types/commit/4709a701f5f696ac127b64ffbdc59ad55f6f2018))
+* **explorer:** use suivision as default explorer for Sui ([#114](https://github.com/lifinance/data-types/issues/114)) ([feb1df6](https://github.com/lifinance/data-types/commit/feb1df6082e2c743f2b5663270f9e995e0878f7f))
+* update solana default explorer ([#116](https://github.com/lifinance/data-types/issues/116)) ([01998df](https://github.com/lifinance/data-types/commit/01998df25bbd2ff67692a356a5a47db2203de535))
+
 ## [6.7.0](https://github.com/lifinance/data-types/compare/v6.6.1...v6.7.0) (2025-03-24)
 
 
