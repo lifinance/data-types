@@ -57,6 +57,7 @@ export const multicallAddresses: { [ChainId: number]: string } = {
   [ChainId.SOE]: '0xcA11bde05977b3631167028862bE2a173976CA11',
   [ChainId.INK]: '0xcA11bde05977b3631167028862bE2a173976CA11',
   [ChainId.LNS]: '0xeee5a340Cdc9c179Db25dea45AcfD5FE8d4d3eB8',
+  [ChainId.SWL]: '0xcA11bde05977b3631167028862bE2a173976CA11',
 
   // TODO
   // [ChainId.EXP]: '', // TODO
