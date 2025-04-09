@@ -1334,4 +1334,29 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://api.lens.matterhosted.dev'],
     },
   },
+
+  {
+    key: ChainKey.SWL,
+    chainType: ChainType.EVM,
+    name: 'Swellchain',
+    coin: CoinKey.ETH,
+    id: ChainId.SWL,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/swell.svg',
+    multicallAddress: multicallAddresses[ChainId.SWL],
+    relayerSupported: false,
+
+    metamask: {
+      chainId: prefixChainId(ChainId.SWL),
+      blockExplorerUrls: ['https://swellchainscan.io/'],
+      chainName: 'Swellchain',
+      nativeCurrency: {
+        name: 'Ether',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: ['https://swell-mainnet.alt.technology'],
+    },
+  },
 ]
