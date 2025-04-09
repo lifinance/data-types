@@ -1359,4 +1359,29 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://swell-mainnet.alt.technology'],
     },
   },
+
+  {
+    key: ChainKey.CRN,
+    chainType: ChainType.EVM,
+    name: 'Corn',
+    coin: 'BTCN' as CoinKey,
+    id: ChainId.CRN,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/corn.svg',
+    multicallAddress: multicallAddresses[ChainId.CRN],
+    relayerSupported: false,
+
+    metamask: {
+      chainId: prefixChainId(ChainId.CRN),
+      blockExplorerUrls: ['https://cornscan.io/'],
+      chainName: 'Corn',
+      nativeCurrency: {
+        name: 'Bitcorn',
+        symbol: 'BTCN',
+        decimals: 18,
+      },
+      rpcUrls: ['https://mainnet.corn-rpc.com'],
+    },
+  },
 ]

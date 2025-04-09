@@ -490,6 +490,20 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
+  // > BTCN
+  {
+    key: 'BTCN' as CoinKey,
+    name: 'Bitcorn',
+    logoURI:
+      'https://static.debank.com/image/corn_token/logo_url/corn/fe230e468272b84aba78d08bb4140456.png',
+    verified: true,
+    chains: {
+      [ChainId.CRN]: {
+        address: '0x0000000000000000000000000000000000000000', // TODO: need to see what works
+        decimals: 18,
+      },
+    },
+  },
 
   // > RSK
   {
@@ -2765,6 +2779,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'WETH',
     logoURI:
       'https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png',
+  },
+  [ChainId.CRN]: {
+    address: '0xda5ddd7270381a7c2717ad10d1c0ecb19e3cdfb2',
+    symbol: 'WBTCN',
+    decimals: 18,
+    chainId: ChainId.CRN,
+    coinKey: 'WBTCN' as CoinKey,
+    name: 'Wrapped BTCN',
+    logoURI:
+      'https://static.debank.com/image/corn_token/logo_url/corn/fe230e468272b84aba78d08bb4140456.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
