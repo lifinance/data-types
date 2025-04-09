@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.10.0-beta.0](https://github.com/lifinance/data-types/compare/v6.8.0...v6.10.0-beta.0) (2025-04-09)
+
+
+### Features
+
+* **Chain:** add Corn ([a874b12](https://github.com/lifinance/data-types/commit/a874b123835a2f77bd71dfe027fded76af8d9493))
+* **chain:** add Swell ([#119](https://github.com/lifinance/data-types/issues/119)) ([40409de](https://github.com/lifinance/data-types/commit/40409deff109ba4567406ecd419a72c3c1d1ce7e))
+
 ## [6.9.0](https://github.com/lifinance/data-types/compare/v6.8.0...v6.9.0) (2025-04-09)
 
 
