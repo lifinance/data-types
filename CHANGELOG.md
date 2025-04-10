@@ -7,7 +7,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
-* **Chain:** add Swell ([47ce96c](https://github.com/lifinance/data-types/commit/47ce96c8086b819b66f2ae676ac537258e69bf40))
 * **Chain:** add Swell ([caace83](https://github.com/lifinance/data-types/commit/caace830b96f094babab6306362ecdf8fef071d4))
 
 ## [6.8.0](https://github.com/lifinance/data-types/compare/v6.3.3...v6.8.0) (2025-04-04)
