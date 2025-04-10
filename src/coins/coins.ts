@@ -499,7 +499,7 @@ export const basicCoins: BasicCoin[] = [
     verified: true,
     chains: {
       [ChainId.CRN]: {
-        address: '0x0000000000000000000000000000000000000000', // TODO: need to see what works
+        address: '0x0000000000000000000000000000000000000000', // might have to be changed to 0xeee... if we run into issues with swaps, bridging worked with this address
         decimals: 18,
       },
     },
