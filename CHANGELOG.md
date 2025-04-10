@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.10.1](https://github.com/lifinance/data-types/compare/v6.10.0...v6.10.1) (2025-04-10)
+
+
+### Bug Fixes
+
+* disable relayer for ETH and BSC ([#121](https://github.com/lifinance/data-types/issues/121)) ([50fbd14](https://github.com/lifinance/data-types/commit/50fbd14fad11fcd945b5cb26568e6b7abf6b4915))
+
 ## [6.10.0](https://github.com/lifinance/data-types/compare/v6.9.0...v6.10.0) (2025-04-10)
 
 
