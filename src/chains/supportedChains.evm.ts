@@ -22,7 +22,7 @@ export const supportedEVMChains: EVMChain[] = [
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/ethereum.svg',
     tokenlistUrl: 'https://gateway.ipfs.io/ipns/tokens.uniswap.org',
     multicallAddress: multicallAddresses[ChainId.ETH],
-    relayerSupported: true,
+    relayerSupported: false,
     metamask: {
       chainId: prefixChainId(1),
       blockExplorerUrls: ['https://etherscan.io/'],
@@ -86,7 +86,7 @@ export const supportedEVMChains: EVMChain[] = [
       'https://tokens.pancakeswap.finance/pancakeswap-extended.json',
     faucetUrls: ['https://stakely.io/faucet/bsc-chain-bnb'],
     multicallAddress: multicallAddresses[ChainId.BSC],
-    relayerSupported: true,
+    relayerSupported: false,
     // https://docs.binance.org/smart-chain/wallet/metamask.html
     metamask: {
       chainId: prefixChainId(56),
