@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@lifi/types':
-        specifier: ^v17.13.0-beta.1
-        version: 17.13.0-beta.1(bufferutil@4.0.9)(typescript@5.8.2)(utf-8-validate@5.0.10)
+        specifier: ^v17.13.0-beta.2
+        version: 17.13.0-beta.2(bufferutil@4.0.9)(typescript@5.8.2)(utf-8-validate@5.0.10)
     devDependencies:
       '@commitlint/cli':
         specifier: ^19.7.1
@@ -429,8 +429,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@lifi/types@17.13.0-beta.1':
-    resolution: {integrity: sha512-fGRDjGHRJq3Q9Of2/s4HpiNXf7fhWVQ5K2rPEuiFZ75Y7MUom2WJqzgxKHy/6OTvndmKDhqQztwHprLaehR7LA==}
+  '@lifi/types@17.13.0-beta.2':
+    resolution: {integrity: sha512-8Z+pZoml7wWZK7ERHx+cTtcBjkguDiM1wtPJjFBxtmEm615rnP+msJc3JHHGDYEfWDVou8vBFzMlZPtua3vwrA==}
 
   '@mysten/bcs@1.4.0':
     resolution: {integrity: sha512-YwDYspceLt8b7v6ohPvy8flQEi+smtfSG5d2A98CbUA48XBmOqTSPNmpw9wsZVVnrH2avr+BS5uVhDZT+EquYA==}
@@ -2912,7 +2912,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@lifi/types@17.13.0-beta.1(bufferutil@4.0.9)(typescript@5.8.2)(utf-8-validate@5.0.10)':
+  '@lifi/types@17.13.0-beta.2(bufferutil@4.0.9)(typescript@5.8.2)(utf-8-validate@5.0.10)':
     dependencies:
       viem: 2.24.3(bufferutil@4.0.9)(typescript@5.8.2)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
