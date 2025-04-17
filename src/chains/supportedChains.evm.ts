@@ -1,5 +1,10 @@
-import type { EVMChain } from '@lifi/types'
-import { ChainId, ChainKey, ChainType, CoinKey } from '@lifi/types'
+import {
+  ChainId,
+  ChainKey,
+  ChainType,
+  CoinKey,
+  type EVMChain,
+} from '@lifi/types'
 import { multicallAddresses } from '../multicall.js'
 import { prefixChainId } from './utils.js'
 
@@ -1382,6 +1387,31 @@ export const supportedEVMChains: EVMChain[] = [
         decimals: 18,
       },
       rpcUrls: ['https://mainnet.corn-rpc.com'],
+    },
+  },
+
+  {
+    key: ChainKey.SUP,
+    chainType: ChainType.EVM,
+    name: 'Superposition',
+    coin: CoinKey.ETH,
+    id: ChainId.SUP,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/superposition.svg',
+    multicallAddress: multicallAddresses[ChainId.SUP],
+    relayerSupported: false,
+
+    metamask: {
+      chainId: prefixChainId(ChainId.SUP),
+      blockExplorerUrls: ['https://explorer.superposition.so/'],
+      chainName: 'Superposition',
+      nativeCurrency: {
+        name: 'Ether',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.superposition.so'],
     },
   },
 ]
