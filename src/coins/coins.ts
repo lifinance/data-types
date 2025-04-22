@@ -159,6 +159,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
+      [ChainId.SUP]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
     },
   },
   // > MATIC
@@ -1002,6 +1006,11 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
         name: 'Bridged USDC (Corn)',
       },
+      [ChainId.SUP]: {
+        address: '0x6c030c5CC283F791B26816f325b9C632d964F8A1',
+        decimals: 6,
+        name: 'Bridged USDC (Superposition)',
+      },
     },
   },
   // axlUSDC
@@ -1511,6 +1520,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.SWL]: {
         address: '0x4200000000000000000000000000000000000006',
+        decimals: 18,
+      },
+      [ChainId.SUP]: {
+        address: '0x1fB719f10b56d7a85DCD32f27f897375fB21cfdd',
         decimals: 18,
       },
     },
@@ -2794,6 +2807,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped BTCN',
     logoURI:
       'https://static.debank.com/image/corn_token/logo_url/corn/fe230e468272b84aba78d08bb4140456.png',
+  },
+  [ChainId.SUP]: {
+    address: '0x1fB719f10b56d7a85DCD32f27f897375fB21cfdd',
+    symbol: 'WETH',
+    decimals: 18,
+    chainId: ChainId.SUP,
+    coinKey: CoinKey.WETH,
+    name: 'WETH',
+    logoURI:
+      'https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {

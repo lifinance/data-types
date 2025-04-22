@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.11.1](https://github.com/lifinance/data-types/compare/v6.11.0...v6.11.1) (2025-04-22)
+
+## [6.11.0](https://github.com/lifinance/data-types/compare/v6.10.1...v6.11.0) (2025-04-17)
+
+
+### Features
+
+* add semantic PR title ([#123](https://github.com/lifinance/data-types/issues/123)) ([380c547](https://github.com/lifinance/data-types/commit/380c5479bb6635ebdc29c204f291bf33351220c0))
+* **chain:** add Superposition ([#125](https://github.com/lifinance/data-types/issues/125)) ([2826404](https://github.com/lifinance/data-types/commit/28264041c2bd2dd9fd8f160355668bc4512fae65))
+
 ### [6.10.1](https://github.com/lifinance/data-types/compare/v6.10.0...v6.10.1) (2025-04-10)
 
 
