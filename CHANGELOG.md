@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.11.3](https://github.com/lifinance/data-types/compare/v6.11.2...v6.11.3) (2025-04-29)
+
+
+### Bug Fixes
+
+* remove outdated rpcs ([#128](https://github.com/lifinance/data-types/issues/128)) ([d8247b7](https://github.com/lifinance/data-types/commit/d8247b7741b4d9133d9f86d9634a8fed6b99c56c))
+
 ### [6.11.1](https://github.com/lifinance/data-types/compare/v6.11.0...v6.11.1) (2025-04-22)
 
 ## [6.11.0](https://github.com/lifinance/data-types/compare/v6.10.1...v6.11.0) (2025-04-17)
