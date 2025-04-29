@@ -1024,7 +1024,7 @@ export const basicCoins: BasicCoin[] = [
     chains: {
       [ChainId.BSC]: {
         address: '0x4268B8F0B87b6Eae5d897996E6b845ddbD99Adf3',
-        decimals: 18,
+        decimals: 6,
       },
       [ChainId.AVA]: {
         address: '0xfaB550568C688d5D8A52C7d794cb93Edc26eC0eC',
