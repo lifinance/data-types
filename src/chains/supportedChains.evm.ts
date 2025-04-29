@@ -37,11 +37,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'ETH',
         decimals: 18,
       },
-      rpcUrls: [
-        'https://ethereum-rpc.publicnode.com',
-        'https://eth.drpc.org',
-        'https://eth.public-rpc.com',
-      ],
+      rpcUrls: ['https://ethereum-rpc.publicnode.com', 'https://eth.drpc.org'],
     },
   },
   // 137 - Polygon
@@ -171,7 +167,6 @@ export const supportedEVMChains: EVMChain[] = [
         'https://rpc.fantom.network',
         'https://fantom-rpc.publicnode.com',
         'https://fantom.drpc.org',
-        'https://rpc.ftm.tools',
       ],
     },
   },
@@ -203,7 +198,6 @@ export const supportedEVMChains: EVMChain[] = [
         'https://api.avax.network/ext/bc/C/rpc',
         'https://avalanche-c-chain-rpc.publicnode.com',
         'https://avalanche.drpc.org',
-        'https://avalanche.public-rpc.com',
       ],
     },
   },
@@ -1291,7 +1285,7 @@ export const supportedEVMChains: EVMChain[] = [
     relayerSupported: true,
 
     metamask: {
-      chainId: prefixChainId(57079),
+      chainId: prefixChainId(57073),
       blockExplorerUrls: ['https://explorer.inkonchain.com/'],
       chainName: 'Ink',
       nativeCurrency: {
