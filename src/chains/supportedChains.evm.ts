@@ -271,7 +271,7 @@ export const supportedEVMChains: EVMChain[] = [
     coin: CoinKey.FSN,
     id: 32659,
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/fusion.png',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/fusion.svg',
     mainnet: true,
     multicallAddress: multicallAddresses[ChainId.FSN],
     // https://support.avax.network/en/articles/4626956-how-do-i-set-up-metamask-on-avalanche
@@ -489,7 +489,7 @@ export const supportedEVMChains: EVMChain[] = [
     id: 288,
     mainnet: true,
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/boba.png',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/boba.svg',
     // TODO: we should update token list url to latest one
     tokenlistUrl:
       'https://raw.githubusercontent.com/OolongSwap/boba-community-token-list/main/build/boba.tokenlist.json',
@@ -516,7 +516,7 @@ export const supportedEVMChains: EVMChain[] = [
     mainnet: true,
     multicallAddress: multicallAddresses[ChainId.VEL],
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/velas.png',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/velas.svg',
     faucetUrls: ['https://stakely.io/faucet/velas-vlx'],
     metamask: {
       chainId: prefixChainId(106),
@@ -565,7 +565,7 @@ export const supportedEVMChains: EVMChain[] = [
     id: 1313161554,
     mainnet: true,
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/aurora.png',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/aurora.svg',
     tokenlistUrl: 'https://aurora.dev/tokens.json',
     multicallAddress: multicallAddresses[ChainId.AUR],
     metamask: {
@@ -642,7 +642,7 @@ export const supportedEVMChains: EVMChain[] = [
     id: 1101,
     mainnet: true,
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/zkevm.png',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/zkevm.svg',
     multicallAddress: multicallAddresses[ChainId.PZE],
 
     metamask: {
@@ -715,7 +715,7 @@ export const supportedEVMChains: EVMChain[] = [
     id: 534352,
     mainnet: true,
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/scroll.png',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/scroll.svg',
     multicallAddress: multicallAddresses[ChainId.SCL],
     metamask: {
       chainId: prefixChainId(534352),
@@ -743,7 +743,7 @@ export const supportedEVMChains: EVMChain[] = [
     id: 34443,
     mainnet: true,
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/mode.png',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/mode.svg',
     multicallAddress: multicallAddresses[ChainId.MOD],
 
     metamask: {
@@ -770,7 +770,7 @@ export const supportedEVMChains: EVMChain[] = [
     id: 5000,
     mainnet: true,
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/mantle.png',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/mantle.svg',
     multicallAddress: multicallAddresses[ChainId.MNT],
     metamask: {
       chainId: prefixChainId(5000),
@@ -802,7 +802,7 @@ export const supportedEVMChains: EVMChain[] = [
     id: 81457,
     mainnet: true,
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/blast.png',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/blast.svg',
     multicallAddress: multicallAddresses[ChainId.BLS],
     relayerSupported: true,
     metamask: {
@@ -902,7 +902,7 @@ export const supportedEVMChains: EVMChain[] = [
     id: 167000,
     mainnet: true,
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/taiko.png',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/taiko.svg',
     multicallAddress: multicallAddresses[ChainId.TAI],
     metamask: {
       chainId: prefixChainId(167000),
