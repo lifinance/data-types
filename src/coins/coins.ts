@@ -675,8 +675,9 @@ export const basicCoins: BasicCoin[] = [
         symbol: 'rUSDT',
       },
       [ChainId.SEI]: {
-        address: '0xB75D0B03c06A926e488e2659DF1A861F860bD3d1',
+        address: '0x9151434b16b9763660705744891fA906F660EcC5',
         decimals: 6,
+        name: 'USDT0',
       },
       [ChainId.TAI]: {
         address: '0x2DEF195713CF4a606B49D07E520e22C17899a736',
