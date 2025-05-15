@@ -885,6 +885,11 @@ export const basicCoins: BasicCoin[] = [
         address: '0x88F08E304EC4f90D644Cec3Fb69b8aD414acf884',
         decimals: 6,
       },
+      [ChainId.SON]: {
+        address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
+        decimals: 6,
+        name: 'USDC (Native)',
+      },
     },
   },
   // USDC.e
@@ -978,12 +983,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0x549943e04f40284185054145c6E4e9568C1D3241',
         decimals: 6,
         name: 'Bridged USD (Stargate)',
-        symbol: 'USDC.e',
-      },
-      [ChainId.SON]: {
-        address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
-        decimals: 6,
-        name: 'Bridged USDC (Sonic Labs)',
         symbol: 'USDC.e',
       },
       [ChainId.SOE]: {
