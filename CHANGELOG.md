@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.11.6](https://github.com/lifinance/data-types/compare/v6.11.5...v6.11.6) (2025-05-19)
+
+
+### Bug Fixes
+
+* **coins:** rename USDCe on Sonic to USDC ([#131](https://github.com/lifinance/data-types/issues/131)) ([4e94e82](https://github.com/lifinance/data-types/commit/4e94e82e91ab28b88e96425988120ac764372799))
+
 ### [6.11.5](https://github.com/lifinance/data-types/compare/v6.11.4...v6.11.5) (2025-05-08)
 
 ### [6.11.4](https://github.com/lifinance/data-types/compare/v6.11.3...v6.11.4) (2025-04-30)
