@@ -1396,4 +1396,29 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://rpc.superposition.so'],
     },
   },
+
+  {
+    key: ChainKey.HYP,
+    chainType: ChainType.EVM,
+    name: 'HyperEVM',
+    coin: CoinKey.HYPE,
+    id: ChainId.HYP,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/hyperliquid.svg',
+    multicallAddress: multicallAddresses[ChainId.HYP],
+    relayerSupported: false,
+
+    metamask: {
+      chainId: prefixChainId(ChainId.HYP),
+      blockExplorerUrls: ['https://www.hyperscan.com//'],
+      chainName: 'HyperEVM',
+      nativeCurrency: {
+        name: 'HYPE',
+        symbol: 'HYPE',
+        decimals: 18,
+      },
+      rpcUrls: ['https://hyperliquid-json-rpc.stakely.io'],
+    },
+  },
 ]
