@@ -509,6 +509,21 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // > XDC
+  {
+    key: CoinKey.XDC,
+    name: 'XDC',
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/xdc.svg',
+    verified: true,
+    chains: {
+      [ChainId.XDC]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+
   // > RSK
   {
     key: CoinKey.RBTC,
@@ -1010,6 +1025,11 @@ export const basicCoins: BasicCoin[] = [
         address: '0x6c030c5CC283F791B26816f325b9C632d964F8A1',
         decimals: 6,
         name: 'Bridged USDC (Superposition)',
+      },
+      [ChainId.XDC]: {
+        address: '0x2a8e898b6242355c290e1f4fc966b8788729a4d4',
+        decimals: 6,
+        name: 'Bridged USDC (XDC)',
       },
     },
   },
@@ -1524,6 +1544,21 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.SUP]: {
         address: '0x1fB719f10b56d7a85DCD32f27f897375fB21cfdd',
+        decimals: 18,
+      },
+    },
+  },
+
+  // > WXDC
+  {
+    key: CoinKey.WXDC,
+    name: CoinKey.WXDC,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/xdc.svg',
+    verified: true,
+    chains: {
+      [ChainId.XDC]: {
+        address: '0x951857744785E80e2De051c32EE7b25f9c458C42',
         decimals: 18,
       },
     },
@@ -2817,6 +2852,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'WETH',
     logoURI:
       'https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png',
+  },
+  [ChainId.XDC]: {
+    address: '0x951857744785E80e2De051c32EE7b25f9c458C42',
+    symbol: CoinKey.WXDC,
+    decimals: 18,
+    chainId: ChainId.XDC,
+    coinKey: CoinKey.WXDC,
+    name: CoinKey.WXDC,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/xdc.svg',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
