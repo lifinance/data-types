@@ -1027,9 +1027,9 @@ export const basicCoins: BasicCoin[] = [
         name: 'Bridged USDC (Superposition)',
       },
       [ChainId.XDC]: {
-        address: '0x2a8e898b6242355c290e1f4fc966b8788729a4d4',
+        address: '0xCc0587aeBDa397146cc828b445dB130a94486e74',
         decimals: 6,
-        name: 'Bridged USDC (XDC)',
+        name: 'USDC.e (Stargate)',
       },
     },
   },
@@ -1544,6 +1544,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.SUP]: {
         address: '0x1fB719f10b56d7a85DCD32f27f897375fB21cfdd',
+        decimals: 18,
+      },
+      [ChainId.XDC]: {
+        address: '0xa7348290de5cf01772479c48D50dec791c3fC212',
         decimals: 18,
       },
     },
