@@ -503,7 +503,7 @@ export const basicCoins: BasicCoin[] = [
     verified: true,
     chains: {
       [ChainId.CRN]: {
-        address: '0x0000000000000000000000000000000000000000', // might have to be changed to 0xeee... if we run into issues with swaps, bridging worked with this address
+        address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
     },
@@ -1230,6 +1230,47 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.SEI]: {
         address: '0x80Eede496655FB9047dd39d9f418d5483ED600df',
+        decimals: 18,
+      },
+    },
+  },
+
+  // > HyperEVM
+  {
+    key: CoinKey.HYPE,
+    name: 'HYPE',
+    logoURI:
+      'https://static.debank.com/image/hyper_token/logo_url/hyper/0b3e288cfe418e9ce69eef4c96374583.png',
+    verified: true,
+    chains: {
+      [ChainId.HYP]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+  {
+    key: CoinKey.FEUSD,
+    name: 'feUSD',
+    logoURI:
+      'https://static.debank.com/image/hyper_token/logo_url/0x02c6a2fa58cc01a18b8d9e00ea48d65e4df26c70/81c56750c2a60e7e63a76a224c40ddb5.png',
+    verified: true,
+    chains: {
+      [ChainId.HYP]: {
+        address: '0x02c6a2fa58cc01a18b8d9e00ea48d65e4df26c70',
+        decimals: 18,
+      },
+    },
+  },
+  {
+    key: CoinKey.WHYPE,
+    name: 'Wrapped HYPE',
+    logoURI:
+      'https://static.debank.com/image/hyper_token/logo_url/0x5555555555555555555555555555555555555555/752e760ec0b1a17b81c7535e09e76ef8.png',
+    verified: true,
+    chains: {
+      [ChainId.HYP]: {
+        address: '0x5555555555555555555555555555555555555555',
         decimals: 18,
       },
     },
@@ -2856,6 +2897,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'WETH',
     logoURI:
       'https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png',
+  },
+  [ChainId.HYP]: {
+    address: '0x5555555555555555555555555555555555555555',
+    symbol: CoinKey.WHYPE,
+    decimals: 18,
+    chainId: ChainId.HYP,
+    coinKey: CoinKey.WHYPE,
+    name: 'Wrapped HYPE',
+    logoURI:
+      'https://static.debank.com/image/hyper_token/logo_url/0x5555555555555555555555555555555555555555/752e760ec0b1a17b81c7535e09e76ef8.png',
   },
   [ChainId.XDC]: {
     address: '0x951857744785E80e2De051c32EE7b25f9c458C42',

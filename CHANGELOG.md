@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.12.0](https://github.com/lifinance/data-types/compare/v6.11.6...v6.12.0) (2025-05-21)
+
+
+### Features
+
+* **chain:** add HyperEVM ([#132](https://github.com/lifinance/data-types/issues/132)) ([77bdbc3](https://github.com/lifinance/data-types/commit/77bdbc30a725a8200cf3574907ff5cf6561ee119))
+
 ### [6.11.6](https://github.com/lifinance/data-types/compare/v6.11.5...v6.11.6) (2025-05-19)
 
 
