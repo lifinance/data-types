@@ -1407,7 +1407,7 @@ export const supportedEVMChains: EVMChain[] = [
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/hyperliquid.svg',
     multicallAddress: multicallAddresses[ChainId.HYP],
-    relayerSupported: false,
+    relayerSupported: true,
 
     metamask: {
       chainId: prefixChainId(ChainId.HYP),
