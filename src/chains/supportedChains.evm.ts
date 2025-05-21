@@ -1421,4 +1421,29 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://hyperliquid-json-rpc.stakely.io'],
     },
   },
+
+  {
+    key: ChainKey.XDC,
+    chainType: ChainType.EVM,
+    name: 'XDC',
+    coin: CoinKey.XDC,
+    id: ChainId.XDC,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/xdc.svg',
+    multicallAddress: multicallAddresses[ChainId.XDC],
+    relayerSupported: false,
+
+    metamask: {
+      chainId: prefixChainId(ChainId.XDC),
+      blockExplorerUrls: ['https://xdcscan.com/'],
+      chainName: 'XDC',
+      nativeCurrency: {
+        name: 'XDC',
+        symbol: 'XDC',
+        decimals: 18,
+      },
+      rpcUrls: ['https://erpc.xinfin.network'],
+    },
+  },
 ]

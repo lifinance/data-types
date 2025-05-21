@@ -509,6 +509,21 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // > XDC
+  {
+    key: CoinKey.XDC,
+    name: 'XDC',
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/xdc.svg',
+    verified: true,
+    chains: {
+      [ChainId.XDC]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+
   // > RSK
   {
     key: CoinKey.RBTC,
@@ -1010,6 +1025,11 @@ export const basicCoins: BasicCoin[] = [
         address: '0x6c030c5CC283F791B26816f325b9C632d964F8A1',
         decimals: 6,
         name: 'Bridged USDC (Superposition)',
+      },
+      [ChainId.XDC]: {
+        address: '0xCc0587aeBDa397146cc828b445dB130a94486e74',
+        decimals: 6,
+        name: 'USDC.e (Stargate)',
       },
     },
   },
@@ -1565,6 +1585,25 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.SUP]: {
         address: '0x1fB719f10b56d7a85DCD32f27f897375fB21cfdd',
+        decimals: 18,
+      },
+      [ChainId.XDC]: {
+        address: '0xa7348290de5cf01772479c48D50dec791c3fC212',
+        decimals: 18,
+      },
+    },
+  },
+
+  // > WXDC
+  {
+    key: CoinKey.WXDC,
+    name: CoinKey.WXDC,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/xdc.svg',
+    verified: true,
+    chains: {
+      [ChainId.XDC]: {
+        address: '0x951857744785E80e2De051c32EE7b25f9c458C42',
         decimals: 18,
       },
     },
@@ -2868,6 +2907,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped HYPE',
     logoURI:
       'https://static.debank.com/image/hyper_token/logo_url/0x5555555555555555555555555555555555555555/752e760ec0b1a17b81c7535e09e76ef8.png',
+  },
+  [ChainId.XDC]: {
+    address: '0x951857744785E80e2De051c32EE7b25f9c458C42',
+    symbol: CoinKey.WXDC,
+    decimals: 18,
+    chainId: ChainId.XDC,
+    coinKey: CoinKey.WXDC,
+    name: CoinKey.WXDC,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/xdc.svg',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
