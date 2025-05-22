@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.14.0](https://github.com/lifinance/data-types/compare/v6.13.0...v6.14.0) (2025-05-22)
+
+
+### Features
+
+* **chains:** add Bob ([#134](https://github.com/lifinance/data-types/issues/134)) ([e0a4455](https://github.com/lifinance/data-types/commit/e0a4455a7406656cb8ab1f756aa831b283ffc454))
+
 ## [6.13.0](https://github.com/lifinance/data-types/compare/v6.12.0...v6.13.0) (2025-05-21)
 
 
