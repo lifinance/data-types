@@ -1446,4 +1446,29 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://erpc.xinfin.network'],
     },
   },
+
+  {
+    key: ChainKey.BOC, // BOB was taken by Boba Chain already
+    chainType: ChainType.EVM,
+    name: 'BOB',
+    coin: CoinKey.ETH,
+    id: ChainId.BOC,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/bob.svg',
+    multicallAddress: multicallAddresses[ChainId.BOC],
+    relayerSupported: false,
+
+    metamask: {
+      chainId: prefixChainId(ChainId.BOC),
+      blockExplorerUrls: ['https://explorer.gobob.xyz/'],
+      chainName: 'BOB',
+      nativeCurrency: {
+        name: 'ETH',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.gobob.xyz'],
+    },
+  },
 ]
