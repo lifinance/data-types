@@ -601,7 +601,6 @@ export const supportedEVMChains: EVMChain[] = [
         decimals: 18,
       },
       rpcUrls: [
-        'https://evmos.lava.build',
         'https://evmos-evm-rpc.publicnode.com',
         'https://evmos.drpc.org',
       ],
