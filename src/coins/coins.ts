@@ -163,6 +163,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
+      [ChainId.BOC]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
     },
   },
   // > MATIC
@@ -1031,6 +1035,11 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
         name: 'USDC.e (Stargate)',
       },
+      [ChainId.BOC]: {
+        address: '0xe75D0fB2C24A55cA1e3F96781a2bCC7bdba058F0',
+        decimals: 6,
+        name: 'Bridged USDC (BOB)',
+      },
     },
   },
   // axlUSDC
@@ -1399,6 +1408,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
         decimals: 8,
       },
+      [ChainId.BOC]: {
+        address: '0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3',
+        decimals: 8,
+      },
     },
   },
 
@@ -1589,6 +1602,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.XDC]: {
         address: '0xa7348290de5cf01772479c48D50dec791c3fC212',
+        decimals: 18,
+      },
+      [ChainId.BOC]: {
+        address: '0x4200000000000000000000000000000000000006',
         decimals: 18,
       },
     },
@@ -2917,6 +2934,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: CoinKey.WXDC,
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/xdc.svg',
+  },
+  [ChainId.BOC]: {
+    address: '0x4200000000000000000000000000000000000006',
+    symbol: CoinKey.WETH,
+    decimals: 18,
+    chainId: ChainId.BOC,
+    coinKey: CoinKey.WETH,
+    name: CoinKey.WETH,
+    logoURI:
+      'https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
