@@ -1404,7 +1404,7 @@ export const supportedEVMChains: EVMChain[] = [
     id: ChainId.HYP,
     mainnet: true,
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/hyperliquid.svg',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/hyperevm.svg',
     multicallAddress: multicallAddresses[ChainId.HYP],
     relayerSupported: true,
 
