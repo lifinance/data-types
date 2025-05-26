@@ -1417,7 +1417,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'HYPE',
         decimals: 18,
       },
-      rpcUrls: ['https://hyperliquid-json-rpc.stakely.io'],
+      rpcUrls: ['https://rpc.hypurrscan.io', 'https://hyperliquid.drpc.org'],
     },
   },
 
