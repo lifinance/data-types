@@ -26,7 +26,6 @@ export const supportedUXTOChains: UTXOChain[] = [
       },
       rpcUrls: [
         'https://node-router.thorswap.net/bitcoin',
-        'https://rpc.ankr.com/btc',
         'https://bitcoin-rpc.publicnode.com',
       ],
     },

@@ -37,12 +37,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'ETH',
         decimals: 18,
       },
-      rpcUrls: [
-        'https://ethereum-rpc.publicnode.com',
-        'https://eth.drpc.org',
-        'https://eth.public-rpc.com',
-        'https://rpc.ankr.com/eth',
-      ],
+      rpcUrls: ['https://ethereum-rpc.publicnode.com', 'https://eth.drpc.org'],
     },
   },
   // 137 - Polygon
@@ -73,7 +68,6 @@ export const supportedEVMChains: EVMChain[] = [
         'https://polygon-bor-rpc.publicnode.com',
         'https://polygon.drpc.org',
         'https://polygon-rpc.com',
-        'https://rpc.ankr.com/polygon',
       ],
     },
   },
@@ -138,7 +132,6 @@ export const supportedEVMChains: EVMChain[] = [
         'https://rpc.gnosischain.com',
         'https://gnosis-rpc.publicnode.com',
         'https://gnosis.drpc.org',
-        'https://rpc.ankr.com/gnosis',
       ],
     },
   },
@@ -174,7 +167,6 @@ export const supportedEVMChains: EVMChain[] = [
         'https://rpc.fantom.network',
         'https://fantom-rpc.publicnode.com',
         'https://fantom.drpc.org',
-        'https://rpc.ftm.tools',
       ],
     },
   },
@@ -206,8 +198,6 @@ export const supportedEVMChains: EVMChain[] = [
         'https://api.avax.network/ext/bc/C/rpc',
         'https://avalanche-c-chain-rpc.publicnode.com',
         'https://avalanche.drpc.org',
-        'https://avalanche.public-rpc.com',
-        'https://rpc.ankr.com/avalanche',
       ],
     },
   },
@@ -239,7 +229,6 @@ export const supportedEVMChains: EVMChain[] = [
         'https://arb1.arbitrum.io/rpc',
         'https://arbitrum-one-rpc.publicnode.com',
         'https://arbitrum.drpc.org',
-        'https://rpc.ankr.com/arbitrum',
       ],
     },
   },
@@ -270,7 +259,6 @@ export const supportedEVMChains: EVMChain[] = [
         'https://mainnet.optimism.io/',
         'https://optimism-rpc.publicnode.com',
         'https://optimism.drpc.org',
-        'https://rpc.ankr.com/optimism',
       ],
     },
   },
@@ -283,7 +271,7 @@ export const supportedEVMChains: EVMChain[] = [
     coin: CoinKey.FSN,
     id: 32659,
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/fusion.png',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/fusion.svg',
     mainnet: true,
     multicallAddress: multicallAddresses[ChainId.FSN],
     // https://support.avax.network/en/articles/4626956-how-do-i-set-up-metamask-on-avalanche
@@ -413,11 +401,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'CELO',
         decimals: 18,
       },
-      rpcUrls: [
-        'https://forno.celo.org',
-        'https://celo.drpc.org',
-        'https://rpc.ankr.com/celo',
-      ],
+      rpcUrls: ['https://forno.celo.org', 'https://celo.drpc.org'],
     },
   },
   // 122 Fuse Mainnet
@@ -505,7 +489,7 @@ export const supportedEVMChains: EVMChain[] = [
     id: 288,
     mainnet: true,
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/boba.png',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/boba.svg',
     // TODO: we should update token list url to latest one
     tokenlistUrl:
       'https://raw.githubusercontent.com/OolongSwap/boba-community-token-list/main/build/boba.tokenlist.json',
@@ -532,7 +516,7 @@ export const supportedEVMChains: EVMChain[] = [
     mainnet: true,
     multicallAddress: multicallAddresses[ChainId.VEL],
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/velas.png',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/velas.svg',
     faucetUrls: ['https://stakely.io/faucet/velas-vlx'],
     metamask: {
       chainId: prefixChainId(106),
@@ -581,7 +565,7 @@ export const supportedEVMChains: EVMChain[] = [
     id: 1313161554,
     mainnet: true,
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/aurora.png',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/aurora.svg',
     tokenlistUrl: 'https://aurora.dev/tokens.json',
     multicallAddress: multicallAddresses[ChainId.AUR],
     metamask: {
@@ -617,7 +601,6 @@ export const supportedEVMChains: EVMChain[] = [
         decimals: 18,
       },
       rpcUrls: [
-        'https://evmos.lava.build',
         'https://evmos-evm-rpc.publicnode.com',
         'https://evmos.drpc.org',
       ],
@@ -658,7 +641,7 @@ export const supportedEVMChains: EVMChain[] = [
     id: 1101,
     mainnet: true,
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/zkevm.png',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/zkevm.svg',
     multicallAddress: multicallAddresses[ChainId.PZE],
 
     metamask: {
@@ -697,7 +680,6 @@ export const supportedEVMChains: EVMChain[] = [
         'https://mainnet.base.org',
         'https://base-rpc.publicnode.com',
         'https://base.drpc.org',
-        'https://rpc.ankr.com/base',
       ],
     },
   },
@@ -732,7 +714,7 @@ export const supportedEVMChains: EVMChain[] = [
     id: 534352,
     mainnet: true,
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/scroll.png',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/scroll.svg',
     multicallAddress: multicallAddresses[ChainId.SCL],
     metamask: {
       chainId: prefixChainId(534352),
@@ -760,7 +742,7 @@ export const supportedEVMChains: EVMChain[] = [
     id: 34443,
     mainnet: true,
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/mode.png',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/mode.svg',
     multicallAddress: multicallAddresses[ChainId.MOD],
 
     metamask: {
@@ -787,7 +769,7 @@ export const supportedEVMChains: EVMChain[] = [
     id: 5000,
     mainnet: true,
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/mantle.png',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/mantle.svg',
     multicallAddress: multicallAddresses[ChainId.MNT],
     metamask: {
       chainId: prefixChainId(5000),
@@ -819,7 +801,7 @@ export const supportedEVMChains: EVMChain[] = [
     id: 81457,
     mainnet: true,
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/blast.png',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/blast.svg',
     multicallAddress: multicallAddresses[ChainId.BLS],
     relayerSupported: true,
     metamask: {
@@ -835,7 +817,6 @@ export const supportedEVMChains: EVMChain[] = [
         'https://rpc.blast.io',
         'https://blast-rpc.publicnode.com',
         'https://blast.drpc.org',
-        'https://rpc.ankr.com/blast',
       ],
     },
   },
@@ -920,7 +901,7 @@ export const supportedEVMChains: EVMChain[] = [
     id: 167000,
     mainnet: true,
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/taiko.png',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/taiko.svg',
     multicallAddress: multicallAddresses[ChainId.TAI],
     metamask: {
       chainId: prefixChainId(167000),
@@ -1303,7 +1284,7 @@ export const supportedEVMChains: EVMChain[] = [
     relayerSupported: true,
 
     metamask: {
-      chainId: prefixChainId(57079),
+      chainId: prefixChainId(57073),
       blockExplorerUrls: ['https://explorer.inkonchain.com/'],
       chainName: 'Ink',
       nativeCurrency: {
@@ -1412,6 +1393,81 @@ export const supportedEVMChains: EVMChain[] = [
         decimals: 18,
       },
       rpcUrls: ['https://rpc.superposition.so'],
+    },
+  },
+
+  {
+    key: ChainKey.HYP,
+    chainType: ChainType.EVM,
+    name: 'HyperEVM',
+    coin: CoinKey.HYPE,
+    id: ChainId.HYP,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/hyperevm.svg',
+    multicallAddress: multicallAddresses[ChainId.HYP],
+    relayerSupported: true,
+
+    metamask: {
+      chainId: prefixChainId(ChainId.HYP),
+      blockExplorerUrls: ['https://www.hyperscan.com//'],
+      chainName: 'HyperEVM',
+      nativeCurrency: {
+        name: 'HYPE',
+        symbol: 'HYPE',
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.hypurrscan.io', 'https://hyperliquid.drpc.org'],
+    },
+  },
+
+  {
+    key: ChainKey.XDC,
+    chainType: ChainType.EVM,
+    name: 'XDC',
+    coin: CoinKey.XDC,
+    id: ChainId.XDC,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/xdc.svg',
+    multicallAddress: multicallAddresses[ChainId.XDC],
+    relayerSupported: false,
+
+    metamask: {
+      chainId: prefixChainId(ChainId.XDC),
+      blockExplorerUrls: ['https://xdcscan.com/'],
+      chainName: 'XDC',
+      nativeCurrency: {
+        name: 'XDC',
+        symbol: 'XDC',
+        decimals: 18,
+      },
+      rpcUrls: ['https://erpc.xinfin.network'],
+    },
+  },
+
+  {
+    key: ChainKey.BOC, // BOB was taken by Boba Chain already
+    chainType: ChainType.EVM,
+    name: 'BOB',
+    coin: CoinKey.ETH,
+    id: ChainId.BOC,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/bob.svg',
+    multicallAddress: multicallAddresses[ChainId.BOC],
+    relayerSupported: false,
+
+    metamask: {
+      chainId: prefixChainId(ChainId.BOC),
+      blockExplorerUrls: ['https://explorer.gobob.xyz/'],
+      chainName: 'BOB',
+      nativeCurrency: {
+        name: 'ETH',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.gobob.xyz'],
     },
   },
 ]

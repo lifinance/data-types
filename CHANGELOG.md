@@ -2,6 +2,49 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.14.2](https://github.com/lifinance/data-types/compare/v6.14.1...v6.14.2) (2025-05-26)
+
+### [6.14.1](https://github.com/lifinance/data-types/compare/v6.14.0...v6.14.1) (2025-05-23)
+
+## [6.14.0](https://github.com/lifinance/data-types/compare/v6.13.0...v6.14.0) (2025-05-22)
+
+
+### Features
+
+* **chains:** add Bob ([#134](https://github.com/lifinance/data-types/issues/134)) ([e0a4455](https://github.com/lifinance/data-types/commit/e0a4455a7406656cb8ab1f756aa831b283ffc454))
+
+## [6.13.0](https://github.com/lifinance/data-types/compare/v6.12.0...v6.13.0) (2025-05-21)
+
+
+### Features
+
+* **chain:** add XDC ([#133](https://github.com/lifinance/data-types/issues/133)) ([7a4b954](https://github.com/lifinance/data-types/commit/7a4b9540e93ba459fe35e6272e5073961d6166ad))
+
+## [6.12.0](https://github.com/lifinance/data-types/compare/v6.11.6...v6.12.0) (2025-05-21)
+
+
+### Features
+
+* **chain:** add HyperEVM ([#132](https://github.com/lifinance/data-types/issues/132)) ([77bdbc3](https://github.com/lifinance/data-types/commit/77bdbc30a725a8200cf3574907ff5cf6561ee119))
+
+### [6.11.6](https://github.com/lifinance/data-types/compare/v6.11.5...v6.11.6) (2025-05-19)
+
+
+### Bug Fixes
+
+* **coins:** rename USDCe on Sonic to USDC ([#131](https://github.com/lifinance/data-types/issues/131)) ([4e94e82](https://github.com/lifinance/data-types/commit/4e94e82e91ab28b88e96425988120ac764372799))
+
+### [6.11.5](https://github.com/lifinance/data-types/compare/v6.11.4...v6.11.5) (2025-05-08)
+
+### [6.11.4](https://github.com/lifinance/data-types/compare/v6.11.3...v6.11.4) (2025-04-30)
+
+### [6.11.3](https://github.com/lifinance/data-types/compare/v6.11.2...v6.11.3) (2025-04-29)
+
+
+### Bug Fixes
+
+* remove outdated rpcs ([#128](https://github.com/lifinance/data-types/issues/128)) ([d8247b7](https://github.com/lifinance/data-types/commit/d8247b7741b4d9133d9f86d9634a8fed6b99c56c))
+
 ### [6.11.1](https://github.com/lifinance/data-types/compare/v6.11.0...v6.11.1) (2025-04-22)
 
 ## [6.11.0](https://github.com/lifinance/data-types/compare/v6.10.1...v6.11.0) (2025-04-17)

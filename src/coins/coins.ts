@@ -163,6 +163,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
+      [ChainId.BOC]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
     },
   },
   // > MATIC
@@ -503,7 +507,22 @@ export const basicCoins: BasicCoin[] = [
     verified: true,
     chains: {
       [ChainId.CRN]: {
-        address: '0x0000000000000000000000000000000000000000', // might have to be changed to 0xeee... if we run into issues with swaps, bridging worked with this address
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+
+  // > XDC
+  {
+    key: CoinKey.XDC,
+    name: 'XDC',
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/xdc.svg',
+    verified: true,
+    chains: {
+      [ChainId.XDC]: {
+        address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
     },
@@ -675,8 +694,9 @@ export const basicCoins: BasicCoin[] = [
         symbol: 'rUSDT',
       },
       [ChainId.SEI]: {
-        address: '0xB75D0B03c06A926e488e2659DF1A861F860bD3d1',
+        address: '0x9151434b16b9763660705744891fA906F660EcC5',
         decimals: 6,
+        name: 'USDT0',
       },
       [ChainId.TAI]: {
         address: '0x2DEF195713CF4a606B49D07E520e22C17899a736',
@@ -884,6 +904,11 @@ export const basicCoins: BasicCoin[] = [
         address: '0x88F08E304EC4f90D644Cec3Fb69b8aD414acf884',
         decimals: 6,
       },
+      [ChainId.SON]: {
+        address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
+        decimals: 6,
+        name: 'USDC (Native)',
+      },
     },
   },
   // USDC.e
@@ -979,12 +1004,6 @@ export const basicCoins: BasicCoin[] = [
         name: 'Bridged USD (Stargate)',
         symbol: 'USDC.e',
       },
-      [ChainId.SON]: {
-        address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
-        decimals: 6,
-        name: 'Bridged USDC (Sonic Labs)',
-        symbol: 'USDC.e',
-      },
       [ChainId.SOE]: {
         address: '0xba9986d2381edf1da03b0b9c1f8b00dc4aacc369',
         decimals: 6,
@@ -1011,6 +1030,16 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
         name: 'Bridged USDC (Superposition)',
       },
+      [ChainId.XDC]: {
+        address: '0xCc0587aeBDa397146cc828b445dB130a94486e74',
+        decimals: 6,
+        name: 'USDC.e (Stargate)',
+      },
+      [ChainId.BOC]: {
+        address: '0xe75D0fB2C24A55cA1e3F96781a2bCC7bdba058F0',
+        decimals: 6,
+        name: 'Bridged USDC (BOB)',
+      },
     },
   },
   // axlUSDC
@@ -1024,7 +1053,7 @@ export const basicCoins: BasicCoin[] = [
     chains: {
       [ChainId.BSC]: {
         address: '0x4268B8F0B87b6Eae5d897996E6b845ddbD99Adf3',
-        decimals: 18,
+        decimals: 6,
       },
       [ChainId.AVA]: {
         address: '0xfaB550568C688d5D8A52C7d794cb93Edc26eC0eC',
@@ -1215,6 +1244,47 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // > HyperEVM
+  {
+    key: CoinKey.HYPE,
+    name: 'HYPE',
+    logoURI:
+      'https://static.debank.com/image/hyper_token/logo_url/hyper/0b3e288cfe418e9ce69eef4c96374583.png',
+    verified: true,
+    chains: {
+      [ChainId.HYP]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+  {
+    key: CoinKey.FEUSD,
+    name: 'feUSD',
+    logoURI:
+      'https://static.debank.com/image/hyper_token/logo_url/0x02c6a2fa58cc01a18b8d9e00ea48d65e4df26c70/81c56750c2a60e7e63a76a224c40ddb5.png',
+    verified: true,
+    chains: {
+      [ChainId.HYP]: {
+        address: '0x02c6a2fa58cc01a18b8d9e00ea48d65e4df26c70',
+        decimals: 18,
+      },
+    },
+  },
+  {
+    key: CoinKey.WHYPE,
+    name: 'Wrapped HYPE',
+    logoURI:
+      'https://static.debank.com/image/hyper_token/logo_url/0x5555555555555555555555555555555555555555/752e760ec0b1a17b81c7535e09e76ef8.png',
+    verified: true,
+    chains: {
+      [ChainId.HYP]: {
+        address: '0x5555555555555555555555555555555555555555',
+        decimals: 18,
+      },
+    },
+  },
+
   // > WBTC
   {
     key: CoinKey.WBTC,
@@ -1336,6 +1406,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.SOE]: {
         address: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
+        decimals: 8,
+      },
+      [ChainId.BOC]: {
+        address: '0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3',
         decimals: 8,
       },
     },
@@ -1524,6 +1598,29 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.SUP]: {
         address: '0x1fB719f10b56d7a85DCD32f27f897375fB21cfdd',
+        decimals: 18,
+      },
+      [ChainId.XDC]: {
+        address: '0xa7348290de5cf01772479c48D50dec791c3fC212',
+        decimals: 18,
+      },
+      [ChainId.BOC]: {
+        address: '0x4200000000000000000000000000000000000006',
+        decimals: 18,
+      },
+    },
+  },
+
+  // > WXDC
+  {
+    key: CoinKey.WXDC,
+    name: CoinKey.WXDC,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/xdc.svg',
+    verified: true,
+    chains: {
+      [ChainId.XDC]: {
+        address: '0x951857744785E80e2De051c32EE7b25f9c458C42',
         decimals: 18,
       },
     },
@@ -2815,6 +2912,36 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     chainId: ChainId.SUP,
     coinKey: CoinKey.WETH,
     name: 'WETH',
+    logoURI:
+      'https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png',
+  },
+  [ChainId.HYP]: {
+    address: '0x5555555555555555555555555555555555555555',
+    symbol: CoinKey.WHYPE,
+    decimals: 18,
+    chainId: ChainId.HYP,
+    coinKey: CoinKey.WHYPE,
+    name: 'Wrapped HYPE',
+    logoURI:
+      'https://static.debank.com/image/hyper_token/logo_url/0x5555555555555555555555555555555555555555/752e760ec0b1a17b81c7535e09e76ef8.png',
+  },
+  [ChainId.XDC]: {
+    address: '0x951857744785E80e2De051c32EE7b25f9c458C42',
+    symbol: CoinKey.WXDC,
+    decimals: 18,
+    chainId: ChainId.XDC,
+    coinKey: CoinKey.WXDC,
+    name: CoinKey.WXDC,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/xdc.svg',
+  },
+  [ChainId.BOC]: {
+    address: '0x4200000000000000000000000000000000000006',
+    symbol: CoinKey.WETH,
+    decimals: 18,
+    chainId: ChainId.BOC,
+    coinKey: CoinKey.WETH,
+    name: CoinKey.WETH,
     logoURI:
       'https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png',
   },
