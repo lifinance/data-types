@@ -167,6 +167,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
+      [ChainId.HYP]: {
+        address: '0x1fbccdc677c10671ee50b46c61f0f7d135112450',
+        decimals: 18,
+      },
     },
   },
   // > MATIC
