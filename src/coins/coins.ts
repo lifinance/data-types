@@ -605,6 +605,8 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.ARB]: {
         address: '0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9',
         decimals: 6,
+        name: 'USDT0',
+        symbol: 'USD₮0',
       },
       [ChainId.ONE]: {
         address: '0x3c2b8be99c50593081eaa2a724f0b8285f5aba8f',
