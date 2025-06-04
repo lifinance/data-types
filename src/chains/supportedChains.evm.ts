@@ -1488,7 +1488,7 @@ export const supportedEVMChains: EVMChain[] = [
       blockExplorerUrls: ['https://explorer.etherlink.com/'],
       chainName: 'Etherlink',
       nativeCurrency: {
-        name: 'Tez',
+        name: 'Tezos',
         symbol: 'XTZ',
         decimals: 18,
       },
