@@ -99,7 +99,7 @@
     "prettier": "^3.5.3",
     "standard-version": "^9.5.0",
     "typescript": "^5.8.2",
-    "viem": "^2.23.5",
+    "viem": "^2.30.6",
     "vitest": "^3.0.7"
   },
   "packageManager": "pnpm@9.15.4",
