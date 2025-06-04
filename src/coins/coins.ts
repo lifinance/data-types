@@ -756,6 +756,11 @@ export const basicCoins: BasicCoin[] = [
         address: '0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8',
         decimals: 6,
       },
+      [ChainId.ETL]: {
+        address: '0x2c03058c8afc06713be23e58d2febc8337dbfe6a',
+        decimals: 6,
+        name: 'Bridged USDT (Etherlink)',
+      },
     },
   },
 
