@@ -1,5 +1,4 @@
-import type { Coin, StaticToken } from '@lifi/types'
-import { ChainId, CoinKey } from '@lifi/types'
+import { ChainId, type Coin, CoinKey, type StaticToken } from '@lifi/types'
 
 type BasicToken = {
   address: string
@@ -512,7 +511,20 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
-
+  // > XTZ
+  {
+    key: CoinKey.XTZ,
+    name: 'Tezos',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/976/standard/Tezos-logo.png?1696502091',
+    verified: true,
+    chains: {
+      [ChainId.ETL]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
   // > XDC
   {
     key: CoinKey.XDC,
@@ -908,6 +920,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x29219dd400f2Bf60E5a23d13Be72B486D4038894',
         decimals: 6,
         name: 'USDC (Native)',
+      },
+      [ChainId.ETL]: {
+        address: '0x796Ea11Fa2dD751eD01b53C372fFDB4AAa8f00F9',
+        decimals: 6,
       },
     },
   },
@@ -1621,6 +1637,20 @@ export const basicCoins: BasicCoin[] = [
     chains: {
       [ChainId.XDC]: {
         address: '0x951857744785E80e2De051c32EE7b25f9c458C42',
+        decimals: 18,
+      },
+    },
+  },
+  // > WXTZ
+  {
+    key: CoinKey.WXTZ,
+    name: 'Wrapped XTZ',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/51172/standard/WXTZ_Logo_black.png?1741099768',
+    verified: true,
+    chains: {
+      [ChainId.ETL]: {
+        address: '0xc9B53AB2679f573e480d01e0f49e2B5CFB7a3EAb',
         decimals: 18,
       },
     },
@@ -2944,6 +2974,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: CoinKey.WETH,
     logoURI:
       'https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png',
+  },
+  [ChainId.ETL]: {
+    address: '0xc9B53AB2679f573e480d01e0f49e2B5CFB7a3EAb',
+    symbol: CoinKey.WXTZ,
+    decimals: 18,
+    chainId: ChainId.ETL,
+    coinKey: CoinKey.WXTZ,
+    name: 'Wrapped XTZ',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/51172/standard/WXTZ_Logo_black.png?1741099768',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {

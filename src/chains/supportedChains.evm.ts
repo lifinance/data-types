@@ -1470,4 +1470,29 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://rpc.gobob.xyz'],
     },
   },
+
+  {
+    key: ChainKey.ETL,
+    chainType: ChainType.EVM,
+    name: 'Etherlink',
+    coin: CoinKey.XTZ,
+    id: ChainId.ETL,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/etherlink.svg',
+    multicallAddress: multicallAddresses[ChainId.ETL],
+    relayerSupported: false,
+
+    metamask: {
+      chainId: prefixChainId(ChainId.ETL),
+      blockExplorerUrls: ['https://explorer.etherlink.com/'],
+      chainName: 'Etherlink',
+      nativeCurrency: {
+        name: 'Tez',
+        symbol: 'XTZ',
+        decimals: 18,
+      },
+      rpcUrls: ['https://node.mainnet.etherlink.com'],
+    },
+  },
 ]
