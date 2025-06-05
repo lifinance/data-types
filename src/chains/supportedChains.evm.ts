@@ -1417,7 +1417,13 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'HYPE',
         decimals: 18,
       },
-      rpcUrls: ['https://rpc.hyperliquid.xyz/evm', 'https://rpc.hyperlend.finance', 'https://hyperliquid-json-rpc.stakely.io', 'https://hyperliquid.drpc.org', 'https://rpc.hypurrscan.io'],
+      rpcUrls: [
+        'https://rpc.hyperliquid.xyz/evm',
+        'https://rpc.hyperlend.finance',
+        'https://hyperliquid-json-rpc.stakely.io',
+        'https://hyperliquid.drpc.org',
+        'https://rpc.hypurrscan.io',
+      ],
     },
   },
 
@@ -1493,6 +1499,31 @@ export const supportedEVMChains: EVMChain[] = [
         decimals: 18,
       },
       rpcUrls: ['https://node.mainnet.etherlink.com'],
+    },
+  },
+
+  {
+    key: ChainKey.VIC,
+    chainType: ChainType.EVM,
+    name: 'Viction',
+    coin: CoinKey.VIC,
+    id: ChainId.VIC,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/viction.svg',
+    multicallAddress: multicallAddresses[ChainId.VIC],
+    relayerSupported: false,
+
+    metamask: {
+      chainId: prefixChainId(ChainId.VIC),
+      blockExplorerUrls: ['https://www.vicscan.xyz/'],
+      chainName: 'Viction',
+      nativeCurrency: {
+        name: 'Viction',
+        symbol: CoinKey.VIC,
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.viction.xyz'],
     },
   },
 ]

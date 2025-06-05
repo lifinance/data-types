@@ -64,6 +64,7 @@ export const multicallAddresses: { [ChainId: number]: string } = {
   [ChainId.XDC]: '0x0b1795cca8e4ec4df02346a082df54d437f8d9af',
   [ChainId.BOC]: '0xcA11bde05977b3631167028862bE2a173976CA11',
   [ChainId.ETL]: '0xcA11bde05977b3631167028862bE2a173976CA11',
+  [ChainId.VIC]: '0xcA11bde05977b3631167028862bE2a173976CA11',
 
   // TODO
   // [ChainId.EXP]: '', // TODO
