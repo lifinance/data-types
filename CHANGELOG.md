@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.15.0](https://github.com/lifinance/data-types/compare/v6.14.6...v6.15.0) (2025-06-05)
+
+
+### Features
+
+* add Viction chain ([#141](https://github.com/lifinance/data-types/issues/141)) ([d9fe606](https://github.com/lifinance/data-types/commit/d9fe6060e948dceccd9a00ff7a60178ab0431b5a))
+
 ### [6.14.6](https://github.com/lifinance/data-types/compare/v6.14.5...v6.14.6) (2025-06-05)
 
 
