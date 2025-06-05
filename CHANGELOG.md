@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.14.6](https://github.com/lifinance/data-types/compare/v6.14.5...v6.14.6) (2025-06-05)
+
+
+### Bug Fixes
+
+* **chains:** add etherlink ([#140](https://github.com/lifinance/data-types/issues/140)) ([6791fc0](https://github.com/lifinance/data-types/commit/6791fc0c736c874b51472ab8be28cdc51ade441e))
+
 ### [6.14.5](https://github.com/lifinance/data-types/compare/v6.14.4...v6.14.5) (2025-05-30)
 
 ### [6.14.4](https://github.com/lifinance/data-types/compare/v6.14.3...v6.14.4) (2025-05-28)
