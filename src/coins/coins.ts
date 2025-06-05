@@ -767,6 +767,10 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
         name: 'Bridged USDT (Etherlink)',
       },
+      [ChainId.VIC]: {
+        address: '0x69b946132b4a6c74cd29ba3ff614ceea1ef9ff2b',
+        decimals: 6,
+      },
     },
   },
 
@@ -2345,6 +2349,34 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // Viction
+  {
+    key: CoinKey.VIC,
+    name: 'Viction',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/3416/standard/viction.jpeg?1698894318',
+    verified: true,
+    chains: {
+      [ChainId.VIC]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+  {
+    key: CoinKey.WVIC,
+    name: 'Wrapped Viction',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/53427/standard/viction.jpg?1740640829',
+    verified: true,
+    chains: {
+      [ChainId.VIC]: {
+        address: '0xc054751bdbd24ae713ba3dc9bd9434abe2abc1ce',
+        decimals: 18,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
@@ -2995,6 +3027,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped XTZ',
     logoURI:
       'https://assets.coingecko.com/coins/images/51172/standard/WXTZ_Logo_black.png?1741099768',
+  },
+  [ChainId.VIC]: {
+    address: '0xc054751bdbd24ae713ba3dc9bd9434abe2abc1ce',
+    symbol: CoinKey.WVIC,
+    decimals: 18,
+    chainId: ChainId.VIC,
+    coinKey: CoinKey.WVIC,
+    name: 'Wrapped Viction',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/53427/standard/viction.jpg?1740640829',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
