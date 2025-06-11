@@ -771,6 +771,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x69b946132b4a6c74cd29ba3ff614ceea1ef9ff2b',
         decimals: 6,
       },
+      [ChainId.FLR]: {
+        address: '0x0B38e83B86d491735fEaa0a791F65c2B99535396',
+        decimals: 6,
+      },
     },
   },
 
@@ -1070,6 +1074,11 @@ export const basicCoins: BasicCoin[] = [
         address: '0xe75D0fB2C24A55cA1e3F96781a2bCC7bdba058F0',
         decimals: 6,
         name: 'Bridged USDC (BOB)',
+      },
+      [ChainId.FLR]: {
+        address: '0xfbda5f676cb37624f28265a144a48b0d6e87d3b6',
+        decimals: 6,
+        name: 'Bridged USDC (Stargate)',
       },
     },
   },
@@ -1637,6 +1646,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.BOC]: {
         address: '0x4200000000000000000000000000000000000006',
+        decimals: 18,
+      },
+      [ChainId.FLR]: {
+        address: '0x1502FA4be69d526124D453619276FacCab275d3D',
         decimals: 18,
       },
     },
@@ -2377,6 +2390,34 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // Flare
+  {
+    key: CoinKey.FLR,
+    name: 'Flare',
+    logoURI:
+      'https://static.debank.com/image/flr_token/logo_url/flr/c7d8087092d5d7b80794630612afb32e.png',
+    verified: true,
+    chains: {
+      [ChainId.FLR]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+  {
+    key: CoinKey.WFLR,
+    name: 'Wrapped Flare',
+    logoURI:
+      'https://static.debank.com/image/flr_token/logo_url/0x1d80c49bbbcd1c0911346656b529df9e5c2f783d/c7d8087092d5d7b80794630612afb32e.png',
+    verified: true,
+    chains: {
+      [ChainId.FLR]: {
+        address: '0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d',
+        decimals: 18,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
@@ -3037,6 +3078,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped Viction',
     logoURI:
       'https://assets.coingecko.com/coins/images/53427/standard/viction.jpg?1740640829',
+  },
+  [ChainId.FLR]: {
+    address: '0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d',
+    symbol: CoinKey.WFLR,
+    decimals: 18,
+    chainId: ChainId.FLR,
+    coinKey: CoinKey.WFLR,
+    name: 'Wrapped Flare',
+    logoURI:
+      'https://static.debank.com/image/flr_token/logo_url/0x1d80c49bbbcd1c0911346656b529df9e5c2f783d/c7d8087092d5d7b80794630612afb32e.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {

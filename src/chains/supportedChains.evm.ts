@@ -1526,4 +1526,29 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://rpc.viction.xyz'],
     },
   },
+
+  {
+    key: ChainKey.FLR,
+    chainType: ChainType.EVM,
+    name: 'Flare',
+    coin: CoinKey.FLR,
+    id: ChainId.FLR,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/flare.svg',
+    multicallAddress: multicallAddresses[ChainId.FLR],
+    relayerSupported: false,
+
+    metamask: {
+      chainId: prefixChainId(ChainId.FLR),
+      blockExplorerUrls: ['https://flarescan.com/'],
+      chainName: 'Flare',
+      nativeCurrency: {
+        name: 'Flare',
+        symbol: CoinKey.FLR,
+        decimals: 18,
+      },
+      rpcUrls: ['https://flare-api.flare.network/ext/C/rpc'],
+    },
+  },
 ]
