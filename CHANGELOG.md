@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.16.0](https://github.com/lifinance/data-types/compare/v6.15.0...v6.16.0) (2025-06-11)
+
+
+### Features
+
+* add weth to SOE ([fd19d74](https://github.com/lifinance/data-types/commit/fd19d74e15f49e96ace554fcf24595733b7f47b7))
+
 ## [6.15.0](https://github.com/lifinance/data-types/compare/v6.14.6...v6.15.0) (2025-06-05)
 
 
