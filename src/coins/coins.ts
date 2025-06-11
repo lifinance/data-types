@@ -1619,6 +1619,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0xf4d9235269a96aadafc9adae454a0618ebe37949',
         decimals: 18,
       },
+      [ChainId.SOE]: {
+        address: '0x4200000000000000000000000000000000000006',
+        decimals: 18,
+      },
       [ChainId.LNS]: {
         address: '0xE5ecd226b3032910CEaa43ba92EE8232f8237553',
         decimals: 18,
