@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.17.0](https://github.com/lifinance/data-types/compare/v6.15.0...v6.17.0) (2025-06-11)
+
+
+### Features
+
+* add Flare chain ([#143](https://github.com/lifinance/data-types/issues/143)) ([52f49d7](https://github.com/lifinance/data-types/commit/52f49d79cf8b07a8ad77734b4068bd8151261342))
+* add weth to SOE adn ERA ([#142](https://github.com/lifinance/data-types/issues/142)) ([b5ffc94](https://github.com/lifinance/data-types/commit/b5ffc94e17d0603defd38401632960b85f4cb115))
+
 ## [6.16.0](https://github.com/lifinance/data-types/compare/v6.15.0...v6.16.0) (2025-06-11)
 
 
