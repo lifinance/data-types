@@ -1,6 +1,6 @@
 {
   "name": "@lifi/data-types",
-  "version": "6.15.0-beta.0",
+  "version": "6.17.0",
   "description": "Data types for the LI.FI stack",
   "keywords": [
     "sdk",
@@ -78,7 +78,7 @@
     ]
   },
   "dependencies": {
-    "@lifi/types": "^v17.17.0-beta.0"
+    "@lifi/types": "^v17.18.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.7.1",
@@ -99,7 +99,7 @@
     "prettier": "^3.5.3",
     "standard-version": "^9.5.0",
     "typescript": "^5.8.2",
-    "viem": "^2.23.5",
+    "viem": "^2.30.6",
     "vitest": "^3.0.7"
   },
   "packageManager": "pnpm@9.15.4",

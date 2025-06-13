@@ -1417,7 +1417,13 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'HYPE',
         decimals: 18,
       },
-      rpcUrls: ['https://rpc.hypurrscan.io', 'https://hyperliquid.drpc.org'],
+      rpcUrls: [
+        'https://rpc.hyperliquid.xyz/evm',
+        'https://rpc.hyperlend.finance',
+        'https://hyperliquid-json-rpc.stakely.io',
+        'https://hyperliquid.drpc.org',
+        'https://rpc.hypurrscan.io',
+      ],
     },
   },
 
@@ -1468,6 +1474,81 @@ export const supportedEVMChains: EVMChain[] = [
         decimals: 18,
       },
       rpcUrls: ['https://rpc.gobob.xyz'],
+    },
+  },
+
+  {
+    key: ChainKey.ETL,
+    chainType: ChainType.EVM,
+    name: 'Etherlink',
+    coin: CoinKey.XTZ,
+    id: ChainId.ETL,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/etherlink.svg',
+    multicallAddress: multicallAddresses[ChainId.ETL],
+    relayerSupported: false,
+
+    metamask: {
+      chainId: prefixChainId(ChainId.ETL),
+      blockExplorerUrls: ['https://explorer.etherlink.com/'],
+      chainName: 'Etherlink',
+      nativeCurrency: {
+        name: 'Tezos',
+        symbol: 'XTZ',
+        decimals: 18,
+      },
+      rpcUrls: ['https://node.mainnet.etherlink.com'],
+    },
+  },
+
+  {
+    key: ChainKey.VIC,
+    chainType: ChainType.EVM,
+    name: 'Viction',
+    coin: CoinKey.VIC,
+    id: ChainId.VIC,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/viction.svg',
+    multicallAddress: multicallAddresses[ChainId.VIC],
+    relayerSupported: false,
+
+    metamask: {
+      chainId: prefixChainId(ChainId.VIC),
+      blockExplorerUrls: ['https://www.vicscan.xyz/'],
+      chainName: 'Viction',
+      nativeCurrency: {
+        name: 'Viction',
+        symbol: CoinKey.VIC,
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.viction.xyz'],
+    },
+  },
+
+  {
+    key: ChainKey.FLR,
+    chainType: ChainType.EVM,
+    name: 'Flare',
+    coin: CoinKey.FLR,
+    id: ChainId.FLR,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/flare.svg',
+    multicallAddress: multicallAddresses[ChainId.FLR],
+    relayerSupported: false,
+
+    metamask: {
+      chainId: prefixChainId(ChainId.FLR),
+      blockExplorerUrls: ['https://flarescan.com/'],
+      chainName: 'Flare',
+      nativeCurrency: {
+        name: 'Flare',
+        symbol: CoinKey.FLR,
+        decimals: 18,
+      },
+      rpcUrls: ['https://flare-api.flare.network/ext/C/rpc'],
     },
   },
 ]

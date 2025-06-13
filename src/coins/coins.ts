@@ -1,5 +1,4 @@
-import type { Coin, StaticToken } from '@lifi/types'
-import { ChainId, CoinKey } from '@lifi/types'
+import { ChainId, type Coin, CoinKey, type StaticToken } from '@lifi/types'
 
 type BasicToken = {
   address: string
@@ -165,6 +164,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.BOC]: {
         address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+      [ChainId.HYP]: {
+        address: '0x1fbccdc677c10671ee50b46c61f0f7d135112450',
         decimals: 18,
       },
     },
@@ -512,7 +515,20 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
-
+  // > XTZ
+  {
+    key: CoinKey.XTZ,
+    name: 'Tezos',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/976/standard/Tezos-logo.png?1696502091',
+    verified: true,
+    chains: {
+      [ChainId.ETL]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
   // > XDC
   {
     key: CoinKey.XDC,
@@ -605,6 +621,8 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.ARB]: {
         address: '0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9',
         decimals: 6,
+        name: 'USDT0',
+        symbol: 'USD₮0',
       },
       [ChainId.ONE]: {
         address: '0x3c2b8be99c50593081eaa2a724f0b8285f5aba8f',
@@ -742,6 +760,19 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.APE]: {
         address: '0x674843C06FF83502ddb4D37c2E09C01cdA38cbc8',
+        decimals: 6,
+      },
+      [ChainId.ETL]: {
+        address: '0x2c03058c8afc06713be23e58d2febc8337dbfe6a',
+        decimals: 6,
+        name: 'Bridged USDT (Etherlink)',
+      },
+      [ChainId.VIC]: {
+        address: '0x69b946132b4a6c74cd29ba3ff614ceea1ef9ff2b',
+        decimals: 6,
+      },
+      [ChainId.FLR]: {
+        address: '0x0B38e83B86d491735fEaa0a791F65c2B99535396',
         decimals: 6,
       },
     },
@@ -909,6 +940,10 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
         name: 'USDC (Native)',
       },
+      [ChainId.ETL]: {
+        address: '0x796Ea11Fa2dD751eD01b53C372fFDB4AAa8f00F9',
+        decimals: 6,
+      },
     },
   },
   // USDC.e
@@ -1039,6 +1074,11 @@ export const basicCoins: BasicCoin[] = [
         address: '0xe75D0fB2C24A55cA1e3F96781a2bCC7bdba058F0',
         decimals: 6,
         name: 'Bridged USDC (BOB)',
+      },
+      [ChainId.FLR]: {
+        address: '0xfbda5f676cb37624f28265a144a48b0d6e87d3b6',
+        decimals: 6,
+        name: 'Bridged USDC (Stargate)',
       },
     },
   },
@@ -1588,6 +1628,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0xf4d9235269a96aadafc9adae454a0618ebe37949',
         decimals: 18,
       },
+      [ChainId.SOE]: {
+        address: '0x4200000000000000000000000000000000000006',
+        decimals: 18,
+      },
       [ChainId.LNS]: {
         address: '0xE5ecd226b3032910CEaa43ba92EE8232f8237553',
         decimals: 18,
@@ -1608,6 +1652,14 @@ export const basicCoins: BasicCoin[] = [
         address: '0x4200000000000000000000000000000000000006',
         decimals: 18,
       },
+      [ChainId.ERA]: {
+        address: '0x5aea5775959fbc2557cc8789bc1bf90a239d9a91',
+        decimals: 18,
+      },
+      [ChainId.FLR]: {
+        address: '0x1502FA4be69d526124D453619276FacCab275d3D',
+        decimals: 18,
+      },
     },
   },
 
@@ -1621,6 +1673,20 @@ export const basicCoins: BasicCoin[] = [
     chains: {
       [ChainId.XDC]: {
         address: '0x951857744785E80e2De051c32EE7b25f9c458C42',
+        decimals: 18,
+      },
+    },
+  },
+  // > WXTZ
+  {
+    key: CoinKey.WXTZ,
+    name: 'Wrapped XTZ',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/51172/standard/WXTZ_Logo_black.png?1741099768',
+    verified: true,
+    chains: {
+      [ChainId.ETL]: {
+        address: '0xc9B53AB2679f573e480d01e0f49e2B5CFB7a3EAb',
         decimals: 18,
       },
     },
@@ -2304,6 +2370,62 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // Viction
+  {
+    key: CoinKey.VIC,
+    name: 'Viction',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/3416/standard/viction.jpeg?1698894318',
+    verified: true,
+    chains: {
+      [ChainId.VIC]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+  {
+    key: CoinKey.WVIC,
+    name: 'Wrapped Viction',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/53427/standard/viction.jpg?1740640829',
+    verified: true,
+    chains: {
+      [ChainId.VIC]: {
+        address: '0xc054751bdbd24ae713ba3dc9bd9434abe2abc1ce',
+        decimals: 18,
+      },
+    },
+  },
+
+  // Flare
+  {
+    key: CoinKey.FLR,
+    name: 'Flare',
+    logoURI:
+      'https://static.debank.com/image/flr_token/logo_url/flr/c7d8087092d5d7b80794630612afb32e.png',
+    verified: true,
+    chains: {
+      [ChainId.FLR]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+  {
+    key: CoinKey.WFLR,
+    name: 'Wrapped Flare',
+    logoURI:
+      'https://static.debank.com/image/flr_token/logo_url/0x1d80c49bbbcd1c0911346656b529df9e5c2f783d/c7d8087092d5d7b80794630612afb32e.png',
+    verified: true,
+    chains: {
+      [ChainId.FLR]: {
+        address: '0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d',
+        decimals: 18,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
@@ -2944,6 +3066,36 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: CoinKey.WETH,
     logoURI:
       'https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png',
+  },
+  [ChainId.ETL]: {
+    address: '0xc9B53AB2679f573e480d01e0f49e2B5CFB7a3EAb',
+    symbol: CoinKey.WXTZ,
+    decimals: 18,
+    chainId: ChainId.ETL,
+    coinKey: CoinKey.WXTZ,
+    name: 'Wrapped XTZ',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/51172/standard/WXTZ_Logo_black.png?1741099768',
+  },
+  [ChainId.VIC]: {
+    address: '0xc054751bdbd24ae713ba3dc9bd9434abe2abc1ce',
+    symbol: CoinKey.WVIC,
+    decimals: 18,
+    chainId: ChainId.VIC,
+    coinKey: CoinKey.WVIC,
+    name: 'Wrapped Viction',
+    logoURI:
+      'https://assets.coingecko.com/coins/images/53427/standard/viction.jpg?1740640829',
+  },
+  [ChainId.FLR]: {
+    address: '0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d',
+    symbol: CoinKey.WFLR,
+    decimals: 18,
+    chainId: ChainId.FLR,
+    coinKey: CoinKey.WFLR,
+    name: 'Wrapped Flare',
+    logoURI:
+      'https://static.debank.com/image/flr_token/logo_url/0x1d80c49bbbcd1c0911346656b529df9e5c2f783d/c7d8087092d5d7b80794630612afb32e.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
