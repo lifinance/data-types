@@ -170,6 +170,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x1fbccdc677c10671ee50b46c61f0f7d135112450',
         decimals: 18,
       },
+      [ChainId.KAT]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
     },
   },
   // > MATIC
@@ -775,6 +779,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0B38e83B86d491735fEaa0a791F65c2B99535396',
         decimals: 6,
       },
+      [ChainId.KAT]: {
+        address: '0x2DCa96907fde857dd3D816880A0df407eeB2D2F2',
+        decimals: 6,
+      },
     },
   },
 
@@ -1079,6 +1087,11 @@ export const basicCoins: BasicCoin[] = [
         address: '0xfbda5f676cb37624f28265a144a48b0d6e87d3b6',
         decimals: 6,
         name: 'Bridged USDC (Stargate)',
+      },
+      [ChainId.KAT]: {
+        address: '0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36',
+        decimals: 6,
+        name: 'Vault Bridge USDC',
       },
     },
   },
@@ -1452,6 +1465,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3',
         decimals: 8,
       },
+      [ChainId.KAT]: {
+        address: '0x0913DA6Da4b42f538B445599b46Bb4622342Cf52',
+        decimals: 8,
+      },
     },
   },
 
@@ -1658,6 +1675,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.FLR]: {
         address: '0x1502FA4be69d526124D453619276FacCab275d3D',
+        decimals: 18,
+      },
+      [ChainId.KAT]: {
+        address: '0xEE7D8BCFb72bC1880D0Cf19822eB0A2e6577aB62',
         decimals: 18,
       },
     },
@@ -3096,6 +3117,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped Flare',
     logoURI:
       'https://static.debank.com/image/flr_token/logo_url/0x1d80c49bbbcd1c0911346656b529df9e5c2f783d/c7d8087092d5d7b80794630612afb32e.png',
+  },
+  [ChainId.KAT]: {
+    address: '0xEE7D8BCFb72bC1880D0Cf19822eB0A2e6577aB62',
+    symbol: CoinKey.WETH,
+    decimals: 18,
+    chainId: ChainId.KAT,
+    coinKey: CoinKey.WETH,
+    name: CoinKey.WETH,
+    logoURI:
+      'https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
