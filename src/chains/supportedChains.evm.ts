@@ -1551,4 +1551,29 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://flare-api.flare.network/ext/C/rpc'],
     },
   },
+
+  {
+    key: ChainKey.KAT,
+    chainType: ChainType.EVM,
+    name: 'Katana',
+    coin: CoinKey.ETH,
+    id: ChainId.KAT,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/katana.svg',
+    multicallAddress: multicallAddresses[ChainId.FLR],
+    relayerSupported: false,
+
+    metamask: {
+      chainId: prefixChainId(ChainId.KAT),
+      blockExplorerUrls: ['https://explorer.katana.network/'],
+      chainName: 'Katana',
+      nativeCurrency: {
+        name: CoinKey.ETH,
+        symbol: CoinKey.ETH,
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.katana.network'],
+    },
+  },
 ]
