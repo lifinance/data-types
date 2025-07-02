@@ -1561,7 +1561,7 @@ export const supportedEVMChains: EVMChain[] = [
     mainnet: true,
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/katana.svg',
-    multicallAddress: multicallAddresses[ChainId.FLR],
+    multicallAddress: multicallAddresses[ChainId.KAT],
     relayerSupported: false,
 
     metamask: {
@@ -1574,6 +1574,31 @@ export const supportedEVMChains: EVMChain[] = [
         decimals: 18,
       },
       rpcUrls: ['https://rpc.katana.network'],
+    },
+  },
+
+  {
+    key: ChainKey.VAN,
+    chainType: ChainType.EVM,
+    name: 'Vana',
+    coin: CoinKey.VAN,
+    id: ChainId.VAN,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/vana.svg',
+    multicallAddress: multicallAddresses[ChainId.VAN],
+    relayerSupported: false,
+
+    metamask: {
+      chainId: prefixChainId(ChainId.VAN),
+      blockExplorerUrls: ['https://vanascan.io/'],
+      chainName: 'Vana',
+      nativeCurrency: {
+        name: CoinKey.VAN,
+        symbol: CoinKey.VAN,
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.vana.org'],
     },
   },
 ]
