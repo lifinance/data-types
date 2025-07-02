@@ -783,6 +783,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x2DCa96907fde857dd3D816880A0df407eeB2D2F2',
         decimals: 6,
       },
+      [ChainId.VAN]: {
+        address: '0x88853d410299bcbfe5fcc9eef93c03115e908279',
+        decimals: 6,
+      },
     },
   },
 
@@ -1092,6 +1096,11 @@ export const basicCoins: BasicCoin[] = [
         address: '0x203A662b0BD271A6ed5a60EdFbd04bFce608FD36',
         decimals: 6,
         name: 'Vault Bridge USDC',
+      },
+      [ChainId.VAN]: {
+        address: '0xf1815bd50389c46847f0bda824ec8da914045d14',
+        decimals: 6,
+        name: 'Bridged USDC (Stargate)',
       },
     },
   },
@@ -1679,6 +1688,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.KAT]: {
         address: '0xEE7D8BCFb72bC1880D0Cf19822eB0A2e6577aB62',
+        decimals: 18,
+      },
+      [ChainId.VAN]: {
+        address: '0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590',
         decimals: 18,
       },
     },
@@ -2447,6 +2460,34 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // Vana
+  {
+    key: CoinKey.VAN,
+    name: 'Vana',
+    logoURI:
+      'https://static.debank.com/image/vana_token/logo_url/vana/4e286c230ccb1e83967dc85edefbc513.png',
+    verified: true,
+    chains: {
+      [ChainId.VAN]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+  {
+    key: CoinKey.WVAN,
+    name: 'Wrapped Vana',
+    logoURI:
+      'https://static.debank.com/image/vana_token/logo_url/0x00eddd9621fb08436d0331c149d1690909a5906d/732f5948570498c551fb29bc71c88296.png',
+    verified: true,
+    chains: {
+      [ChainId.VAN]: {
+        address: '0x00eddd9621fb08436d0331c149d1690909a5906d',
+        decimals: 18,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
@@ -3127,6 +3168,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: CoinKey.WETH,
     logoURI:
       'https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png',
+  },
+  [ChainId.VAN]: {
+    address: '0x00eddd9621fb08436d0331c149d1690909a5906d',
+    symbol: CoinKey.WVAN,
+    decimals: 18,
+    chainId: ChainId.VAN,
+    coinKey: CoinKey.WVAN,
+    name: 'Wrapped Vana',
+    logoURI:
+      'https://static.debank.com/image/vana_token/logo_url/0x00eddd9621fb08436d0331c149d1690909a5906d/732f5948570498c551fb29bc71c88296.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {

@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@lifi/types':
-        specifier: ^v17.18.0
-        version: 17.18.0(bufferutil@4.0.9)(typescript@5.8.2)(utf-8-validate@5.0.10)
+        specifier: ^v17.19.1
+        version: 17.19.1(bufferutil@4.0.9)(typescript@5.8.2)(utf-8-validate@5.0.10)
     devDependencies:
       '@commitlint/cli':
         specifier: ^19.7.1
@@ -429,8 +429,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@lifi/types@17.18.0':
-    resolution: {integrity: sha512-rDHJZ3dwSdG/ZK/CKjfPs3SvCnADLPNNbDtWo1BXMtUY4wdO9ZjoxlpoHj4zzu/LPWVejUf7j4hiNOE43rFd5A==}
+  '@lifi/types@17.19.1':
+    resolution: {integrity: sha512-95EAInhF1kPfOdc0VqpIRq3AfWUaCsqntF0SqGwK6QLnfQeSo5gBlG4vKoYu+cXNb3rzuJegVLKYvCtopU0RBA==}
 
   '@mysten/bcs@1.4.0':
     resolution: {integrity: sha512-YwDYspceLt8b7v6ohPvy8flQEi+smtfSG5d2A98CbUA48XBmOqTSPNmpw9wsZVVnrH2avr+BS5uVhDZT+EquYA==}
@@ -449,6 +449,10 @@ packages:
 
   '@noble/curves@1.9.1':
     resolution: {integrity: sha512-k11yZxZg+t+gWvBbIswW0yoJlu8cHOC7dhunwOzoWH/mXGBiYyR4YY6hAEK/3EUs4UpB8la1RfdRpeGsFHkWsA==}
+    engines: {node: ^14.21.3 || >=16}
+
+  '@noble/curves@1.9.2':
+    resolution: {integrity: sha512-HxngEd2XUcg9xi20JkwlLCtYwfoFw4JGkuZpT+WlsPD4gB/cxkvTD8fSsoAnphGZhFdZYKeQIPCuFlWPm1uE0g==}
     engines: {node: ^14.21.3 || >=16}
 
   '@noble/hashes@1.7.1':
@@ -1871,6 +1875,14 @@ packages:
       typescript:
         optional: true
 
+  ox@0.8.1:
+    resolution: {integrity: sha512-e+z5epnzV+Zuz91YYujecW8cF01mzmrUtWotJ0oEPym/G82uccs7q0WDHTYL3eiONbTUEvcZrptAKLgTBD3u2A==}
+    peerDependencies:
+      typescript: '>=5.4.0'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+
   p-limit@1.3.0:
     resolution: {integrity: sha512-vvcXsLAJ9Dr5rQOPk7toZQZJApBl2K4J6dANSsEuh6QI41JYcsS/qhTGa9ErIUUgK3WNQoJYvylxvjqmiqEA9Q==}
     engines: {node: '>=4'}
@@ -2419,6 +2431,14 @@ packages:
       typescript:
         optional: true
 
+  viem@2.31.6:
+    resolution: {integrity: sha512-2PPbXL/8bHQxUzaLFDk4R6WHifTcXxAqMC8/j6RBgXl/OexQ1HU8r9OukwfDTqrFoHtWWiYz5fktHATy7+U9nQ==}
+    peerDependencies:
+      typescript: '>=5.0.4'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+
   vite-node@3.0.7:
     resolution: {integrity: sha512-2fX0QwX4GkkkpULXdT1Pf4q0tC1i1lFOyseKoonavXUNlQ77KpW2XqBGGNIm/J4Ows4KxgGJzDguYVPKwG/n5A==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
@@ -2917,9 +2937,9 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@lifi/types@17.18.0(bufferutil@4.0.9)(typescript@5.8.2)(utf-8-validate@5.0.10)':
+  '@lifi/types@17.19.1(bufferutil@4.0.9)(typescript@5.8.2)(utf-8-validate@5.0.10)':
     dependencies:
-      viem: 2.30.6(bufferutil@4.0.9)(typescript@5.8.2)(utf-8-validate@5.0.10)
+      viem: 2.31.6(bufferutil@4.0.9)(typescript@5.8.2)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - bufferutil
       - typescript
@@ -2957,6 +2977,10 @@ snapshots:
       '@noble/hashes': 1.7.1
 
   '@noble/curves@1.9.1':
+    dependencies:
+      '@noble/hashes': 1.8.0
+
+  '@noble/curves@1.9.2':
     dependencies:
       '@noble/hashes': 1.8.0
 
@@ -4475,6 +4499,21 @@ snapshots:
     transitivePeerDependencies:
       - zod
 
+  ox@0.8.1(typescript@5.8.2):
+    dependencies:
+      '@adraffy/ens-normalize': 1.11.0
+      '@noble/ciphers': 1.3.0
+      '@noble/curves': 1.9.2
+      '@noble/hashes': 1.8.0
+      '@scure/bip32': 1.7.0
+      '@scure/bip39': 1.6.0
+      abitype: 1.0.8(typescript@5.8.2)
+      eventemitter3: 5.0.1
+    optionalDependencies:
+      typescript: 5.8.2
+    transitivePeerDependencies:
+      - zod
+
   p-limit@1.3.0:
     dependencies:
       p-try: 1.0.0
@@ -4967,6 +5006,23 @@ snapshots:
       abitype: 1.0.8(typescript@5.8.2)
       isows: 1.0.7(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       ox: 0.7.1(typescript@5.8.2)
+      ws: 8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+    optionalDependencies:
+      typescript: 5.8.2
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
+      - zod
+
+  viem@2.31.6(bufferutil@4.0.9)(typescript@5.8.2)(utf-8-validate@5.0.10):
+    dependencies:
+      '@noble/curves': 1.9.2
+      '@noble/hashes': 1.8.0
+      '@scure/bip32': 1.7.0
+      '@scure/bip39': 1.6.0
+      abitype: 1.0.8(typescript@5.8.2)
+      isows: 1.0.7(ws@8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      ox: 0.8.1(typescript@5.8.2)
       ws: 8.18.2(bufferutil@4.0.9)(utf-8-validate@5.0.10)
     optionalDependencies:
       typescript: 5.8.2
