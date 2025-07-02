@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.18.0](https://github.com/lifinance/data-types/compare/v6.17.0...v6.18.0) (2025-06-23)
+
+
+### Features
+
+* add Katana chain ([#144](https://github.com/lifinance/data-types/issues/144)) ([8634fdf](https://github.com/lifinance/data-types/commit/8634fdf8b70b2ce1c42c26531c2656de858ec262))
+
 ## [6.17.0](https://github.com/lifinance/data-types/compare/v6.15.0...v6.17.0) (2025-06-11)
 
 
