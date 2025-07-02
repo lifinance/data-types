@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.19.0](https://github.com/lifinance/data-types/compare/v6.18.0...v6.19.0) (2025-07-02)
+
+
+### Features
+
+* add Vana chain ([#145](https://github.com/lifinance/data-types/issues/145)) ([428b136](https://github.com/lifinance/data-types/commit/428b13601a96106c636a3508bde1fa5a24845b32))
+
 ## [6.18.0](https://github.com/lifinance/data-types/compare/v6.17.0...v6.18.0) (2025-06-23)
 
 
