@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.19.1](https://github.com/lifinance/data-types/compare/v6.19.0...v6.19.1) (2025-07-07)
+
+
+### Bug Fixes
+
+* **metis:** use AddressZero as native ([#146](https://github.com/lifinance/data-types/issues/146)) ([3b56a89](https://github.com/lifinance/data-types/commit/3b56a8906b63a3f6cee498220a8b36bc2af44164))
+
 ## [6.19.0](https://github.com/lifinance/data-types/compare/v6.18.0...v6.19.0) (2025-07-02)
 
 
