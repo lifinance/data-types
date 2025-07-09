@@ -1410,7 +1410,7 @@ export const supportedEVMChains: EVMChain[] = [
 
     metamask: {
       chainId: prefixChainId(ChainId.HYP),
-      blockExplorerUrls: ['https://www.hyperscan.com//'],
+      blockExplorerUrls: ['https://hyperevmscan.io/'],
       chainName: 'HyperEVM',
       nativeCurrency: {
         name: 'HYPE',
