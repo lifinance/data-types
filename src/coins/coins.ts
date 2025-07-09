@@ -787,6 +787,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x88853d410299bcbfe5fcc9eef93c03115e908279',
         decimals: 6,
       },
+      [ChainId.BOC]: {
+        address: '0x05D032ac25d322df992303dCa074EE7392C117b9',
+        decimals: 6,
+      },
     },
   },
 
@@ -1301,6 +1305,53 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.SEI]: {
         address: '0x80Eede496655FB9047dd39d9f418d5483ED600df',
+        decimals: 18,
+      },
+    },
+  },
+
+  // USDe
+  {
+    key: CoinKey.USDe,
+    name: CoinKey.USDe,
+    logoURI:
+      'https://static.debank.com/image/eth_token/logo_url/0x4c9edd5852cd905f086c759e8383e09bff1e68b3/1228d6e73f70f37ec1f6fe02a3bbe6ff.png',
+    verified: true,
+    chains: {
+      [ChainId.ETH]: {
+        address: '0x4c9edd5852cd905f086c759e8383e09bff1e68b3',
+        decimals: 18,
+      },
+      [ChainId.BSC]: {
+        address: '0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34',
+        decimals: 18,
+      },
+      [ChainId.OPT]: {
+        address: '0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34',
+        decimals: 18,
+      },
+      [ChainId.ARB]: {
+        address: '0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34',
+        decimals: 18,
+      },
+      [ChainId.MAM]: {
+        address: '0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34',
+        decimals: 18,
+      },
+      [ChainId.MNT]: {
+        address: '0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34',
+        decimals: 18,
+      },
+      [ChainId.LNA]: {
+        address: '0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34',
+        decimals: 18,
+      },
+      [ChainId.SCL]: {
+        address: '0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34',
+        decimals: 18,
+      },
+      [ChainId.BAS]: {
+        address: '0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34',
         decimals: 18,
       },
     },
