@@ -1601,4 +1601,29 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://rpc.vana.org'],
     },
   },
+
+  {
+    key: ChainKey.NIB,
+    chainType: ChainType.EVM,
+    name: 'Nibiru',
+    coin: CoinKey.NIB,
+    id: ChainId.NIB,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/nibiru.svg',
+    multicallAddress: multicallAddresses[ChainId.NIB],
+    relayerSupported: false,
+
+    metamask: {
+      chainId: prefixChainId(ChainId.NIB),
+      blockExplorerUrls: ['https://nibiscan.io/'],
+      chainName: 'Nibiru',
+      nativeCurrency: {
+        name: CoinKey.NIB,
+        symbol: CoinKey.NIB,
+        decimals: 18,
+      },
+      rpcUrls: ['https://evm-rpc.nibiru.fi'],
+    },
+  },
 ]

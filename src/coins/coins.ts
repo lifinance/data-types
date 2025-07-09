@@ -787,6 +787,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x88853d410299bcbfe5fcc9eef93c03115e908279',
         decimals: 6,
       },
+      [ChainId.NIB]: {
+        address: '0x43F2376D5D03553aE72F4A8093bbe9de4336EB08',
+        decimals: 6,
+      },
     },
   },
 
@@ -1099,6 +1103,11 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.VAN]: {
         address: '0xf1815bd50389c46847f0bda824ec8da914045d14',
+        decimals: 6,
+        name: 'Bridged USDC (Stargate)',
+      },
+      [ChainId.NIB]: {
+        address: '0x0829F361A05D993d5CEb035cA6DF3446b060970b',
         decimals: 6,
         name: 'Bridged USDC (Stargate)',
       },
@@ -1692,6 +1701,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.VAN]: {
         address: '0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590',
+        decimals: 18,
+      },
+      [ChainId.NIB]: {
+        address: '0xcdA5b77E2E2268D9E09c874c1b9A4c3F07b37555',
         decimals: 18,
       },
     },
@@ -2488,6 +2501,34 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // Nibiru
+  {
+    key: CoinKey.NIBI,
+    name: 'Nibiru',
+    logoURI:
+      'https://imgproxy-mainnet.routescan.io/WWpIrHMBrbtXh7cze-P7tXuoP5Yq2sQ0NSmuhhHzkNk/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNjkwMF90b2tlbi40ZGNkYTQ1YmU0Yzkuc3Zn',
+    verified: true,
+    chains: {
+      [ChainId.NIB]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+  {
+    key: CoinKey.WNIBI,
+    name: 'Wrapped Nibiru',
+    logoURI:
+      'https://imgproxy-mainnet.routescan.io/YdqQPP3gmq7jNmVn_eGpqsyDfw1V2DQw5-pR6CUe3oU/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMDAwX25pYmlydS1ldm0uZDA4NTQzZjg4Mjg0LnBuZw',
+    verified: true,
+    chains: {
+      [ChainId.NIB]: {
+        address: '0x0CaCF669f8446BeCA826913a3c6B96aCD4b02a97',
+        decimals: 18,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
@@ -3178,6 +3219,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped Vana',
     logoURI:
       'https://static.debank.com/image/vana_token/logo_url/0x00eddd9621fb08436d0331c149d1690909a5906d/732f5948570498c551fb29bc71c88296.png',
+  },
+  [ChainId.NIB]: {
+    address: '0x0CaCF669f8446BeCA826913a3c6B96aCD4b02a97',
+    symbol: CoinKey.WNIBI,
+    decimals: 18,
+    chainId: ChainId.NIB,
+    coinKey: CoinKey.WNIBI,
+    name: 'Wrapped Nibiru',
+    logoURI:
+      'https://imgproxy-mainnet.routescan.io/YdqQPP3gmq7jNmVn_eGpqsyDfw1V2DQw5-pR6CUe3oU/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMDAwX25pYmlydS1ldm0uZDA4NTQzZjg4Mjg0LnBuZw',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
