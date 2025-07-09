@@ -1606,7 +1606,7 @@ export const supportedEVMChains: EVMChain[] = [
     key: ChainKey.NIB,
     chainType: ChainType.EVM,
     name: 'Nibiru',
-    coin: CoinKey.NIB,
+    coin: CoinKey.NIBI,
     id: ChainId.NIB,
     mainnet: true,
     logoURI:
@@ -1619,8 +1619,8 @@ export const supportedEVMChains: EVMChain[] = [
       blockExplorerUrls: ['https://nibiscan.io/'],
       chainName: 'Nibiru',
       nativeCurrency: {
-        name: CoinKey.NIB,
-        symbol: CoinKey.NIB,
+        name: CoinKey.NIBI,
+        symbol: CoinKey.NIBI,
         decimals: 18,
       },
       rpcUrls: ['https://evm-rpc.nibiru.fi'],
