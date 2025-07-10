@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.21.0](https://github.com/lifinance/data-types/compare/v6.20.0...v6.21.0) (2025-07-10)
+
+
+### Features
+
+* **nibiru:** add chain data ([#148](https://github.com/lifinance/data-types/issues/148)) ([035b196](https://github.com/lifinance/data-types/commit/035b19693a1245c2bdaa55f15206f7cffe9876d9))
+
 ## [6.20.0](https://github.com/lifinance/data-types/compare/v6.19.1...v6.20.0) (2025-07-09)
 
 
