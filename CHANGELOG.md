@@ -2,6 +2,35 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.21.0](https://github.com/lifinance/data-types/compare/v6.20.0...v6.21.0) (2025-07-10)
+
+
+### Features
+
+* **nibiru:** add chain data ([#148](https://github.com/lifinance/data-types/issues/148)) ([035b196](https://github.com/lifinance/data-types/commit/035b19693a1245c2bdaa55f15206f7cffe9876d9))
+
+## [6.20.0](https://github.com/lifinance/data-types/compare/v6.19.1...v6.20.0) (2025-07-09)
+
+
+### Features
+
+* add usde and usdt on boc chain ([#149](https://github.com/lifinance/data-types/issues/149)) ([e535ce3](https://github.com/lifinance/data-types/commit/e535ce33f2b13be950facb1896e6fd428e2d90e4))
+* **hyperevm:** use new explorer ([#147](https://github.com/lifinance/data-types/issues/147)) ([7472a01](https://github.com/lifinance/data-types/commit/7472a017ca306743fbe2b658f44bcc4f313ebb0f))
+
+### [6.19.1](https://github.com/lifinance/data-types/compare/v6.19.0...v6.19.1) (2025-07-07)
+
+
+### Bug Fixes
+
+* **metis:** use AddressZero as native ([#146](https://github.com/lifinance/data-types/issues/146)) ([3b56a89](https://github.com/lifinance/data-types/commit/3b56a8906b63a3f6cee498220a8b36bc2af44164))
+
+## [6.19.0](https://github.com/lifinance/data-types/compare/v6.18.0...v6.19.0) (2025-07-02)
+
+
+### Features
+
+* add Vana chain ([#145](https://github.com/lifinance/data-types/issues/145)) ([428b136](https://github.com/lifinance/data-types/commit/428b13601a96106c636a3508bde1fa5a24845b32))
+
 ## [6.18.0](https://github.com/lifinance/data-types/compare/v6.17.0...v6.18.0) (2025-06-23)
 
 

@@ -783,6 +783,18 @@ export const basicCoins: BasicCoin[] = [
         address: '0x2DCa96907fde857dd3D816880A0df407eeB2D2F2',
         decimals: 6,
       },
+      [ChainId.VAN]: {
+        address: '0x88853d410299bcbfe5fcc9eef93c03115e908279',
+        decimals: 6,
+      },
+      [ChainId.BOC]: {
+        address: '0x05D032ac25d322df992303dCa074EE7392C117b9',
+        decimals: 6,
+      },
+      [ChainId.NIB]: {
+        address: '0x43F2376D5D03553aE72F4A8093bbe9de4336EB08',
+        decimals: 6,
+      },
     },
   },
 
@@ -1093,6 +1105,16 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
         name: 'Vault Bridge USDC',
       },
+      [ChainId.VAN]: {
+        address: '0xf1815bd50389c46847f0bda824ec8da914045d14',
+        decimals: 6,
+        name: 'Bridged USDC (Stargate)',
+      },
+      [ChainId.NIB]: {
+        address: '0x0829F361A05D993d5CEb035cA6DF3446b060970b',
+        decimals: 6,
+        name: 'Bridged USDC (Stargate)',
+      },
     },
   },
   // axlUSDC
@@ -1292,6 +1314,53 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.SEI]: {
         address: '0x80Eede496655FB9047dd39d9f418d5483ED600df',
+        decimals: 18,
+      },
+    },
+  },
+
+  // USDe
+  {
+    key: CoinKey.USDe,
+    name: CoinKey.USDe,
+    logoURI:
+      'https://static.debank.com/image/eth_token/logo_url/0x4c9edd5852cd905f086c759e8383e09bff1e68b3/1228d6e73f70f37ec1f6fe02a3bbe6ff.png',
+    verified: true,
+    chains: {
+      [ChainId.ETH]: {
+        address: '0x4c9edd5852cd905f086c759e8383e09bff1e68b3',
+        decimals: 18,
+      },
+      [ChainId.BSC]: {
+        address: '0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34',
+        decimals: 18,
+      },
+      [ChainId.OPT]: {
+        address: '0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34',
+        decimals: 18,
+      },
+      [ChainId.ARB]: {
+        address: '0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34',
+        decimals: 18,
+      },
+      [ChainId.MAM]: {
+        address: '0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34',
+        decimals: 18,
+      },
+      [ChainId.MNT]: {
+        address: '0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34',
+        decimals: 18,
+      },
+      [ChainId.LNA]: {
+        address: '0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34',
+        decimals: 18,
+      },
+      [ChainId.SCL]: {
+        address: '0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34',
+        decimals: 18,
+      },
+      [ChainId.BAS]: {
+        address: '0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34',
         decimals: 18,
       },
     },
@@ -1681,6 +1750,14 @@ export const basicCoins: BasicCoin[] = [
         address: '0xEE7D8BCFb72bC1880D0Cf19822eB0A2e6577aB62',
         decimals: 18,
       },
+      [ChainId.VAN]: {
+        address: '0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590',
+        decimals: 18,
+      },
+      [ChainId.NIB]: {
+        address: '0xcdA5b77E2E2268D9E09c874c1b9A4c3F07b37555',
+        decimals: 18,
+      },
     },
   },
 
@@ -1921,7 +1998,7 @@ export const basicCoins: BasicCoin[] = [
     verified: true,
     chains: {
       [ChainId.MAM]: {
-        address: '0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000',
+        address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
     },
@@ -2442,6 +2519,62 @@ export const basicCoins: BasicCoin[] = [
     chains: {
       [ChainId.FLR]: {
         address: '0x1D80c49BbBCd1C0911346656B529DF9E5c2F783d',
+        decimals: 18,
+      },
+    },
+  },
+
+  // Vana
+  {
+    key: CoinKey.VAN,
+    name: 'Vana',
+    logoURI:
+      'https://static.debank.com/image/vana_token/logo_url/vana/4e286c230ccb1e83967dc85edefbc513.png',
+    verified: true,
+    chains: {
+      [ChainId.VAN]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+  {
+    key: CoinKey.WVAN,
+    name: 'Wrapped Vana',
+    logoURI:
+      'https://static.debank.com/image/vana_token/logo_url/0x00eddd9621fb08436d0331c149d1690909a5906d/732f5948570498c551fb29bc71c88296.png',
+    verified: true,
+    chains: {
+      [ChainId.VAN]: {
+        address: '0x00eddd9621fb08436d0331c149d1690909a5906d',
+        decimals: 18,
+      },
+    },
+  },
+
+  // Nibiru
+  {
+    key: CoinKey.NIBI,
+    name: 'Nibiru',
+    logoURI:
+      'https://imgproxy-mainnet.routescan.io/WWpIrHMBrbtXh7cze-P7tXuoP5Yq2sQ0NSmuhhHzkNk/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvNjkwMF90b2tlbi40ZGNkYTQ1YmU0Yzkuc3Zn',
+    verified: true,
+    chains: {
+      [ChainId.NIB]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+  {
+    key: CoinKey.WNIBI,
+    name: 'Wrapped Nibiru',
+    logoURI:
+      'https://imgproxy-mainnet.routescan.io/YdqQPP3gmq7jNmVn_eGpqsyDfw1V2DQw5-pR6CUe3oU/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMDAwX25pYmlydS1ldm0uZDA4NTQzZjg4Mjg0LnBuZw',
+    verified: true,
+    chains: {
+      [ChainId.NIB]: {
+        address: '0x0CaCF669f8446BeCA826913a3c6B96aCD4b02a97',
         decimals: 18,
       },
     },
@@ -3127,6 +3260,26 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: CoinKey.WETH,
     logoURI:
       'https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png',
+  },
+  [ChainId.VAN]: {
+    address: '0x00eddd9621fb08436d0331c149d1690909a5906d',
+    symbol: CoinKey.WVAN,
+    decimals: 18,
+    chainId: ChainId.VAN,
+    coinKey: CoinKey.WVAN,
+    name: 'Wrapped Vana',
+    logoURI:
+      'https://static.debank.com/image/vana_token/logo_url/0x00eddd9621fb08436d0331c149d1690909a5906d/732f5948570498c551fb29bc71c88296.png',
+  },
+  [ChainId.NIB]: {
+    address: '0x0CaCF669f8446BeCA826913a3c6B96aCD4b02a97',
+    symbol: CoinKey.WNIBI,
+    decimals: 18,
+    chainId: ChainId.NIB,
+    coinKey: CoinKey.WNIBI,
+    name: 'Wrapped Nibiru',
+    logoURI:
+      'https://imgproxy-mainnet.routescan.io/YdqQPP3gmq7jNmVn_eGpqsyDfw1V2DQw5-pR6CUe3oU/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMDAwX25pYmlydS1ldm0uZDA4NTQzZjg4Mjg0LnBuZw',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {

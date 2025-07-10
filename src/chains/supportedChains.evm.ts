@@ -1410,7 +1410,7 @@ export const supportedEVMChains: EVMChain[] = [
 
     metamask: {
       chainId: prefixChainId(ChainId.HYP),
-      blockExplorerUrls: ['https://www.hyperscan.com//'],
+      blockExplorerUrls: ['https://hyperevmscan.io/'],
       chainName: 'HyperEVM',
       nativeCurrency: {
         name: 'HYPE',
@@ -1561,7 +1561,7 @@ export const supportedEVMChains: EVMChain[] = [
     mainnet: true,
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/katana.svg',
-    multicallAddress: multicallAddresses[ChainId.FLR],
+    multicallAddress: multicallAddresses[ChainId.KAT],
     relayerSupported: false,
 
     metamask: {
@@ -1574,6 +1574,56 @@ export const supportedEVMChains: EVMChain[] = [
         decimals: 18,
       },
       rpcUrls: ['https://rpc.katana.network'],
+    },
+  },
+
+  {
+    key: ChainKey.VAN,
+    chainType: ChainType.EVM,
+    name: 'Vana',
+    coin: CoinKey.VAN,
+    id: ChainId.VAN,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/vana.svg',
+    multicallAddress: multicallAddresses[ChainId.VAN],
+    relayerSupported: false,
+
+    metamask: {
+      chainId: prefixChainId(ChainId.VAN),
+      blockExplorerUrls: ['https://vanascan.io/'],
+      chainName: 'Vana',
+      nativeCurrency: {
+        name: CoinKey.VAN,
+        symbol: CoinKey.VAN,
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.vana.org'],
+    },
+  },
+
+  {
+    key: ChainKey.NIB,
+    chainType: ChainType.EVM,
+    name: 'Nibiru',
+    coin: CoinKey.NIBI,
+    id: ChainId.NIB,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/nibiru.svg',
+    multicallAddress: multicallAddresses[ChainId.NIB],
+    relayerSupported: false,
+
+    metamask: {
+      chainId: prefixChainId(ChainId.NIB),
+      blockExplorerUrls: ['https://nibiscan.io/'],
+      chainName: 'Nibiru',
+      nativeCurrency: {
+        name: CoinKey.NIBI,
+        symbol: CoinKey.NIBI,
+        decimals: 18,
+      },
+      rpcUrls: ['https://evm-rpc.nibiru.fi'],
     },
   },
 ]
