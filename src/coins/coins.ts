@@ -964,6 +964,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x796Ea11Fa2dD751eD01b53C372fFDB4AAa8f00F9',
         decimals: 6,
       },
+      [ChainId.RON]: {
+        address: '0x0b7007c13325c48911f73a2dad5fa5dcbf808adc',
+        decimals: 6,
+      },
     },
   },
   // USDC.e
@@ -1756,6 +1760,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.NIB]: {
         address: '0xcdA5b77E2E2268D9E09c874c1b9A4c3F07b37555',
+        decimals: 18,
+      },
+      [ChainId.RON]: {
+        address: '0xc99a6a985ed2cac1ef41640596c5a5f9f4e19ef5',
         decimals: 18,
       },
     },
@@ -2580,6 +2588,34 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // Ronin
+  {
+    key: CoinKey.RON,
+    name: 'Ronin',
+    logoURI:
+      'https://static.debank.com/image/ron_token/logo_url/0xe514d9deb7966c8be0ca922de8a064264ea6bcd4/f65d4fdc17d5533c59ebcd6eb1f47320.png',
+    verified: true,
+    chains: {
+      [ChainId.RON]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+  {
+    key: CoinKey.WRON,
+    name: 'Wrapped Ronin',
+    logoURI:
+      'https://static.debank.com/image/ron_token/logo_url/0xe514d9deb7966c8be0ca922de8a064264ea6bcd4/f65d4fdc17d5533c59ebcd6eb1f47320.png',
+    verified: true,
+    chains: {
+      [ChainId.NIB]: {
+        address: '0xe514d9deb7966c8be0ca922de8a064264ea6bcd4',
+        decimals: 18,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
@@ -3280,6 +3316,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped Nibiru',
     logoURI:
       'https://imgproxy-mainnet.routescan.io/YdqQPP3gmq7jNmVn_eGpqsyDfw1V2DQw5-pR6CUe3oU/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvMDAwX25pYmlydS1ldm0uZDA4NTQzZjg4Mjg0LnBuZw',
+  },
+  [ChainId.RON]: {
+    address: '0xe514d9deb7966c8be0ca922de8a064264ea6bcd4',
+    symbol: CoinKey.WRON,
+    decimals: 18,
+    chainId: ChainId.RON,
+    coinKey: CoinKey.WRON,
+    name: 'Wrapped Ronin',
+    logoURI:
+      'https://static.debank.com/image/ron_token/logo_url/0xe514d9deb7966c8be0ca922de8a064264ea6bcd4/f65d4fdc17d5533c59ebcd6eb1f47320.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
