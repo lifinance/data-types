@@ -1626,4 +1626,29 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://evm-rpc.nibiru.fi'],
     },
   },
+
+  {
+    key: ChainKey.RON,
+    chainType: ChainType.EVM,
+    name: 'Ronin',
+    coin: CoinKey.RON,
+    id: ChainId.RON,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/ronin.svg',
+    multicallAddress: multicallAddresses[ChainId.RON],
+    relayerSupported: false,
+
+    metamask: {
+      chainId: prefixChainId(ChainId.RON),
+      blockExplorerUrls: ['https://app.roninchain.com/'],
+      chainName: 'Ronin',
+      nativeCurrency: {
+        name: CoinKey.RON,
+        symbol: CoinKey.RON,
+        decimals: 18,
+      },
+      rpcUrls: ['https://api.roninchain.com/rpc'],
+    },
+  },
 ]
