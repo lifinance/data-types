@@ -1448,7 +1448,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'XDC',
         decimals: 18,
       },
-      rpcUrls: ['https://erpc.xinfin.network'],
+      rpcUrls: ['https://rpc.xdcrpc.com'],
     },
   },
 
