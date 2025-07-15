@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.22.0](https://github.com/lifinance/data-types/compare/v6.21.0...v6.22.0) (2025-07-11)
+
+
+### Features
+
+* add Ronin chain ([#150](https://github.com/lifinance/data-types/issues/150)) ([b0af5f1](https://github.com/lifinance/data-types/commit/b0af5f10fcfa1ff27587f9f2b86c9b198753c254))
+
 ## [6.21.0](https://github.com/lifinance/data-types/compare/v6.20.0...v6.21.0) (2025-07-10)
 
 
