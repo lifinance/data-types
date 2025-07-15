@@ -795,6 +795,11 @@ export const basicCoins: BasicCoin[] = [
         address: '0x43F2376D5D03553aE72F4A8093bbe9de4336EB08',
         decimals: 6,
       },
+      [ChainId.PLU]: {
+        address: '0xda6087E69C51E7D31b6DBAD276a3c44703DFdCAd',
+        decimals: 6,
+        name: 'Bridged USDT (Stargate)',
+      },
     },
   },
 
@@ -1116,6 +1121,11 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.NIB]: {
         address: '0x0829F361A05D993d5CEb035cA6DF3446b060970b',
+        decimals: 6,
+        name: 'Bridged USDC (Stargate)',
+      },
+      [ChainId.PLU]: {
+        address: '0x78adD880A697070c1e765Ac44D65323a0DcCE913',
         decimals: 6,
         name: 'Bridged USDC (Stargate)',
       },
@@ -1764,6 +1774,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.RON]: {
         address: '0xc99a6a985ed2cac1ef41640596c5a5f9f4e19ef5',
+        decimals: 18,
+      },
+      [ChainId.PLU]: {
+        address: '0xca59cA09E5602fAe8B629DeE83FfA819741f14be',
         decimals: 18,
       },
     },
@@ -2609,8 +2623,36 @@ export const basicCoins: BasicCoin[] = [
       'https://static.debank.com/image/ron_token/logo_url/0xe514d9deb7966c8be0ca922de8a064264ea6bcd4/f65d4fdc17d5533c59ebcd6eb1f47320.png',
     verified: true,
     chains: {
-      [ChainId.NIB]: {
+      [ChainId.RON]: {
         address: '0xe514d9deb7966c8be0ca922de8a064264ea6bcd4',
+        decimals: 18,
+      },
+    },
+  },
+
+  // Plume
+  {
+    key: CoinKey.PLU,
+    name: 'Plume',
+    logoURI:
+      'https://static.debank.com/image/plume_token/logo_url/plume/20ecb01558edaac59ad4cd20b9ccc51d.png',
+    verified: true,
+    chains: {
+      [ChainId.PLU]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+  {
+    key: CoinKey.WPLU,
+    name: 'Wrapped Plume',
+    logoURI:
+      'https://static.debank.com/image/plume_token/logo_url/plume/20ecb01558edaac59ad4cd20b9ccc51d.png',
+    verified: true,
+    chains: {
+      [ChainId.PLU]: {
+        address: '0xea237441c92cae6fc17caaf9a7acb3f953be4bd1',
         decimals: 18,
       },
     },
@@ -3326,6 +3368,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped Ronin',
     logoURI:
       'https://static.debank.com/image/ron_token/logo_url/0xe514d9deb7966c8be0ca922de8a064264ea6bcd4/f65d4fdc17d5533c59ebcd6eb1f47320.png',
+  },
+  [ChainId.PLU]: {
+    address: '0xea237441c92cae6fc17caaf9a7acb3f953be4bd1',
+    symbol: CoinKey.WPLU,
+    decimals: 18,
+    chainId: ChainId.PLU,
+    coinKey: CoinKey.WPLU,
+    name: 'Wrapped Plume',
+    logoURI:
+      'https://static.debank.com/image/plume_token/logo_url/plume/20ecb01558edaac59ad4cd20b9ccc51d.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
