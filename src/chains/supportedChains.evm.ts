@@ -1448,7 +1448,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'XDC',
         decimals: 18,
       },
-      rpcUrls: ['https://erpc.xinfin.network'],
+      rpcUrls: ['https://rpc.xdcrpc.com'],
     },
   },
 
@@ -1649,6 +1649,31 @@ export const supportedEVMChains: EVMChain[] = [
         decimals: 18,
       },
       rpcUrls: ['https://api.roninchain.com/rpc'],
+    },
+  },
+
+  {
+    key: ChainKey.PLU,
+    chainType: ChainType.EVM,
+    name: 'Plume',
+    coin: CoinKey.PLU,
+    id: ChainId.PLU,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/plume.svg',
+    multicallAddress: multicallAddresses[ChainId.PLU],
+    relayerSupported: false,
+
+    metamask: {
+      chainId: prefixChainId(ChainId.PLU),
+      blockExplorerUrls: ['https://explorer.plume.org/'],
+      chainName: 'Plume',
+      nativeCurrency: {
+        name: CoinKey.PLU,
+        symbol: CoinKey.PLU,
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.plume.org'],
     },
   },
 ]
