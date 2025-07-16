@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.23.0](https://github.com/lifinance/data-types/compare/v6.22.0...v6.23.0) (2025-07-16)
+
+
+### Features
+
+* add Plume chain ([#151](https://github.com/lifinance/data-types/issues/151)) ([2b1e88d](https://github.com/lifinance/data-types/commit/2b1e88dbec39b4cbc15515c891fb6a8c0391d152))
+
 ## [6.22.0](https://github.com/lifinance/data-types/compare/v6.21.0...v6.22.0) (2025-07-11)
 
 
