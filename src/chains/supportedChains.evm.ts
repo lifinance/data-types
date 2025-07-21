@@ -1688,7 +1688,7 @@ export const supportedEVMChains: EVMChain[] = [
     multicallAddress: multicallAddresses[ChainId.HPL],
     relayerSupported: false,
     metamask: {
-      chainId: prefixChainId(ChainId.HPL),
+      chainId: prefixChainId(ChainId.ARB),
       blockExplorerUrls: ['https://app.hyperliquid.xyz/explorer/'],
       chainName: 'Hyperliquid',
       nativeCurrency: {
