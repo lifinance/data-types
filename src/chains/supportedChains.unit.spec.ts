@@ -31,6 +31,7 @@ test('native token defined for all chains', () => {
     ChainId.LTC,
     ChainId.DGE,
     ChainId.SUI,
+    ChainId.HPL,
   ]
   for (const chain of supportedChains) {
     if (ignoredChainsForNativeToken.includes(chain.id)) {
