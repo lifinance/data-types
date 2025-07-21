@@ -174,6 +174,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
+      [ChainId.HPL]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
     },
   },
   // > MATIC
@@ -971,6 +975,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.RON]: {
         address: '0x0b7007c13325c48911f73a2dad5fa5dcbf808adc',
+        decimals: 6,
+      },
+      [ChainId.HPL]: {
+        address: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
         decimals: 6,
       },
     },

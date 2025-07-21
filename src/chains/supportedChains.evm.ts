@@ -1676,4 +1676,31 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://rpc.plume.org'],
     },
   },
+  {
+    key: ChainKey.HPL,
+    chainType: ChainType.EVM,
+    name: 'Hyperliquid',
+    coin: CoinKey.ETH,
+    id: ChainId.HPL,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/hyperliquid.svg',
+    multicallAddress: multicallAddresses[ChainId.HPL],
+    relayerSupported: false,
+    metamask: {
+      chainId: prefixChainId(ChainId.HPL),
+      blockExplorerUrls: ['https://app.hyperliquid.xyz/explorer/'],
+      chainName: 'Hyperliquid',
+      nativeCurrency: {
+        name: CoinKey.ETH,
+        symbol: CoinKey.ETH,
+        decimals: 18,
+      },
+      rpcUrls: [
+        'https://arb1.arbitrum.io/rpc',
+        'https://arbitrum-one-rpc.publicnode.com',
+        'https://arbitrum.drpc.org',
+      ],
+    },
+  },
 ]
