@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.24.0](https://github.com/lifinance/data-types/compare/v6.23.0...v6.24.0) (2025-07-21)
+
+
+### Features
+
+* enrich token ([#122](https://github.com/lifinance/data-types/issues/122)) ([829f0c0](https://github.com/lifinance/data-types/commit/829f0c0c2c90bfb87fa760e9b9884f059b805b80))
+
 ## [6.23.0](https://github.com/lifinance/data-types/compare/v6.22.0...v6.23.0) (2025-07-16)
 
 
