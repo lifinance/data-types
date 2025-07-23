@@ -1685,7 +1685,6 @@ export const supportedEVMChains: EVMChain[] = [
     mainnet: true,
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/hyperliquid.svg',
-    multicallAddress: multicallAddresses[ChainId.HPL],
     relayerSupported: false,
     metamask: {
       chainId: prefixChainId(ChainId.ARB),
@@ -1696,11 +1695,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: CoinKey.ETH,
         decimals: 18,
       },
-      rpcUrls: [
-        'https://arb1.arbitrum.io/rpc',
-        'https://arbitrum-one-rpc.publicnode.com',
-        'https://arbitrum.drpc.org',
-      ],
+      rpcUrls: [`http://localhost:8000/v1/rpc/proxy?chainId=${ChainId.HPL}`],
     },
   },
 ]
