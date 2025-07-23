@@ -2681,6 +2681,7 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.INK]: {
         address: '0x0200C29006150606B650577BBE7B6248F58470c1',
         decimals: 6,
+        symbol: 'USDT0',
       },
       [ChainId.OPT]: {
         address: '0x01bFF41798a0BcF287b996046Ca68b395DbC1071',
@@ -2689,6 +2690,7 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.UNI]: {
         address: '0x9151434b16b9763660705744891fA906F660EcC5',
         decimals: 6,
+        symbol: 'USDT0',
       },
       [ChainId.CRN]: {
         address: '0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb',
@@ -2697,6 +2699,7 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.SEI]: {
         address: '0x9151434b16b9763660705744891fA906F660EcC5',
         decimals: 6,
+        symbol: 'USDT0',
       },
       [ChainId.FLR]: {
         address: '0xe7cd86e13AC4309349F30B3435a9d337750fC82D',
