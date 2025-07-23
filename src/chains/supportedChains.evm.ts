@@ -1695,7 +1695,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: CoinKey.ETH,
         decimals: 18,
       },
-      rpcUrls: [`http://localhost:8000/v1/rpc/proxy?chainId=${ChainId.HPL}`],
+      rpcUrls: [],
     },
   },
 ]
