@@ -174,10 +174,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
-      [ChainId.HPL]: {
-        address: '0x0000000000000000000000000000000000000000',
-        decimals: 18,
-      },
     },
   },
   // > MATIC
@@ -3386,6 +3382,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped Plume',
     logoURI:
       'https://static.debank.com/image/plume_token/logo_url/plume/20ecb01558edaac59ad4cd20b9ccc51d.png',
+  },
+  [ChainId.HPL]: {
+    name: 'USD Coin',
+    address: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
+    symbol: CoinKey.USDC,
+    coinKey: CoinKey.USDC,
+    chainId: ChainId.HPL,
+    decimals: 6,
+    logoURI:
+      'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {

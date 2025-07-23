@@ -1691,9 +1691,9 @@ export const supportedEVMChains: EVMChain[] = [
       blockExplorerUrls: ['https://app.hyperliquid.xyz/explorer/'],
       chainName: 'Hyperliquid',
       nativeCurrency: {
-        name: CoinKey.ETH,
-        symbol: CoinKey.ETH,
-        decimals: 18,
+        name: CoinKey.USDC,
+        symbol: CoinKey.USDC,
+        decimals: 6,
       },
       rpcUrls: [],
     },
