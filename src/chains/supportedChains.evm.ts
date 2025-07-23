@@ -1680,7 +1680,7 @@ export const supportedEVMChains: EVMChain[] = [
     key: ChainKey.HPL,
     chainType: ChainType.EVM,
     name: 'Hyperliquid',
-    coin: CoinKey.ETH,
+    coin: CoinKey.USDC,
     id: ChainId.HPL,
     mainnet: true,
     logoURI:
