@@ -2670,10 +2670,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb',
         decimals: 6,
       },
-      [ChainId.ARB]: {
-        address: '0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9',
-        decimals: 6,
-      },
       [ChainId.BER]: {
         address: '0x779Ded0c9e1022225f8E0630b35a9b54bE713736',
         decimals: 6,
