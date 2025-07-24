@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.26.0](https://github.com/lifinance/data-types/compare/v6.25.0...v6.26.0) (2025-07-24)
+
+
+### Features
+
+* **coins:** update several USDC's ([#154](https://github.com/lifinance/data-types/issues/154)) ([382553b](https://github.com/lifinance/data-types/commit/382553b1a2e151a57080799ccbd0aca80937d9b2))
+
 ## [6.25.0](https://github.com/lifinance/data-types/compare/v6.24.0...v6.25.0) (2025-07-24)
 
 
