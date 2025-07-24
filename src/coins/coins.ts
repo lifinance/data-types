@@ -912,7 +912,7 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.LNA]: {
         address: '0x176211869ca2b568f2a7d4ee941e073a821ee1ff',
         decimals: 6,
-        name: 'USDC.e',
+        name: 'USDC',
       },
       [ChainId.MAM]: {
         address: '0xEA32A96608495e54156Ae48931A7c20f0dcc1a21',
@@ -933,7 +933,7 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
       },
       [ChainId.SEI]: {
-        address: '0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1',
+        address: '0xe15fC38F6D8c56aF07bbCBe3BAf5708A2Bf42392',
         decimals: 6,
       },
       [ChainId.TAI]: {
@@ -1128,6 +1128,21 @@ export const basicCoins: BasicCoin[] = [
         address: '0x78adD880A697070c1e765Ac44D65323a0DcCE913',
         decimals: 6,
         name: 'Bridged USDC (Stargate)',
+      },
+    },
+  },
+  // USDC.n
+  {
+    key: CoinKey.USDCn,
+    name: 'USDC via Noble',
+    logoURI:
+      'https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png',
+    verified: true,
+    chains: {
+      [ChainId.SEI]: {
+        address: '0x3894085ef7ff0f0aedf52e2a2704928d1ec074f1',
+        decimals: 6,
+        symbol: 'USDC.n',
       },
     },
   },
