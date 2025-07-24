@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.25.0](https://github.com/lifinance/data-types/compare/v6.24.0...v6.25.0) (2025-07-24)
+
+
+### Features
+
+* add hyperliquid support ([#152](https://github.com/lifinance/data-types/issues/152)) ([48c63dd](https://github.com/lifinance/data-types/commit/48c63dd230bd413d52bf1dc43bad6e7ac26a82d0))
+
 ## [6.24.0](https://github.com/lifinance/data-types/compare/v6.23.0...v6.24.0) (2025-07-21)
 
 
