@@ -2728,6 +2728,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x779dED0C9e1022225F8e0630b35A9B54Be713736',
         decimals: 6,
       },
+      [ChainId.ARB]: {
+        address: '0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9',
+        decimals: 6,
+      },
     },
   },
 
