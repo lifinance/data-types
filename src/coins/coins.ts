@@ -912,7 +912,7 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.LNA]: {
         address: '0x176211869ca2b568f2a7d4ee941e073a821ee1ff',
         decimals: 6,
-        name: 'USDC.e',
+        name: 'USDC',
       },
       [ChainId.MAM]: {
         address: '0xEA32A96608495e54156Ae48931A7c20f0dcc1a21',
@@ -933,7 +933,7 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
       },
       [ChainId.SEI]: {
-        address: '0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1',
+        address: '0xe15fC38F6D8c56aF07bbCBe3BAf5708A2Bf42392',
         decimals: 6,
       },
       [ChainId.TAI]: {
@@ -971,6 +971,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.RON]: {
         address: '0x0b7007c13325c48911f73a2dad5fa5dcbf808adc',
+        decimals: 6,
+      },
+      [ChainId.HPL]: {
+        address: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
         decimals: 6,
       },
     },
@@ -1128,6 +1132,21 @@ export const basicCoins: BasicCoin[] = [
         address: '0x78adD880A697070c1e765Ac44D65323a0DcCE913',
         decimals: 6,
         name: 'Bridged USDC (Stargate)',
+      },
+    },
+  },
+  // USDC.n
+  {
+    key: CoinKey.USDCn,
+    name: 'USDC via Noble',
+    logoURI:
+      'https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png',
+    verified: true,
+    chains: {
+      [ChainId.SEI]: {
+        address: '0x3894085ef7ff0f0aedf52e2a2704928d1ec074f1',
+        decimals: 6,
+        symbol: 'USDC.n',
       },
     },
   },
@@ -3432,6 +3451,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped Plume',
     logoURI:
       'https://static.debank.com/image/plume_token/logo_url/plume/20ecb01558edaac59ad4cd20b9ccc51d.png',
+  },
+  [ChainId.HPL]: {
+    name: 'USD Coin',
+    address: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
+    symbol: CoinKey.USDC,
+    coinKey: CoinKey.USDC,
+    chainId: ChainId.HPL,
+    decimals: 6,
+    logoURI:
+      'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {

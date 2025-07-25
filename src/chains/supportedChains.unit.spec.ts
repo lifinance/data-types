@@ -31,6 +31,7 @@ test('native token defined for all chains', () => {
     ChainId.LTC,
     ChainId.DGE,
     ChainId.SUI,
+    ChainId.HPL,
   ]
   for (const chain of supportedChains) {
     if (ignoredChainsForNativeToken.includes(chain.id)) {
@@ -86,8 +87,13 @@ describe('findTokenByChainIdAndAddress', () => {
 })
 
 describe('validate chains', () => {
+  const ignoredChains = [ChainId.HPL]
   supportedEVMChains.forEach((chain) => {
     it(`validate chain ${chain.name}`, () => {
+      if (ignoredChains.includes(chain.id)) {
+        return
+      }
+
       // blockExplorerUrls
       expect(chain.metamask.blockExplorerUrls.length).toBeGreaterThan(0)
       chain.metamask.blockExplorerUrls.forEach((blockExplorerUrl) => {
