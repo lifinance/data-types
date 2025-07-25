@@ -1396,6 +1396,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34',
         decimals: 18,
       },
+      [ChainId.SWL]: {
+        address: '0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34',
+        decimals: 18,
+      },
     },
   },
 
@@ -2673,6 +2677,60 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.PLU]: {
         address: '0xea237441c92cae6fc17caaf9a7acb3f953be4bd1',
         decimals: 18,
+      },
+    },
+  },
+
+  // USDT0
+  {
+    key: CoinKey.USDT0,
+    name: 'USD₮0',
+    logoURI:
+      'https://static.debank.com/image/ink_token/logo_url/0x0200c29006150606b650577bbe7b6248f58470c1/8bba37fddc2774e06a94b8952e3e3ad7.png',
+    verified: true,
+    chains: {
+      [ChainId.HYP]: {
+        address: '0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb',
+        decimals: 6,
+      },
+      [ChainId.BER]: {
+        address: '0x779Ded0c9e1022225f8E0630b35a9b54bE713736',
+        decimals: 6,
+      },
+      [ChainId.INK]: {
+        address: '0x0200C29006150606B650577BBE7B6248F58470c1',
+        decimals: 6,
+        symbol: 'USDT0',
+      },
+      [ChainId.OPT]: {
+        address: '0x01bFF41798a0BcF287b996046Ca68b395DbC1071',
+        decimals: 6,
+      },
+      [ChainId.UNI]: {
+        address: '0x9151434b16b9763660705744891fA906F660EcC5',
+        decimals: 6,
+        symbol: 'USDT0',
+      },
+      [ChainId.CRN]: {
+        address: '0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb',
+        decimals: 6,
+      },
+      [ChainId.SEI]: {
+        address: '0x9151434b16b9763660705744891fA906F660EcC5',
+        decimals: 6,
+        symbol: 'USDT0',
+      },
+      [ChainId.FLR]: {
+        address: '0xe7cd86e13AC4309349F30B3435a9d337750fC82D',
+        decimals: 6,
+      },
+      [ChainId.RSK]: {
+        address: '0x779dED0C9e1022225F8e0630b35A9B54Be713736',
+        decimals: 6,
+      },
+      [ChainId.ARB]: {
+        address: '0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9',
+        decimals: 6,
       },
     },
   },
