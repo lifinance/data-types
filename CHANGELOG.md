@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.27.1](https://github.com/lifinance/data-types/compare/v6.27.0...v6.27.1) (2025-07-31)
+
+
+### Bug Fixes
+
+* **IMX:** remove dead explorer url ([#155](https://github.com/lifinance/data-types/issues/155)) ([de67471](https://github.com/lifinance/data-types/commit/de67471e4cb07b1b16e48b5e93dd9ec938f98622))
+
 ## [6.27.0](https://github.com/lifinance/data-types/compare/v6.26.0...v6.27.0) (2025-07-28)
 
 
