@@ -958,10 +958,7 @@ export const supportedEVMChains: EVMChain[] = [
 
     metamask: {
       chainId: prefixChainId(13371),
-      blockExplorerUrls: [
-        'https://immutable-mainnet.blockscout.com/',
-        'https://explorer.immutable.com/',
-      ],
+      blockExplorerUrls: ['https://explorer.immutable.com/'],
       chainName: 'Immutable',
       nativeCurrency: {
         name: 'ImmutableX',
