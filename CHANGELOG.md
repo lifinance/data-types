@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.27.2](https://github.com/lifinance/data-types/compare/v6.27.1...v6.27.2) (2025-08-06)
+
+
+### Bug Fixes
+
+* Update Katana block explorer ([#156](https://github.com/lifinance/data-types/issues/156)) ([14d6ecc](https://github.com/lifinance/data-types/commit/14d6ecc818e842006854753d6d7944b991c553dc))
+
 ### [6.27.1](https://github.com/lifinance/data-types/compare/v6.27.0...v6.27.1) (2025-07-31)
 
 
