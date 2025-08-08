@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.28.0](https://github.com/lifinance/data-types/compare/v6.27.2...v6.28.0) (2025-08-08)
+
+
+### Features
+
+* add sophon chain ([#157](https://github.com/lifinance/data-types/issues/157)) ([d517c2b](https://github.com/lifinance/data-types/commit/d517c2b126853bd28e2be5c760f9fc7203ec9469))
+
 ### [6.27.2](https://github.com/lifinance/data-types/compare/v6.27.1...v6.27.2) (2025-08-06)
 
 
