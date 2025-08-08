@@ -71,6 +71,7 @@ export const multicallAddresses: { [ChainId: number]: string } = {
   [ChainId.NIB]: '0xcA11bde05977b3631167028862bE2a173976CA11',
   [ChainId.RON]: '0xcA11bde05977b3631167028862bE2a173976CA11',
   [ChainId.PLU]: '0xcA11bde05977b3631167028862bE2a173976CA11',
+  [ChainId.SOP]: '0x5f4867441d2416cA88B1b3fd38f21811680CD2C8',
 
   // TODO
   // [ChainId.EXP]: '', // TODO

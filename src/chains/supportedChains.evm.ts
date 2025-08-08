@@ -1673,6 +1673,7 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://rpc.plume.org'],
     },
   },
+
   {
     key: ChainKey.HPL,
     chainType: ChainType.EVM,
@@ -1693,6 +1694,30 @@ export const supportedEVMChains: EVMChain[] = [
         decimals: 6,
       },
       rpcUrls: [],
+    },
+  },
+
+  {
+    key: ChainKey.SOP,
+    chainType: ChainType.EVM,
+    name: 'Sophon',
+    coin: CoinKey.SOPH,
+    id: ChainId.SOP,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/sophon.svg',
+    relayerSupported: false,
+    multicallAddress: multicallAddresses[ChainId.SOP],
+    metamask: {
+      chainId: prefixChainId(ChainId.SOP),
+      blockExplorerUrls: ['https://sophscan.xyz/'],
+      chainName: 'Sophon',
+      nativeCurrency: {
+        name: CoinKey.SOPH,
+        symbol: CoinKey.SOPH,
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.sophon.xyz'],
     },
   },
 ]

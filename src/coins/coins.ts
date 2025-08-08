@@ -282,6 +282,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0xf5C6825015280CdfD0b56903F9F8B5A2233476F5',
         decimals: 18,
       },
+      [ChainId.SOP]: {
+        address: '0x24cd1762978Ed41920d3194dC3A945C50B9a2F5E',
+        decimals: 18,
+      },
     },
   },
   // > DAI
@@ -392,6 +396,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.UNI]: {
         address: '0x20CAb320A855b39F724131C69424240519573f81',
+        decimals: 18,
+      },
+      [ChainId.SOP]: {
+        address: '0x88171a5BbAcd92ca5e25575c5904581C80B025Dd',
         decimals: 18,
       },
     },
@@ -800,6 +808,10 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
         name: 'Bridged USDT (Stargate)',
       },
+      [ChainId.SOP]: {
+        address: '0x6386dA73545ae4E2B2E0393688fA8B65Bb9a7169',
+        decimals: 6,
+      },
     },
   },
 
@@ -975,6 +987,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.HPL]: {
         address: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
+        decimals: 6,
+      },
+      [ChainId.SOP]: {
+        address: '0x9Aa0F72392B5784Ad86c6f3E899bCc053D00Db4F',
         decimals: 6,
       },
     },
@@ -1573,6 +1589,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.KAT]: {
         address: '0x0913DA6Da4b42f538B445599b46Bb4622342Cf52',
+        decimals: 8,
+      },
+      [ChainId.SOP]: {
+        address: '0xF1f9E08a0818594FDe4713AE0Db1E46672Ca960E',
         decimals: 8,
       },
     },
@@ -2681,6 +2701,34 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // Sophon
+  {
+    key: CoinKey.SOPH,
+    name: 'Sophon',
+    logoURI:
+      'https://static.debank.com/image/sophon_token/logo_url/sophon/b81ad042ee3060050e01af4ce4ff9217.png',
+    verified: true,
+    chains: {
+      [ChainId.SOP]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+  {
+    key: CoinKey.WSOPH,
+    name: 'Wrapped Sophon',
+    logoURI:
+      'https://static.debank.com/image/sophon_token/logo_url/0x2b1a859de6a55c553520d7780bc5805712b128f9/b81ad042ee3060050e01af4ce4ff9217.png',
+    verified: true,
+    chains: {
+      [ChainId.SOP]: {
+        address: '0x2b1a859de6a55c553520d7780bc5805712b128f9',
+        decimals: 18,
+      },
+    },
+  },
+
   // USDT0
   {
     key: CoinKey.USDT0,
@@ -3465,6 +3513,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     decimals: 6,
     logoURI:
       'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png',
+  },
+  [ChainId.SOP]: {
+    address: '0x2b1a859de6a55c553520d7780bc5805712b128f9',
+    name: 'Wrapped Sophon',
+    symbol: CoinKey.WSOPH,
+    coinKey: CoinKey.WSOPH,
+    chainId: ChainId.SOP,
+    decimals: 18,
+    logoURI:
+      'https://static.debank.com/image/sophon_token/logo_url/0x2b1a859de6a55c553520d7780bc5805712b128f9/b81ad042ee3060050e01af4ce4ff9217.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
