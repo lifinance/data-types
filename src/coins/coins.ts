@@ -1151,21 +1151,6 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
-  // USDC.n
-  {
-    key: CoinKey.USDCn,
-    name: 'USDC via Noble',
-    logoURI:
-      'https://static.debank.com/image/eth_token/logo_url/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/fffcd27b9efff5a86ab942084c05924d.png',
-    verified: true,
-    chains: {
-      [ChainId.SEI]: {
-        address: '0x3894085ef7ff0f0aedf52e2a2704928d1ec074f1',
-        decimals: 6,
-        symbol: 'USDC.n',
-      },
-    },
-  },
   // axlUSDC
   // axlUSDC is a wrapped, multi-chain representation of USDC, a dollar stablecoin.
   {
