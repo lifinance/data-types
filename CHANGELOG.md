@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.28.1](https://github.com/lifinance/data-types/compare/v6.28.0...v6.28.1) (2025-08-12)
+
+
+### Bug Fixes
+
+* remove USDC.n from SEI ([#158](https://github.com/lifinance/data-types/issues/158)) ([502728d](https://github.com/lifinance/data-types/commit/502728de21eedf0d13f1e6bbb263b567d1593698))
+
 ## [6.28.0](https://github.com/lifinance/data-types/compare/v6.27.2...v6.28.0) (2025-08-08)
 
 
