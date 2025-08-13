@@ -1563,7 +1563,10 @@ export const supportedEVMChains: EVMChain[] = [
 
     metamask: {
       chainId: prefixChainId(ChainId.KAT),
-      blockExplorerUrls: ['https://katanascan.com/'],
+      blockExplorerUrls: [
+        'https://katanascan.com/',
+        'https://explorer.katana.network/',
+      ],
       chainName: 'Katana',
       nativeCurrency: {
         name: CoinKey.ETH,
