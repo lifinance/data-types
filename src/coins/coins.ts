@@ -896,7 +896,7 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
       },
       [ChainId.CEL]: {
-        address: '0xef4229c8c3250c675f21bcefa42f58efbff6002a',
+        address: '0xcebA9300f2b948710d2653dD7B07f33A8B32118C',
         decimals: 6,
       },
       [ChainId.MOO]: {
