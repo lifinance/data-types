@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.29.0](https://github.com/lifinance/data-types/compare/v6.28.1...v6.29.0) (2025-08-20)
+
+
+### Features
+
+* correct usdc address for celo ([#160](https://github.com/lifinance/data-types/issues/160)) ([e0fe20a](https://github.com/lifinance/data-types/commit/e0fe20a9749789b5f41936163312c2dd3248670b))
+
 ### [6.28.1](https://github.com/lifinance/data-types/compare/v6.28.0...v6.28.1) (2025-08-12)
 
 
