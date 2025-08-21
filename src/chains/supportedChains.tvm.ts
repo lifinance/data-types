@@ -10,7 +10,7 @@ export const supportedTVMChains: TVMChain[] = [
     id: ChainId.TRN,
     mainnet: true,
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/tron.svg',
+      'https://lifinance.github.io/types/src/assets/icons/chains/tron.svg',
     faucetUrls: [],
     metamask: {
       chainId: ChainId.TRN.toString(),
