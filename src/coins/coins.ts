@@ -2311,7 +2311,7 @@ export const basicCoins: BasicCoin[] = [
     key: CoinKey.KLAY,
     name: CoinKey.KLAY,
     logoURI:
-      'https://static.debank.com/image/klay_token/logo_url/0x19aac5f612f524b754ca7e7c41cbfa2e981a4432/1866fc790849a903e0594ce0f55b758d.png',
+      'https://static.debank.com/image/chain/logo_url/klay/4182ee077031d843a57e42746c30c072.png',
     verified: true,
     chains: {
       [ChainId.KAI]: {
@@ -3229,7 +3229,7 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     coinKey: CoinKey.WKLAY,
     name: 'Wrapped KLAY',
     logoURI:
-      'https://static.debank.com/image/klay_token/logo_url/0x19aac5f612f524b754ca7e7c41cbfa2e981a4432/1866fc790849a903e0594ce0f55b758d.png',
+      'https://static.debank.com/image/chain/logo_url/klay/4182ee077031d843a57e42746c30c072.png',
   },
   [ChainId.XLY]: {
     // https://www.okx.com/web3/explorer/xlayer/token/0xe538905cf8410324e03a5a23c1c177a474d59b2b
