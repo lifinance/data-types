@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.29.2](https://github.com/lifinance/data-types/compare/v6.29.1...v6.29.2) (2025-08-22)
+
+
+### Bug Fixes
+
+* update fraxtal native token ([#164](https://github.com/lifinance/data-types/issues/164)) ([53e44fc](https://github.com/lifinance/data-types/commit/53e44fccd4cf225adafb4934edde454bd3035f33))
+
 ### [6.29.1](https://github.com/lifinance/data-types/compare/v6.29.0...v6.29.1) (2025-08-20)
 
 
