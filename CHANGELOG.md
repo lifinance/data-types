@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.29.3](https://github.com/lifinance/data-types/compare/v6.29.2...v6.29.3) (2025-08-22)
+
+
+### Bug Fixes
+
+* remove duplicated frxETH ([#165](https://github.com/lifinance/data-types/issues/165)) ([1e7a75c](https://github.com/lifinance/data-types/commit/1e7a75c6d161087b2b654f21548cffdfd8afdbc9))
+
 ### [6.29.2](https://github.com/lifinance/data-types/compare/v6.29.1...v6.29.2) (2025-08-22)
 
 
