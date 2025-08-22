@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.30.0](https://github.com/lifinance/data-types/compare/v6.29.3...v6.30.0) (2025-08-22)
+
+
+### Features
+
+* update wklay and klay icon url ([#163](https://github.com/lifinance/data-types/issues/163)) ([cec3f83](https://github.com/lifinance/data-types/commit/cec3f83c864aff8df9d7d9fc929d867e2efd294b))
+
 ### [6.29.3](https://github.com/lifinance/data-types/compare/v6.29.2...v6.29.3) (2025-08-22)
 
 
