@@ -1364,18 +1364,6 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
-  {
-    key: CoinKey.frxETH,
-    name: 'Frax Ether',
-    logoURI: 'https://static.frax.com/images/tokens/frxeth.png',
-    verified: true,
-    chains: {
-      [ChainId.FRA]: {
-        address: '0xfc00000000000000000000000000000000000006',
-        decimals: 18,
-      },
-    },
-  },
 
   // USDe
   {
@@ -2120,7 +2108,7 @@ export const basicCoins: BasicCoin[] = [
         decimals: 18,
       },
       [ChainId.FRA]: {
-        address: '0x0000000000000000000000000000000000000000',
+        address: '0xfc00000000000000000000000000000000000006',
         decimals: 18,
       },
       [ChainId.POL]: {
