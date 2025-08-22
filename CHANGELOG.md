@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.31.0](https://github.com/lifinance/data-types/compare/v6.30.0...v6.31.0) (2025-08-22)
+
+
+### Features
+
+* make wallet balance amount as string ([#166](https://github.com/lifinance/data-types/issues/166)) ([2cb33bb](https://github.com/lifinance/data-types/commit/2cb33bb1bac1a9228fb80dabe1e14c5b5fe6724b))
+
 ## [6.30.0](https://github.com/lifinance/data-types/compare/v6.29.3...v6.30.0) (2025-08-22)
 
 
