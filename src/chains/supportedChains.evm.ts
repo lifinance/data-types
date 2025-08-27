@@ -873,7 +873,7 @@ export const supportedEVMChains: EVMChain[] = [
     key: ChainKey.FRA,
     chainType: ChainType.EVM,
     name: 'Fraxtal',
-    coin: CoinKey.frxETH,
+    coin: CoinKey.FRAX,
     id: 252,
     mainnet: true,
     logoURI:
@@ -884,8 +884,8 @@ export const supportedEVMChains: EVMChain[] = [
       blockExplorerUrls: ['https://fraxscan.com/'],
       chainName: 'Fraxtal',
       nativeCurrency: {
-        name: 'Frax Ethereum',
-        symbol: 'frxETH',
+        name: 'FRAX',
+        symbol: 'FRAX',
         decimals: 18,
       },
       rpcUrls: ['https://rpc.frax.com'],

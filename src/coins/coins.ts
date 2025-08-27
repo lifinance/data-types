@@ -1303,7 +1303,7 @@ export const basicCoins: BasicCoin[] = [
     verified: true,
     chains: {
       [ChainId.FRA]: {
-        address: '0xfc00000000000000000000000000000000000001',
+        address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
       [ChainId.ETH]: {
@@ -1348,6 +1348,18 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.SEI]: {
         address: '0x80Eede496655FB9047dd39d9f418d5483ED600df',
+        decimals: 18,
+      },
+    },
+  },
+  {
+    key: CoinKey.WFRAX,
+    name: 'Wrapped FRAX',
+    logoURI: 'https://static.frax.com/images/tokens/frax.png',
+    verified: true,
+    chains: {
+      [ChainId.FRA]: {
+        address: '0xfc00000000000000000000000000000000000002',
         decimals: 18,
       },
     },
@@ -2096,7 +2108,7 @@ export const basicCoins: BasicCoin[] = [
         decimals: 18,
       },
       [ChainId.FRA]: {
-        address: '0x0000000000000000000000000000000000000000',
+        address: '0xfc00000000000000000000000000000000000006',
         decimals: 18,
       },
       [ChainId.POL]: {
@@ -2299,7 +2311,7 @@ export const basicCoins: BasicCoin[] = [
     key: CoinKey.KLAY,
     name: CoinKey.KLAY,
     logoURI:
-      'https://static.debank.com/image/klay_token/logo_url/0x19aac5f612f524b754ca7e7c41cbfa2e981a4432/1866fc790849a903e0594ce0f55b758d.png',
+      'https://static.debank.com/image/chain/logo_url/klay/4182ee077031d843a57e42746c30c072.png',
     verified: true,
     chains: {
       [ChainId.KAI]: {
@@ -3167,15 +3179,14 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     logoURI: 'https://cdn.sei.io/sei-app/sei-icon.png',
   },
   [ChainId.FRA]: {
-    // https://fraxscan.com/token/0xfc00000000000000000000000000000000000006
-    address: '0xfc00000000000000000000000000000000000006',
-    symbol: 'wfrxETH',
+    address: '0xFc00000000000000000000000000000000000002',
+    symbol: 'WFRAX',
     decimals: 18,
     chainId: ChainId.FRA,
-    coinKey: CoinKey.wfrxETH,
-    name: 'Wrapped Frax ETH',
+    coinKey: CoinKey.WFRAX,
+    name: 'Wrapped FRAX',
     logoURI:
-      'https://static.debank.com/image/frax_token/logo_url/0xfc00000000000000000000000000000000000006/4313f25f6c5196e8fce2c80fa34c73d0.png',
+      'https://static.debank.com/image/coin/logo_url/frax/c9fc14504dda4d18f661628d56f73606.png',
   },
   [ChainId.TAI]: {
     // https://taikoscan.io/address/0xa51894664a773981c6c112c43ce576f315d5b1b6
@@ -3218,7 +3229,7 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     coinKey: CoinKey.WKLAY,
     name: 'Wrapped KLAY',
     logoURI:
-      'https://static.debank.com/image/klay_token/logo_url/0x19aac5f612f524b754ca7e7c41cbfa2e981a4432/1866fc790849a903e0594ce0f55b758d.png',
+      'https://static.debank.com/image/chain/logo_url/klay/4182ee077031d843a57e42746c30c072.png',
   },
   [ChainId.XLY]: {
     // https://www.okx.com/web3/explorer/xlayer/token/0xe538905cf8410324e03a5a23c1c177a474d59b2b

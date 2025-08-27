@@ -2,6 +2,48 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.32.0](https://github.com/lifinance/data-types/compare/v6.31.0...v6.32.0) (2025-08-27)
+
+
+### Features
+
+* update types to v17.33.0 ([#167](https://github.com/lifinance/data-types/issues/167)) ([98b789c](https://github.com/lifinance/data-types/commit/98b789c16185ed8bb6434a5384f0a69f2e31786b))
+
+## [6.31.0](https://github.com/lifinance/data-types/compare/v6.30.0...v6.31.0) (2025-08-22)
+
+
+### Features
+
+* make wallet balance amount as string ([#166](https://github.com/lifinance/data-types/issues/166)) ([2cb33bb](https://github.com/lifinance/data-types/commit/2cb33bb1bac1a9228fb80dabe1e14c5b5fe6724b))
+
+## [6.30.0](https://github.com/lifinance/data-types/compare/v6.29.3...v6.30.0) (2025-08-22)
+
+
+### Features
+
+* update wklay and klay icon url ([#163](https://github.com/lifinance/data-types/issues/163)) ([cec3f83](https://github.com/lifinance/data-types/commit/cec3f83c864aff8df9d7d9fc929d867e2efd294b))
+
+### [6.29.3](https://github.com/lifinance/data-types/compare/v6.29.2...v6.29.3) (2025-08-22)
+
+
+### Bug Fixes
+
+* remove duplicated frxETH ([#165](https://github.com/lifinance/data-types/issues/165)) ([1e7a75c](https://github.com/lifinance/data-types/commit/1e7a75c6d161087b2b654f21548cffdfd8afdbc9))
+
+### [6.29.2](https://github.com/lifinance/data-types/compare/v6.29.1...v6.29.2) (2025-08-22)
+
+
+### Bug Fixes
+
+* update fraxtal native token ([#164](https://github.com/lifinance/data-types/issues/164)) ([53e44fc](https://github.com/lifinance/data-types/commit/53e44fccd4cf225adafb4934edde454bd3035f33))
+
+### [6.29.1](https://github.com/lifinance/data-types/compare/v6.29.0...v6.29.1) (2025-08-20)
+
+
+### Bug Fixes
+
+* update fraxtal tokens ([#161](https://github.com/lifinance/data-types/issues/161)) ([e129b05](https://github.com/lifinance/data-types/commit/e129b0587bf23a05f84d74a5732982c9324def60))
+
 ## [6.29.0](https://github.com/lifinance/data-types/compare/v6.28.1...v6.29.0) (2025-08-20)
 
 
