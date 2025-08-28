@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.34.0](https://github.com/lifinance/data-types/compare/v6.33.0...v6.34.0) (2025-08-28)
+
+
+### Features
+
+* update kaia chain and coin ([#170](https://github.com/lifinance/data-types/issues/170)) ([a455ace](https://github.com/lifinance/data-types/commit/a455ace224c4bc59bee7df7580fe09e854bc3301))
+
 ## [6.33.0](https://github.com/lifinance/data-types/compare/v6.32.0...v6.33.0) (2025-08-27)
 
 
