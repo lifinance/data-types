@@ -977,7 +977,7 @@ export const supportedEVMChains: EVMChain[] = [
     key: ChainKey.KAI,
     chainType: ChainType.EVM,
     name: 'Kaia',
-    coin: CoinKey.KLAY,
+    coin: CoinKey.KAIA,
     id: 8217,
     mainnet: true,
     logoURI:
@@ -993,10 +993,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'KAIA',
         decimals: 18,
       },
-      rpcUrls: [
-        'https://public-en.node.kaia.io',
-        'https://klaytn-pokt.nodies.app',
-      ],
+      rpcUrls: ['https://public-en.node.kaia.io', 'https://klaytn.drpc.org'],
     },
   },
 

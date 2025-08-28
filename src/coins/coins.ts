@@ -2306,10 +2306,10 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
-  // KLAY
+  // KAIA
   {
-    key: CoinKey.KLAY,
-    name: CoinKey.KLAY,
+    key: CoinKey.KAIA,
+    name: CoinKey.KAIA,
     logoURI:
       'https://static.debank.com/image/chain/logo_url/klay/4182ee077031d843a57e42746c30c072.png',
     verified: true,
@@ -3223,11 +3223,11 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
   [ChainId.KAI]: {
     // https://kaiascan.io/token/0x19aac5f612f524b754ca7e7c41cbfa2e981a4432
     address: '0x19aac5f612f524b754ca7e7c41cbfa2e981a4432',
-    symbol: 'WKLAY',
+    symbol: 'WKAIA',
     decimals: 18,
     chainId: ChainId.KAI,
-    coinKey: CoinKey.WKLAY,
-    name: 'Wrapped KLAY',
+    coinKey: CoinKey.WKAIA,
+    name: 'Wrapped KAIA',
     logoURI:
       'https://static.debank.com/image/chain/logo_url/klay/4182ee077031d843a57e42746c30c072.png',
   },
