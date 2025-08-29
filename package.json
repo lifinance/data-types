@@ -78,7 +78,7 @@
     ]
   },
   "dependencies": {
-    "@lifi/types": "^v17.35.0"
+    "@lifi/types": "^v17.36.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.7.1",
@@ -98,6 +98,7 @@
     "pinst": "^3.0.0",
     "prettier": "^3.5.3",
     "standard-version": "^9.5.0",
+    "tronweb": "^6.0.4",
     "typescript": "^5.8.2",
     "viem": "^2.30.6",
     "vitest": "^3.0.7"

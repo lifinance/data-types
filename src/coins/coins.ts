@@ -585,6 +585,20 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
+  // > TRX
+  {
+    key: CoinKey.TRX,
+    name: CoinKey.TRX,
+    logoURI:
+      'https://lifinance.github.io/types/src/assets/icons/chains/tron.svg',
+    verified: true,
+    chains: {
+      [ChainId.TRN]: {
+        address: 'T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb', // Tron system contract / burn address
+        decimals: 6,
+      },
+    },
+  },
 
   // OTHER STABLECOINS
   // USDT
@@ -812,6 +826,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x6386dA73545ae4E2B2E0393688fA8B65Bb9a7169',
         decimals: 6,
       },
+      [ChainId.TRN]: {
+        address: 'TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t',
+        decimals: 6,
+      },
     },
   },
 
@@ -992,6 +1010,11 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.SOP]: {
         address: '0x9Aa0F72392B5784Ad86c6f3E899bCc053D00Db4F',
         decimals: 6,
+      },
+      [ChainId.TRN]: {
+        address: 'TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8',
+        decimals: 6,
+        name: 'USDC',
       },
     },
   },
@@ -3519,6 +3542,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     decimals: 18,
     logoURI:
       'https://static.debank.com/image/sophon_token/logo_url/0x2b1a859de6a55c553520d7780bc5805712b128f9/b81ad042ee3060050e01af4ce4ff9217.png',
+  },
+  [ChainId.TRN]: {
+    address: 'TNUC9Qb1rRpS5CbWLmNMxXBjyFoydXjWFR',
+    name: 'Wrapped TRX',
+    symbol: CoinKey.WTRX,
+    coinKey: CoinKey.WTRX,
+    chainId: ChainId.TRN,
+    decimals: 6,
+    logoURI:
+      'https://lifinance.github.io/types/src/assets/icons/chains/tron.svg',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
