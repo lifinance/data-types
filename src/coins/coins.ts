@@ -1387,18 +1387,6 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
-  {
-    key: CoinKey.frxETH,
-    name: 'Frax Ether',
-    logoURI: 'https://static.frax.com/images/tokens/frxeth.png',
-    verified: true,
-    chains: {
-      [ChainId.FRA]: {
-        address: '0xfc00000000000000000000000000000000000006',
-        decimals: 18,
-      },
-    },
-  },
 
   // USDe
   {
@@ -2143,7 +2131,7 @@ export const basicCoins: BasicCoin[] = [
         decimals: 18,
       },
       [ChainId.FRA]: {
-        address: '0x0000000000000000000000000000000000000000',
+        address: '0xfc00000000000000000000000000000000000006',
         decimals: 18,
       },
       [ChainId.POL]: {
@@ -2341,12 +2329,12 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
-  // KLAY
+  // KAIA
   {
-    key: CoinKey.KLAY,
-    name: CoinKey.KLAY,
+    key: CoinKey.KAIA,
+    name: CoinKey.KAIA,
     logoURI:
-      'https://static.debank.com/image/klay_token/logo_url/0x19aac5f612f524b754ca7e7c41cbfa2e981a4432/1866fc790849a903e0594ce0f55b758d.png',
+      'https://static.debank.com/image/chain/logo_url/klay/4182ee077031d843a57e42746c30c072.png',
     verified: true,
     chains: {
       [ChainId.KAI]: {
@@ -3258,13 +3246,13 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
   [ChainId.KAI]: {
     // https://kaiascan.io/token/0x19aac5f612f524b754ca7e7c41cbfa2e981a4432
     address: '0x19aac5f612f524b754ca7e7c41cbfa2e981a4432',
-    symbol: 'WKLAY',
+    symbol: 'WKAIA',
     decimals: 18,
     chainId: ChainId.KAI,
-    coinKey: CoinKey.WKLAY,
-    name: 'Wrapped KLAY',
+    coinKey: CoinKey.WKAIA,
+    name: 'Wrapped KAIA',
     logoURI:
-      'https://static.debank.com/image/klay_token/logo_url/0x19aac5f612f524b754ca7e7c41cbfa2e981a4432/1866fc790849a903e0594ce0f55b758d.png',
+      'https://static.debank.com/image/chain/logo_url/klay/4182ee077031d843a57e42746c30c072.png',
   },
   [ChainId.XLY]: {
     // https://www.okx.com/web3/explorer/xlayer/token/0xe538905cf8410324e03a5a23c1c177a474d59b2b

@@ -2,6 +2,55 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.34.0](https://github.com/lifinance/data-types/compare/v6.33.0...v6.34.0) (2025-08-28)
+
+
+### Features
+
+* update kaia chain and coin ([#170](https://github.com/lifinance/data-types/issues/170)) ([a455ace](https://github.com/lifinance/data-types/commit/a455ace224c4bc59bee7df7580fe09e854bc3301))
+
+## [6.33.0](https://github.com/lifinance/data-types/compare/v6.32.0...v6.33.0) (2025-08-27)
+
+
+### Features
+
+* update types to v17.34.0 ([#168](https://github.com/lifinance/data-types/issues/168)) ([9d93ea9](https://github.com/lifinance/data-types/commit/9d93ea9e18b60fe7e48200f6d7a7c131e1f9a33c))
+
+## [6.32.0](https://github.com/lifinance/data-types/compare/v6.31.0...v6.32.0) (2025-08-27)
+
+
+### Features
+
+* update types to v17.33.0 ([#167](https://github.com/lifinance/data-types/issues/167)) ([98b789c](https://github.com/lifinance/data-types/commit/98b789c16185ed8bb6434a5384f0a69f2e31786b))
+
+## [6.31.0](https://github.com/lifinance/data-types/compare/v6.30.0...v6.31.0) (2025-08-22)
+
+
+### Features
+
+* make wallet balance amount as string ([#166](https://github.com/lifinance/data-types/issues/166)) ([2cb33bb](https://github.com/lifinance/data-types/commit/2cb33bb1bac1a9228fb80dabe1e14c5b5fe6724b))
+
+## [6.30.0](https://github.com/lifinance/data-types/compare/v6.29.3...v6.30.0) (2025-08-22)
+
+
+### Features
+
+* update wklay and klay icon url ([#163](https://github.com/lifinance/data-types/issues/163)) ([cec3f83](https://github.com/lifinance/data-types/commit/cec3f83c864aff8df9d7d9fc929d867e2efd294b))
+
+### [6.29.3](https://github.com/lifinance/data-types/compare/v6.29.2...v6.29.3) (2025-08-22)
+
+
+### Bug Fixes
+
+* remove duplicated frxETH ([#165](https://github.com/lifinance/data-types/issues/165)) ([1e7a75c](https://github.com/lifinance/data-types/commit/1e7a75c6d161087b2b654f21548cffdfd8afdbc9))
+
+### [6.29.2](https://github.com/lifinance/data-types/compare/v6.29.1...v6.29.2) (2025-08-22)
+
+
+### Bug Fixes
+
+* update fraxtal native token ([#164](https://github.com/lifinance/data-types/issues/164)) ([53e44fc](https://github.com/lifinance/data-types/commit/53e44fccd4cf225adafb4934edde454bd3035f33))
+
 ### [6.29.1](https://github.com/lifinance/data-types/compare/v6.29.0...v6.29.1) (2025-08-20)
 
 
