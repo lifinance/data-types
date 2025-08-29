@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.35.0](https://github.com/lifinance/data-types/compare/v6.34.0...v6.35.0) (2025-08-29)
+
+
+### Features
+
+* add types with tron ([#162](https://github.com/lifinance/data-types/issues/162)) ([d901913](https://github.com/lifinance/data-types/commit/d9019134e6a9f32f9d64f6a9ce3d79cfbdea1ef4))
+
 ## [6.34.0](https://github.com/lifinance/data-types/compare/v6.33.0...v6.34.0) (2025-08-28)
 
 
