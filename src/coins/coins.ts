@@ -1006,6 +1006,7 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.HPL]: {
         address: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
         decimals: 6,
+        name: 'USD Coin (Perps)',
       },
       [ChainId.SOP]: {
         address: '0x9Aa0F72392B5784Ad86c6f3E899bCc053D00Db4F',
@@ -3524,7 +3525,7 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
       'https://static.debank.com/image/plume_token/logo_url/plume/20ecb01558edaac59ad4cd20b9ccc51d.png',
   },
   [ChainId.HPL]: {
-    name: 'USD Coin',
+    name: 'USD Coin (Perps)',
     address: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
     symbol: CoinKey.USDC,
     coinKey: CoinKey.USDC,
