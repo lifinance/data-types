@@ -155,7 +155,7 @@ export const supportedEVMChains: EVMChain[] = [
     // https://docs.fantom.foundation/tutorials/set-up-metamask
     metamask: {
       chainId: prefixChainId(250),
-      blockExplorerUrls: ['https://ftmscan.com/'],
+      blockExplorerUrls: ['https://explorer.fantom.network/'],
       chainName: 'Fantom Opera',
       nativeCurrency: {
         name: 'FTM',
@@ -912,11 +912,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'ETH',
         decimals: 18,
       },
-      rpcUrls: [
-        'https://rpc.mainnet.taiko.xyz',
-        'https://rpc.taiko.xyz',
-        'https://rpc.taiko.tools',
-      ],
+      rpcUrls: ['https://rpc.mainnet.taiko.xyz', 'https://rpc.taiko.xyz'],
     },
   },
 
@@ -986,7 +982,7 @@ export const supportedEVMChains: EVMChain[] = [
 
     metamask: {
       chainId: prefixChainId(8217),
-      blockExplorerUrls: ['https://kaiascan.io/', 'https://kaiascope.com/'],
+      blockExplorerUrls: ['https://kaiascan.io/'],
       chainName: 'Kaia Mainnet',
       nativeCurrency: {
         name: 'KAIA',
@@ -1560,10 +1556,7 @@ export const supportedEVMChains: EVMChain[] = [
 
     metamask: {
       chainId: prefixChainId(ChainId.KAT),
-      blockExplorerUrls: [
-        'https://katanascan.com/',
-        'https://explorer.katana.network/',
-      ],
+      blockExplorerUrls: ['https://katanascan.com/'],
       chainName: 'Katana',
       nativeCurrency: {
         name: CoinKey.ETH,
