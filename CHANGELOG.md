@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.35.1](https://github.com/lifinance/data-types/compare/v6.35.0...v6.35.1) (2025-09-08)
+
+
+### Bug Fixes
+
+* update main solana explorer ([#171](https://github.com/lifinance/data-types/issues/171)) ([c0f54b2](https://github.com/lifinance/data-types/commit/c0f54b2f935ba8018ec26e8dbb7a6240d73c69e0))
+
 ## [6.35.0](https://github.com/lifinance/data-types/compare/v6.34.0...v6.35.0) (2025-08-29)
 
 
