@@ -17,7 +17,7 @@ export const supportedUXTOChains: UTXOChain[] = [
       blockExplorerUrls: [
         'https://mempool.space/',
         'https://blockstream.info/',
-        'https://www.blockchain.com/explorer/assets/btc',
+        'https://www.blockchain.com/explorer/transactions/btc/',
       ],
       chainName: 'Bitcoin',
       nativeCurrency: {
@@ -43,7 +43,9 @@ export const supportedUXTOChains: UTXOChain[] = [
     faucetUrls: [],
     metamask: {
       chainId: ChainId.BCH.toString(),
-      blockExplorerUrls: ['https://www.blockchain.com/explorer/assets/bch'],
+      blockExplorerUrls: [
+        'https://www.blockchain.com/explorer/transactions/bch/',
+      ],
       chainName: 'Bitcoin Cash',
       nativeCurrency: {
         name: 'BCH',
@@ -87,7 +89,7 @@ export const supportedUXTOChains: UTXOChain[] = [
     faucetUrls: [],
     metamask: {
       chainId: ChainId.DGE.toString(),
-      blockExplorerUrls: ['https://blockexplorer.one/dogecoin/mainnet/'],
+      blockExplorerUrls: ['https://dogechain.info/'],
       chainName: 'Dogecoin',
       nativeCurrency: {
         name: 'DODGE',
