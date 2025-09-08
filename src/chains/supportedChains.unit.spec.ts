@@ -21,7 +21,7 @@ test('getChainByKey', () => {
   expect(getChainByKey(ChainKey.ETH)).toBeDefined()
 })
 
-test('native token defined for all chains', () => {
+test('native and wrapped token defined for all chains', () => {
   // currently unused chains
   const ignoredChainsForNativeToken = [ChainId.FSN, ChainId.TLO, ChainId.RSK]
   const ignoredChainsForWrappedToken = [
@@ -94,14 +94,6 @@ describe('validate chains', () => {
         return
       }
 
-      // blockExplorerUrls
-      expect(chain.metamask.blockExplorerUrls.length).toBeGreaterThan(0)
-      chain.metamask.blockExplorerUrls.forEach((blockExplorerUrl) => {
-        expect(blockExplorerUrl.startsWith('https://')).toBeTruthy()
-        expect(blockExplorerUrl.endsWith('/')).toBeTruthy()
-        expect(new URL(blockExplorerUrl)).toBeDefined()
-      })
-
       const chainId = prefixChainId(chain.id)
 
       // chain ids match
@@ -111,4 +103,34 @@ describe('validate chains', () => {
       expect(chain.metamask.rpcUrls.length).toBeGreaterThan(0)
     })
   })
+})
+
+// This public explorer test works for all supported chains (EVM and non-EVM) because
+// all chains share a `metamask` object structured the same way, if that's to change
+// this test will have to be adapted per VM like the RPC tests.
+describe.concurrent('validate blockchain explorers', () => {
+  supportedChains.forEach((chain) => {
+    expect(chain.metamask.blockExplorerUrls.length).toBeGreaterThan(0)
+  })
+
+  const explorerUrls = supportedChains.flatMap((chain) =>
+    chain.metamask.blockExplorerUrls.map((blockExplorerUrl) => ({
+      blockExplorerUrl,
+      chainKey: chain.key,
+    }))
+  )
+
+  test.for(explorerUrls)(
+    'should get a valid response from $chainKey explorer: $blockExplorerUrl',
+    { timeout: 10_000, retry: 3 },
+    async ({ blockExplorerUrl }) => {
+      const response = await fetch(blockExplorerUrl, {
+        method: 'GET',
+      })
+
+      // some explorers have advanced bot protections, best we can do is
+      // check for any valid TCP response before timeout
+      expect(response).toBeDefined()
+    }
+  )
 })

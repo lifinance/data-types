@@ -2500,7 +2500,7 @@ export const basicCoins: BasicCoin[] = [
     key: CoinKey.BYUSD,
     name: CoinKey.BYUSD,
     logoURI:
-      'https://hub.berachain.com/_next/image/?url=https%3A%2F%2Fres.cloudinary.com%2Fduv0g402y%2Fimage%2Fupload%2Fv1738732576%2Ftokens%2Fy6wa21vehnappbe2cruf.png&w=3840&q=75&dpl=dpl_FBim27rRDfMcGJQxRsgz2AneXzpt',
+      'https://assets.coingecko.com/coins/images/67819/standard/byusd.png?1753942382',
     verified: true,
     chains: {
       [ChainId.BER]: {
