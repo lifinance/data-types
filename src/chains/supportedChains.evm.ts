@@ -155,7 +155,7 @@ export const supportedEVMChains: EVMChain[] = [
     // https://docs.fantom.foundation/tutorials/set-up-metamask
     metamask: {
       chainId: prefixChainId(250),
-      blockExplorerUrls: ['https://ftmscan.com/'],
+      blockExplorerUrls: ['https://explorer.fantom.network/'],
       chainName: 'Fantom Opera',
       nativeCurrency: {
         name: 'FTM',
@@ -912,11 +912,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'ETH',
         decimals: 18,
       },
-      rpcUrls: [
-        'https://rpc.mainnet.taiko.xyz',
-        'https://rpc.taiko.xyz',
-        'https://rpc.taiko.tools',
-      ],
+      rpcUrls: ['https://rpc.mainnet.taiko.xyz', 'https://rpc.taiko.xyz'],
     },
   },
 
@@ -977,7 +973,7 @@ export const supportedEVMChains: EVMChain[] = [
     key: ChainKey.KAI,
     chainType: ChainType.EVM,
     name: 'Kaia',
-    coin: CoinKey.KLAY,
+    coin: CoinKey.KAIA,
     id: 8217,
     mainnet: true,
     logoURI:
@@ -986,17 +982,14 @@ export const supportedEVMChains: EVMChain[] = [
 
     metamask: {
       chainId: prefixChainId(8217),
-      blockExplorerUrls: ['https://kaiascan.io/', 'https://kaiascope.com/'],
+      blockExplorerUrls: ['https://kaiascan.io/'],
       chainName: 'Kaia Mainnet',
       nativeCurrency: {
         name: 'KAIA',
         symbol: 'KAIA',
         decimals: 18,
       },
-      rpcUrls: [
-        'https://public-en.node.kaia.io',
-        'https://klaytn-pokt.nodies.app',
-      ],
+      rpcUrls: ['https://public-en.node.kaia.io', 'https://klaytn.drpc.org'],
     },
   },
 
@@ -1563,10 +1556,7 @@ export const supportedEVMChains: EVMChain[] = [
 
     metamask: {
       chainId: prefixChainId(ChainId.KAT),
-      blockExplorerUrls: [
-        'https://katanascan.com/',
-        'https://explorer.katana.network/',
-      ],
+      blockExplorerUrls: ['https://katanascan.com/'],
       chainName: 'Katana',
       nativeCurrency: {
         name: CoinKey.ETH,

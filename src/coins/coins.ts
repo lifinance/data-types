@@ -585,6 +585,20 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
+  // > TRX
+  {
+    key: CoinKey.TRX,
+    name: CoinKey.TRX,
+    logoURI:
+      'https://lifinance.github.io/types/src/assets/icons/chains/tron.svg',
+    verified: true,
+    chains: {
+      [ChainId.TRN]: {
+        address: 'T9yD14Nj9j7xAB4dbGeiX9h8unkKHxuWwb', // Tron system contract / burn address
+        decimals: 6,
+      },
+    },
+  },
 
   // OTHER STABLECOINS
   // USDT
@@ -812,6 +826,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x6386dA73545ae4E2B2E0393688fA8B65Bb9a7169',
         decimals: 6,
       },
+      [ChainId.TRN]: {
+        address: 'TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t',
+        decimals: 6,
+      },
     },
   },
 
@@ -988,10 +1006,16 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.HPL]: {
         address: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
         decimals: 6,
+        name: 'USD Coin (Perps)',
       },
       [ChainId.SOP]: {
         address: '0x9Aa0F72392B5784Ad86c6f3E899bCc053D00Db4F',
         decimals: 6,
+      },
+      [ChainId.TRN]: {
+        address: 'TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8',
+        decimals: 6,
+        name: 'USDC',
       },
     },
   },
@@ -2306,10 +2330,10 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
-  // KLAY
+  // KAIA
   {
-    key: CoinKey.KLAY,
-    name: CoinKey.KLAY,
+    key: CoinKey.KAIA,
+    name: CoinKey.KAIA,
     logoURI:
       'https://static.debank.com/image/chain/logo_url/klay/4182ee077031d843a57e42746c30c072.png',
     verified: true,
@@ -2476,7 +2500,7 @@ export const basicCoins: BasicCoin[] = [
     key: CoinKey.BYUSD,
     name: CoinKey.BYUSD,
     logoURI:
-      'https://hub.berachain.com/_next/image/?url=https%3A%2F%2Fres.cloudinary.com%2Fduv0g402y%2Fimage%2Fupload%2Fv1738732576%2Ftokens%2Fy6wa21vehnappbe2cruf.png&w=3840&q=75&dpl=dpl_FBim27rRDfMcGJQxRsgz2AneXzpt',
+      'https://assets.coingecko.com/coins/images/67819/standard/byusd.png?1753942382',
     verified: true,
     chains: {
       [ChainId.BER]: {
@@ -3223,11 +3247,11 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
   [ChainId.KAI]: {
     // https://kaiascan.io/token/0x19aac5f612f524b754ca7e7c41cbfa2e981a4432
     address: '0x19aac5f612f524b754ca7e7c41cbfa2e981a4432',
-    symbol: 'WKLAY',
+    symbol: 'WKAIA',
     decimals: 18,
     chainId: ChainId.KAI,
-    coinKey: CoinKey.WKLAY,
-    name: 'Wrapped KLAY',
+    coinKey: CoinKey.WKAIA,
+    name: 'Wrapped KAIA',
     logoURI:
       'https://static.debank.com/image/chain/logo_url/klay/4182ee077031d843a57e42746c30c072.png',
   },
@@ -3501,7 +3525,7 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
       'https://static.debank.com/image/plume_token/logo_url/plume/20ecb01558edaac59ad4cd20b9ccc51d.png',
   },
   [ChainId.HPL]: {
-    name: 'USD Coin',
+    name: 'USD Coin (Perps)',
     address: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
     symbol: CoinKey.USDC,
     coinKey: CoinKey.USDC,
@@ -3519,6 +3543,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     decimals: 18,
     logoURI:
       'https://static.debank.com/image/sophon_token/logo_url/0x2b1a859de6a55c553520d7780bc5805712b128f9/b81ad042ee3060050e01af4ce4ff9217.png',
+  },
+  [ChainId.TRN]: {
+    address: 'TNUC9Qb1rRpS5CbWLmNMxXBjyFoydXjWFR',
+    name: 'Wrapped TRX',
+    symbol: CoinKey.WTRX,
+    coinKey: CoinKey.WTRX,
+    chainId: ChainId.TRN,
+    decimals: 6,
+    logoURI:
+      'https://lifinance.github.io/types/src/assets/icons/chains/tron.svg',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
