@@ -1713,4 +1713,28 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://rpc.sophon.xyz'],
     },
   },
+
+  {
+    key: ChainKey.PLA,
+    chainType: ChainType.EVM,
+    name: 'Plasma',
+    coin: CoinKey.XPL,
+    id: ChainId.PLA,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/plasma.svg',
+    relayerSupported: false,
+    multicallAddress: multicallAddresses[ChainId.PLA],
+    metamask: {
+      chainId: prefixChainId(ChainId.PLA),
+      blockExplorerUrls: ['https://plasmascan.to/'],
+      chainName: 'Plasma',
+      nativeCurrency: {
+        name: CoinKey.XPL,
+        symbol: CoinKey.XPL,
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.plasma.to'],
+    },
+  },
 ]

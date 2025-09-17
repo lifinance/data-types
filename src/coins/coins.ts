@@ -1844,6 +1844,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0xca59cA09E5602fAe8B629DeE83FfA819741f14be',
         decimals: 18,
       },
+      [ChainId.PLA]: {
+        address: '0x9895D81bB462A195b4922ED7De0e3ACD007c32CB',
+        decimals: 18,
+      },
     },
   },
 
@@ -2824,7 +2828,7 @@ export const basicCoins: BasicCoin[] = [
     verified: true,
     chains: {
       [ChainId.PLA]: {
-        address: '', // to be updated
+        address: '0x6100E367285b01F48D07953803A2d8dCA5D19873', // to be updated
         decimals: 18,
       },
     },
@@ -3581,7 +3585,8 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
       'https://lifinance.github.io/types/src/assets/icons/chains/tron.svg',
   },
   [ChainId.PLA]: {
-    address: '', // to be updated
+    // https://plasmascan.to/address/0x6100E367285b01F48D07953803A2d8dCA5D19873
+    address: '0x6100E367285b01F48D07953803A2d8dCA5D19873',
     name: 'Wrapped Plasma',
     symbol: CoinKey.WXPL,
     coinKey: CoinKey.WXPL,
