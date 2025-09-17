@@ -2828,7 +2828,7 @@ export const basicCoins: BasicCoin[] = [
     verified: true,
     chains: {
       [ChainId.PLA]: {
-        address: '0x6100E367285b01F48D07953803A2d8dCA5D19873', // to be updated
+        address: '0x6100E367285b01F48D07953803A2d8dCA5D19873',
         decimals: 18,
       },
     },
