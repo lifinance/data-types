@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.36.0](https://github.com/lifinance/data-types/compare/v6.35.2...v6.36.0) (2025-09-18)
+
+
+### Features
+
+* Add USDC on HyperEVM ([#177](https://github.com/lifinance/data-types/issues/177)) ([ea09dfc](https://github.com/lifinance/data-types/commit/ea09dfc781408c80880c946c806d472a768b992c))
+
 ### [6.35.2](https://github.com/lifinance/data-types/compare/v6.35.1...v6.35.2) (2025-09-08)
 
 ### [6.35.1](https://github.com/lifinance/data-types/compare/v6.35.0...v6.35.1) (2025-09-08)
