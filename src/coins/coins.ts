@@ -893,6 +893,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
         decimals: 6,
       },
+      [ChainId.HYP]: {
+        address: '0xb88339CB7199b77E23DB6E890353E22632Ba630f',
+        decimals: 6,
+      },
       [ChainId.ONE]: {
         address: '0x985458e523db3d53125813ed68c274899e9dfab4',
         decimals: 6,
