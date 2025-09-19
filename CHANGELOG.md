@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.37.0](https://github.com/lifinance/data-types/compare/v6.36.0...v6.37.0) (2025-09-19)
+
+
+### Features
+
+* add plasma coin and wrapped plasma coin ([#175](https://github.com/lifinance/data-types/issues/175)) ([8991385](https://github.com/lifinance/data-types/commit/8991385f13a3b9008510572c182d3674ebf792f6))
+
 ## [6.36.0](https://github.com/lifinance/data-types/compare/v6.35.2...v6.36.0) (2025-09-18)
 
 
