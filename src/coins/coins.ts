@@ -1848,6 +1848,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0xca59cA09E5602fAe8B629DeE83FfA819741f14be',
         decimals: 18,
       },
+      [ChainId.PLA]: {
+        address: '0x9895D81bB462A195b4922ED7De0e3ACD007c32CB',
+        decimals: 18,
+      },
     },
   },
 
@@ -2808,6 +2812,32 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  {
+    key: CoinKey.XPL,
+    name: 'Plasma',
+    logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/36645.png',
+    verified: true,
+    chains: {
+      [ChainId.PLA]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+
+  {
+    key: CoinKey.WXPL,
+    name: 'Wrapped Plasma',
+    logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/36645.png',
+    verified: true,
+    chains: {
+      [ChainId.PLA]: {
+        address: '0x6100E367285b01F48D07953803A2d8dCA5D19873',
+        decimals: 18,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
@@ -3557,6 +3587,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     decimals: 6,
     logoURI:
       'https://lifinance.github.io/types/src/assets/icons/chains/tron.svg',
+  },
+  [ChainId.PLA]: {
+    // https://plasmascan.to/address/0x6100E367285b01F48D07953803A2d8dCA5D19873
+    address: '0x6100E367285b01F48D07953803A2d8dCA5D19873',
+    name: 'Wrapped Plasma',
+    symbol: CoinKey.WXPL,
+    coinKey: CoinKey.WXPL,
+    chainId: ChainId.PLA,
+    decimals: 18,
+    logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/36645.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
