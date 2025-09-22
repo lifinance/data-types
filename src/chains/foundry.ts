@@ -3,7 +3,7 @@ import { ChainId } from '@lifi/types'
 // This name is used to map the chainId to the chain name when running scripts
 // There is no documentation on the chain names, you can refer to
 // the chain names in https://github.com/lifinance/contracts/tree/main/deployments
-const chainNameMap: Record<ChainId, string> = {
+export const foundryChainNameMap: Record<ChainId, string> = {
   [ChainId.UNI]: 'unichain',
   [ChainId.HYP]: 'hyperevm',
   [ChainId.FLR]: 'flare',
@@ -84,13 +84,4 @@ const chainNameMap: Record<ChainId, string> = {
   [ChainId.BCH]: 'bitcoin-cash',
   [ChainId.LTC]: 'litecoin',
   [ChainId.DGE]: 'dogecoin',
-}
-
-export const getFoundryChainNameByChainId = (chainId: ChainId): string => {
-  const mapping = chainNameMap[chainId]
-  if (mapping === undefined) {
-    throw new Error(`[foundry] No chain name found for chainId ${chainId}.`)
-  } else {
-    return mapping
-  }
 }
