@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.38.0](https://github.com/lifinance/data-types/compare/v6.37.0...v6.38.0) (2025-09-22)
+
+
+### Features
+
+* add foundry chain name mapping ([#178](https://github.com/lifinance/data-types/issues/178)) ([39f38c4](https://github.com/lifinance/data-types/commit/39f38c408381d0432be02ba2edf2753a3c19c704))
+* add more plasma tokens ([#179](https://github.com/lifinance/data-types/issues/179)) ([fb581f2](https://github.com/lifinance/data-types/commit/fb581f24d27af7e400fb940002d16f7fb6d3bfd8))
+
 ## [6.37.0](https://github.com/lifinance/data-types/compare/v6.36.0...v6.37.0) (2025-09-19)
 
 
