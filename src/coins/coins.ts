@@ -1177,6 +1177,12 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
         name: 'Bridged USDC (Stargate)',
       },
+      [ChainId.FLW]: {
+        address: '0xF1815bd50389c46847f0Bda824eC8da914045D14',
+        decimals: 6,
+        name: 'Bridged USDC (Stargate)',
+        symbol: 'stgUSDC',
+      },
     },
   },
   // axlUSDC
@@ -1854,6 +1860,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.PLA]: {
         address: '0x9895D81bB462A195b4922ED7De0e3ACD007c32CB',
+        decimals: 18,
+      },
+      [ChainId.FLW]: {
+        address: '0x2F6F07CDcf3588944Bf4C42aC74ff24bF56e7590',
         decimals: 18,
       },
     },
@@ -2820,6 +2830,7 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // XPL
   {
     key: CoinKey.XPL,
     name: 'Plasma',
@@ -2833,6 +2844,7 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // WXPL
   {
     key: CoinKey.WXPL,
     name: 'Wrapped Plasma',
@@ -2841,6 +2853,55 @@ export const basicCoins: BasicCoin[] = [
     chains: {
       [ChainId.PLA]: {
         address: '0x6100E367285b01F48D07953803A2d8dCA5D19873',
+        decimals: 18,
+      },
+    },
+  },
+
+  // FLOW
+  {
+    key: CoinKey.FLOW,
+    name: 'Flow',
+    logoURI:
+      'https://raw.githubusercontent.com/onflow/assets/main/tokens/registry/0xd3bF53DAC106A0290B0483EcBC89d40FcC961f3e/logo.png',
+    verified: true,
+    chains: {
+      [ChainId.FLW]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+      [ChainId.ETH]: {
+        address: '0x5c147e74D63B1D31AA3Fd78Eb229B65161983B2b',
+        decimals: 18,
+      },
+    },
+  },
+
+  // WFLOW
+  {
+    key: CoinKey.WFLOW,
+    name: 'Wrapped Flow',
+    logoURI:
+      'https://raw.githubusercontent.com/onflow/assets/main/tokens/registry/0xd3bF53DAC106A0290B0483EcBC89d40FcC961f3e/logo.png',
+    verified: true,
+    chains: {
+      [ChainId.FLW]: {
+        address: '0xd3bF53DAC106A0290B0483EcBC89d40FcC961f3e',
+        decimals: 18,
+      },
+    },
+  },
+
+  // USDF
+  {
+    key: CoinKey.USDF,
+    name: 'USD Flow',
+    logoURI:
+      'https://raw.githubusercontent.com/onflow/assets/main/tokens/registry/0x2aaBea2058b5aC2D339b163C6Ab6f2b6d53aabED/logo.png',
+    verified: true,
+    chains: {
+      [ChainId.FLW]: {
+        address: '0x2aaBea2058b5aC2D339b163C6Ab6f2b6d53aabED',
         decimals: 18,
       },
     },
@@ -3605,6 +3666,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     chainId: ChainId.PLA,
     decimals: 18,
     logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/36645.png',
+  },
+  [ChainId.FLW]: {
+    // https://evm.flowscan.io/token/0xd3bF53DAC106A0290B0483EcBC89d40FcC961f3e
+    address: '0xd3bf53dac106a0290b0483ecbc89d40fcc961f3e',
+    name: 'Wrapped Flow',
+    symbol: CoinKey.WFLOW,
+    coinKey: CoinKey.WFLOW,
+    chainId: ChainId.FLW,
+    decimals: 18,
+    logoURI:
+      'https://raw.githubusercontent.com/onflow/assets/main/tokens/registry/0xd3bF53DAC106A0290B0483EcBC89d40FcC961f3e/logo.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {

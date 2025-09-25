@@ -1737,4 +1737,28 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://rpc.plasma.to'],
     },
   },
+
+  {
+    key: ChainKey.FLW,
+    chainType: ChainType.EVM,
+    name: 'Flow',
+    coin: CoinKey.FLOW,
+    id: ChainId.FLW,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/flow.svg',
+    relayerSupported: false,
+    multicallAddress: multicallAddresses[ChainId.FLW],
+    metamask: {
+      chainId: prefixChainId(ChainId.FLW),
+      blockExplorerUrls: ['https://evm.flowscan.io/'],
+      chainName: 'Flow EVM Mainnet',
+      nativeCurrency: {
+        name: CoinKey.FLOW,
+        symbol: CoinKey.FLOW,
+        decimals: 18,
+      },
+      rpcUrls: ['https://mainnet.evm.nodes.onflow.org'],
+    },
+  },
 ]
