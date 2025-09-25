@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.39.0](https://github.com/lifinance/data-types/compare/v6.38.0...v6.39.0) (2025-09-25)
+
+
+### Features
+
+* add flow chain ([#180](https://github.com/lifinance/data-types/issues/180)) ([407bb24](https://github.com/lifinance/data-types/commit/407bb246716b28145b085d753775f7d6b04f4ca4))
+
 ## [6.38.0](https://github.com/lifinance/data-types/compare/v6.37.0...v6.38.0) (2025-09-22)
 
 
