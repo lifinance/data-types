@@ -2,6 +2,35 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.39.0](https://github.com/lifinance/data-types/compare/v6.38.0...v6.39.0) (2025-09-25)
+
+
+### Features
+
+* add flow chain ([#180](https://github.com/lifinance/data-types/issues/180)) ([407bb24](https://github.com/lifinance/data-types/commit/407bb246716b28145b085d753775f7d6b04f4ca4))
+
+## [6.38.0](https://github.com/lifinance/data-types/compare/v6.37.0...v6.38.0) (2025-09-22)
+
+
+### Features
+
+* add foundry chain name mapping ([#178](https://github.com/lifinance/data-types/issues/178)) ([39f38c4](https://github.com/lifinance/data-types/commit/39f38c408381d0432be02ba2edf2753a3c19c704))
+* add more plasma tokens ([#179](https://github.com/lifinance/data-types/issues/179)) ([fb581f2](https://github.com/lifinance/data-types/commit/fb581f24d27af7e400fb940002d16f7fb6d3bfd8))
+
+## [6.37.0](https://github.com/lifinance/data-types/compare/v6.36.0...v6.37.0) (2025-09-19)
+
+
+### Features
+
+* add plasma coin and wrapped plasma coin ([#175](https://github.com/lifinance/data-types/issues/175)) ([8991385](https://github.com/lifinance/data-types/commit/8991385f13a3b9008510572c182d3674ebf792f6))
+
+## [6.36.0](https://github.com/lifinance/data-types/compare/v6.35.2...v6.36.0) (2025-09-18)
+
+
+### Features
+
+* Add USDC on HyperEVM ([#177](https://github.com/lifinance/data-types/issues/177)) ([ea09dfc](https://github.com/lifinance/data-types/commit/ea09dfc781408c80880c946c806d472a768b992c))
+
 ### [6.35.2](https://github.com/lifinance/data-types/compare/v6.35.1...v6.35.2) (2025-09-08)
 
 ### [6.35.1](https://github.com/lifinance/data-types/compare/v6.35.0...v6.35.1) (2025-09-08)
