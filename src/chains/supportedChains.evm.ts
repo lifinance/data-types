@@ -1761,4 +1761,28 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://mainnet.evm.nodes.onflow.org'],
     },
   },
+
+  {
+    key: ChainKey.HMI,
+    chainType: ChainType.EVM,
+    name: 'Hemi',
+    coin: CoinKey.ETH,
+    id: ChainId.HMI,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/hemi.svg',
+    relayerSupported: false,
+    multicallAddress: multicallAddresses[ChainId.HMI],
+    metamask: {
+      chainId: prefixChainId(ChainId.HMI),
+      blockExplorerUrls: ['https://explorer.hemi.xyz/'],
+      chainName: 'Hemi',
+      nativeCurrency: {
+        name: CoinKey.ETH,
+        symbol: CoinKey.ETH,
+        decimals: 18,
+      },
+      rpcUrls: [' https://rpc.hemi.network/rpc'],
+    },
+  },
 ]
