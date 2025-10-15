@@ -1033,6 +1033,10 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
         name: 'USDC',
       },
+      [ChainId.MON]: {
+        address: '0x754704Bc059F8C67012fEd69BC8A327a5aafb603',
+        decimals: 6,
+      },
     },
   },
   // USDC.e
@@ -2921,6 +2925,36 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // Monad
+  {
+    key: CoinKey.MON,
+    name: 'Monad',
+    logoURI:
+      'https://static.debank.com/image/monad_token/logo_url/monad/9df1611d238781f78045fba9101359a3.png',
+    verified: true,
+    chains: {
+      [ChainId.MON]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+
+  // WMON
+  {
+    key: CoinKey.WMON,
+    name: 'Wrapped Monad',
+    logoURI:
+      'https://static.debank.com/image/ink_token/logo_url/0xfbbf3f86a29467f3866d0ab37b8c72b5ca1b159f/d75d4109e99126aa282e2da1e5267db7.png',
+    verified: true,
+    chains: {
+      [ChainId.MON]: {
+        address: '0x3bd359c1119da7da1d913d1c4d2b7c461115433a',
+        decimals: 18,
+      },
+    },
+  },
+
   // USDF
   {
     key: CoinKey.USDF,
@@ -3759,6 +3793,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped Ether',
     logoURI:
       'https://static.debank.com/image/uni_token/logo_url/uni/48bfb74adddd170e936578aec422836d.png',
+  },
+  [ChainId.MON]: {
+    address: '0x3bd359c1119da7da1d913d1c4d2b7c461115433a',
+    symbol: 'WMON',
+    decimals: 18,
+    chainId: ChainId.MON,
+    coinKey: CoinKey.WMON,
+    name: 'Wrapped Monad',
+    logoURI:
+      'https://static.debank.com/image/ink_token/logo_url/0xfbbf3f86a29467f3866d0ab37b8c72b5ca1b159f/d75d4109e99126aa282e2da1e5267db7.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {

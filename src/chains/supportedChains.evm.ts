@@ -1785,4 +1785,30 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: [' https://rpc.hemi.network/rpc'],
     },
   },
+
+  {
+    key: ChainKey.MON,
+    chainType: ChainType.EVM,
+    name: 'Monad',
+    coin: CoinKey.MON,
+    id: ChainId.MON,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/monad.svg',
+    relayerSupported: false,
+    multicallAddress: multicallAddresses[ChainId.MON],
+    metamask: {
+      chainId: prefixChainId(ChainId.MON),
+      blockExplorerUrls: ['https://monadscan.com/'],
+      chainName: 'Monad',
+      nativeCurrency: {
+        name: CoinKey.MON,
+        symbol: CoinKey.MON,
+        decimals: 18,
+      },
+      rpcUrls: [
+        'https://rpc-mainnet.monadinfra.com/rpc/zliz8RDn0a7khauKARW6AUKT7UaqQeAc',
+      ], // FIXME: private rpc, replace once we have a public one
+    },
+  },
 ]
