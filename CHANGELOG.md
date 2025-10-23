@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.41.1](https://github.com/lifinance/data-types/compare/v6.41.0...v6.41.1) (2025-10-17)
+
+## [6.41.0](https://github.com/lifinance/data-types/compare/v6.40.0...v6.41.0) (2025-10-15)
+
+
+### Features
+
+* add Monad chain ([#184](https://github.com/lifinance/data-types/issues/184)) ([8963a18](https://github.com/lifinance/data-types/commit/8963a1862bdae5bc587db16ffa79c2f499889dd6))
+
+## [6.40.0](https://github.com/lifinance/data-types/compare/v6.39.1...v6.40.0) (2025-10-06)
+
+
+### Features
+
+* add hemi chain ([#181](https://github.com/lifinance/data-types/issues/181)) ([4250587](https://github.com/lifinance/data-types/commit/425058773a054cb87844c916394c3ce3693b3a81))
+
+### [6.39.1](https://github.com/lifinance/data-types/compare/v6.39.0...v6.39.1) (2025-09-30)
+
 ## [6.39.0](https://github.com/lifinance/data-types/compare/v6.38.0...v6.39.0) (2025-09-25)
 
 
