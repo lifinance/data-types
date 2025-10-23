@@ -1491,6 +1491,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
+      [ChainId.HPL]: {
+        address: '0x0D01DC56DcaaCa66aD901c959B4011ec00000000',
+        decimals: 8,
+      },
     },
   },
   {
