@@ -643,10 +643,9 @@ export const supportedEVMChains: EVMChain[] = [
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/zkevm.svg',
     multicallAddress: multicallAddresses[ChainId.PZE],
-
     metamask: {
       chainId: prefixChainId(1101),
-      blockExplorerUrls: ['https://zkevm.polygonscan.com/'],
+      blockExplorerUrls: ['https://www.oklink.com/polygon-zkevm/'],
       chainName: 'Polygon zkEVM',
       nativeCurrency: {
         name: 'ETH',
