@@ -1781,7 +1781,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: CoinKey.ETH,
         decimals: 18,
       },
-      rpcUrls: [' https://rpc.hemi.network/rpc'],
+      rpcUrls: ['https://rpc.hemi.network/rpc'],
     },
   },
 
@@ -1805,9 +1805,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: CoinKey.MON,
         decimals: 18,
       },
-      rpcUrls: [
-        'https://rpc-mainnet.monadinfra.com/rpc/zliz8RDn0a7khauKARW6AUKT7UaqQeAc',
-      ], // FIXME: private rpc, replace once we have a public one
+      rpcUrls: [],
     },
   },
 ]
