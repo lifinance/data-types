@@ -165,7 +165,6 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: [
         'https://rpcapi.fantom.network',
         'https://rpc.fantom.network',
-        'https://fantom-rpc.publicnode.com',
         'https://fantom.drpc.org',
       ],
     },
@@ -260,31 +259,6 @@ export const supportedEVMChains: EVMChain[] = [
         'https://optimism-rpc.publicnode.com',
         'https://optimism.drpc.org',
       ],
-    },
-  },
-
-  // 32659 - Fusion (anyswap)
-  {
-    key: ChainKey.FSN,
-    chainType: ChainType.EVM,
-    name: 'Fusion Mainnet',
-    coin: CoinKey.FSN,
-    id: 32659,
-    logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/fusion.svg',
-    mainnet: true,
-    multicallAddress: multicallAddresses[ChainId.FSN],
-    // https://support.avax.network/en/articles/4626956-how-do-i-set-up-metamask-on-avalanche
-    metamask: {
-      chainId: prefixChainId(32659),
-      blockExplorerUrls: ['https://fsnscan.com/'],
-      chainName: 'Fusion Mainnet',
-      nativeCurrency: {
-        name: 'FSN',
-        symbol: 'FSN',
-        decimals: 18,
-      },
-      rpcUrls: ['https://mainnet.fusionnetwork.io'],
     },
   },
 
@@ -449,7 +423,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'TLOS',
         decimals: 18,
       },
-      rpcUrls: ['https://mainnet.telos.net/evm'],
+      rpcUrls: ['https://rpc.telos.net'],
     },
   },
   // 25 Cronos Mainnet Beta
@@ -1781,7 +1755,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: CoinKey.ETH,
         decimals: 18,
       },
-      rpcUrls: [' https://rpc.hemi.network/rpc'],
+      rpcUrls: ['https://rpc.hemi.network/rpc'],
     },
   },
 
@@ -1805,9 +1779,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: CoinKey.MON,
         decimals: 18,
       },
-      rpcUrls: [
-        'https://rpc-mainnet.monadinfra.com/rpc/zliz8RDn0a7khauKARW6AUKT7UaqQeAc',
-      ], // FIXME: private rpc, replace once we have a public one
+      rpcUrls: ['https://mon-rpc.transferto.xyz'],
     },
   },
 ]
