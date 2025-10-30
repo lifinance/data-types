@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.42.0](https://github.com/lifinance/data-types/compare/v6.41.2...v6.42.0) (2025-10-30)
+
+
+### Features
+
+* update polygon zkEVM explorer url ([#187](https://github.com/lifinance/data-types/issues/187)) ([fae9403](https://github.com/lifinance/data-types/commit/fae94031f90617c767a7a246f343e9ca8e2cbea3))
+
+
+### Bug Fixes
+
+* change invalid rpcs ([#188](https://github.com/lifinance/data-types/issues/188)) ([ea2acdf](https://github.com/lifinance/data-types/commit/ea2acdf3cbdcc30aa8efd2fc6469d1f9b174542d))
+
 ### [6.41.2](https://github.com/lifinance/data-types/compare/v6.41.1...v6.41.2) (2025-10-23)
 
 ### [6.41.1](https://github.com/lifinance/data-types/compare/v6.41.0...v6.41.1) (2025-10-17)
