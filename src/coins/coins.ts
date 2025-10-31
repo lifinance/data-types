@@ -681,8 +681,10 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
       },
       [ChainId.CEL]: {
-        address: '0x88eec49252c8cbc039dcdb394c0c2ba2f1637ea0',
+        address: '0x48065fbBE25f71C9282ddf5e1cD6D6A887483D5e',
         decimals: 6,
+        symbol: 'USD₮0',
+        name: 'Tether USD',
       },
       [ChainId.MOO]: {
         address: '0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73',
