@@ -1039,6 +1039,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x754704Bc059F8C67012fEd69BC8A327a5aafb603',
         decimals: 6,
       },
+      [ChainId.PLU]: {
+        address: '0x222365EF19F7947e5484218551B56bb3965Aa7aF',
+        decimals: 6,
+      },
     },
   },
   // USDC.e
