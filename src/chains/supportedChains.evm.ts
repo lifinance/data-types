@@ -411,6 +411,8 @@ export const supportedEVMChains: EVMChain[] = [
     coin: CoinKey.TLOS,
     id: 40,
     mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/telos.svg',
     tokenlistUrl:
       'https://raw.githubusercontent.com/sushiswap/default-token-list/master/tokens/telos.json',
     multicallAddress: multicallAddresses[ChainId.TLO],
@@ -1644,19 +1646,19 @@ export const supportedEVMChains: EVMChain[] = [
     key: ChainKey.HPL,
     chainType: ChainType.EVM,
     name: 'Hyperliquid',
-    coin: CoinKey.USDC,
+    coin: CoinKey.HYPE,
     id: ChainId.HPL,
     mainnet: true,
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/hyperliquid.svg',
     relayerSupported: false,
     metamask: {
-      chainId: prefixChainId(ChainId.ARB),
+      chainId: prefixChainId(ChainId.HPL),
       blockExplorerUrls: ['https://app.hyperliquid.xyz/explorer/'],
       chainName: 'Hyperliquid',
       nativeCurrency: {
-        name: CoinKey.USDC,
-        symbol: CoinKey.USDC,
+        name: 'Hyperliquid',
+        symbol: 'HYPE',
         decimals: 6,
       },
       rpcUrls: [],

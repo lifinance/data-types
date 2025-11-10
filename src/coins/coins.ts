@@ -3743,14 +3743,14 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
       'https://static.debank.com/image/plume_token/logo_url/plume/20ecb01558edaac59ad4cd20b9ccc51d.png',
   },
   [ChainId.HPL]: {
-    name: 'USD Coin (Perps)',
-    address: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
-    symbol: CoinKey.USDC,
-    coinKey: CoinKey.USDC,
+    name: 'Hyperliquid',
+    address: '0x0d01dc56dcaaca66ad901c959b4011ec',
+    symbol: CoinKey.HYPE,
+    coinKey: CoinKey.HYPE,
     chainId: ChainId.HPL,
     decimals: 6,
     logoURI:
-      'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png',
+      'https://static.debank.com/image/hyper_token/logo_url/hyper/0b3e288cfe418e9ce69eef4c96374583.png',
   },
   [ChainId.SOP]: {
     address: '0x2b1a859de6a55c553520d7780bc5805712b128f9',
