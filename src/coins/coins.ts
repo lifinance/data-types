@@ -3744,7 +3744,7 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
   },
   [ChainId.HPL]: {
     name: 'Hyperliquid',
-    address: '0x0d01dc56dcaaca66ad901c959b4011ec',
+    address: '0x0D01DC56DcaaCa66aD901c959B4011ec00000000',
     symbol: CoinKey.HYPE,
     coinKey: CoinKey.HYPE,
     chainId: ChainId.HPL,
