@@ -2870,6 +2870,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb',
         decimals: 6,
       },
+      [ChainId.STA]: {
+        address: '0x779Ded0c9e1022225f8E0630b35a9b54bE713736',
+        decimals: 6,
+      },
     },
   },
 
@@ -3018,6 +3022,21 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.HMI]: {
         address: '0x028DE74e2fE336511A8E5FAb0426D1cfD5110DBb',
         decimals: 6,
+      },
+    },
+  },
+
+  // gasUSDT (stable native)
+  {
+    key: CoinKey.GUSDT,
+    name: 'gasUSDT',
+    logoURI:
+      'https://2344189142-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FHytE5q346VLLbrVSUNpY%2Fuploads%2FGbQORpmUVLWNsJ7ksM7b%2FLogo%20USDT0%20Png%20512x512.png?alt=media&token=4c4f40e2-ade3-4f89-9443-cda9fe9b65a9',
+    verified: true,
+    chains: {
+      [ChainId.STA]: {
+        address: '0x0000000000000000000000000000000000001000',
+        decimals: 18,
       },
     },
   },
@@ -3813,6 +3832,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped Monad',
     logoURI:
       'https://static.debank.com/image/ink_token/logo_url/0xfbbf3f86a29467f3866d0ab37b8c72b5ca1b159f/d75d4109e99126aa282e2da1e5267db7.png',
+  },
+  // yes, stable uses USDTO as their wrapped native token
+  [ChainId.STA]: {
+    address: '0x779Ded0c9e1022225f8E0630b35a9b54bE713736',
+    symbol: 'USDT0',
+    decimals: 6,
+    chainId: ChainId.STA,
+    coinKey: CoinKey.USDT0,
+    name: 'USD₮0',
+    logoURI:
+      'https://static.debank.com/image/ink_token/logo_url/0x0200c29006150606b650577bbe7b6248f58470c1/8bba37fddc2774e06a94b8952e3e3ad7.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {

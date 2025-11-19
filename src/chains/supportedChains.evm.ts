@@ -1782,4 +1782,28 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://mon-rpc.transferto.xyz'],
     },
   },
+
+  {
+    key: ChainKey.STA,
+    chainType: ChainType.EVM,
+    name: 'Stable',
+    coin: CoinKey.GUSDT,
+    id: ChainId.STA,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/stable.svg',
+    relayerSupported: false,
+    multicallAddress: multicallAddresses[ChainId.STA],
+    metamask: {
+      chainId: prefixChainId(ChainId.STA),
+      blockExplorerUrls: ['https://stablescan.xyz/'],
+      chainName: 'Stable',
+      nativeCurrency: {
+        name: 'gasUSDT',
+        symbol: CoinKey.GUSDT,
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.stable.xyz'],
+    },
+  },
 ]
