@@ -1772,7 +1772,7 @@ export const supportedEVMChains: EVMChain[] = [
     multicallAddress: multicallAddresses[ChainId.MON],
     metamask: {
       chainId: prefixChainId(ChainId.MON),
-      blockExplorerUrls: ['http://monadvision.com/'],
+      blockExplorerUrls: ['https://monadscan.com/'],
       chainName: 'Monad',
       nativeCurrency: {
         name: CoinKey.MON,
