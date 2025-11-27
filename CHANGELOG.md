@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.43.3](https://github.com/lifinance/data-types/compare/v6.43.2...v6.43.3) (2025-11-27)
+
+
+### Features
+
+* major asset tagging ([#198](https://github.com/lifinance/data-types/issues/198)) ([3ed576f](https://github.com/lifinance/data-types/commit/3ed576f26171cb35fd20827c0e8eac7afdd14594))
+* update imx logo ([#197](https://github.com/lifinance/data-types/issues/197)) ([403d47c](https://github.com/lifinance/data-types/commit/403d47ce686be9f4c53a034c608525871bdfa6e4))
+
 ### [6.43.2](https://github.com/lifinance/data-types/compare/v6.43.1...v6.43.2) (2025-11-24)
 
 ### [6.43.1](https://github.com/lifinance/data-types/compare/v6.43.0...v6.43.1) (2025-11-24)
