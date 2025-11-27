@@ -1779,7 +1779,14 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: CoinKey.MON,
         decimals: 18,
       },
-      rpcUrls: ['https://mon-rpc.transferto.xyz'],
+      rpcUrls: [
+        'https://rpc.monad.xyz',
+        'https://rpc1.monad.xyz',
+        'https://rpc2.monad.xyz',
+        'https://rpc3.monad.xyz',
+        'https://rpc4.monad.xyz',
+        'https://rpc-mainnet.monadinfra.com',
+      ],
     },
   },
 

@@ -2381,8 +2381,7 @@ export const basicCoins: BasicCoin[] = [
   {
     key: CoinKey.IMX,
     name: CoinKey.IMX,
-    logoURI:
-      'https://static.debank.com/image/eth_token/logo_url/0xf57e7e7c23978c3caec3c3548e3d615c346e79ff/7a875818146ec0508d3e5f5b14f1b4eb.png',
+    logoURI: 'https://checkout-cdn.immutable.com/v1/blob/img/tokens/imx.svg',
     verified: true,
     chains: {
       [ChainId.ETH]: {
@@ -3478,8 +3477,7 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     chainId: ChainId.IMX,
     coinKey: CoinKey.WIMX,
     name: 'Wrapped IMX',
-    logoURI:
-      'https://static.debank.com/image/eth_token/logo_url/0xf57e7e7c23978c3caec3c3548e3d615c346e79ff/7a875818146ec0508d3e5f5b14f1b4eb.png',
+    logoURI: 'https://checkout-cdn.immutable.com/v1/blob/img/tokens/imx.svg',
   },
   [ChainId.KAI]: {
     // https://kaiascan.io/token/0x19aac5f612f524b754ca7e7c41cbfa2e981a4432
