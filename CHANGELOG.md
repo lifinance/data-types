@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.45.0](https://github.com/lifinance/data-types/compare/v6.44.0...v6.45.0) (2025-12-01)
+
+
+### Features
+
+* add megaeth chain ([#199](https://github.com/lifinance/data-types/issues/199)) ([2a98c3f](https://github.com/lifinance/data-types/commit/2a98c3fc3fda8bbb5696e9dd4abb07336907e172))
+
 ## [6.44.0](https://github.com/lifinance/data-types/compare/v6.43.3...v6.44.0) (2025-11-28)
 
 
