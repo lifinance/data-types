@@ -1836,7 +1836,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'ETH',
         decimals: 18,
       },
-      rpcUrls: ['https://alpha.megaeth.com/rpc'],
+      rpcUrls: ['https://meg-rpc.transferto.xyz'], // requires whitelisting
     },
   },
 ]
