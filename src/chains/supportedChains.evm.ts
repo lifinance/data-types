@@ -1829,14 +1829,14 @@ export const supportedEVMChains: EVMChain[] = [
     multicallAddress: multicallAddresses[ChainId.MEG],
     metamask: {
       chainId: prefixChainId(ChainId.MEG),
-      blockExplorerUrls: [],
+      blockExplorerUrls: ['https://megaeth-testnet-v3.blockscout.com/'],
       chainName: 'MegaETH Mainnet',
       nativeCurrency: {
         name: 'Ethereum',
         symbol: 'ETH',
         decimals: 18,
       },
-      rpcUrls: [],
+      rpcUrls: ['https://alpha.megaeth.com/rpc'],
     },
   },
 ]

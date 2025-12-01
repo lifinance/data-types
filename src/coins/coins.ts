@@ -2004,7 +2004,7 @@ export const basicCoins: BasicCoin[] = [
         decimals: 18,
       },
       [ChainId.MEG]: {
-        address: '4200000000000000000000000000000000000006',
+        address: '0x4200000000000000000000000000000000000006',
         decimals: 18,
       },
     },
@@ -3851,10 +3851,10 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
       'https://static.debank.com/image/ink_token/logo_url/0x0200c29006150606b650577bbe7b6248f58470c1/8bba37fddc2774e06a94b8952e3e3ad7.png',
   },
   [ChainId.MEG]: {
-    address: '4200000000000000000000000000000000000006',
+    address: '0x4200000000000000000000000000000000000006',
     symbol: 'WETH',
     decimals: 18,
-    chainId: ChainId.HMI,
+    chainId: ChainId.MEG,
     coinKey: CoinKey.WETH,
     name: 'Wrapped Ether',
     logoURI:
