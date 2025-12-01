@@ -1790,6 +1790,7 @@ export const supportedEVMChains: EVMChain[] = [
     },
   },
 
+  // Stable
   {
     key: ChainKey.STA,
     chainType: ChainType.EVM,
@@ -1811,6 +1812,31 @@ export const supportedEVMChains: EVMChain[] = [
         decimals: 18,
       },
       rpcUrls: ['https://rpc.stable.xyz'],
+    },
+  },
+
+  // MegaETH
+  {
+    key: ChainKey.MEG,
+    chainType: ChainType.EVM,
+    name: 'MegaETH',
+    coin: CoinKey.ETH,
+    id: ChainId.MEG,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/megaeth.svg',
+    relayerSupported: false,
+    multicallAddress: multicallAddresses[ChainId.MEG],
+    metamask: {
+      chainId: prefixChainId(ChainId.MEG),
+      blockExplorerUrls: [],
+      chainName: 'MegaETH Mainnet',
+      nativeCurrency: {
+        name: 'Ethereum',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: [],
     },
   },
 ]
