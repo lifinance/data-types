@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.46.0](https://github.com/lifinance/data-types/compare/v6.45.0...v6.46.0) (2025-12-02)
+
+
+### Features
+
+* set internal megaETH rpc ([#200](https://github.com/lifinance/data-types/issues/200)) ([0111215](https://github.com/lifinance/data-types/commit/0111215f4d50b1bcc0c60b665d04c409f3844d11))
+
 ## [6.45.0](https://github.com/lifinance/data-types/compare/v6.44.0...v6.45.0) (2025-12-01)
 
 
