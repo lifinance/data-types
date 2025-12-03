@@ -178,6 +178,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
+      [ChainId.MEG]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
     },
   },
   // > MATIC
@@ -1999,6 +2003,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x29dfce9c22003a4999930382fd00f9fd6133acd1',
         decimals: 18,
       },
+      [ChainId.MEG]: {
+        address: '0x4200000000000000000000000000000000000006',
+        decimals: 18,
+      },
     },
   },
 
@@ -2381,8 +2389,7 @@ export const basicCoins: BasicCoin[] = [
   {
     key: CoinKey.IMX,
     name: CoinKey.IMX,
-    logoURI:
-      'https://static.debank.com/image/eth_token/logo_url/0xf57e7e7c23978c3caec3c3548e3d615c346e79ff/7a875818146ec0508d3e5f5b14f1b4eb.png',
+    logoURI: 'https://checkout-cdn.immutable.com/v1/blob/img/tokens/imx.svg',
     verified: true,
     chains: {
       [ChainId.ETH]: {
@@ -2870,6 +2877,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb',
         decimals: 6,
       },
+      [ChainId.STA]: {
+        address: '0x779Ded0c9e1022225f8E0630b35a9b54bE713736',
+        decimals: 6,
+      },
     },
   },
 
@@ -3018,6 +3029,21 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.HMI]: {
         address: '0x028DE74e2fE336511A8E5FAb0426D1cfD5110DBb',
         decimals: 6,
+      },
+    },
+  },
+
+  // gasUSDT (Stable Chain native)
+  {
+    key: CoinKey.GUSDT,
+    name: 'gasUSDT',
+    logoURI:
+      'https://static.debank.com/image/ink_token/logo_url/0x0200c29006150606b650577bbe7b6248f58470c1/8bba37fddc2774e06a94b8952e3e3ad7.png',
+    verified: true,
+    chains: {
+      [ChainId.STA]: {
+        address: '0x0000000000000000000000000000000000001000',
+        decimals: 18,
       },
     },
   },
@@ -3459,8 +3485,7 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     chainId: ChainId.IMX,
     coinKey: CoinKey.WIMX,
     name: 'Wrapped IMX',
-    logoURI:
-      'https://static.debank.com/image/eth_token/logo_url/0xf57e7e7c23978c3caec3c3548e3d615c346e79ff/7a875818146ec0508d3e5f5b14f1b4eb.png',
+    logoURI: 'https://checkout-cdn.immutable.com/v1/blob/img/tokens/imx.svg',
   },
   [ChainId.KAI]: {
     // https://kaiascan.io/token/0x19aac5f612f524b754ca7e7c41cbfa2e981a4432
@@ -3813,6 +3838,27 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped Monad',
     logoURI:
       'https://static.debank.com/image/ink_token/logo_url/0xfbbf3f86a29467f3866d0ab37b8c72b5ca1b159f/d75d4109e99126aa282e2da1e5267db7.png',
+  },
+  // Stable uses USDTO as their wrapped native token
+  [ChainId.STA]: {
+    address: '0x779Ded0c9e1022225f8E0630b35a9b54bE713736',
+    symbol: 'USDT0',
+    decimals: 6,
+    chainId: ChainId.STA,
+    coinKey: CoinKey.USDT0,
+    name: 'USD₮0',
+    logoURI:
+      'https://static.debank.com/image/ink_token/logo_url/0x0200c29006150606b650577bbe7b6248f58470c1/8bba37fddc2774e06a94b8952e3e3ad7.png',
+  },
+  [ChainId.MEG]: {
+    address: '0x4200000000000000000000000000000000000006',
+    symbol: 'WETH',
+    decimals: 18,
+    chainId: ChainId.MEG,
+    coinKey: CoinKey.WETH,
+    name: 'Wrapped Ether',
+    logoURI:
+      'https://static.debank.com/image/uni_token/logo_url/uni/48bfb74adddd170e936578aec422836d.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {

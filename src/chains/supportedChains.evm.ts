@@ -1779,7 +1779,64 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: CoinKey.MON,
         decimals: 18,
       },
-      rpcUrls: ['https://mon-rpc.transferto.xyz'],
+      rpcUrls: [
+        'https://rpc.monad.xyz',
+        'https://rpc1.monad.xyz',
+        'https://rpc2.monad.xyz',
+        'https://rpc3.monad.xyz',
+        'https://rpc4.monad.xyz',
+        'https://rpc-mainnet.monadinfra.com',
+      ],
+    },
+  },
+
+  // Stable
+  {
+    key: ChainKey.STA,
+    chainType: ChainType.EVM,
+    name: 'Stable',
+    coin: CoinKey.GUSDT,
+    id: ChainId.STA,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/stable.svg',
+    relayerSupported: false,
+    multicallAddress: multicallAddresses[ChainId.STA],
+    metamask: {
+      chainId: prefixChainId(ChainId.STA),
+      blockExplorerUrls: ['https://stablescan.xyz/'],
+      chainName: 'Stable',
+      nativeCurrency: {
+        name: 'gasUSDT',
+        symbol: CoinKey.GUSDT,
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.stable.xyz'],
+    },
+  },
+
+  // MegaETH
+  {
+    key: ChainKey.MEG,
+    chainType: ChainType.EVM,
+    name: 'MegaETH',
+    coin: CoinKey.ETH,
+    id: ChainId.MEG,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/megaeth.svg',
+    relayerSupported: false,
+    multicallAddress: multicallAddresses[ChainId.MEG],
+    metamask: {
+      chainId: prefixChainId(ChainId.MEG),
+      blockExplorerUrls: ['https://megaeth-testnet-v3.blockscout.com/'],
+      chainName: 'MegaETH Mainnet',
+      nativeCurrency: {
+        name: 'Ethereum',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: ['https://meg-rpc.transferto.xyz'], // requires whitelisting
     },
   },
 ]

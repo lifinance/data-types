@@ -2,6 +2,52 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.46.0](https://github.com/lifinance/data-types/compare/v6.45.0...v6.46.0) (2025-12-02)
+
+
+### Features
+
+* set internal megaETH rpc ([#200](https://github.com/lifinance/data-types/issues/200)) ([0111215](https://github.com/lifinance/data-types/commit/0111215f4d50b1bcc0c60b665d04c409f3844d11))
+
+## [6.45.0](https://github.com/lifinance/data-types/compare/v6.44.0...v6.45.0) (2025-12-01)
+
+
+### Features
+
+* add megaeth chain ([#199](https://github.com/lifinance/data-types/issues/199)) ([2a98c3f](https://github.com/lifinance/data-types/commit/2a98c3fc3fda8bbb5696e9dd4abb07336907e172))
+
+## [6.44.0](https://github.com/lifinance/data-types/compare/v6.43.3...v6.44.0) (2025-11-28)
+
+
+### Features
+
+* add Stable chain ([#193](https://github.com/lifinance/data-types/issues/193)) ([ba5a592](https://github.com/lifinance/data-types/commit/ba5a5925f50e946dd6b90f02bb6c7dc9778d72b1))
+
+### [6.43.3](https://github.com/lifinance/data-types/compare/v6.43.2...v6.43.3) (2025-11-27)
+
+
+### Features
+
+* major asset tagging ([#198](https://github.com/lifinance/data-types/issues/198)) ([3ed576f](https://github.com/lifinance/data-types/commit/3ed576f26171cb35fd20827c0e8eac7afdd14594))
+* update imx logo ([#197](https://github.com/lifinance/data-types/issues/197)) ([403d47c](https://github.com/lifinance/data-types/commit/403d47ce686be9f4c53a034c608525871bdfa6e4))
+
+### [6.43.2](https://github.com/lifinance/data-types/compare/v6.43.1...v6.43.2) (2025-11-24)
+
+### [6.43.1](https://github.com/lifinance/data-types/compare/v6.43.0...v6.43.1) (2025-11-24)
+
+## [6.43.0](https://github.com/lifinance/data-types/compare/v6.42.1...v6.43.0) (2025-11-21)
+
+
+### Features
+
+* add Plume USDC ([#191](https://github.com/lifinance/data-types/issues/191)) ([e102c53](https://github.com/lifinance/data-types/commit/e102c53d45181f8b6661d1b298ab3b46d78e9691))
+* update monad explorer ([#194](https://github.com/lifinance/data-types/issues/194)) ([e2dd7c4](https://github.com/lifinance/data-types/commit/e2dd7c4306b300d83b6a8597e8fc3f2754c3aa9b))
+
+
+### Bug Fixes
+
+* update monad rpc url ([15638a3](https://github.com/lifinance/data-types/commit/15638a3fc824b54fb9b3adfa8f529235b7ad632a))
+
 ### [6.42.1](https://github.com/lifinance/data-types/compare/v6.42.0...v6.42.1) (2025-10-31)
 
 ## [6.42.0](https://github.com/lifinance/data-types/compare/v6.41.2...v6.42.0) (2025-10-30)
