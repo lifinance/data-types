@@ -19,7 +19,7 @@ export const supportedChains = [
 export const getChainByKey = (chainKey: ChainKey): Chain => {
   const chain = supportedChains.find((c) => c.key === chainKey)
   if (!chain) {
-    throw new Error('Invalid chainKey')
+    throw new Error(`Invalid chainKey '${chainKey}'`)
   }
   return chain
 }
@@ -27,7 +27,7 @@ export const getChainByKey = (chainKey: ChainKey): Chain => {
 export const getChainById = (chainId: number): Chain => {
   const chain = supportedChains.find((c) => c.id === chainId)
   if (!chain) {
-    throw new Error('Invalid chainId')
+    throw new Error(`Invalid chainId '${chainId}'`)
   }
   return chain
 }
