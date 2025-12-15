@@ -2995,7 +2995,7 @@ export const basicCoins: BasicCoin[] = [
     chains: {
       [ChainId.FLW]: {
         address: '0x2aaBea2058b5aC2D339b163C6Ab6f2b6d53aabED',
-        decimals: 18,
+        decimals: 6,
       },
     },
   },
