@@ -84,9 +84,6 @@ export const basicCoins: BasicCoin[] = [
         symbol: 'WETH.e',
         name: 'Wrapped Ether',
       },
-      // [ChainId.ARB]: { // WETH
-      //   address: '0x82af49447d8a07e3bd95bd0d56f35241523fbab1',
-      //   decimals: 18,
       [ChainId.ONE]: {
         address: '0x6983d1e6def3690c4d616b13597a09e6193ea013',
         decimals: 18,
@@ -179,6 +176,10 @@ export const basicCoins: BasicCoin[] = [
         decimals: 18,
       },
       [ChainId.MEG]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+      [ChainId.JOV]: {
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
@@ -1219,6 +1220,12 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
         name: 'Bridged USDC (Stargate)',
       },
+      [ChainId.JOV]: {
+        address: '0x39C010dF583C9dE49088947190669883b41A02Ab',
+        decimals: 6,
+        name: 'Bridged USDC (Jovay)',
+        symbol: 'USDC.jovay',
+      },
     },
   },
   // axlUSDC
@@ -1920,6 +1927,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.STA]: {
         address: '0x783129E4d7bA0Af0C896c239E57C06DF379aAE8c',
+        decimals: 18,
+      },
+      [ChainId.JOV]: {
+        address: '0xeA29Cbb2808CF848C185E4405Bb002F53f92a241',
         decimals: 18,
       },
     },
@@ -3868,6 +3879,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     symbol: 'WETH',
     decimals: 18,
     chainId: ChainId.MEG,
+    coinKey: CoinKey.WETH,
+    name: 'Wrapped Ether',
+    logoURI:
+      'https://static.debank.com/image/uni_token/logo_url/uni/48bfb74adddd170e936578aec422836d.png',
+  },
+  [ChainId.JOV]: {
+    // https://explorer.jovay.io/address/0xeA29Cbb2808CF848C185E4405Bb002F53f92a241
+    address: '0xeA29Cbb2808CF848C185E4405Bb002F53f92a241',
+    symbol: 'WETH',
+    decimals: 18,
+    chainId: ChainId.JOV,
     coinKey: CoinKey.WETH,
     name: 'Wrapped Ether',
     logoURI:
