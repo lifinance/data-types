@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.48.1](https://github.com/lifinance/data-types/compare/v6.48.0...v6.48.1) (2025-12-16)
+
+
+### Bug Fixes
+
+* enable bsc relayer ([#206](https://github.com/lifinance/data-types/issues/206)) ([346dde1](https://github.com/lifinance/data-types/commit/346dde18c57f10cf1945a2d3a710e01f6728159c))
+
 ## [6.48.0](https://github.com/lifinance/data-types/compare/v6.47.0...v6.48.0) (2025-12-15)
 
 
