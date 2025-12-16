@@ -85,7 +85,7 @@ export const supportedEVMChains: EVMChain[] = [
       'https://tokens.pancakeswap.finance/pancakeswap-extended.json',
     faucetUrls: ['https://stakely.io/faucet/bsc-chain-bnb'],
     multicallAddress: multicallAddresses[ChainId.BSC],
-    relayerSupported: false,
+    relayerSupported: true,
     // https://docs.binance.org/smart-chain/wallet/metamask.html
     metamask: {
       chainId: prefixChainId(56),
