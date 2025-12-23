@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.50.0](https://github.com/lifinance/data-types/compare/v6.49.0...v6.50.0) (2025-12-23)
+
+
+### Features
+
+* add extra fraxtal rpc ([#203](https://github.com/lifinance/data-types/issues/203)) ([ea73c89](https://github.com/lifinance/data-types/commit/ea73c89522bfabfff0449f9c451e1989941280b8))
+* update mantis rpc ([#208](https://github.com/lifinance/data-types/issues/208)) ([b63f6c8](https://github.com/lifinance/data-types/commit/b63f6c87294b727491acc02a6a6e09c61c070521))
+
 ## [6.49.0](https://github.com/lifinance/data-types/compare/v6.48.1...v6.49.0) (2025-12-22)
 
 
