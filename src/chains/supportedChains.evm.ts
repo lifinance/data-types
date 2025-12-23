@@ -527,7 +527,11 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'METIS',
         decimals: 18,
       },
-      rpcUrls: ['https://andromeda.metis.io', 'https://metis.drpc.org'],
+      rpcUrls: [
+        'https://metis-public.nodies.app',
+        'https://andromeda.metis.io',
+        'https://metis.drpc.org',
+      ],
     },
   },
   // 1313161554 Aurora Mainnet
