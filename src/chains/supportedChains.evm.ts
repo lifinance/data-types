@@ -861,7 +861,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'FRAX',
         decimals: 18,
       },
-      rpcUrls: ['https://rpc.frax.com'],
+      rpcUrls: ['https://rpc.frax.com', 'https://fraxtal.gateway.tenderly.co'],
     },
   },
 
