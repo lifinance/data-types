@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.51.0](https://github.com/lifinance/data-types/compare/v6.50.0...v6.51.0) (2026-01-12)
+
+
+### Features
+
+* add USDm stablecoin and USDT0 to MegaETH ([#209](https://github.com/lifinance/data-types/issues/209)) ([b00e558](https://github.com/lifinance/data-types/commit/b00e55805e1f6a3594e75c566d5b2b4d13744646))
+
 ## [6.50.0](https://github.com/lifinance/data-types/compare/v6.49.0...v6.50.0) (2025-12-23)
 
 
