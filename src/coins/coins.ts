@@ -2902,7 +2902,7 @@ export const basicCoins: BasicCoin[] = [
     key: CoinKey.USDm,
     name: 'USDm',
     logoURI:
-      'https://static.debank.com/image/ink_token/logo_url/0x0200c29006150606b650577bbe7b6248f58470c1/8bba37fddc2774e06a94b8952e3e3ad7.png',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/USDm.svg',
     verified: true,
     chains: {
       [ChainId.ETH]: {
