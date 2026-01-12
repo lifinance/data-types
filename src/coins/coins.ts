@@ -2890,6 +2890,29 @@ export const basicCoins: BasicCoin[] = [
         address: '0x779Ded0c9e1022225f8E0630b35a9b54bE713736',
         decimals: 6,
       },
+      [ChainId.MEG]: {
+        address: '0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb',
+        decimals: 6,
+      },
+    },
+  },
+
+  // USDm
+  {
+    key: CoinKey.USDm,
+    name: 'USDm',
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/USDm.svg',
+    verified: true,
+    chains: {
+      [ChainId.ETH]: {
+        address: '0xEc2AF1C8B110a61fD9C3Fa6a554a031Ca9943926',
+        decimals: 18,
+      },
+      [ChainId.MEG]: {
+        address: '0xFAfDdbb3FC7688494971a79cc65DCa3EF82079E7',
+        decimals: 18,
+      },
     },
   },
 
