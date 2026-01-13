@@ -1219,6 +1219,11 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
         name: 'Bridged USDC (Stargate)',
       },
+      [ChainId.BOT]: {
+        address: '0x29eE6138DD4C9815f46D34a4A1ed48F46758A402',
+        decimals: 6,
+        name: 'Bridged USDC (Stargate)',
+      },
     },
   },
   // axlUSDC
@@ -1490,10 +1495,6 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.PLA]: {
         address: '0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34',
         decimals: 18,
-      },
-      [ChainId.BOT]: {
-        address: '0x29eE6138DD4C9815f46D34a4A1ed48F46758A402',
-        decimals: 6,
       },
     },
   },
