@@ -1843,4 +1843,29 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://mainnet.megaeth.com/rpc'],
     },
   },
+
+  // Botanix
+  {
+    key: ChainKey.BOT,
+    chainType: ChainType.EVM,
+    name: 'Botanix',
+    coin: CoinKey.BTC,
+    id: ChainId.BOT,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/botanix.svg',
+    relayerSupported: false,
+    multicallAddress: multicallAddresses[ChainId.BOT],
+    metamask: {
+      chainId: prefixChainId(ChainId.BOT),
+      blockExplorerUrls: ['https://botanixscan.io/'],
+      chainName: 'Botanix',
+      nativeCurrency: {
+        name: 'Bitcoin',
+        symbol: 'BTC',
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.botanixlabs.com'],
+    },
+  },
 ]
