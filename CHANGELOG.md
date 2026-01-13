@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.52.0](https://github.com/lifinance/data-types/compare/v6.51.0...v6.52.0) (2026-01-13)
+
+
+### Features
+
+* add Botanix support ([#210](https://github.com/lifinance/data-types/issues/210)) ([fefdf49](https://github.com/lifinance/data-types/commit/fefdf49f50ac02ed6d4ebde2ecbe9c49333af7ef))
+
 ## [6.51.0](https://github.com/lifinance/data-types/compare/v6.50.0...v6.51.0) (2026-01-12)
 
 
