@@ -1491,6 +1491,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34',
         decimals: 18,
       },
+      [ChainId.BOT]: {
+        address: '0x29eE6138DD4C9815f46D34a4A1ed48F46758A402',
+        decimals: 6,
+      },
     },
   },
 
@@ -1920,6 +1924,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.STA]: {
         address: '0x783129E4d7bA0Af0C896c239E57C06DF379aAE8c',
+        decimals: 18,
+      },
+      [ChainId.BOT]: {
+        address: '0x3292c42e8E9Ab3C6a12CFdA556BbCB6f113B1E28',
         decimals: 18,
       },
     },
@@ -3084,6 +3092,21 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // pBTC (wrapped Botanix native)
+  {
+    key: CoinKey.pBTC,
+    name: 'Botanix Pegged Bitcoin',
+    logoURI:
+      'https://static.debank.com/image/botanix_token/logo_url/0x0d2437f93fed6ea64ef01ccde385fb1263910c56/5a41d4f22c915deb64fc82beedb14895.png',
+    verified: true,
+    chains: {
+      [ChainId.STA]: {
+        address: '0x0d2437f93fed6ea64ef01ccde385fb1263910c56',
+        decimals: 18,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
@@ -3096,8 +3119,14 @@ export const basicCoins: BasicCoin[] = [
         decimals: 8,
         name: 'Bitcoin',
       },
+      [ChainId.BOT]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+        name: 'Bitcoin',
+      },
     },
   },
+
   // > Bitcoin Cash
   {
     key: CoinKey.BCH,
@@ -3895,6 +3924,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped Ether',
     logoURI:
       'https://static.debank.com/image/uni_token/logo_url/uni/48bfb74adddd170e936578aec422836d.png',
+  },
+  [ChainId.BOT]: {
+    // https://botanixscan.io/token/0x0D2437F93Fed6EA64Ef01cCde385FB1263910C56?type=erc20&chainid=3637
+    address: '0x4200000000000000000000000000000000000006',
+    symbol: 'pBTC',
+    decimals: 18,
+    chainId: ChainId.BOT,
+    coinKey: CoinKey.pBTC,
+    name: 'Botanix Pegged Bitcoin',
+    logoURI:
+      'https://static.debank.com/image/botanix_token/logo_url/0x0d2437f93fed6ea64ef01ccde385fb1263910c56/5a41d4f22c915deb64fc82beedb14895.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
