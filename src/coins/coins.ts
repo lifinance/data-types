@@ -3928,7 +3928,7 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
   },
   [ChainId.BOT]: {
     // https://botanixscan.io/token/0x0D2437F93Fed6EA64Ef01cCde385FB1263910C56?type=erc20&chainid=3637
-    address: '0x4200000000000000000000000000000000000006',
+    address: '0x0D2437F93Fed6EA64Ef01cCde385FB1263910C56',
     symbol: 'pBTC',
     decimals: 18,
     chainId: ChainId.BOT,
