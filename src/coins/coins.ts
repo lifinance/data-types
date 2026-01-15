@@ -1931,6 +1931,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x3292c42e8E9Ab3C6a12CFdA556BbCB6f113B1E28',
         decimals: 18,
       },
+      [ChainId.MEG]: {
+        address: '0x4200000000000000000000000000000000000006',
+        decimals: 18,
+      },
     },
   },
 
@@ -2019,10 +2023,6 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.CEL]: {
         address: '0x29dfce9c22003a4999930382fd00f9fd6133acd1',
-        decimals: 18,
-      },
-      [ChainId.MEG]: {
-        address: '0x4200000000000000000000000000000000000006',
         decimals: 18,
       },
     },
