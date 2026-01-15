@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.54.1](https://github.com/lifinance/data-types/compare/v6.54.0...v6.54.1) (2026-01-15)
+
+
+### Bug Fixes
+
+* correct WETH on MegaETH chain ([#214](https://github.com/lifinance/data-types/issues/214)) ([23e74a9](https://github.com/lifinance/data-types/commit/23e74a9950fefbeb004938b0089ed94225ba1252))
+
 ## [6.54.0](https://github.com/lifinance/data-types/compare/v6.53.0...v6.54.0) (2026-01-14)
 
 
