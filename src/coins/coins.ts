@@ -2909,7 +2909,7 @@ export const basicCoins: BasicCoin[] = [
   // USDm
   {
     key: CoinKey.USDm,
-    name: 'USDm',
+    name: 'MegaUSD',
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/USDm.svg',
     verified: true,
