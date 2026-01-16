@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.55.0](https://github.com/lifinance/data-types/compare/v6.54.1...v6.55.0) (2026-01-16)
+
+
+### Features
+
+* update USDm name to MegaUSD ([#215](https://github.com/lifinance/data-types/issues/215)) ([e7022ef](https://github.com/lifinance/data-types/commit/e7022efa99fa15305226cc2261670492ccd9e87e))
+
 ### [6.54.1](https://github.com/lifinance/data-types/compare/v6.54.0...v6.54.1) (2026-01-15)
 
 
