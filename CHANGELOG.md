@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.55.2](https://github.com/lifinance/data-types/compare/v6.55.1...v6.55.2) (2026-01-20)
+
+
+### Bug Fixes
+
+* missing address added ([#217](https://github.com/lifinance/data-types/issues/217)) ([8192322](https://github.com/lifinance/data-types/commit/81923224a4622de0597b9a3f847b12bf44097950))
+
 ### [6.55.1](https://github.com/lifinance/data-types/compare/v6.55.0...v6.55.1) (2026-01-20)
 
 ## [6.55.0](https://github.com/lifinance/data-types/compare/v6.54.1...v6.55.0) (2026-01-16)
