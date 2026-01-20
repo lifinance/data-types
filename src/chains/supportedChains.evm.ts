@@ -1651,6 +1651,7 @@ export const supportedEVMChains: EVMChain[] = [
     coin: CoinKey.USDC,
     id: ChainId.HPL,
     mainnet: true,
+    multicallAddress: multicallAddresses[ChainId.HPL],
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/hyperliquid.svg',
     relayerSupported: false,
