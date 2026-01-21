@@ -611,6 +611,32 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
+  // > Fogo
+  {
+    key: CoinKey.FOGO,
+    name: CoinKey.FOGO,
+    logoURI: '', // TODO
+    verified: true,
+    chains: {
+      [ChainId.FOG]: {
+        address: '11111111111111111111111111111111',
+        decimals: 9,
+      },
+    },
+  },
+  {
+    key: CoinKey.WFOGO,
+    name: CoinKey.WFOGO,
+    logoURI: '', // TODO
+    verified: true,
+    chains: {
+      [ChainId.FOG]: {
+        address: 'So11111111111111111111111111111111111111112',
+        decimals: 9,
+        name: 'wFOGO',
+      },
+    },
+  },
 
   // OTHER STABLECOINS
   // USDT
@@ -3221,6 +3247,15 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'wSOL',
     logoURI:
       'https://assets.coingecko.com/coins/images/4128/standard/solana.png',
+  },
+  [ChainId.FOG]: {
+    address: 'So11111111111111111111111111111111111111112',
+    symbol: 'wFOGO',
+    decimals: 9,
+    chainId: ChainId.FOG,
+    coinKey: CoinKey.WFOGO,
+    name: 'wFOGO',
+    logoURI: '', // TODO
   },
   [ChainId.BSC]: {
     // https://bscscan.com/token/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c

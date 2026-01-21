@@ -1,7 +1,7 @@
-import type { SolanaChain } from '@lifi/types'
+import type { SVMChain } from '@lifi/types'
 import { ChainId, ChainKey, ChainType, CoinKey } from '@lifi/types'
 
-export const supportedSolanaChains: SolanaChain[] = [
+export const supportedSVMChains: SVMChain[] = [
   {
     key: ChainKey.SOL,
     chainType: ChainType.SVM,
@@ -11,7 +11,7 @@ export const supportedSolanaChains: SolanaChain[] = [
     mainnet: true,
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/solana.svg',
-    faucetUrls: ['https://stakely.io/faucet/solana-sol'],
+    faucetUrls: [],
     metamask: {
       chainId: ChainId.SOL.toString(),
       blockExplorerUrls: [
@@ -29,6 +29,27 @@ export const supportedSolanaChains: SolanaChain[] = [
         'https://api.mainnet-beta.solana.com',
         'https://solana-rpc.publicnode.com',
       ],
+    },
+  },
+  {
+    key: ChainKey.FOG,
+    chainType: ChainType.SVM,
+    name: 'Fogo',
+    coin: CoinKey.FOGO,
+    id: ChainId.FOG,
+    mainnet: true,
+    logoURI: '', // TODO
+    faucetUrls: [],
+    metamask: {
+      chainId: ChainId.FOG.toString(),
+      blockExplorerUrls: ['https://fogoscan.com/'],
+      chainName: 'Fogo',
+      nativeCurrency: {
+        name: 'FOGO',
+        symbol: 'FOGO',
+        decimals: 9,
+      },
+      rpcUrls: ['https://fluxrpc.com/'],
     },
   },
 ]
