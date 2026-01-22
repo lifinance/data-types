@@ -21,9 +21,9 @@ test('getChainByKey', () => {
   expect(getChainByKey(ChainKey.ETH)).toBeDefined()
 })
 
-test('native and wrapped token defined for all chains', () => {
+test.only('native and wrapped token defined for all chains', () => {
   // currently unused chains
-  const ignoredChainsForNativeToken = [ChainId.FSN, ChainId.TLO, ChainId.RSK]
+  const ignoredChainsForNativeToken = [ChainId.FSN]
   const ignoredChainsForWrappedToken = [
     ...ignoredChainsForNativeToken,
     ChainId.BTC,

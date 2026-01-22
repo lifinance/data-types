@@ -212,9 +212,12 @@ export const basicCoins: BasicCoin[] = [
         decimals: 18,
         name: 'Matic Token',
       },
-      // https://evmexplorer.velas.com/token/0x6ab0B8C1a35F9F4Ce107cCBd05049CB1Dbd99Ec5/
       [ChainId.VEL]: {
         address: '0x6ab0b8c1a35f9f4ce107ccbd05049cb1dbd99ec5',
+        decimals: 18,
+      },
+      [ChainId.TLO]: {
+        address: '0xA0fB8cd450c8Fd3a11901876cD5f17eB47C6bc50',
         decimals: 18,
       },
     },
@@ -292,6 +295,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.SOP]: {
         address: '0x24cd1762978Ed41920d3194dC3A945C50B9a2F5E',
+        decimals: 18,
+      },
+      [ChainId.TLO]: {
+        address: '0x26Ed0F16e777C94A6FE798F9E20298034930Bae8',
         decimals: 18,
       },
     },
@@ -848,6 +855,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0xbB0D083fb1be0A9f6157ec484b6C79E0A4e31C2e',
         decimals: 6,
       },
+      [ChainId.TLO]: {
+        address: '0x975Ed13fa16857E83e7C493C7741D556eaaD4A3f',
+        decimals: 6,
+      },
     },
   },
 
@@ -1045,6 +1056,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.PLU]: {
         address: '0x222365EF19F7947e5484218551B56bb3965Aa7aF',
+        decimals: 6,
+      },
+      [ChainId.TLO]: {
+        address: '0x8D97Cea50351Fb4329d591682b148D43a0C3611b',
         decimals: 6,
       },
     },
@@ -2023,6 +2038,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.CEL]: {
         address: '0x29dfce9c22003a4999930382fd00f9fd6133acd1',
+        decimals: 18,
+      },
+      [ChainId.TLO]: {
+        address: '0x922d641a426dcffaef11680e5358f34d97d112e1',
         decimals: 18,
       },
     },
@@ -3108,6 +3127,36 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // Tlos Telos native token
+  {
+    key: CoinKey.TLOS,
+    name: 'TLOS',
+    logoURI:
+      'https://raw.githubusercontent.com/telosnetwork/token-list/main/logos/telos.png',
+    verified: true,
+    chains: {
+      [ChainId.TLO]: {
+        address: '0x0000000000000000000000000000000000001000',
+        decimals: 18,
+      },
+    },
+  },
+
+  // WTLOS (wrapped Telos native)
+  {
+    key: CoinKey.WTLOS,
+    name: 'Wrapped Telos',
+    logoURI:
+      'https://static.debank.com/image/tlos_token/logo_url/0xd102ce6a4db07d247fcc28f366a623df0938ca9e/c32b2fda6bf1cc523d518481038d8f08.png',
+    verified: true,
+    chains: {
+      [ChainId.TLO]: {
+        address: '0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E',
+        decimals: 18,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
@@ -3936,6 +3985,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Botanix Pegged Bitcoin',
     logoURI:
       'https://static.debank.com/image/botanix_token/logo_url/0x0d2437f93fed6ea64ef01ccde385fb1263910c56/5a41d4f22c915deb64fc82beedb14895.png',
+  },
+  [ChainId.TLO]: {
+    // https://www.teloscan.io/address/0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E
+    address: '0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E',
+    symbol: 'WTLOS',
+    decimals: 18,
+    chainId: ChainId.TLO,
+    coinKey: CoinKey.WTLOS,
+    name: 'Wrapped Telos',
+    logoURI:
+      'https://static.debank.com/image/tlos_token/logo_url/0xd102ce6a4db07d247fcc28f366a623df0938ca9e/c32b2fda6bf1cc523d518481038d8f08.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
