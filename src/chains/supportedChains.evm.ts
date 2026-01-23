@@ -411,6 +411,8 @@ export const supportedEVMChains: EVMChain[] = [
     coin: CoinKey.TLOS,
     id: 40,
     mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/telo.svg',
     tokenlistUrl:
       'https://raw.githubusercontent.com/sushiswap/default-token-list/master/tokens/telos.json',
     multicallAddress: multicallAddresses[ChainId.TLO],
