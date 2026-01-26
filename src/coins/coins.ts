@@ -3136,7 +3136,27 @@ export const basicCoins: BasicCoin[] = [
     verified: true,
     chains: {
       [ChainId.TLO]: {
-        address: '0x0000000000000000000000000000000000001000',
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+      [ChainId.ETH]: {
+        address: '0x193f4A4a6ea24102F49b931DEeeb931f6E32405d',
+        decimals: 18,
+      },
+      [ChainId.BSC]: {
+        address: '0x193f4a4a6ea24102f49b931deeeb931f6e32405d',
+        decimals: 18,
+      },
+      [ChainId.AVA]: {
+        address: '0x193f4a4a6ea24102f49b931deeeb931f6e32405d',
+        decimals: 18,
+      },
+      [ChainId.POL]: {
+        address: '0x193f4a4a6ea24102f49b931deeeb931f6e32405d',
+        decimals: 18,
+      },
+      [ChainId.ARB]: {
+        address: '0x193f4a4a6ea24102f49b931deeeb931f6e32405d',
         decimals: 18,
       },
     },
