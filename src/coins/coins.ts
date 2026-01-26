@@ -182,6 +182,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
+      [ChainId.TLO]: {
+        address: '0xA0fB8cd450c8Fd3a11901876cD5f17eB47C6bc50',
+        decimals: 18,
+      },
     },
   },
   // > MATIC
@@ -214,10 +218,6 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.VEL]: {
         address: '0x6ab0b8c1a35f9f4ce107ccbd05049cb1dbd99ec5',
-        decimals: 18,
-      },
-      [ChainId.TLO]: {
-        address: '0xA0fB8cd450c8Fd3a11901876cD5f17eB47C6bc50',
         decimals: 18,
       },
     },
