@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.57.1](https://github.com/lifinance/data-types/compare/v6.57.0...v6.57.1) (2026-01-26)
+
+
+### Bug Fixes
+
+* correct ETH token on Telos ([#221](https://github.com/lifinance/data-types/issues/221)) ([e5fe2f1](https://github.com/lifinance/data-types/commit/e5fe2f106bba6ba380a019f82fb9d6d2c68c3324))
+
 ## [6.57.0](https://github.com/lifinance/data-types/compare/v6.56.0...v6.57.0) (2026-01-26)
 
 
