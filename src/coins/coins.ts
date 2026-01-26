@@ -615,7 +615,8 @@ export const basicCoins: BasicCoin[] = [
   {
     key: CoinKey.FOGO,
     name: CoinKey.FOGO,
-    logoURI: '', // TODO
+    logoURI:
+      'https://lifinance.github.io/types/src/assets/icons/chains/fogo.svg',
     verified: true,
     chains: {
       [ChainId.FOG]: {
@@ -627,13 +628,29 @@ export const basicCoins: BasicCoin[] = [
   {
     key: CoinKey.WFOGO,
     name: CoinKey.WFOGO,
-    logoURI: '', // TODO
+    logoURI:
+      'https://lifinance.github.io/types/src/assets/icons/chains/fogo.svg',
     verified: true,
     chains: {
       [ChainId.FOG]: {
         address: 'So11111111111111111111111111111111111111112',
         decimals: 9,
         name: 'wFOGO',
+      },
+    },
+  },
+  {
+    key: CoinKey.USDCs,
+    name: CoinKey.USDCs,
+    logoURI:
+      'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png',
+    verified: true,
+    chains: {
+      [ChainId.FOG]: {
+        address: 'uSd2czE61Evaf76RNbq4KPpXnkiL3irdzgLFUMe3NoG',
+        decimals: 6,
+        name: 'Bridged USDC',
+        symbol: 'USDC.s',
       },
     },
   },
@@ -3255,7 +3272,8 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     chainId: ChainId.FOG,
     coinKey: CoinKey.WFOGO,
     name: 'wFOGO',
-    logoURI: '', // TODO
+    logoURI:
+      'https://lifinance.github.io/types/src/assets/icons/chains/fogo.svg',
   },
   [ChainId.BSC]: {
     // https://bscscan.com/token/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c
