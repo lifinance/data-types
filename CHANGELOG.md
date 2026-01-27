@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.58.0](https://github.com/lifinance/data-types/compare/v6.57.1...v6.58.0) (2026-01-27)
+
+
+### Features
+
+* update Telos token addresses and scan urls ([#222](https://github.com/lifinance/data-types/issues/222)) ([bf6da02](https://github.com/lifinance/data-types/commit/bf6da02a2893ce838ab8d8d90a1d4f2fb9daf87b))
+
 ### [6.57.1](https://github.com/lifinance/data-types/compare/v6.57.0...v6.57.1) (2026-01-26)
 
 
