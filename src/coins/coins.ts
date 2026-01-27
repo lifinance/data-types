@@ -1239,6 +1239,11 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
         name: 'Bridged USDC (Stargate)',
       },
+      [ChainId.TLO]: {
+        address: '0xF1815bd50389c46847f0Bda824eC8da914045D14',
+        decimals: 6,
+        name: 'Bridged USDC (Stargate)',
+      },
     },
   },
   // axlUSDC
