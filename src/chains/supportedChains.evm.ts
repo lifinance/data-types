@@ -418,7 +418,7 @@ export const supportedEVMChains: EVMChain[] = [
     multicallAddress: multicallAddresses[ChainId.TLO],
     metamask: {
       chainId: prefixChainId(40),
-      blockExplorerUrls: ['https://www.telos.net/'],
+      blockExplorerUrls: ['https://www.teloscan.io/'],
       chainName: 'Telos EVM Mainnet',
       nativeCurrency: {
         name: 'Telos',
