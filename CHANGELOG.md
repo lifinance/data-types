@@ -2,6 +2,115 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.58.0](https://github.com/lifinance/data-types/compare/v6.57.1...v6.58.0) (2026-01-27)
+
+
+### Features
+
+* update Telos token addresses and scan urls ([#222](https://github.com/lifinance/data-types/issues/222)) ([bf6da02](https://github.com/lifinance/data-types/commit/bf6da02a2893ce838ab8d8d90a1d4f2fb9daf87b))
+
+### [6.57.1](https://github.com/lifinance/data-types/compare/v6.57.0...v6.57.1) (2026-01-26)
+
+
+### Bug Fixes
+
+* correct ETH token on Telos ([#221](https://github.com/lifinance/data-types/issues/221)) ([e5fe2f1](https://github.com/lifinance/data-types/commit/e5fe2f106bba6ba380a019f82fb9d6d2c68c3324))
+
+## [6.57.0](https://github.com/lifinance/data-types/compare/v6.56.0...v6.57.0) (2026-01-26)
+
+
+### Features
+
+* update Telos token addresses ([#220](https://github.com/lifinance/data-types/issues/220)) ([a875395](https://github.com/lifinance/data-types/commit/a875395528d2dedffe29bb44448626613928f82c))
+
+## [6.56.0](https://github.com/lifinance/data-types/compare/v6.55.2...v6.56.0) (2026-01-23)
+
+
+### Features
+
+* add telo tokens ([#219](https://github.com/lifinance/data-types/issues/219)) ([116de86](https://github.com/lifinance/data-types/commit/116de860800516e15831a7295038d0275d3a13f8))
+
+### [6.55.2](https://github.com/lifinance/data-types/compare/v6.55.1...v6.55.2) (2026-01-20)
+
+
+### Bug Fixes
+
+* missing address added ([#217](https://github.com/lifinance/data-types/issues/217)) ([8192322](https://github.com/lifinance/data-types/commit/81923224a4622de0597b9a3f847b12bf44097950))
+
+### [6.55.1](https://github.com/lifinance/data-types/compare/v6.55.0...v6.55.1) (2026-01-20)
+
+## [6.55.0](https://github.com/lifinance/data-types/compare/v6.54.1...v6.55.0) (2026-01-16)
+
+
+### Features
+
+* update USDm name to MegaUSD ([#215](https://github.com/lifinance/data-types/issues/215)) ([e7022ef](https://github.com/lifinance/data-types/commit/e7022efa99fa15305226cc2261670492ccd9e87e))
+
+### [6.54.1](https://github.com/lifinance/data-types/compare/v6.54.0...v6.54.1) (2026-01-15)
+
+
+### Bug Fixes
+
+* correct WETH on MegaETH chain ([#214](https://github.com/lifinance/data-types/issues/214)) ([23e74a9](https://github.com/lifinance/data-types/commit/23e74a9950fefbeb004938b0089ed94225ba1252))
+
+## [6.54.0](https://github.com/lifinance/data-types/compare/v6.53.0...v6.54.0) (2026-01-14)
+
+
+### Features
+
+* correct main version ([#213](https://github.com/lifinance/data-types/issues/213)) ([1372751](https://github.com/lifinance/data-types/commit/13727515a1c1e8f2d9a2a446c1a9b97bd88ef9f8))
+* update botanix token ([#212](https://github.com/lifinance/data-types/issues/212)) ([8138118](https://github.com/lifinance/data-types/commit/8138118eee2a0af69d57934a2273179f646efaf1))
+
+## [6.54.0](https://github.com/lifinance/data-types/compare/v6.53.0...v6.54.0) (2026-01-14)
+
+
+### Features
+
+* update botanix token ([#212](https://github.com/lifinance/data-types/issues/212)) ([8138118](https://github.com/lifinance/data-types/commit/8138118eee2a0af69d57934a2273179f646efaf1))
+
+## [6.53.0](https://github.com/lifinance/data-types/compare/v6.52.0...v6.53.0) (2026-01-14)
+
+
+### Features
+
+* correct usdce token on botanix chain ([#211](https://github.com/lifinance/data-types/issues/211)) ([98ccdea](https://github.com/lifinance/data-types/commit/98ccdea242067f2dfccb9f70c4a807a8ca819805))
+
+## [6.52.0](https://github.com/lifinance/data-types/compare/v6.51.0...v6.52.0) (2026-01-13)
+
+
+### Features
+
+* add Botanix support ([#210](https://github.com/lifinance/data-types/issues/210)) ([fefdf49](https://github.com/lifinance/data-types/commit/fefdf49f50ac02ed6d4ebde2ecbe9c49333af7ef))
+
+## [6.51.0](https://github.com/lifinance/data-types/compare/v6.50.0...v6.51.0) (2026-01-12)
+
+
+### Features
+
+* add USDm stablecoin and USDT0 to MegaETH ([#209](https://github.com/lifinance/data-types/issues/209)) ([b00e558](https://github.com/lifinance/data-types/commit/b00e55805e1f6a3594e75c566d5b2b4d13744646))
+
+## [6.50.0](https://github.com/lifinance/data-types/compare/v6.49.0...v6.50.0) (2025-12-23)
+
+
+### Features
+
+* add extra fraxtal rpc ([#203](https://github.com/lifinance/data-types/issues/203)) ([ea73c89](https://github.com/lifinance/data-types/commit/ea73c89522bfabfff0449f9c451e1989941280b8))
+* update mantis rpc ([#208](https://github.com/lifinance/data-types/issues/208)) ([b63f6c8](https://github.com/lifinance/data-types/commit/b63f6c87294b727491acc02a6a6e09c61c070521))
+
+## [6.49.0](https://github.com/lifinance/data-types/compare/v6.48.1...v6.49.0) (2025-12-22)
+
+
+### Features
+
+* update megaeth chain information ([#207](https://github.com/lifinance/data-types/issues/207)) ([ec4b2e2](https://github.com/lifinance/data-types/commit/ec4b2e2a0f9cc092ce93a17d0689c0f999283269))
+
+### [6.48.1](https://github.com/lifinance/data-types/compare/v6.48.0...v6.48.1) (2025-12-16)
+
+
+### Bug Fixes
+
+* enable bsc relayer ([#206](https://github.com/lifinance/data-types/issues/206)) ([346dde1](https://github.com/lifinance/data-types/commit/346dde18c57f10cf1945a2d3a710e01f6728159c))
+
 ## [6.48.0](https://github.com/lifinance/data-types/compare/v6.47.0...v6.48.0) (2025-12-15)
 
 

@@ -85,7 +85,7 @@ export const supportedEVMChains: EVMChain[] = [
       'https://tokens.pancakeswap.finance/pancakeswap-extended.json',
     faucetUrls: ['https://stakely.io/faucet/bsc-chain-bnb'],
     multicallAddress: multicallAddresses[ChainId.BSC],
-    relayerSupported: false,
+    relayerSupported: true,
     // https://docs.binance.org/smart-chain/wallet/metamask.html
     metamask: {
       chainId: prefixChainId(56),
@@ -411,12 +411,14 @@ export const supportedEVMChains: EVMChain[] = [
     coin: CoinKey.TLOS,
     id: 40,
     mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/telo.svg',
     tokenlistUrl:
       'https://raw.githubusercontent.com/sushiswap/default-token-list/master/tokens/telos.json',
     multicallAddress: multicallAddresses[ChainId.TLO],
     metamask: {
       chainId: prefixChainId(40),
-      blockExplorerUrls: ['https://www.telos.net/'],
+      blockExplorerUrls: ['https://www.teloscan.io/'],
       chainName: 'Telos EVM Mainnet',
       nativeCurrency: {
         name: 'Telos',
@@ -527,7 +529,11 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'METIS',
         decimals: 18,
       },
-      rpcUrls: ['https://andromeda.metis.io', 'https://metis.drpc.org'],
+      rpcUrls: [
+        'https://metis-public.nodies.app',
+        'https://andromeda.metis.io',
+        'https://metis.drpc.org',
+      ],
     },
   },
   // 1313161554 Aurora Mainnet
@@ -861,7 +867,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'FRAX',
         decimals: 18,
       },
-      rpcUrls: ['https://rpc.frax.com'],
+      rpcUrls: ['https://rpc.frax.com', 'https://fraxtal.gateway.tenderly.co'],
     },
   },
 
@@ -1647,6 +1653,7 @@ export const supportedEVMChains: EVMChain[] = [
     coin: CoinKey.USDC,
     id: ChainId.HPL,
     mainnet: true,
+    multicallAddress: multicallAddresses[ChainId.HPL],
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/hyperliquid.svg',
     relayerSupported: false,
@@ -1829,14 +1836,39 @@ export const supportedEVMChains: EVMChain[] = [
     multicallAddress: multicallAddresses[ChainId.MEG],
     metamask: {
       chainId: prefixChainId(ChainId.MEG),
-      blockExplorerUrls: ['https://megaeth-testnet-v3.blockscout.com/'],
+      blockExplorerUrls: ['https://megaeth.blockscout.com/'],
       chainName: 'MegaETH Mainnet',
       nativeCurrency: {
         name: 'Ethereum',
         symbol: 'ETH',
         decimals: 18,
       },
-      rpcUrls: ['https://meg-rpc.transferto.xyz'], // requires whitelisting
+      rpcUrls: ['https://mainnet.megaeth.com/rpc'],
+    },
+  },
+
+  // Botanix
+  {
+    key: ChainKey.BOT,
+    chainType: ChainType.EVM,
+    name: 'Botanix',
+    coin: CoinKey.BTC,
+    id: ChainId.BOT,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/botanix.svg',
+    relayerSupported: false,
+    multicallAddress: multicallAddresses[ChainId.BOT],
+    metamask: {
+      chainId: prefixChainId(ChainId.BOT),
+      blockExplorerUrls: ['https://botanixscan.io/'],
+      chainName: 'Botanix',
+      nativeCurrency: {
+        name: 'Bitcoin',
+        symbol: 'BTC',
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.botanixlabs.com'],
     },
   },
 

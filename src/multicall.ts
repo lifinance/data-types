@@ -78,6 +78,9 @@ export const multicallAddresses: { [ChainId: number]: string } = {
   [ChainId.MON]: '0xcA11bde05977b3631167028862bE2a173976CA11',
   [ChainId.STA]: '0xcA11bde05977b3631167028862bE2a173976CA11',
   [ChainId.MEG]: '0xcA11bde05977b3631167028862bE2a173976CA11',
+  [ChainId.BOT]: '0xcA11bde05977b3631167028862bE2a173976CA11',
+  [ChainId.HPL]: '0xcA11bde05977b3631167028862bE2a173976CA11', // HyperLiquid is not EVM compatible, but we support it via our EVM-compatible API wrapper.
+  [ChainId.TLO]: '0xcA11bde05977b3631167028862bE2a173976CA11',
   [ChainId.JOV]: '0xeA29Cbb2808CF848C185E4405Bb002F53f92a241',
 
   // TODO
@@ -85,7 +88,6 @@ export const multicallAddresses: { [ChainId: number]: string } = {
   // [ChainId.TCH]: '', // TODO
   // [ChainId.UBQ]: '', // TODO
   // [ChainId.DIO]: '', // TODO
-  // [ChainId.TLO]: '', // TODO
   // [ChainId.SHI]: '', // TODO
   // [ChainId.GL1]: '', // TODO
   // [ChainId.TBW]: '', // TODO
