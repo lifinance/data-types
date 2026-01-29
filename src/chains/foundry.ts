@@ -75,6 +75,7 @@ export const foundryChainNameMap: Record<ChainId, string> = {
   [ChainId.STA]: 'stable',
   [ChainId.MEG]: 'megaeth',
   [ChainId.BOT]: 'botanix',
+  [ChainId.JOV]: 'jovay',
 
   // Custom chains
   [7777777 as ChainId]: 'zora',

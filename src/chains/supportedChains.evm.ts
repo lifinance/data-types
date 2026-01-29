@@ -1871,4 +1871,29 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://rpc.botanixlabs.com'],
     },
   },
+
+  // Jovay
+  {
+    key: ChainKey.JOV,
+    chainType: ChainType.EVM,
+    name: 'Jovay',
+    coin: CoinKey.ETH,
+    id: ChainId.JOV,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/jovay.svg',
+    relayerSupported: false,
+    multicallAddress: multicallAddresses[ChainId.JOV],
+    metamask: {
+      chainId: prefixChainId(ChainId.JOV),
+      blockExplorerUrls: ['https://explorer.jovay.io/'],
+      chainName: 'Jovay Mainnet',
+      nativeCurrency: {
+        name: 'Ethereum',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.jovay.io'],
+    },
+  },
 ]
