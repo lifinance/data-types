@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.59.0](https://github.com/lifinance/data-types/compare/v6.58.0...v6.59.0) (2026-01-29)
+
+
+### Features
+
+* add jovay chain and tokens ([#205](https://github.com/lifinance/data-types/issues/205)) ([7cbcf99](https://github.com/lifinance/data-types/commit/7cbcf9904a4ec4bf9347bb49ae50a501cb8f532a))
+
 ## [6.58.0](https://github.com/lifinance/data-types/compare/v6.57.1...v6.58.0) (2026-01-27)
 
 
