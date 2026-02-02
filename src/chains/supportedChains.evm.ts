@@ -1802,7 +1802,7 @@ export const supportedEVMChains: EVMChain[] = [
     key: ChainKey.STA,
     chainType: ChainType.EVM,
     name: 'Stable',
-    coin: CoinKey.GUSDT,
+    coin: CoinKey.USDT0,
     id: ChainId.STA,
     mainnet: true,
     logoURI:
@@ -1814,9 +1814,9 @@ export const supportedEVMChains: EVMChain[] = [
       blockExplorerUrls: ['https://stablescan.xyz/'],
       chainName: 'Stable',
       nativeCurrency: {
-        name: 'gasUSDT',
-        symbol: CoinKey.GUSDT,
-        decimals: 18,
+        name: 'USD₮0',
+        symbol: CoinKey.USDT0,
+        decimals: 6,
       },
       rpcUrls: ['https://rpc.stable.xyz'],
     },
