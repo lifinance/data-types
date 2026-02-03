@@ -1,12 +1,12 @@
 import { Connection, PublicKey } from '@solana/web3.js'
 import { describe, expect, test } from 'vitest'
-import { supportedSolanaChains } from './supportedChains.svm.js'
+import { supportedSVMChains } from './supportedChains.svm.js'
 
 const TokenProgramAddress = 'TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA'
 const WalletAddress = '6AUWsSCRFSCbrHKH9s84wfzJXtD6mNzAHs11x6pGEcmJ'
 
 describe.concurrent('SVM chains RPC check', () => {
-  const rpcUrls = supportedSolanaChains.flatMap((chain) =>
+  const rpcUrls = supportedSVMChains.flatMap((chain) =>
     chain.metamask.rpcUrls.map((rpcUrl) => ({
       rpcUrl: rpcUrl,
       chainId: chain.id,
