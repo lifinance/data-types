@@ -1,7 +1,7 @@
 export { supportedEVMChains } from './supportedChains.evm.js'
 export * from './supportedChains.js'
 export { supportedMVMChains } from './supportedChains.mvm.js'
-export { supportedSolanaChains } from './supportedChains.svm.js'
+export { supportedSVMChains } from './supportedChains.svm.js'
 export { supportedTVMChains } from './supportedChains.tvm.js'
 export { supportedUXTOChains } from './supportedChains.utxo.js'
 export { foundryChainNameMap } from './foundry.js'

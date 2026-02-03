@@ -619,6 +619,49 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
+  // > Fogo
+  {
+    key: CoinKey.FOGO,
+    name: CoinKey.FOGO,
+    logoURI:
+      'https://lifinance.github.io/types/src/assets/icons/chains/fogo.svg',
+    verified: true,
+    chains: {
+      [ChainId.FOG]: {
+        address: '11111111111111111111111111111111',
+        decimals: 9,
+      },
+    },
+  },
+  {
+    key: CoinKey.WFOGO,
+    name: CoinKey.WFOGO,
+    logoURI:
+      'https://lifinance.github.io/types/src/assets/icons/chains/fogo.svg',
+    verified: true,
+    chains: {
+      [ChainId.FOG]: {
+        address: 'So11111111111111111111111111111111111111112',
+        decimals: 9,
+        name: 'wFOGO',
+      },
+    },
+  },
+  {
+    key: CoinKey.USDCs,
+    name: CoinKey.USDCs,
+    logoURI:
+      'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png',
+    verified: true,
+    chains: {
+      [ChainId.FOG]: {
+        address: 'uSd2czE61Evaf76RNbq4KPpXnkiL3irdzgLFUMe3NoG',
+        decimals: 6,
+        name: 'Bridged USDC',
+        symbol: 'USDC.s',
+      },
+    },
+  },
 
   // OTHER STABLECOINS
   // USDT
@@ -3321,6 +3364,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'wSOL',
     logoURI:
       'https://assets.coingecko.com/coins/images/4128/standard/solana.png',
+  },
+  [ChainId.FOG]: {
+    address: 'So11111111111111111111111111111111111111112',
+    symbol: 'wFOGO',
+    decimals: 9,
+    chainId: ChainId.FOG,
+    coinKey: CoinKey.WFOGO,
+    name: 'wFOGO',
+    logoURI:
+      'https://lifinance.github.io/types/src/assets/icons/chains/fogo.svg',
   },
   [ChainId.BSC]: {
     // https://bscscan.com/token/0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c
