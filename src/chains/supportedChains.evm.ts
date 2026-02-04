@@ -837,7 +837,7 @@ export const supportedEVMChains: EVMChain[] = [
     multicallAddress: multicallAddresses[ChainId.SEI],
     metamask: {
       chainId: prefixChainId(1329),
-      blockExplorerUrls: ['https://seitrace.com/', 'https://seistream.app/'],
+      blockExplorerUrls: ['https://seiscan.io/'],
       chainName: 'Sei Network',
       nativeCurrency: {
         name: 'SEI',
