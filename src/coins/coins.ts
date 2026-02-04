@@ -3122,7 +3122,7 @@ export const basicCoins: BasicCoin[] = [
     verified: true,
     chains: {
       [ChainId.STA]: {
-        address: '0x0000000000000000000000000000000000001000',
+        address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
     },
