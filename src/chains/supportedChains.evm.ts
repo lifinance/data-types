@@ -231,11 +231,11 @@ export const supportedEVMChains: EVMChain[] = [
       ],
     },
   },
-  // 10 - Optimism
+  // 10 - OP Mainnet
   {
     key: ChainKey.OPT,
     chainType: ChainType.EVM,
-    name: 'Optimism',
+    name: 'OP Mainnet',
     coin: CoinKey.ETH,
     id: 10,
     mainnet: true,
