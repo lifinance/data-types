@@ -1814,9 +1814,9 @@ export const supportedEVMChains: EVMChain[] = [
       blockExplorerUrls: ['https://stablescan.xyz/'],
       chainName: 'Stable',
       nativeCurrency: {
-        name: 'USD₮0',
+        name: 'USDT0',
         symbol: CoinKey.USDT0,
-        decimals: 18,
+        decimals: 6,
       },
       rpcUrls: ['https://rpc.stable.xyz'],
     },
