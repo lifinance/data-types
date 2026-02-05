@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.60.0](https://github.com/lifinance/data-types/compare/v6.59.0...v6.60.0) (2026-02-05)
+
+
+### Features
+
+* use seiscan.io as the main block explorer for SEI ([#224](https://github.com/lifinance/data-types/issues/224)) ([04d74ca](https://github.com/lifinance/data-types/commit/04d74ca0a0d19f452743f1c54dba15a778cf1785))
+
 ## [6.59.0](https://github.com/lifinance/data-types/compare/v6.58.0...v6.59.0) (2026-01-29)
 
 
