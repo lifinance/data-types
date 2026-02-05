@@ -1816,7 +1816,7 @@ export const supportedEVMChains: EVMChain[] = [
       nativeCurrency: {
         name: 'USDT0',
         symbol: CoinKey.USDT0,
-        decimals: 18,
+        decimals: 6,
       },
       rpcUrls: ['https://rpc.stable.xyz'],
     },
