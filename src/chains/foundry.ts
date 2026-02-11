@@ -91,4 +91,5 @@ export const foundryChainNameMap: Record<ChainId, string> = {
   [ChainId.BCH]: 'bitcoin-cash',
   [ChainId.LTC]: 'litecoin',
   [ChainId.DGE]: 'dogecoin',
+  [ChainId.ZEC]: 'zcash',
 }
