@@ -111,14 +111,14 @@ export const supportedUXTOChains: UTXOChain[] = [
     faucetUrls: [],
     metamask: {
       chainId: ChainId.ZEC.toString(),
-      blockExplorerUrls: ['https://zcashblockexplorer.com/'],
+      blockExplorerUrls: ['https://mainnet.zcashexplorer.app'],
       chainName: 'Zcash',
       nativeCurrency: {
         name: 'ZEC',
         symbol: 'ZEC',
         decimals: 8,
       },
-      rpcUrls: ['https://zcash.drpc.org'],
+      rpcUrls: ['https://zcash-mainnet.gateway.tatum.io'],
     },
   },
 ]
