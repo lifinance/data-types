@@ -3258,6 +3258,21 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
+  // > Zcash
+  {
+    key: CoinKey.ZEC,
+    name: CoinKey.ZEC,
+    logoURI:
+      'https://assets.coingecko.com/coins/images/486/standard/circle-zcash-color.png',
+    verified: true,
+    chains: {
+      [ChainId.ZEC]: {
+        address: 'zcash',
+        decimals: 8,
+        name: 'Zcash',
+      },
+    },
+  },
 ]
 
 export const defaultCoins: Array<Coin> = basicCoins.map((coin) => {

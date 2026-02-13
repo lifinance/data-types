@@ -99,4 +99,26 @@ export const supportedUXTOChains: UTXOChain[] = [
       rpcUrls: ['https://node-router.thorswap.net/dogecoin'],
     },
   },
+  {
+    key: ChainKey.ZEC,
+    chainType: ChainType.UTXO,
+    name: 'Zcash',
+    coin: CoinKey.ZEC,
+    id: ChainId.ZEC,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/zcash.svg',
+    faucetUrls: [],
+    metamask: {
+      chainId: ChainId.ZEC.toString(),
+      blockExplorerUrls: ['https://mainnet.zcashexplorer.app'],
+      chainName: 'Zcash',
+      nativeCurrency: {
+        name: 'ZEC',
+        symbol: 'ZEC',
+        decimals: 8,
+      },
+      rpcUrls: ['https://zcash-mainnet.gateway.tatum.io'],
+    },
+  },
 ]
