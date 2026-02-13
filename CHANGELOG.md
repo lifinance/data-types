@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.61.0](https://github.com/lifinance/data-types/compare/v6.60.1...v6.61.0) (2026-02-13)
+
+
+### Features
+
+* zcash ([#227](https://github.com/lifinance/data-types/issues/227)) ([30e55b1](https://github.com/lifinance/data-types/commit/30e55b1c61426071e8925feb0d650f9ad24bbaa8))
+
 ### [6.60.1](https://github.com/lifinance/data-types/compare/v6.60.0...v6.60.1) (2026-02-10)
 
 ## [6.60.0](https://github.com/lifinance/data-types/compare/v6.59.0...v6.60.0) (2026-02-05)
