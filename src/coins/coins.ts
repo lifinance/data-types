@@ -3148,7 +3148,7 @@ export const basicCoins: BasicCoin[] = [
     key: CoinKey.TLOS,
     name: 'TLOS',
     logoURI:
-      'https://raw.githubusercontent.com/telosnetwork/token-list/main/logos/telos.png',
+      'https://raw.githubusercontent.com/telosnetwork/token-list/main/logos/telos.svg',
     verified: true,
     chains: {
       [ChainId.TLO]: {
