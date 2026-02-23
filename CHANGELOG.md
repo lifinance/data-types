@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.61.1](https://github.com/lifinance/data-types/compare/v6.61.0...v6.61.1) (2026-02-23)
+
+
+### Bug Fixes
+
+* telos logo ([#228](https://github.com/lifinance/data-types/issues/228)) ([7d65047](https://github.com/lifinance/data-types/commit/7d650475125879059840e1e11945f08da6668577))
+
 ## [6.61.0](https://github.com/lifinance/data-types/compare/v6.60.1...v6.61.0) (2026-02-13)
 
 
