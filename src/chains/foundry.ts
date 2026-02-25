@@ -87,6 +87,7 @@ export const foundryChainNameMap: Record<ChainId, string> = {
   [ChainId.HPL]: 'hyperliquid',
   [ChainId.OAS]: 'oasis',
   [ChainId.SOL]: 'solana',
+  [ChainId.FOG]: 'fogo',
   [ChainId.TER]: 'terra',
   [ChainId.BTC]: 'bitcoin',
   [ChainId.BCH]: 'bitcoin-cash',
