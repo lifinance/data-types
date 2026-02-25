@@ -187,6 +187,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
+      [ChainId.MOP]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
     },
   },
   // > MATIC
@@ -420,6 +424,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.HMI]: {
         address: '0x6c851F501a3F24E29A8E39a29591cddf09369080',
+        decimals: 18,
+      },
+      [ChainId.MOP]: {
+        address: '0xef8A24599229D002B28bA2F5C0eBdD3c0EFFbed4',
         decimals: 18,
       },
     },
@@ -860,6 +868,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x975Ed13fa16857E83e7C493C7741D556eaaD4A3f',
         decimals: 6,
       },
+      [ChainId.MOP]: {
+        address: '0xc7D67A9cBB121b3b0b9c053DD9f469523243379A',
+        decimals: 6,
+      },
     },
   },
 
@@ -1061,6 +1073,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.TLO]: {
         address: '0x8D97Cea50351Fb4329d591682b148D43a0C3611b',
+        decimals: 6,
+      },
+      [ChainId.MOP]: {
+        address: '0xe34c91815d7fc18A9e2148bcD4241d0a5848b693',
         decimals: 6,
       },
     },
@@ -1710,6 +1726,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3',
         decimals: 8,
       },
+      [ChainId.MOP]: {
+        address: '0x803DcE4D3f4Ae2e17AF6C51343040dEe320C149D',
+        decimals: 8,
+      },
     },
   },
 
@@ -1964,6 +1984,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.JOV]: {
         address: '0xeA29Cbb2808CF848C185E4405Bb002F53f92a241',
+        decimals: 18,
+      },
+      [ChainId.MOP]: {
+        address: '0x5300000000000000000000000000000000000011',
         decimals: 18,
       },
     },
@@ -3193,6 +3217,49 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // USD1
+  {
+    key: CoinKey.USD1,
+    name: 'World Liberty Financial USD',
+    logoURI:
+      'https://static.debank.com/image/eth_token/logo_url/0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d/20466428407a585c38e7141a7bf5e100.png',
+    verified: true,
+    chains: {
+      [ChainId.ETH]: {
+        address: '0x8d0d000ee44948fc98c9b98a4fa4921476f08b0d',
+        decimals: 18,
+      },
+      [ChainId.SOL]: {
+        address: 'USD1ttGY1N17NEEHLmELoaybftRBUSErhqYiQzvEmuB',
+        decimals: 6,
+      },
+      [ChainId.MON]: {
+        address: '0x111111d2bf19e43c34263401e0cad979ed1cdb61',
+        decimals: 6,
+      },
+      [ChainId.BSC]: {
+        address: '0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d',
+        decimals: 18,
+      },
+      [ChainId.PLU]: {
+        address: '0x111111d2bf19e43c34263401e0cad979ed1cdb61',
+        decimals: 18,
+      },
+      [ChainId.MNT]: {
+        address: '0x111111d2bf19e43c34263401e0cad979ed1cdb61',
+        decimals: 18,
+      },
+      [ChainId.TRN]: {
+        address: 'TPFqcBAaaUMCSVRCqPaQ9QnzKhmuoLR6Rc',
+        decimals: 18,
+      },
+      [ChainId.MOP]: {
+        address: '0x111111d2bf19e43C34263401e0CAd979eD1cdb61',
+        decimals: 18,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
@@ -4054,6 +4121,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     symbol: 'WETH',
     decimals: 18,
     chainId: ChainId.JOV,
+    coinKey: CoinKey.WETH,
+    name: 'Wrapped Ether',
+    logoURI:
+      'https://static.debank.com/image/uni_token/logo_url/uni/48bfb74adddd170e936578aec422836d.png',
+  },
+  [ChainId.MOP]: {
+    // https://explorer.morph.network/address/0x5300000000000000000000000000000000000011
+    address: '0x5300000000000000000000000000000000000011',
+    symbol: 'WETH',
+    decimals: 18,
+    chainId: ChainId.MOP,
     coinKey: CoinKey.WETH,
     name: 'Wrapped Ether',
     logoURI:
