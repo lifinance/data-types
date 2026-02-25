@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.62.0](https://github.com/lifinance/data-types/compare/v6.61.1...v6.62.0) (2026-02-25)
+
+
+### Features
+
+* add morph chain and coins ([#229](https://github.com/lifinance/data-types/issues/229)) ([6f5f740](https://github.com/lifinance/data-types/commit/6f5f740083b1ec890670766b8089e665f198d6d0))
+
 ### [6.61.1](https://github.com/lifinance/data-types/compare/v6.61.0...v6.61.1) (2026-02-23)
 
 
