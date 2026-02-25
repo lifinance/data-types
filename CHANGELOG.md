@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.63.0](https://github.com/lifinance/data-types/compare/v6.62.0...v6.63.0) (2026-02-25)
+
+
+### Features
+
+* add fogo chain ([#218](https://github.com/lifinance/data-types/issues/218)) ([9cf333f](https://github.com/lifinance/data-types/commit/9cf333f96c2f4beb035ad9335b25213bf961b87a))
+
 ## [6.62.0](https://github.com/lifinance/data-types/compare/v6.61.1...v6.62.0) (2026-02-25)
 
 
