@@ -67,7 +67,6 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: [
         'https://polygon-bor-rpc.publicnode.com',
         'https://polygon.drpc.org',
-        'https://polygon-rpc.com',
       ],
     },
   },
