@@ -1896,4 +1896,29 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://rpc.jovay.io'],
     },
   },
+
+  // Morph
+  {
+    key: ChainKey.MOP,
+    chainType: ChainType.EVM,
+    name: 'Morph',
+    coin: CoinKey.ETH,
+    id: ChainId.MOP,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/morph.svg',
+    relayerSupported: false,
+    multicallAddress: multicallAddresses[ChainId.MOP],
+    metamask: {
+      chainId: prefixChainId(ChainId.MOP),
+      blockExplorerUrls: ['https://explorer.morph.network/'],
+      chainName: 'Morph',
+      nativeCurrency: {
+        name: 'Ethereum',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.morph.network'],
+    },
+  },
 ]
