@@ -78,7 +78,7 @@
     ]
   },
   "dependencies": {
-    "@lifi/types": "17.63.0"
+    "@lifi/types": "17.65.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.7.1",
@@ -91,19 +91,19 @@
     "@vitest/coverage-v8": "^3.0.7",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.5.4",
-    "fs-extra": "^11.3.2",
+    "eslint-plugin-prettier": "^5.5.5",
+    "fs-extra": "^11.3.3",
     "husky": "^9.1.1",
     "lint-staged": "^15.4.3",
     "pinst": "^3.0.0",
-    "prettier": "^3.7.4",
+    "prettier": "^3.8.1",
     "standard-version": "^9.5.0",
-    "tronweb": "^6.1.1",
+    "tronweb": "^6.2.1",
     "typescript": "^5.9.3",
-    "viem": "^2.42.1",
+    "viem": "^2.46.3",
     "vitest": "^3.0.7"
   },
-  "packageManager": "pnpm@10.26.0+sha512.3b3f6c725ebe712506c0ab1ad4133cf86b1f4b687effce62a9b38b4d72e3954242e643190fc51fa1642949c735f403debd44f5cb0edd657abe63a8b6a7e1e402",
+  "packageManager": "pnpm@10.30.3+sha512.c961d1e0a2d8e354ecaa5166b822516668b7f44cb5bd95122d590dd81922f606f5473b6d23ec4a5be05e7fcd18e8488d47d978bbe981872f1145d06e9a740017",
   "publishConfig": {
     "access": "public"
   }
