@@ -1921,4 +1921,29 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://rpc.morph.network'],
     },
   },
+
+  // Tempo
+  {
+    key: ChainKey.TEM,
+    chainType: ChainType.EVM,
+    name: 'Tempo',
+    coin: CoinKey.PathUSD,
+    id: ChainId.TEM,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/tempo.svg',
+    relayerSupported: false,
+    multicallAddress: multicallAddresses[ChainId.TEM],
+    metamask: {
+      chainId: prefixChainId(ChainId.TEM),
+      blockExplorerUrls: [''], // Unavailable yet before mainnet launch
+      chainName: 'Tempo',
+      nativeCurrency: {
+        name: 'PathUSD',
+        symbol: 'PathUSD',
+        decimals: 18,
+      },
+      rpcUrls: [], // Unavailable yet before mainnet launch
+    },
+  },
 ]
