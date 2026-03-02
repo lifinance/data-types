@@ -1310,8 +1310,14 @@ export const basicCoins: BasicCoin[] = [
         name: 'Bridged USDC (Jovay)',
         symbol: 'USDC.jovay',
       },
+      [ChainId.MEG]: {
+        address: '0x20c000000000000000000000b9537d11c60e8b50',
+        decimals: 6,
+        name: 'Bridged USDC (Stargate)',
+      },
     },
   },
+
   // axlUSDC
   // axlUSDC is a wrapped, multi-chain representation of USDC, a dollar stablecoin.
   {
@@ -3303,6 +3309,20 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // PathUSD
+  {
+    key: CoinKey.PathUSD,
+    name: 'PathUSD',
+    logoURI: 'https://tempo.xyz/logo.svg',
+    verified: true,
+    chains: {
+      [ChainId.TEM]: {
+        address: '0x20c0000000000000000000000000000000000000',
+        decimals: 6,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
@@ -4189,6 +4209,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped Ether',
     logoURI:
       'https://static.debank.com/image/uni_token/logo_url/uni/48bfb74adddd170e936578aec422836d.png',
+  },
+  [ChainId.TEM]: {
+    // https://explore.tempo.xyz/address/0x20c0000000000000000000000000000000000000
+    address: '0x20c0000000000000000000000000000000000000',
+    symbol: 'PathUSD',
+    decimals: 6,
+    chainId: ChainId.TEM,
+    coinKey: CoinKey.PathUSD,
+    name: 'PathUSD',
+    logoURI: 'https://tempo.xyz/logo.svg',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
