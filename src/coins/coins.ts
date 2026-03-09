@@ -3313,7 +3313,8 @@ export const basicCoins: BasicCoin[] = [
   {
     key: CoinKey.PathUSD,
     name: 'PathUSD',
-    logoURI: 'https://tempo.xyz/logo.svg',
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/pathUSD.svg',
     verified: true,
     chains: {
       [ChainId.TEM]: {
@@ -4218,7 +4219,8 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     chainId: ChainId.TEM,
     coinKey: CoinKey.PathUSD,
     name: 'PathUSD',
-    logoURI: 'https://tempo.xyz/logo.svg',
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/pathUSD.svg',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
