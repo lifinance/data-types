@@ -3324,6 +3324,49 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // frxETH
+  {
+    key: CoinKey.frxETH,
+    name: 'frxETH',
+    logoURI:
+      'https://static.debank.com/image/eth_token/logo_url/0x5e8422345238f34275888049021821e8e08caa1f/74628d212cf16e6183a7242b4ce71b92.png',
+    verified: true,
+    chains: {
+      [ChainId.ETH]: {
+        address: '0x5E8422345238F34275888049021821E8E08CAa1f',
+        decimals: 18,
+      },
+      [ChainId.BSC]: {
+        address: '0x64048A7eEcF3a2F1BA9e144aAc3D7dB6e58F555e',
+        decimals: 18,
+      },
+      [ChainId.POL]: {
+        address: '0xEe327F889d5947c1dc1934Bb208a1E792F953E96',
+        decimals: 18,
+      },
+      [ChainId.OPT]: {
+        address: '0x6806411765Af15Bddd26f8f544A34cC40cb9838B',
+        decimals: 18,
+      },
+      [ChainId.ARB]: {
+        address: '0x178412e79c25968a32e89b11f63B33F733770c2A',
+        decimals: 18,
+      },
+      [ChainId.FRA]: {
+        address: '0xFC00000000000000000000000000000000000006',
+        decimals: 18,
+      },
+      [ChainId.SON]: {
+        address: '0x43edd7f3831b08fe70b7555ddd373c8bf65a9050',
+        decimals: 18,
+      },
+      [ChainId.MOO]: {
+        address: '0x43eDD7f3831b08FE70B7555ddD373C8bF65a9050',
+        decimals: 18,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
