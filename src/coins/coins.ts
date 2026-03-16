@@ -3324,6 +3324,57 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // frxUSD
+  {
+    key: CoinKey.frxUSD,
+    name: 'frxUSD',
+    logoURI:
+      'https://static.debank.com/image/eth_token/logo_url/0xcacd6fd266af91b8aed52accc382b4e165586e29/7610ebe75cb08ff21ee6dfb7e1592e25.png',
+    verified: true,
+    chains: {
+      [ChainId.ETH]: {
+        address: '0xCAcd6fd266aF91b8AeD52aCCc382b4e165586E29',
+        decimals: 18,
+      },
+      [ChainId.BSC]: {
+        address: '0x80Eede496655FB9047dd39d9f418d5483ED600df',
+        decimals: 18,
+      },
+      [ChainId.SOL]: {
+        address: 'GzX1ireZDU865FiMaKrdVB1H6AE8LAqWYCg6chrMrfBw',
+        decimals: 9,
+      },
+      [ChainId.OPT]: {
+        address: '0x80Eede496655FB9047dd39d9f418d5483ED600df',
+        decimals: 18,
+      },
+      [ChainId.ARB]: {
+        address: '0x80eede496655fb9047dd39d9f418d5483ed600df',
+        decimals: 18,
+      },
+      [ChainId.SEI]: {
+        address: '0x80eede496655fb9047dd39d9f418d5483ed600df',
+        decimals: 18,
+      },
+      [ChainId.LNA]: {
+        address: '0xC7346783f5e645aa998B106Ef9E7f499528673D8',
+        decimals: 18,
+      },
+      [ChainId.BAS]: {
+        address: '0xe5020A6d073a794B6E7f05678707dE47986Fb0b6',
+        decimals: 18,
+      },
+      [ChainId.SON]: {
+        address: '0x80eede496655fb9047dd39d9f418d5483ed600df',
+        decimals: 18,
+      },
+      [ChainId.FRA]: {
+        address: '0xFc00000000000000000000000000000000000001',
+        decimals: 18,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
