@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.67.0](https://github.com/lifinance/data-types/compare/v6.66.0...v6.67.0) (2026-03-16)
+
+
+### Features
+
+* add stable frxUSD to STA chain ([#233](https://github.com/lifinance/data-types/issues/233)) ([10a28ad](https://github.com/lifinance/data-types/commit/10a28ad25404f854479270ddb8f339e830398fb7))
+
 ## [6.66.0](https://github.com/lifinance/data-types/compare/v6.65.0...v6.66.0) (2026-03-16)
 
 
