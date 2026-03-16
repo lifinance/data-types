@@ -2335,19 +2335,19 @@ export const basicCoins: BasicCoin[] = [
         decimals: 18,
       },
       [ChainId.POL]: {
-        address: '0x01e91A094f5559f211e4ad4bED01468aBb64Bde3',
+        address: '0xEe327F889d5947c1dc1934Bb208a1E792F953E96',
         decimals: 18,
       },
       [ChainId.ARB]: {
-        address: '0xEcc68d0451E20292406967Fe7C04280E5238Ac7D',
+        address: '0x178412e79c25968a32e89b11f63B33F733770c2A',
         decimals: 18,
       },
       [ChainId.AVA]: {
-        address: '0x939b1a17C0d0Aa3fEA634Ad9157c88245A53C713',
+        address: '0x2018B0CA0eDcE80800851958bD094dD4a8DA1fc4',
         decimals: 18,
       },
       [ChainId.LNA]: {
-        address: '0xEcc68d0451E20292406967Fe7C04280E5238Ac7D',
+        address: '0xb1afd04774c02ae84692619448b08ba79f19b1ff',
         decimals: 18,
       },
       [ChainId.SCL]: {
@@ -2355,23 +2355,23 @@ export const basicCoins: BasicCoin[] = [
         decimals: 18,
       },
       [ChainId.OPT]: {
-        address: '0xEcc68d0451E20292406967Fe7C04280E5238Ac7D',
+        address: '0x6806411765Af15Bddd26f8f544A34cC40cb9838B',
         decimals: 18,
       },
       [ChainId.FTM]: {
-        address: '0x39Db1A30122031751e803Fabf329C44efBBfBf4B',
+        address: '0x9e73f99ee061c8807f69f9c6ccc44ea3d8c373ee',
         decimals: 18,
       },
       [ChainId.MOO]: {
-        address: '0x29C795559e4Db87054Ba70fafC454214c20aDbD4',
+        address: '0x43eDD7f3831b08FE70B7555ddD373C8bF65a9050',
         decimals: 18,
       },
       [ChainId.BAS]: {
-        address: '0xEcc68d0451E20292406967Fe7C04280E5238Ac7D',
+        address: '0x7eb8d1E4E2D0C8b9bEDA7a97b305cF49F3eeE8dA',
         decimals: 18,
       },
       [ChainId.BSC]: {
-        address: '0x39Db1A30122031751e803Fabf329C44efBBfBf4B',
+        address: '0x64048A7eEcF3a2F1BA9e144aAc3D7dB6e58F555e',
         decimals: 18,
       },
       [ChainId.SEI]: {
@@ -3324,44 +3324,52 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
-  // frxETH
+  // frxUSD
   {
-    key: CoinKey.frxETH,
-    name: 'frxETH',
+    key: CoinKey.frxUSD,
+    name: 'frxUSD',
     logoURI:
-      'https://static.debank.com/image/eth_token/logo_url/0x5e8422345238f34275888049021821e8e08caa1f/74628d212cf16e6183a7242b4ce71b92.png',
+      'https://static.debank.com/image/eth_token/logo_url/0xcacd6fd266af91b8aed52accc382b4e165586e29/7610ebe75cb08ff21ee6dfb7e1592e25.png',
     verified: true,
     chains: {
       [ChainId.ETH]: {
-        address: '0x5E8422345238F34275888049021821E8E08CAa1f',
+        address: '0xCAcd6fd266aF91b8AeD52aCCc382b4e165586E29',
         decimals: 18,
       },
       [ChainId.BSC]: {
-        address: '0x64048A7eEcF3a2F1BA9e144aAc3D7dB6e58F555e',
+        address: '0x80Eede496655FB9047dd39d9f418d5483ED600df',
         decimals: 18,
       },
-      [ChainId.POL]: {
-        address: '0xEe327F889d5947c1dc1934Bb208a1E792F953E96',
-        decimals: 18,
+      [ChainId.SOL]: {
+        address: 'GzX1ireZDU865FiMaKrdVB1H6AE8LAqWYCg6chrMrfBw',
+        decimals: 9,
       },
       [ChainId.OPT]: {
-        address: '0x6806411765Af15Bddd26f8f544A34cC40cb9838B',
+        address: '0x80Eede496655FB9047dd39d9f418d5483ED600df',
         decimals: 18,
       },
       [ChainId.ARB]: {
-        address: '0x178412e79c25968a32e89b11f63B33F733770c2A',
+        address: '0x80eede496655fb9047dd39d9f418d5483ed600df',
         decimals: 18,
       },
-      [ChainId.FRA]: {
-        address: '0xFC00000000000000000000000000000000000006',
+      [ChainId.SEI]: {
+        address: '0x80eede496655fb9047dd39d9f418d5483ed600df',
+        decimals: 18,
+      },
+      [ChainId.LNA]: {
+        address: '0xC7346783f5e645aa998B106Ef9E7f499528673D8',
+        decimals: 18,
+      },
+      [ChainId.BAS]: {
+        address: '0xe5020A6d073a794B6E7f05678707dE47986Fb0b6',
         decimals: 18,
       },
       [ChainId.SON]: {
-        address: '0x43edd7f3831b08fe70b7555ddd373c8bf65a9050',
+        address: '0x80eede496655fb9047dd39d9f418d5483ed600df',
         decimals: 18,
       },
-      [ChainId.MOO]: {
-        address: '0x43eDD7f3831b08FE70B7555ddD373C8bF65a9050',
+      [ChainId.FRA]: {
+        address: '0xFc00000000000000000000000000000000000001',
         decimals: 18,
       },
     },
