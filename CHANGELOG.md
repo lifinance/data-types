@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.66.0](https://github.com/lifinance/data-types/compare/v6.65.0...v6.66.0) (2026-03-16)
+
+
+### Features
+
+* add frxUSD and correct frxETH ([#232](https://github.com/lifinance/data-types/issues/232)) ([0be142c](https://github.com/lifinance/data-types/commit/0be142cf293746c7ecba5149401c25b018e3e8d0))
+
 ## [6.65.0](https://github.com/lifinance/data-types/compare/v6.64.0...v6.65.0) (2026-03-16)
 
 
