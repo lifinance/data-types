@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.68.0](https://github.com/lifinance/data-types/compare/v6.67.0...v6.68.0) (2026-03-18)
+
+
+### Features
+
+* update tempo chains and coins ([#234](https://github.com/lifinance/data-types/issues/234)) ([b44f0ab](https://github.com/lifinance/data-types/commit/b44f0abd4f32e8623e59a544c658ba6915679bcd))
+
 ## [6.67.0](https://github.com/lifinance/data-types/compare/v6.66.0...v6.67.0) (2026-03-16)
 
 
