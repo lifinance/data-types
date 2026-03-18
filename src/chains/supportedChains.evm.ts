@@ -1936,14 +1936,14 @@ export const supportedEVMChains: EVMChain[] = [
     multicallAddress: multicallAddresses[ChainId.TEM],
     metamask: {
       chainId: prefixChainId(ChainId.TEM),
-      blockExplorerUrls: [''], // Unavailable yet before mainnet launch
+      blockExplorerUrls: ['https://explore.tempo.xyz/'],
       chainName: 'Tempo',
       nativeCurrency: {
         name: 'PathUSD',
         symbol: 'PathUSD',
         decimals: 18,
       },
-      rpcUrls: [], // Unavailable yet before mainnet launch
+      rpcUrls: ['https://rpc.tempo.xyz'],
     },
   },
 ]

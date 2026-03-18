@@ -1315,6 +1315,11 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
         name: 'Bridged USDC (Stargate)',
       },
+      [ChainId.TEM]: {
+        address: '0x20C000000000000000000000b9537d11c60E8b50',
+        decimals: 6,
+        name: 'Bridged USDC (Stargate)',
+      },
     },
   },
 
@@ -3011,6 +3016,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0xb8ce59fc3717ada4c02eadf9682a9e934f625ebb',
         decimals: 6,
       },
+      [ChainId.TEM]: {
+        address: '0x20c00000000000000000000014f22ca97301eb73',
+        decimals: 6,
+      },
     },
   },
 
@@ -3375,6 +3384,10 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.STA]: {
         address: '0x80Eede496655FB9047dd39d9f418d5483ED600df',
         decimals: 18,
+      },
+      [ChainId.TEM]: {
+        address: '0x20c0000000000000000000003554d28269e0f3c2',
+        decimals: 6,
       },
     },
   },
