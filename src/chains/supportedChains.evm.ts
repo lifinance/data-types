@@ -1941,9 +1941,34 @@ export const supportedEVMChains: EVMChain[] = [
       nativeCurrency: {
         name: 'PathUSD',
         symbol: 'PathUSD',
-        decimals: 18,
+        decimals: 6,
       },
       rpcUrls: ['https://rpc.tempo.xyz'],
+    },
+  },
+
+  // Arc Testnet
+  {
+    key: ChainKey.ARCT,
+    chainType: ChainType.EVM,
+    name: 'Arc Testnet',
+    coin: CoinKey.USDC,
+    id: ChainId.ARCT,
+    mainnet: false,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/arct.svg',
+    relayerSupported: false,
+    multicallAddress: multicallAddresses[ChainId.ARCT],
+    metamask: {
+      chainId: prefixChainId(ChainId.ARCT),
+      blockExplorerUrls: ['https://testnet.arcscan.app/'],
+      chainName: 'Arc Testnet',
+      nativeCurrency: {
+        name: 'USDC',
+        symbol: 'USDC',
+        decimals: 6,
+      },
+      rpcUrls: ['https://rpc.testnet.arc.network/'],
     },
   },
 ]

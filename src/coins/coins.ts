@@ -1122,6 +1122,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0xe34c91815d7fc18A9e2148bcD4241d0a5848b693',
         decimals: 6,
       },
+      [ChainId.ARCT]: {
+        address: '0x3600000000000000000000000000000000000000',
+        decimals: 6,
+      },
     },
   },
   // USDC.e
@@ -3392,6 +3396,41 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // Eurc
+  {
+    key: CoinKey.EURC,
+    name: 'Eurc',
+    logoURI:
+      'https://static.debank.com/image/eth_token/logo_url/0x1abaea1f7c830bd89acc67ec4af516284b1bc33c/790d0c3a6da87111b66255c0d57108fa.png',
+    verified: true,
+    chains: {
+      [ChainId.ETH]: {
+        address: '0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c',
+        decimals: 6,
+      },
+      [ChainId.ARCT]: {
+        address: '0x89B50855Aa3bE2F677cD6303Cec089B5F319D72a',
+        decimals: 6,
+      },
+      [ChainId.AVA]: {
+        address: '0xC891EB4cbdEFf6e073e859e987815Ed1505c2ACD',
+        decimals: 6,
+      },
+      [ChainId.BAS]: {
+        address: '0x60a3e35cc302bfa44cb288bc5a4f316fdb1adb42',
+        decimals: 6,
+      },
+      [ChainId.SOL]: {
+        address: 'HzwqbKZw8HxMN6bF2yFZNrht3c2iXXzpKcFu7uBEDKtr',
+        decimals: 6,
+      },
+      [ChainId.SON]: {
+        address: '0xe715cba7b5ccb33790cebff1436809d36cb17e57',
+        decimals: 6,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
@@ -4289,6 +4328,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'PathUSD',
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/tokens/pathUSD.svg',
+  },
+  [ChainId.ARCT]: {
+    // https://testnet.arcscan.app/token/0x3600000000000000000000000000000000000000
+    address: '0x3600000000000000000000000000000000000000',
+    symbol: 'USDC',
+    decimals: 6,
+    chainId: ChainId.ARCT,
+    coinKey: CoinKey.USDC,
+    name: 'USDC',
+    logoURI:
+      'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
