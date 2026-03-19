@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.69.0](https://github.com/lifinance/data-types/compare/v6.68.0...v6.69.0) (2026-03-19)
+
+
+### Features
+
+* add Arc Testnet ([#235](https://github.com/lifinance/data-types/issues/235)) ([e83f165](https://github.com/lifinance/data-types/commit/e83f16543387ea71f24c62e57775dd57d4df9b71))
+
 ## [6.68.0](https://github.com/lifinance/data-types/compare/v6.67.0...v6.68.0) (2026-03-18)
 
 
