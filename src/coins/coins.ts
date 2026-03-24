@@ -627,6 +627,20 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
+  // > XLM
+  {
+    key: CoinKey.XLM,
+    name: CoinKey.XLM,
+    logoURI:
+      'https://lifinance.github.io/types/src/assets/icons/chains/stellar.svg',
+    verified: true,
+    chains: {
+      [ChainId.XLM]: {
+        address: 'CAS3J7GYLGXMF6TDJBBYYSE3HQ6BBSMLNUQ34T6TZMYMW2EVH34XOWMA',
+        decimals: 7,
+      },
+    },
+  },
   // > Fogo
   {
     key: CoinKey.FOGO,
@@ -1125,6 +1139,10 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.ARCT]: {
         address: '0x3600000000000000000000000000000000000000',
         decimals: 6,
+      },
+      [ChainId.XLM]: {
+        address: 'CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75',
+        decimals: 7,
       },
     },
   },
@@ -3428,6 +3446,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0xe715cba7b5ccb33790cebff1436809d36cb17e57',
         decimals: 6,
       },
+      [ChainId.XLM]: {
+        address: 'CDTKPWPLOURQA2SGTKTUQOWRCBZEORB4BWBOMJ3D3ZTQQSGE5F6JBQLV',
+        decimals: 7,
+      },
     },
   },
 
@@ -4210,6 +4232,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     decimals: 6,
     logoURI:
       'https://lifinance.github.io/types/src/assets/icons/chains/tron.svg',
+  },
+  [ChainId.XLM]: {
+    address: 'CAS3J7GYLGXMF6TDJBBYYSE3HQ6BBSMLNUQ34T6TZMYMW2EVH34XOWMA',
+    name: 'Stellar',
+    symbol: CoinKey.XLM,
+    coinKey: CoinKey.XLM,
+    chainId: ChainId.XLM,
+    decimals: 7,
+    logoURI:
+      'https://lifinance.github.io/types/src/assets/icons/chains/stellar.svg',
   },
   [ChainId.PLA]: {
     // https://plasmascan.to/address/0x6100E367285b01F48D07953803A2d8dCA5D19873

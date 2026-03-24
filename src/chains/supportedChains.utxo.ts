@@ -25,10 +25,7 @@ export const supportedUXTOChains: UTXOChain[] = [
         symbol: 'BTC',
         decimals: 8,
       },
-      rpcUrls: [
-        'https://node-router.thorswap.net/bitcoin',
-        'https://bitcoin-rpc.publicnode.com',
-      ],
+      rpcUrls: ['https://bitcoin-rpc.publicnode.com'],
     },
   },
   {
@@ -52,7 +49,7 @@ export const supportedUXTOChains: UTXOChain[] = [
         symbol: 'BCH',
         decimals: 8,
       },
-      rpcUrls: ['https://node-router.thorswap.net/bitcoin-cash'],
+      rpcUrls: [],
     },
   },
   {
@@ -74,7 +71,7 @@ export const supportedUXTOChains: UTXOChain[] = [
         symbol: 'LTC',
         decimals: 8,
       },
-      rpcUrls: ['https://node-router.thorswap.net/litecoin'],
+      rpcUrls: [],
     },
   },
   {
@@ -96,7 +93,7 @@ export const supportedUXTOChains: UTXOChain[] = [
         symbol: 'DOGE',
         decimals: 8,
       },
-      rpcUrls: ['https://node-router.thorswap.net/dogecoin'],
+      rpcUrls: ['https://dogecoin.drpc.org'],
     },
   },
   {

@@ -50,7 +50,7 @@ export const supportedSVMChains: SVMChain[] = [
         symbol: 'FOGO',
         decimals: 9,
       },
-      rpcUrls: ['https://fluxrpc.com/'],
+      rpcUrls: ['https://mainnet.fogo.io'],
     },
   },
 ]
