@@ -4,6 +4,7 @@ import { supportedMVMChains } from './supportedChains.mvm.js'
 import { supportedSVMChains } from './supportedChains.svm.js'
 import { supportedUXTOChains } from './supportedChains.utxo.js'
 import { supportedTVMChains } from './supportedChains.tvm.js'
+import { supportedSTLChains } from './supportedChains.stl.js'
 
 // This assignment is required to avoid breaking
 // changes with the new non EVM support types release
@@ -14,6 +15,7 @@ export const supportedChains = [
   ...supportedMVMChains,
   ...supportedUXTOChains,
   ...supportedTVMChains,
+  ...supportedSTLChains,
 ]
 
 export const getChainByKey = (chainKey: ChainKey): Chain => {

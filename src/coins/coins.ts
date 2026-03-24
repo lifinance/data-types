@@ -627,6 +627,20 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
+  // > XLM
+  {
+    key: CoinKey.XLM,
+    name: CoinKey.XLM,
+    logoURI:
+      'https://lifinance.github.io/types/src/assets/icons/chains/stellar.svg',
+    verified: true,
+    chains: {
+      [ChainId.XLM]: {
+        address: 'lumen',
+        decimals: 7,
+      },
+    },
+  },
   // > Fogo
   {
     key: CoinKey.FOGO,
