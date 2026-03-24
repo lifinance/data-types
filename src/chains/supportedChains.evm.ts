@@ -67,7 +67,6 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: [
         'https://polygon-bor-rpc.publicnode.com',
         'https://polygon.drpc.org',
-        'https://polygon-rpc.com',
       ],
     },
   },
@@ -479,7 +478,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'ETH',
         decimals: 18,
       },
-      rpcUrls: ['https://mainnet.boba.network', 'https://replica.boba.network'],
+      rpcUrls: ['https://mainnet.boba.network'],
     },
   },
   // 106 Velas EVM Mainnet
@@ -707,7 +706,6 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: [
         'https://rpc.scroll.io',
         'https://scroll.drpc.org',
-        'https://scroll-mainnet.public.blastapi.io',
         'https://1rpc.io/scroll',
       ],
     },
@@ -726,10 +724,7 @@ export const supportedEVMChains: EVMChain[] = [
 
     metamask: {
       chainId: prefixChainId(34443),
-      blockExplorerUrls: [
-        'https://explorer.mode.network/',
-        'https://modescan.io/',
-      ],
+      blockExplorerUrls: ['https://explorer.mode.network/'],
       chainName: 'Mode',
       nativeCurrency: {
         name: 'ETH',
@@ -1304,7 +1299,7 @@ export const supportedEVMChains: EVMChain[] = [
 
     metamask: {
       chainId: prefixChainId(ChainId.SWL),
-      blockExplorerUrls: ['https://swellchainscan.io/'],
+      blockExplorerUrls: ['https://explorer.swellnetwork.io/'],
       chainName: 'Swellchain',
       nativeCurrency: {
         name: 'Ether',

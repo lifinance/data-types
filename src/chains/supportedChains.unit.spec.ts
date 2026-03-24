@@ -30,6 +30,7 @@ test('native and wrapped token defined for all chains', () => {
     ChainId.BCH,
     ChainId.LTC,
     ChainId.DGE,
+    ChainId.ZEC,
     ChainId.SUI,
     ChainId.HPL,
   ]
