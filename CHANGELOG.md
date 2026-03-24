@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.70.0](https://github.com/lifinance/data-types/compare/v6.69.0...v6.70.0) (2026-03-24)
+
+
+### Features
+
+* add stellar support ([#236](https://github.com/lifinance/data-types/issues/236)) ([0d749d1](https://github.com/lifinance/data-types/commit/0d749d13687ec32c08e59339cf016fd93d063851))
+
 ## [6.69.0](https://github.com/lifinance/data-types/compare/v6.68.0...v6.69.0) (2026-03-19)
 
 
