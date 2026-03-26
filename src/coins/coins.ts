@@ -1342,6 +1342,11 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
         name: 'Bridged USDC (Stargate)',
       },
+      [ChainId.ZEROG]: {
+        address: '0x1f3AA82227281cA364bFb3d253B0f1af1Da6473E',
+        decimals: 6,
+        name: 'Bridged USDC',
+      },
     },
   },
 
@@ -2064,6 +2069,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.MOP]: {
         address: '0x5300000000000000000000000000000000000011',
+        decimals: 18,
+      },
+      [ChainId.ZEROG]: {
+        address: '0x564770837Ef8bbF077cFe54E5f6106538c815B22',
         decimals: 18,
       },
     },
@@ -3453,6 +3462,42 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  {
+    key: CoinKey.ZEROG,
+    name: '0G',
+    logoURI:
+      'https://static.debank.com/image/bsc_token/logo_url/0x4b948d64de1f71fcd12fb586f4c776421a35b3ee/4202dd6170c99eb0c2632deeeb9f1b94.png',
+    verified: true,
+    chains: {
+      [ChainId.ZEROG]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+      [ChainId.BSC]: {
+        address: '0x4B948d64dE1F71fCd12fB586f4c776421a35b3eE',
+        decimals: 18,
+      },
+      [ChainId.ETH]: {
+        address: '0x4B948d64dE1F71fCd12fB586f4c776421a35b3eE',
+        decimals: 18,
+      },
+    },
+  },
+
+  {
+    key: CoinKey.W0G,
+    name: 'Wrapped 0G',
+    logoURI:
+      'https://static.debank.com/image/g0_token/logo_url/0x1cd0690ff9a693f5ef2dd976660a8dafc81a109c/5ead81ee3973083987af41b9456263ed.png',
+    verified: true,
+    chains: {
+      [ChainId.ZEROG]: {
+        address: '0x1cd0690ff9a693f5ef2dd976660a8dafc81a109c',
+        decimals: 18,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
@@ -4371,6 +4416,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'USDC',
     logoURI:
       'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png',
+  },
+  [ChainId.ZEROG]: {
+    // https://0g.exploreme.pro/tokens/0x1cd0690ff9a693f5ef2dd976660a8dafc81a109c
+    address: '0x1cd0690ff9a693f5ef2dd976660a8dafc81a109c',
+    symbol: CoinKey.W0G,
+    decimals: 18,
+    chainId: ChainId.ZEROG,
+    coinKey: CoinKey.W0G,
+    name: 'Wrapped 0G',
+    logoURI:
+      'https://static.debank.com/image/g0_token/logo_url/0x1cd0690ff9a693f5ef2dd976660a8dafc81a109c/5ead81ee3973083987af41b9456263ed.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
