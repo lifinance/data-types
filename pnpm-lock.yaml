@@ -4,16 +4,13 @@ settings:
   autoInstallPeers: false
   excludeLinksFromLockfile: false
 
-overrides:
-  '@lifi/types': link:../types
-
 importers:
 
   .:
     dependencies:
       '@lifi/types':
-        specifier: link:../types
-        version: link:../types
+        specifier: 17.72.0-alpha.0
+        version: 17.72.0-alpha.0(bufferutil@4.0.9)(typescript@5.9.3)(utf-8-validate@5.0.10)
     devDependencies:
       '@commitlint/cli':
         specifier: ^19.7.1
@@ -442,6 +439,9 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
+
+  '@lifi/types@17.72.0-alpha.0':
+    resolution: {integrity: sha512-yiOCapF13HvGy+1c5bwWZzbv/cnEGLws1gn/mUZmqb2NkwJA/rdXGbikvFaenLoyJnnQErKywKYfMBxjhGSQ/w==}
 
   '@mysten/bcs@1.9.2':
     resolution: {integrity: sha512-kBk5xrxV9OWR7i+JhL/plQrgQ2/KJhB2pB5gj+w6GXhbMQwS3DPpOvi/zN0Tj84jwPvHMllpEl0QHj6ywN7/eQ==}
@@ -3140,6 +3140,15 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
+
+  '@lifi/types@17.72.0-alpha.0(bufferutil@4.0.9)(typescript@5.9.3)(utf-8-validate@5.0.10)':
+    dependencies:
+      viem: 2.46.3(bufferutil@4.0.9)(typescript@5.9.3)(utf-8-validate@5.0.10)
+    transitivePeerDependencies:
+      - bufferutil
+      - typescript
+      - utf-8-validate
+      - zod
 
   '@mysten/bcs@1.9.2':
     dependencies:
