@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.72.0](https://github.com/lifinance/data-types/compare/v6.71.0...v6.72.0) (2026-03-26)
+
+
+### Features
+
+* update @lifi/types to 17.71.0 ([#238](https://github.com/lifinance/data-types/issues/238)) ([d645567](https://github.com/lifinance/data-types/commit/d64556741f22f2d31b872aa8036385ba9b28ffcb))
+
 ## [6.71.0](https://github.com/lifinance/data-types/compare/v6.70.0...v6.71.0) (2026-03-26)
 
 
