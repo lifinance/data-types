@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.73.0](https://github.com/lifinance/data-types/compare/v6.72.0...v6.73.0) (2026-03-26)
+
+
+### Features
+
+* add new chain Arbitrum Nova ([#239](https://github.com/lifinance/data-types/issues/239)) ([5e0708b](https://github.com/lifinance/data-types/commit/5e0708bcb947a3d4cb01321f0f6caa9911ea60d2))
+
 ## [6.72.0](https://github.com/lifinance/data-types/compare/v6.71.0...v6.72.0) (2026-03-26)
 
 
