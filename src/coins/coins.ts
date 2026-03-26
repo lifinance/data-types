@@ -58,6 +58,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
+      [ChainId.ARN]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
       [ChainId.ERA]: {
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
@@ -992,6 +996,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
         decimals: 6,
       },
+      [ChainId.ARN]: {
+        address: '0x750ba8b76187092B0D1E87E28daaf484d1b5273b',
+        decimals: 6,
+      },
       [ChainId.HYP]: {
         address: '0xb88339CB7199b77E23DB6E890353E22632Ba630f',
         decimals: 6,
@@ -1869,6 +1877,10 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.ARB]: {
         address: '0x82af49447d8a07e3bd95bd0d56f35241523fbab1',
+        decimals: 18,
+      },
+      [ChainId.ARN]: {
+        address: '0x722E8BdD2ce80A4422E880164f2079488e115365',
         decimals: 18,
       },
       [ChainId.OPT]: {
@@ -3763,6 +3775,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     chainId: ChainId.ARB,
     coinKey: CoinKey.WETH,
     name: 'WETH',
+    logoURI:
+      'https://static.debank.com/image/era_token/logo_url/0x5aea5775959fbc2557cc8789bc1bf90a239d9a91/61844453e63cf81301f845d7864236f6.png',
+  },
+  [ChainId.ARN]: {
+    address: '0x722E8BdD2ce80A4422E880164f2079488e115365',
+    symbol: 'WETH',
+    decimals: 18,
+    chainId: ChainId.ARN,
+    coinKey: CoinKey.WETH,
+    name: 'Wrapped Ether',
     logoURI:
       'https://static.debank.com/image/era_token/logo_url/0x5aea5775959fbc2557cc8789bc1bf90a239d9a91/61844453e63cf81301f845d7864236f6.png',
   },

@@ -1,0 +1,2 @@
+overrides:
+  '@lifi/types': link:../types
