@@ -1969,6 +1969,32 @@ export const supportedEVMChains: EVMChain[] = [
     },
   },
 
+  // 42170 - Arbitrum Nova
+  {
+    key: ChainKey.ARN,
+    chainType: ChainType.EVM,
+    name: 'Arbitrum Nova',
+    coin: CoinKey.ETH,
+    id: ChainId.ARN,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/arbitrum-nova.svg',
+    multicallAddress: multicallAddresses[ChainId.ARN],
+    relayerSupported: false,
+
+    metamask: {
+      chainId: prefixChainId(ChainId.ARN),
+      blockExplorerUrls: ['https://arbitrum-nova.blockscout.com'],
+      chainName: 'Arbitrum Nova',
+      nativeCurrency: {
+        name: 'Ether',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: ['https://arbitrum-nova-rpc.publicnode.com'],
+    },
+  },
+
   // Testnet
 
   // Arc Testnet
