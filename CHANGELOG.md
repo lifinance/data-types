@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.71.0](https://github.com/lifinance/data-types/compare/v6.70.0...v6.71.0) (2026-03-26)
+
+
+### Features
+
+* add 0G chain ([#237](https://github.com/lifinance/data-types/issues/237)) ([73de06d](https://github.com/lifinance/data-types/commit/73de06d1fcdcc637c9b2e34aee8f7f945ad4929c))
+
 ## [6.70.0](https://github.com/lifinance/data-types/compare/v6.69.0...v6.70.0) (2026-03-24)
 
 
