@@ -15,6 +15,8 @@ import { prefixChainId } from './utils.js'
  * Please make sure to maintain the order of the RPCs with the most reliable on top, it does matter!
  */
 export const supportedEVMChains: EVMChain[] = [
+  // Mainnet
+
   // 1 - Ethereum
   {
     key: ChainKey.ETH,
@@ -1941,6 +1943,33 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://rpc.tempo.xyz'],
     },
   },
+
+  // 0G
+  {
+    key: ChainKey.ZEROG,
+    chainType: ChainType.EVM,
+    name: '0G Mainnet',
+    coin: CoinKey.ZEROG,
+    id: ChainId.ZEROG,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/0g.svg',
+    relayerSupported: false,
+    multicallAddress: multicallAddresses[ChainId.ZEROG],
+    metamask: {
+      chainId: prefixChainId(ChainId.ZEROG),
+      blockExplorerUrls: ['https://0g.exploreme.pro/'],
+      chainName: '0G Mainnet',
+      nativeCurrency: {
+        name: '0G',
+        symbol: '0G',
+        decimals: 18,
+      },
+      rpcUrls: ['https://evmrpc.0g.ai/'],
+    },
+  },
+
+  // Testnet
 
   // Arc Testnet
   {
