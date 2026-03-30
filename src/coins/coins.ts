@@ -2095,6 +2095,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x564770837Ef8bbF077cFe54E5f6106538c815B22',
         decimals: 18,
       },
+      [ChainId.OPST]: {
+        address: '0x4200000000000000000000000000000000000006',
+        decimals: 18,
+      },
     },
   },
 
