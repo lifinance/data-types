@@ -2021,4 +2021,30 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://rpc.testnet.arc.network/'],
     },
   },
+  {
+    key: ChainKey.OPST,
+    chainType: ChainType.EVM,
+    name: 'OP Sepolia Testnet',
+    coin: CoinKey.ETH,
+    id: ChainId.OPST,
+    mainnet: false,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/optimism.svg',
+    relayerSupported: false,
+    multicallAddress: multicallAddresses[ChainId.OPST],
+    metamask: {
+      chainId: prefixChainId(ChainId.OPST),
+      blockExplorerUrls: ['https://sepolia-optimism.etherscan.io/'],
+      chainName: 'OP Sepolia Testnet',
+      nativeCurrency: {
+        name: 'ETH',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: [
+        'https://sepolia.optimism.io',
+        'https://optimism-sepolia.drpc.org',
+      ],
+    },
+  },
 ]

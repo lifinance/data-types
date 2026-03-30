@@ -195,6 +195,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
+      [ChainId.OPST]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
     },
   },
   // > MATIC
@@ -1151,6 +1155,10 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.XLM]: {
         address: 'CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75',
         decimals: 7,
+      },
+      [ChainId.OPST]: {
+        address: '0x5fd84259d66Cd46123540766Be93DFE6D43130D7',
+        decimals: 6,
       },
     },
   },
@@ -4449,6 +4457,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped 0G',
     logoURI:
       'https://static.debank.com/image/g0_token/logo_url/0x1cd0690ff9a693f5ef2dd976660a8dafc81a109c/5ead81ee3973083987af41b9456263ed.png',
+  },
+  [ChainId.OPST]: {
+    address: '0x4200000000000000000000000000000000000006',
+    symbol: 'WETH',
+    decimals: 18,
+    chainId: ChainId.OPST,
+    coinKey: CoinKey.WETH,
+    name: 'Wrapped Ether',
+    logoURI:
+      'https://static.debank.com/image/uni_token/logo_url/uni/48bfb74adddd170e936578aec422836d.png',
   },
 }
 export const findDefaultCoin = (coinKey: CoinKey): Coin => {
