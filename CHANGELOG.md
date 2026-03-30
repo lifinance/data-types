@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.74.0](https://github.com/lifinance/data-types/compare/v6.73.1...v6.74.0) (2026-03-30)
+
+
+### Features
+
+* add weth to opst ([#241](https://github.com/lifinance/data-types/issues/241)) ([8ded7d0](https://github.com/lifinance/data-types/commit/8ded7d02b1cf6451cec7f2cfb940f90c78d35c0d))
+
 ### [6.73.1](https://github.com/lifinance/data-types/compare/v6.73.0...v6.73.1) (2026-03-30)
 
 ## [6.73.0](https://github.com/lifinance/data-types/compare/v6.72.0...v6.73.0) (2026-03-26)
