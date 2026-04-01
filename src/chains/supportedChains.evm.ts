@@ -2047,4 +2047,54 @@ export const supportedEVMChains: EVMChain[] = [
       ],
     },
   },
+
+  // 84532 - Base Sepolia Testnet
+  {
+    key: ChainKey.BAST,
+    chainType: ChainType.EVM,
+    name: 'Base Sepolia Testnet',
+    coin: CoinKey.ETH,
+    id: ChainId.BAST,
+    mainnet: false,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/base.svg',
+    relayerSupported: false,
+    multicallAddress: multicallAddresses[ChainId.BAST],
+    metamask: {
+      chainId: prefixChainId(ChainId.BAST),
+      blockExplorerUrls: ['https://sepolia.basescan.org'],
+      chainName: 'Base Sepolia Testnet',
+      nativeCurrency: {
+        name: 'Ether',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: ['https://sepolia.base.org'],
+    },
+  },
+
+  // 421614 - Arbitrum Sepolia Testnet
+  {
+    key: ChainKey.ARBS,
+    chainType: ChainType.EVM,
+    name: 'Arbitrum Sepolia Testnet',
+    coin: CoinKey.ETH,
+    id: ChainId.ARBS,
+    mainnet: false,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/arbitrum.svg',
+    relayerSupported: false,
+    multicallAddress: multicallAddresses[ChainId.ARBS],
+    metamask: {
+      chainId: prefixChainId(ChainId.ARBS),
+      blockExplorerUrls: ['https://sepolia.arbiscan.io'],
+      chainName: 'Arbitrum Sepolia Testnet',
+      nativeCurrency: {
+        name: 'Ether',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: ['https://sepolia-rollup.arbitrum.io/rpc'],
+    },
+  },
 ]
