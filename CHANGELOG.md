@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.77.0](https://github.com/lifinance/data-types/compare/v6.76.0...v6.77.0) (2026-04-01)
+
+
+### Features
+
+* add custom solana priority fee ([#244](https://github.com/lifinance/data-types/issues/244)) ([8ebcd6e](https://github.com/lifinance/data-types/commit/8ebcd6e0b048a8d089242dee8fad69ce371494f9))
+
 ## [6.76.0](https://github.com/lifinance/data-types/compare/v6.75.0...v6.76.0) (2026-04-01)
 
 
