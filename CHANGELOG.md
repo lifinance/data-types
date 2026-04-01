@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.75.0](https://github.com/lifinance/data-types/compare/v6.74.0...v6.75.0) (2026-04-01)
+
+
+### Features
+
+* update 0g foundry name ([#242](https://github.com/lifinance/data-types/issues/242)) ([e19eba7](https://github.com/lifinance/data-types/commit/e19eba7ec4b7168ddf35a9798a43d8e6210ce1fc))
+
 ## [6.74.0](https://github.com/lifinance/data-types/compare/v6.73.1...v6.74.0) (2026-03-30)
 
 
