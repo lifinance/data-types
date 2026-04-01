@@ -81,6 +81,8 @@ export const foundryChainNameMap: Record<ChainId, string> = {
   [ChainId.ARCT]: 'arctestnet',
   [ChainId.ZEROG]: '0g',
   [ChainId.OPST]: 'optimismsepolia',
+  [ChainId.BAST]: 'basesepolia',
+  [ChainId.ARBS]: 'arbitrumsepolia',
 
   // Custom chains
   [7777777 as ChainId]: 'zora',

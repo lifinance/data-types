@@ -199,6 +199,14 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
+      [ChainId.BAST]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+      [ChainId.ARBS]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
     },
   },
   // > MATIC
@@ -4467,6 +4475,28 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     symbol: 'WETH',
     decimals: 18,
     chainId: ChainId.OPST,
+    coinKey: CoinKey.WETH,
+    name: 'Wrapped Ether',
+    logoURI:
+      'https://static.debank.com/image/uni_token/logo_url/uni/48bfb74adddd170e936578aec422836d.png',
+  },
+  [ChainId.BAST]: {
+    // https://sepolia.basescan.org/token/0x4200000000000000000000000000000000000006
+    address: '0x4200000000000000000000000000000000000006',
+    symbol: 'WETH',
+    decimals: 18,
+    chainId: ChainId.BAST,
+    coinKey: CoinKey.WETH,
+    name: 'Wrapped Ether',
+    logoURI:
+      'https://static.debank.com/image/uni_token/logo_url/uni/48bfb74adddd170e936578aec422836d.png',
+  },
+  [ChainId.ARBS]: {
+    // https://sepolia.arbiscan.io/token/0x2836ae2ea2c013acd38028fd0c77b92cccfa2ee4
+    address: '0x2836ae2ea2c013acd38028fd0c77b92cccfa2ee4',
+    symbol: 'WETH',
+    decimals: 18,
+    chainId: ChainId.ARBS,
     coinKey: CoinKey.WETH,
     name: 'Wrapped Ether',
     logoURI:
