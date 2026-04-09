@@ -1,5 +1,6 @@
 import type { TVMChain } from '@lifi/types'
 import { ChainId, ChainKey, ChainType, CoinKey } from '@lifi/types'
+import { multicallAddresses } from '../multicall'
 
 export const supportedTVMChains: TVMChain[] = [
   {
@@ -9,6 +10,7 @@ export const supportedTVMChains: TVMChain[] = [
     coin: CoinKey.TRX,
     id: ChainId.TRN,
     mainnet: true,
+    multicallAddress: multicallAddresses[ChainId.TRN],
     logoURI:
       'https://lifinance.github.io/types/src/assets/icons/chains/tron.svg',
     faucetUrls: [],
@@ -21,7 +23,10 @@ export const supportedTVMChains: TVMChain[] = [
         symbol: 'TRX',
         decimals: 6,
       },
-      rpcUrls: ['https://tron-rpc.publicnode.com'],
+      rpcUrls: [
+        'https://tron-rpc.publicnode.com',
+        'https://tron.api.pocket.network',
+      ],
     },
   },
 ]
