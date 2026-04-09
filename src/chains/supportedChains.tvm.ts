@@ -1,6 +1,6 @@
 import type { TVMChain } from '@lifi/types'
 import { ChainId, ChainKey, ChainType, CoinKey } from '@lifi/types'
-import { multicallAddresses } from '../multicall'
+import { multicallAddresses } from '../multicall.js'
 
 export const supportedTVMChains: TVMChain[] = [
   {
