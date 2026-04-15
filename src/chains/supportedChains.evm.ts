@@ -1969,6 +1969,31 @@ export const supportedEVMChains: EVMChain[] = [
     },
   },
 
+  // 1672 - Pharos Mainnet
+  {
+    key: ChainKey.PHR,
+    chainType: ChainType.EVM,
+    name: 'Pharos Mainnet',
+    coin: CoinKey.PROS,
+    id: ChainId.PHR,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/pharos.svg',
+    multicallAddress: multicallAddresses[ChainId.PHR],
+    relayerSupported: false,
+    metamask: {
+      chainId: prefixChainId(ChainId.PHR),
+      blockExplorerUrls: ['https://pharos.socialscan.io'],
+      chainName: 'Pharos Mainnet',
+      nativeCurrency: {
+        name: 'Pharos',
+        symbol: 'PROS',
+        decimals: 18,
+      },
+      rpcUrls: ['https://rpc.pharos.xyz'],
+    },
+  },
+
   // 42170 - Arbitrum Nova
   {
     key: ChainKey.ARN,
