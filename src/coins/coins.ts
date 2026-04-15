@@ -1176,6 +1176,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x036CbD53842c5426634e7929541eC2318f3dCF7e',
         decimals: 6,
       },
+      [ChainId.PHR]: {
+        address: '0xc879c018db60520f4355c26ed1a6d572cdac1815',
+        decimals: 6,
+      },
     },
   },
   // USDC.e
@@ -2115,6 +2119,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x4200000000000000000000000000000000000006',
         decimals: 18,
       },
+      [ChainId.PHR]: {
+        address: '0x1f4b7011Ee3d53969bb67F59428a9ec0477856E9',
+        decimals: 18,
+      },
     },
   },
 
@@ -2142,6 +2150,25 @@ export const basicCoins: BasicCoin[] = [
     chains: {
       [ChainId.ETL]: {
         address: '0xc9B53AB2679f573e480d01e0f49e2B5CFB7a3EAb',
+        decimals: 18,
+      },
+    },
+  },
+
+  // > LINK
+  {
+    key: CoinKey.LINK,
+    name: 'Chainlink',
+    logoURI:
+      'https://storage.googleapis.com/zapper-fi-assets/tokens/ethereum/0x514910771af9ca656af840dff83e8264ecf986ca.png',
+    verified: true,
+    chains: {
+      [ChainId.ETH]: {
+        address: '0x514910771AF9Ca656af840dff83E8264EcF986CA',
+        decimals: 18,
+      },
+      [ChainId.PHR]: {
+        address: '0x51e2A24742Db77604B881d6781Ee16B5b8fcBE29',
         decimals: 18,
       },
     },
