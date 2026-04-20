@@ -1383,6 +1383,11 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
         name: 'Bridged USDC',
       },
+      [ChainId.PHR]: {
+        address: '0x7126C3FeF4e6a680eeE09Fb039B2236F638384B0',
+        decimals: 6,
+        name: 'Bridged USDC',
+      },
     },
   },
 
