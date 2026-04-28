@@ -1666,6 +1666,29 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: [],
     },
   },
+  {
+    key: ChainKey.LTR,
+    chainType: ChainType.EVM,
+    name: 'Lighter',
+    coin: CoinKey.USDC,
+    id: ChainId.LTR,
+    mainnet: true,
+    multicallAddress: multicallAddresses[ChainId.LTR],
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/lighter.svg',
+    relayerSupported: false,
+    metamask: {
+      chainId: prefixChainId(ChainId.ETH),
+      blockExplorerUrls: ['https://lighter.exchange/explorer/'],
+      chainName: 'Lighter',
+      nativeCurrency: {
+        name: CoinKey.USDC,
+        symbol: CoinKey.USDC,
+        decimals: 6,
+      },
+      rpcUrls: [],
+    },
+  },
 
   {
     key: ChainKey.SOP,
