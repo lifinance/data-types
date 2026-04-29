@@ -33,6 +33,7 @@ test('native and wrapped token defined for all chains', () => {
     ChainId.ZEC,
     ChainId.SUI,
     ChainId.HPL,
+    ChainId.LTR,
   ]
   for (const chain of supportedChains) {
     if (ignoredChainsForNativeToken.includes(chain.id)) {
@@ -88,7 +89,7 @@ describe('findTokenByChainIdAndAddress', () => {
 })
 
 describe('validate chains', () => {
-  const ignoredChains = [ChainId.HPL]
+  const ignoredChains = [ChainId.HPL, ChainId.LTR]
   supportedEVMChains.forEach((chain) => {
     it(`validate chain ${chain.name}`, () => {
       if (ignoredChains.includes(chain.id)) {

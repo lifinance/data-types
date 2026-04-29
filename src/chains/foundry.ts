@@ -92,6 +92,7 @@ export const foundryChainNameMap: Record<ChainId, string> = {
   [ChainId.TRN]: 'tron',
   [ChainId.SUI]: 'sui',
   [ChainId.HPL]: 'hyperliquid',
+  [ChainId.LTR]: 'lighter',
   [ChainId.OAS]: 'oasis',
   [ChainId.SOL]: 'solana',
   [ChainId.FOG]: 'fogo',
