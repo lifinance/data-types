@@ -2006,7 +2006,7 @@ export const supportedEVMChains: EVMChain[] = [
     relayerSupported: false,
     metamask: {
       chainId: prefixChainId(ChainId.PHR),
-      blockExplorerUrls: ['https://pharos.socialscan.io'],
+      blockExplorerUrls: ['https://www.pharosscan.xyz'],
       chainName: 'Pharos Mainnet',
       nativeCurrency: {
         name: 'Pharos',
