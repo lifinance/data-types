@@ -1398,6 +1398,11 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
         name: 'Bridged USDC',
       },
+      [ChainId.SOM]: {
+        address: '0x28BEc7E30E6faee657a03e19Bf1128AaD7632A00',
+        decimals: 6,
+        name: 'Bridged USDC (Stargate)',
+      },
     },
   },
 
@@ -3609,6 +3614,35 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // > Somnia
+  {
+    key: CoinKey.SOMI,
+    name: 'Somnia',
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/somnia.svg',
+    verified: true,
+    chains: {
+      [ChainId.SOM]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+
+  {
+    key: CoinKey.WSOMI,
+    name: 'Wrapped SOMI',
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/somnia.svg',
+    verified: true,
+    chains: {
+      [ChainId.SOM]: {
+        address: '0x046EDe9564A72571df6F5e44d0405360c0f4dCab',
+        decimals: 18,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
@@ -4568,6 +4602,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped Pharos',
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/pharos.svg',
+  },
+  [ChainId.SOM]: {
+    address: '0x046EDe9564A72571df6F5e44d0405360c0f4dCab',
+    symbol: CoinKey.WSOMI,
+    decimals: 18,
+    chainId: ChainId.SOM,
+    coinKey: CoinKey.WSOMI,
+    name: 'Wrapped SOMI',
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/somnia.svg',
   },
   [ChainId.OPST]: {
     address: '0x4200000000000000000000000000000000000006',
