@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.80.0](https://github.com/lifinance/data-types/compare/v6.79.1...v6.80.0) (2026-05-14)
+
+
+### Features
+
+* Add Somnia chain ([#253](https://github.com/lifinance/data-types/issues/253)) ([7e7e46a](https://github.com/lifinance/data-types/commit/7e7e46ab01ab1c5c3073a8c7396d5ccb7db8b11c))
+
 ### [6.79.1](https://github.com/lifinance/data-types/compare/v6.79.0...v6.79.1) (2026-04-29)
 
 ## [6.79.0](https://github.com/lifinance/data-types/compare/v6.78.1...v6.79.0) (2026-04-29)
