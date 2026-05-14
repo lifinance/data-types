@@ -2145,4 +2145,32 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://sepolia-rollup.arbitrum.io/rpc'],
     },
   },
+
+  // 5031 - Somnia
+  {
+    key: ChainKey.SOM,
+    chainType: ChainType.EVM,
+    name: 'Somnia',
+    coin: CoinKey.SOMI,
+    id: ChainId.SOM,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/somnia.svg',
+    multicallAddress: multicallAddresses[ChainId.SOM],
+    relayerSupported: false,
+    metamask: {
+      chainId: prefixChainId(ChainId.SOM),
+      blockExplorerUrls: ['https://explorer.somnia.network/'],
+      chainName: 'Somnia',
+      nativeCurrency: {
+        name: 'Somnia',
+        symbol: 'SOMI',
+        decimals: 18,
+      },
+      rpcUrls: [
+        'https://api.infra.mainnet.somnia.network/',
+        'https://somnia-rpc.publicnode.com',
+      ],
+    },
+  },
 ]
