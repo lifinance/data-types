@@ -1836,7 +1836,7 @@ export const supportedEVMChains: EVMChain[] = [
       nativeCurrency: {
         name: 'USDT0',
         symbol: CoinKey.USDT0,
-        decimals: 6,
+        decimals: 18,
       },
       rpcUrls: ['https://rpc.stable.xyz'],
     },
@@ -1960,8 +1960,8 @@ export const supportedEVMChains: EVMChain[] = [
       chainName: 'Tempo',
       nativeCurrency: {
         name: 'PathUSD',
-        symbol: 'PathUSD',
-        decimals: 6,
+        symbol: 'PUSD',
+        decimals: 18,
       },
       rpcUrls: ['https://rpc.tempo.xyz'],
     },
@@ -2064,7 +2064,7 @@ export const supportedEVMChains: EVMChain[] = [
       nativeCurrency: {
         name: 'USDC',
         symbol: 'USDC',
-        decimals: 6,
+        decimals: 18,
       },
       rpcUrls: ['https://rpc.testnet.arc.network/'],
     },
