@@ -212,6 +212,10 @@ export const basicCoins: BasicCoin[] = [
         decimals: 18,
         name: 'Ether (Spot)',
       },
+      [ChainId.OUT]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
     },
   },
   // > MATIC
@@ -2143,6 +2147,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x1f4b7011Ee3d53969bb67F59428a9ec0477856E9',
         decimals: 18,
       },
+      [ChainId.OUT]: {
+        address: '0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73',
+        decimals: 18,
+      },
     },
   },
 
@@ -3549,6 +3557,20 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // USDG (Global Dollar)
+  {
+    key: CoinKey.USDG,
+    name: 'Global Dollar',
+    logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/33793.png',
+    verified: true,
+    chains: {
+      [ChainId.OUT]: {
+        address: '0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168',
+        decimals: 18,
+      },
+    },
+  },
+
   {
     key: CoinKey.ZEROG,
     name: '0G',
@@ -4640,6 +4662,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     symbol: 'WETH',
     decimals: 18,
     chainId: ChainId.ARBS,
+    coinKey: CoinKey.WETH,
+    name: 'Wrapped Ether',
+    logoURI:
+      'https://static.debank.com/image/uni_token/logo_url/uni/48bfb74adddd170e936578aec422836d.png',
+  },
+  [ChainId.OUT]: {
+    address: '0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73',
+    symbol: 'WETH',
+    decimals: 18,
+    chainId: ChainId.OUT,
     coinKey: CoinKey.WETH,
     name: 'Wrapped Ether',
     logoURI:
