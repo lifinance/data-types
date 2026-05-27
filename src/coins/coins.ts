@@ -1170,6 +1170,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x3600000000000000000000000000000000000000',
         decimals: 6,
       },
+      [ChainId.ARC]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
       [ChainId.XLM]: {
         address: 'CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75',
         decimals: 7,
