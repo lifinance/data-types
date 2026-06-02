@@ -1171,7 +1171,7 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
       },
       [ChainId.ARC]: {
-        address: '0x0000000000000000000000000000000000000000',
+        address: '0x3600000000000000000000000000000000000000',
         decimals: 18,
       },
       [ChainId.XLM]: {
