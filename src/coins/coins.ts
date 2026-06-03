@@ -1172,7 +1172,7 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.ARC]: {
         address: '0x3600000000000000000000000000000000000000',
-        decimals: 18,
+        decimals: 6,
       },
       [ChainId.XLM]: {
         address: 'CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75',
@@ -3332,6 +3332,21 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  {
+    key: CoinKey.cirBTC,
+    name: 'cirBTC',
+    logoURI:
+      'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/bitcoin/info/logo.png',
+    verified: true,
+    chains: {
+      [ChainId.ARC]: {
+        // https://explorer.arc.io/token/0x171A4217b86A807A64eB94757Db6849fb4bDbAA0
+        address: '0x171A4217b86A807A64eB94757Db6849fb4bDbAA0',
+        decimals: 8,
+      },
+    },
+  },
+
   // pBTC (wrapped Botanix native)
   {
     key: CoinKey.pBTC,
@@ -4581,6 +4596,17 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     symbol: 'USDC',
     decimals: 6,
     chainId: ChainId.ARCT,
+    coinKey: CoinKey.USDC,
+    name: 'USDC',
+    logoURI:
+      'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png',
+  },
+  [ChainId.ARC]: {
+    // https://explorer.arc.io/token/0x3600000000000000000000000000000000000000
+    address: '0x3600000000000000000000000000000000000000',
+    symbol: 'USDC',
+    decimals: 6,
+    chainId: ChainId.ARC,
     coinKey: CoinKey.USDC,
     name: 'USDC',
     logoURI:
