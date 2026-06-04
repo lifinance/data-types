@@ -3545,6 +3545,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x89B50855Aa3bE2F677cD6303Cec089B5F319D72a',
         decimals: 6,
       },
+      [ChainId.ARC]: {
+        address: '0xbEf5f6d51CB62b58e6A8f77868681825C6fe21c1',
+        decimals: 6,
+      },
       [ChainId.AVA]: {
         address: '0xC891EB4cbdEFf6e073e859e987815Ed1505c2ACD',
         decimals: 6,
