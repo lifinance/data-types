@@ -2195,7 +2195,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'USDC',
         decimals: 18,
       },
-      rpcUrls: ['https://rpc.arc.network/'],
+      rpcUrls: ['https://arc-rpc.transferto.xyz/'],
     },
   },
 ]
