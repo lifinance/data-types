@@ -2174,6 +2174,31 @@ export const supportedEVMChains: EVMChain[] = [
     },
   },
 
+  // 4663 - Outlaw
+  {
+    key: ChainKey.OUT,
+    chainType: ChainType.EVM,
+    name: 'Outlaw',
+    coin: CoinKey.ETH,
+    id: ChainId.OUT,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/outlaw.svg',
+    multicallAddress: multicallAddresses[ChainId.OUT],
+    relayerSupported: false,
+    metamask: {
+      chainId: prefixChainId(ChainId.OUT),
+      blockExplorerUrls: ['https://8crv4vmq6tiu1yqr.blockscout.com/'],
+      chainName: 'Outlaw',
+      nativeCurrency: {
+        name: 'Ether',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: ['https://out-rpc.transferto.xyz/'],
+    },
+  },
+
   // 5042 - Arc
   {
     key: ChainKey.ARC,
