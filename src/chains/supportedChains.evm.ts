@@ -2198,4 +2198,29 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://out-rpc.transferto.xyz/'],
     },
   },
+
+  // 5042 - Arc
+  {
+    key: ChainKey.ARC,
+    chainType: ChainType.EVM,
+    name: 'Arc',
+    coin: CoinKey.USDC,
+    id: ChainId.ARC,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/arc.svg',
+    multicallAddress: multicallAddresses[ChainId.ARC],
+    relayerSupported: false,
+    metamask: {
+      chainId: prefixChainId(ChainId.ARC),
+      blockExplorerUrls: ['https://explorer.arc.io'],
+      chainName: 'Arc',
+      nativeCurrency: {
+        name: 'USDC',
+        symbol: 'USDC',
+        decimals: 18,
+      },
+      rpcUrls: ['https://arc-rpc.transferto.xyz/'],
+    },
+  },
 ]
