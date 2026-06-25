@@ -1038,7 +1038,7 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
       },
       [ChainId.CRO]: {
-        address: '0xc21223249ca28397b4b6541dffaecc539bff0c59',
+        address: '0x3D7F2C478aAfdB65542BCB44bCeeC05849999d2D',
         decimals: 6,
       },
       [ChainId.FUS]: {
@@ -1410,6 +1410,12 @@ export const basicCoins: BasicCoin[] = [
         address: '0x28BEc7E30E6faee657a03e19Bf1128AaD7632A00',
         decimals: 6,
         name: 'Bridged USDC (Stargate)',
+      },
+      [ChainId.CRO]: {
+        address: '0xc21223249ca28397b4b6541dffaecc539bff0c59',
+        decimals: 6,
+        name: 'Bridged USD Coin',
+        symbol: 'USDC.e',
       },
     },
   },
