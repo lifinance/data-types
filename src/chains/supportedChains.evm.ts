@@ -2174,28 +2174,28 @@ export const supportedEVMChains: EVMChain[] = [
     },
   },
 
-  // 4663 - Outlaw
+  // 4663 - Robinhood
   {
     key: ChainKey.OUT,
     chainType: ChainType.EVM,
-    name: 'Outlaw',
+    name: 'Robinhood Chain',
     coin: CoinKey.ETH,
     id: ChainId.OUT,
     mainnet: true,
     logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/outlaw.svg',
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/robinhood.svg',
     multicallAddress: multicallAddresses[ChainId.OUT],
     relayerSupported: false,
     metamask: {
       chainId: prefixChainId(ChainId.OUT),
-      blockExplorerUrls: ['https://8crv4vmq6tiu1yqr.blockscout.com/'],
-      chainName: 'Outlaw',
+      blockExplorerUrls: ['https://explorer.chain.robinhood.com/'],
+      chainName: 'Robinhood Chain',
       nativeCurrency: {
         name: 'Ether',
         symbol: 'ETH',
         decimals: 18,
       },
-      rpcUrls: ['https://out-rpc.transferto.xyz/'],
+      rpcUrls: ['https://rpc.mainnet.chain.robinhood.com/'],
     },
   },
 
