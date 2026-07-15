@@ -2223,4 +2223,29 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://arc-rpc.transferto.xyz/'],
     },
   },
+
+  // 1776 - Injective
+  {
+    key: ChainKey.INJ,
+    chainType: ChainType.EVM,
+    name: 'Injective',
+    coin: CoinKey.INJ,
+    id: ChainId.INJ,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/injective.svg',
+    multicallAddress: multicallAddresses[ChainId.INJ],
+    relayerSupported: false,
+    metamask: {
+      chainId: prefixChainId(ChainId.INJ),
+      blockExplorerUrls: ['https://blockscout.injective.network/'],
+      chainName: 'Injective',
+      nativeCurrency: {
+        name: 'Injective',
+        symbol: 'INJ',
+        decimals: 18,
+      },
+      rpcUrls: ['https://sentry.evm-rpc.injective.network'],
+    },
+  },
 ]

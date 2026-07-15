@@ -84,6 +84,7 @@ export const foundryChainNameMap: Record<ChainId, string> = {
   [ChainId.SOM]: 'somnia',
   [ChainId.OUT]: 'outlaw',
   [ChainId.ARC]: 'arc',
+  [ChainId.INJ]: 'injective',
   [ChainId.OPST]: 'optimismsepolia',
   [ChainId.BAST]: 'basesepolia',
   [ChainId.ARBS]: 'arbitrumsepolia',

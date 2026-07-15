@@ -1198,6 +1198,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0xc879c018db60520f4355c26ed1a6d572cdac1815',
         decimals: 6,
       },
+      [ChainId.INJ]: {
+        address: '0xa00C59fF5a080D2b954d0c75e46E22a0c371235a',
+        decimals: 6,
+      },
     },
   },
   // USDC.e
@@ -3694,6 +3698,35 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
+  // > Injective
+  {
+    key: CoinKey.INJ,
+    name: 'Injective',
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/injective.svg',
+    verified: true,
+    chains: {
+      [ChainId.INJ]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
+    },
+  },
+
+  {
+    key: CoinKey.WINJ,
+    name: 'Wrapped INJ',
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/injective.svg',
+    verified: true,
+    chains: {
+      [ChainId.INJ]: {
+        address: '0x0000000088827d2d103ee2d9A6b781773AE03FfB',
+        decimals: 18,
+      },
+    },
+  },
+
   // > Bitcoin
   {
     key: CoinKey.BTC,
@@ -4674,6 +4707,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped SOMI',
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/somnia.svg',
+  },
+  [ChainId.INJ]: {
+    address: '0x0000000088827d2d103ee2d9A6b781773AE03FfB',
+    symbol: CoinKey.WINJ,
+    decimals: 18,
+    chainId: ChainId.INJ,
+    coinKey: CoinKey.WINJ,
+    name: 'Wrapped INJ',
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/injective.svg',
   },
   [ChainId.OPST]: {
     address: '0x4200000000000000000000000000000000000006',
