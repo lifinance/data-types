@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.83.0](https://github.com/lifinance/data-types/compare/v6.82.4...v6.83.0) (2026-07-16)
+
+
+### Features
+
+* add new chain Injective ([#262](https://github.com/lifinance/data-types/issues/262)) ([e1ae7d5](https://github.com/lifinance/data-types/commit/e1ae7d5c269d0ed224637f0fbd0753b1455c16d5))
+
 ### [6.82.4](https://github.com/lifinance/data-types/compare/v6.82.3...v6.82.4) (2026-07-01)
 
 ### [6.82.3](https://github.com/lifinance/data-types/compare/v6.82.2...v6.82.3) (2026-07-01)
