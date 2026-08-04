@@ -123,10 +123,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
-      [ChainId.TAI]: {
-        address: '0x0000000000000000000000000000000000000000',
-        decimals: 18,
-      },
       [ChainId.OPB]: {
         address: '0xE7798f023fC62146e8Aa1b36Da45fb70855a77Ea',
         decimals: 18,
@@ -152,14 +148,6 @@ export const basicCoins: BasicCoin[] = [
         decimals: 18,
       },
       [ChainId.INK]: {
-        address: '0x0000000000000000000000000000000000000000',
-        decimals: 18,
-      },
-      [ChainId.SWL]: {
-        address: '0x0000000000000000000000000000000000000000',
-        decimals: 18,
-      },
-      [ChainId.SUP]: {
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
@@ -323,10 +311,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0xf5C6825015280CdfD0b56903F9F8B5A2233476F5',
         decimals: 18,
       },
-      [ChainId.SOP]: {
-        address: '0x24cd1762978Ed41920d3194dC3A945C50B9a2F5E',
-        decimals: 18,
-      },
       [ChainId.TLO]: {
         address: '0x26Ed0F16e777C94A6FE798F9E20298034930Bae8',
         decimals: 18,
@@ -441,10 +425,6 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.UNI]: {
         address: '0x20CAb320A855b39F724131C69424240519573f81',
-        decimals: 18,
-      },
-      [ChainId.SOP]: {
-        address: '0x88171a5BbAcd92ca5e25575c5904581C80B025Dd',
         decimals: 18,
       },
       [ChainId.HMI]: {
@@ -562,20 +542,6 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.ETH]: {
         address: '0x3c3a81e81dc49A522A592e7622A7E711c06bf354',
-        decimals: 18,
-      },
-    },
-  },
-  // > BTCN
-  {
-    key: 'BTCN' as CoinKey,
-    name: 'Bitcorn',
-    logoURI:
-      'https://static.debank.com/image/corn_token/logo_url/corn/fe230e468272b84aba78d08bb4140456.png',
-    verified: true,
-    chains: {
-      [ChainId.CRN]: {
-        address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
     },
@@ -854,10 +820,6 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
         name: 'USDT0',
       },
-      [ChainId.TAI]: {
-        address: '0x2DEF195713CF4a606B49D07E520e22C17899a736',
-        decimals: 6,
-      },
       [ChainId.GRA]: {
         address: '0x816E810f9F787d669FB71932DeabF6c83781Cd48',
         decimals: 6,
@@ -933,10 +895,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0xda6087E69C51E7D31b6DBAD276a3c44703DFdCAd',
         decimals: 6,
         name: 'Bridged USDT (Stargate)',
-      },
-      [ChainId.SOP]: {
-        address: '0x6386dA73545ae4E2B2E0393688fA8B65Bb9a7169',
-        decimals: 6,
       },
       [ChainId.TRN]: {
         address: 'TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t',
@@ -1098,10 +1056,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0xe15fC38F6D8c56aF07bbCBe3BAf5708A2Bf42392',
         decimals: 6,
       },
-      [ChainId.TAI]: {
-        address: '0x07d83526730c7438048D55A4fc0b850e2aaB6f0b',
-        decimals: 6,
-      },
       [ChainId.IMX]: {
         address: '0x6de8aCC0D406837030CE4dd28e7c08C5a96a30d2',
         decimals: 6,
@@ -1144,10 +1098,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
         decimals: 6,
         name: 'USD Coin (Perp)',
-      },
-      [ChainId.SOP]: {
-        address: '0x9Aa0F72392B5784Ad86c6f3E899bCc053D00Db4F',
-        decimals: 6,
       },
       [ChainId.TRN]: {
         address: 'TEkxiTehnzSmSe2XqrBj4w32RUN966rdz8',
@@ -1313,16 +1263,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0xF1815bd50389c46847f0Bda824eC8da914045D14',
         decimals: 6,
       },
-      [ChainId.CRN]: {
-        address: '0xdf0b24095e15044538866576754f3c964e902ee6',
-        decimals: 6,
-        name: 'Bridged USDC (Corn)',
-      },
-      [ChainId.SUP]: {
-        address: '0x6c030c5CC283F791B26816f325b9C632d964F8A1',
-        decimals: 6,
-        name: 'Bridged USDC (Superposition)',
-      },
       [ChainId.XDC]: {
         address: '0xCc0587aeBDa397146cc828b445dB130a94486e74',
         decimals: 6,
@@ -1371,11 +1311,6 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.STA]: {
         address: '0x8a2B28364102Bea189D99A475C494330Ef2bDD0B',
-        decimals: 6,
-        name: 'Bridged USDC (Stargate)',
-      },
-      [ChainId.BOT]: {
-        address: '0x29eE6138DD4C9815f46D34a4A1ed48F46758A402',
         decimals: 6,
         name: 'Bridged USDC (Stargate)',
       },
@@ -1686,10 +1621,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34',
         decimals: 18,
       },
-      [ChainId.SWL]: {
-        address: '0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34',
-        decimals: 18,
-      },
       [ChainId.PLA]: {
         address: '0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34',
         decimals: 18,
@@ -1873,10 +1804,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0913DA6Da4b42f538B445599b46Bb4622342Cf52',
         decimals: 8,
       },
-      [ChainId.SOP]: {
-        address: '0xF1f9E08a0818594FDe4713AE0Db1E46672Ca960E',
-        decimals: 8,
-      },
       [ChainId.HMI]: {
         address: '0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3',
         decimals: 8,
@@ -2029,10 +1956,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0x5a77f1443d16ee5761d310e38b62f77f726bc71c',
         decimals: 18,
       },
-      [ChainId.TAI]: {
-        address: '0xA51894664A773981C6C112C43ce576f315d5b1B6',
-        decimals: 18,
-      },
       [ChainId.WCC]: {
         address: '0x4200000000000000000000000000000000000006',
         decimals: 18,
@@ -2071,14 +1994,6 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.LNS]: {
         address: '0xE5ecd226b3032910CEaa43ba92EE8232f8237553',
-        decimals: 18,
-      },
-      [ChainId.SWL]: {
-        address: '0x4200000000000000000000000000000000000006',
-        decimals: 18,
-      },
-      [ChainId.SUP]: {
-        address: '0x1fB719f10b56d7a85DCD32f27f897375fB21cfdd',
         decimals: 18,
       },
       [ChainId.XDC]: {
@@ -2131,10 +2046,6 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.STA]: {
         address: '0x783129E4d7bA0Af0C896c239E57C06DF379aAE8c',
-        decimals: 18,
-      },
-      [ChainId.BOT]: {
-        address: '0x3292c42e8E9Ab3C6a12CFdA556BbCB6f113B1E28',
         decimals: 18,
       },
       [ChainId.MEG]: {
@@ -3065,34 +2976,6 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
-  // Sophon
-  {
-    key: CoinKey.SOPH,
-    name: 'Sophon',
-    logoURI:
-      'https://static.debank.com/image/sophon_token/logo_url/sophon/b81ad042ee3060050e01af4ce4ff9217.png',
-    verified: true,
-    chains: {
-      [ChainId.SOP]: {
-        address: '0x0000000000000000000000000000000000000000',
-        decimals: 18,
-      },
-    },
-  },
-  {
-    key: CoinKey.WSOPH,
-    name: 'Wrapped Sophon',
-    logoURI:
-      'https://static.debank.com/image/sophon_token/logo_url/0x2b1a859de6a55c553520d7780bc5805712b128f9/b81ad042ee3060050e01af4ce4ff9217.png',
-    verified: true,
-    chains: {
-      [ChainId.SOP]: {
-        address: '0x2b1a859de6a55c553520d7780bc5805712b128f9',
-        decimals: 18,
-      },
-    },
-  },
-
   // USDT0
   {
     key: CoinKey.USDT0,
@@ -3122,10 +3005,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0x9151434b16b9763660705744891fA906F660EcC5',
         decimals: 6,
         symbol: 'USDT0',
-      },
-      [ChainId.CRN]: {
-        address: '0xB8CE59FC3717ada4C02eaDF9682A9e934F625ebb',
-        decimals: 6,
       },
       [ChainId.SEI]: {
         address: '0x9151434b16b9763660705744891fA906F660EcC5',
@@ -3365,7 +3244,7 @@ export const basicCoins: BasicCoin[] = [
     },
   },
 
-  // pBTC (wrapped Botanix native)
+  // pBTC (Botanix Pegged Bitcoin — deployed on STA / TLO / ETH / BSC)
   {
     key: CoinKey.pBTC,
     name: 'Botanix Pegged Bitcoin',
@@ -3737,11 +3616,6 @@ export const basicCoins: BasicCoin[] = [
       [ChainId.BTC]: {
         address: 'bitcoin',
         decimals: 8,
-        name: 'Bitcoin',
-      },
-      [ChainId.BOT]: {
-        address: '0x0000000000000000000000000000000000000000',
-        decimals: 18,
         name: 'Bitcoin',
       },
     },
@@ -4176,17 +4050,6 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     logoURI:
       'https://static.debank.com/image/coin/logo_url/frax/c9fc14504dda4d18f661628d56f73606.png',
   },
-  [ChainId.TAI]: {
-    // https://taikoscan.io/address/0xa51894664a773981c6c112c43ce576f315d5b1b6
-    address: '0xa51894664a773981c6c112c43ce576f315d5b1b6',
-    symbol: 'WETH',
-    decimals: 18,
-    chainId: ChainId.TAI,
-    coinKey: CoinKey.WETH,
-    name: 'WETH',
-    logoURI:
-      'https://static.debank.com/image/mtr_token/logo_url/0x79a61d3a28f8c8537a3df63092927cfa1150fb3c/61844453e63cf81301f845d7864236f6.png',
-  },
   [ChainId.GRA]: {
     // https://explorer.gravity.xyz/address/0xBB859E225ac8Fb6BE1C7e38D87b767e95Fef0EbD
     address: '0xBB859E225ac8Fb6BE1C7e38D87b767e95Fef0EbD',
@@ -4347,36 +4210,6 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'WGHO',
     logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/23508.png',
   },
-  [ChainId.SWL]: {
-    address: '0x4200000000000000000000000000000000000006',
-    symbol: 'WETH',
-    decimals: 18,
-    chainId: ChainId.SWL,
-    coinKey: CoinKey.WETH,
-    name: 'WETH',
-    logoURI:
-      'https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png',
-  },
-  [ChainId.CRN]: {
-    address: '0xda5ddd7270381a7c2717ad10d1c0ecb19e3cdfb2',
-    symbol: 'WBTCN',
-    decimals: 18,
-    chainId: ChainId.CRN,
-    coinKey: 'WBTCN' as CoinKey,
-    name: 'Wrapped BTCN',
-    logoURI:
-      'https://static.debank.com/image/corn_token/logo_url/corn/fe230e468272b84aba78d08bb4140456.png',
-  },
-  [ChainId.SUP]: {
-    address: '0x1fB719f10b56d7a85DCD32f27f897375fB21cfdd',
-    symbol: 'WETH',
-    decimals: 18,
-    chainId: ChainId.SUP,
-    coinKey: CoinKey.WETH,
-    name: 'WETH',
-    logoURI:
-      'https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png',
-  },
   [ChainId.HYP]: {
     address: '0x5555555555555555555555555555555555555555',
     symbol: CoinKey.WHYPE,
@@ -4507,16 +4340,6 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     logoURI:
       'https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png',
   },
-  [ChainId.SOP]: {
-    address: '0x2b1a859de6a55c553520d7780bc5805712b128f9',
-    name: 'Wrapped Sophon',
-    symbol: CoinKey.WSOPH,
-    coinKey: CoinKey.WSOPH,
-    chainId: ChainId.SOP,
-    decimals: 18,
-    logoURI:
-      'https://static.debank.com/image/sophon_token/logo_url/0x2b1a859de6a55c553520d7780bc5805712b128f9/b81ad042ee3060050e01af4ce4ff9217.png',
-  },
   [ChainId.TRN]: {
     address: 'TNUC9Qb1rRpS5CbWLmNMxXBjyFoydXjWFR',
     name: 'Wrapped TRX',
@@ -4599,17 +4422,6 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped Ether',
     logoURI:
       'https://static.debank.com/image/uni_token/logo_url/uni/48bfb74adddd170e936578aec422836d.png',
-  },
-  [ChainId.BOT]: {
-    // https://botanixscan.io/token/0x0D2437F93Fed6EA64Ef01cCde385FB1263910C56?type=erc20&chainid=3637
-    address: '0x0D2437F93Fed6EA64Ef01cCde385FB1263910C56',
-    symbol: 'pBTC',
-    decimals: 18,
-    chainId: ChainId.BOT,
-    coinKey: CoinKey.pBTC,
-    name: 'Botanix Pegged Bitcoin',
-    logoURI:
-      'https://static.debank.com/image/botanix_token/logo_url/0x0d2437f93fed6ea64ef01ccde385fb1263910c56/5a41d4f22c915deb64fc82beedb14895.png',
   },
   [ChainId.TLO]: {
     // https://www.teloscan.io/address/0xD102cE6A4dB07D247fcc28F366A623Df0938CA9E
