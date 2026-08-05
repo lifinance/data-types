@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [7.0.0](https://github.com/lifinance/data-types/compare/v6.83.0...v7.0.0) (2026-08-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove deprecated chains Taiko, Swellchain, Corn, Superposition, Sophon, Botanix (#268)
+
+### Features
+
+* remove deprecated chains Taiko, Swellchain, Corn, Superposition, Sophon, Botanix ([#268](https://github.com/lifinance/data-types/issues/268)) ([02d14e6](https://github.com/lifinance/data-types/commit/02d14e6a41435d38ccd6e24dbf34405697ba7112))
+
 ## [6.83.0](https://github.com/lifinance/data-types/compare/v6.82.4...v6.83.0) (2026-07-16)
 
 
