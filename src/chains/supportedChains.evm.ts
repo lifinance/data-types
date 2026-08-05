@@ -868,30 +868,6 @@ export const supportedEVMChains: EVMChain[] = [
     },
   },
 
-  // 167000 - Taiko
-  {
-    key: ChainKey.TAI,
-    chainType: ChainType.EVM,
-    name: 'Taiko',
-    coin: CoinKey.ETH,
-    id: 167000,
-    mainnet: true,
-    logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/taiko.svg',
-    multicallAddress: multicallAddresses[ChainId.TAI],
-    metamask: {
-      chainId: prefixChainId(167000),
-      blockExplorerUrls: ['https://taikoscan.io/'],
-      chainName: 'Taiko Mainnet',
-      nativeCurrency: {
-        name: 'Ethereum',
-        symbol: 'ETH',
-        decimals: 18,
-      },
-      rpcUrls: ['https://rpc.mainnet.taiko.xyz', 'https://rpc.taiko.xyz'],
-    },
-  },
-
   // 1625 - Gravity
   {
     key: ChainKey.GRA,
@@ -1288,81 +1264,6 @@ export const supportedEVMChains: EVMChain[] = [
   },
 
   {
-    key: ChainKey.SWL,
-    chainType: ChainType.EVM,
-    name: 'Swellchain',
-    coin: CoinKey.ETH,
-    id: ChainId.SWL,
-    mainnet: true,
-    logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/swell.svg',
-    multicallAddress: multicallAddresses[ChainId.SWL],
-    relayerSupported: false,
-
-    metamask: {
-      chainId: prefixChainId(ChainId.SWL),
-      blockExplorerUrls: ['https://explorer.swellnetwork.io/'],
-      chainName: 'Swellchain',
-      nativeCurrency: {
-        name: 'Ether',
-        symbol: 'ETH',
-        decimals: 18,
-      },
-      rpcUrls: ['https://swell-mainnet.alt.technology'],
-    },
-  },
-
-  {
-    key: ChainKey.CRN,
-    chainType: ChainType.EVM,
-    name: 'Corn',
-    coin: 'BTCN' as CoinKey,
-    id: ChainId.CRN,
-    mainnet: true,
-    logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/corn.svg',
-    multicallAddress: multicallAddresses[ChainId.CRN],
-    relayerSupported: false,
-
-    metamask: {
-      chainId: prefixChainId(ChainId.CRN),
-      blockExplorerUrls: ['https://cornscan.io/'],
-      chainName: 'Corn',
-      nativeCurrency: {
-        name: 'Bitcorn',
-        symbol: 'BTCN',
-        decimals: 18,
-      },
-      rpcUrls: ['https://mainnet.corn-rpc.com'],
-    },
-  },
-
-  {
-    key: ChainKey.SUP,
-    chainType: ChainType.EVM,
-    name: 'Superposition',
-    coin: CoinKey.ETH,
-    id: ChainId.SUP,
-    mainnet: true,
-    logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/superposition.svg',
-    multicallAddress: multicallAddresses[ChainId.SUP],
-    relayerSupported: false,
-
-    metamask: {
-      chainId: prefixChainId(ChainId.SUP),
-      blockExplorerUrls: ['https://explorer.superposition.so/'],
-      chainName: 'Superposition',
-      nativeCurrency: {
-        name: 'Ether',
-        symbol: 'ETH',
-        decimals: 18,
-      },
-      rpcUrls: ['https://rpc.superposition.so'],
-    },
-  },
-
-  {
     key: ChainKey.HYP,
     chainType: ChainType.EVM,
     name: 'HyperEVM',
@@ -1691,30 +1592,6 @@ export const supportedEVMChains: EVMChain[] = [
   },
 
   {
-    key: ChainKey.SOP,
-    chainType: ChainType.EVM,
-    name: 'Sophon',
-    coin: CoinKey.SOPH,
-    id: ChainId.SOP,
-    mainnet: true,
-    logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/sophon.svg',
-    relayerSupported: false,
-    multicallAddress: multicallAddresses[ChainId.SOP],
-    metamask: {
-      chainId: prefixChainId(ChainId.SOP),
-      blockExplorerUrls: ['https://sophscan.xyz/'],
-      chainName: 'Sophon',
-      nativeCurrency: {
-        name: CoinKey.SOPH,
-        symbol: CoinKey.SOPH,
-        decimals: 18,
-      },
-      rpcUrls: ['https://rpc.sophon.xyz'],
-    },
-  },
-
-  {
     key: ChainKey.PLA,
     chainType: ChainType.EVM,
     name: 'Plasma',
@@ -1864,31 +1741,6 @@ export const supportedEVMChains: EVMChain[] = [
         decimals: 18,
       },
       rpcUrls: ['https://mainnet.megaeth.com/rpc'],
-    },
-  },
-
-  // Botanix
-  {
-    key: ChainKey.BOT,
-    chainType: ChainType.EVM,
-    name: 'Botanix',
-    coin: CoinKey.BTC,
-    id: ChainId.BOT,
-    mainnet: true,
-    logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/botanix.svg',
-    relayerSupported: false,
-    multicallAddress: multicallAddresses[ChainId.BOT],
-    metamask: {
-      chainId: prefixChainId(ChainId.BOT),
-      blockExplorerUrls: ['https://botanixscan.io/'],
-      chainName: 'Botanix',
-      nativeCurrency: {
-        name: 'Bitcoin',
-        symbol: 'BTC',
-        decimals: 18,
-      },
-      rpcUrls: ['https://rpc.botanixlabs.com'],
     },
   },
 
