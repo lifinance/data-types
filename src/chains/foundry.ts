@@ -20,7 +20,7 @@ export const foundryChainNameMap: Record<ChainId, string> = {
   [ChainId.XDC]: 'xdc',
   [ChainId.INK]: 'ink',
   [ChainId.BOC]: 'bob',
-  [ChainId.NIB]: 'niburu',
+  [ChainId.NIB]: 'nibiru',
   [ChainId.KAT]: 'katana',
   [ChainId.BER]: 'berachain',
   [ChainId.VIC]: 'viction',
