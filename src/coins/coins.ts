@@ -1325,11 +1325,6 @@ export const basicCoins: BasicCoin[] = [
         name: 'Bridged USDC (Jovay)',
         symbol: 'USDC.jovay',
       },
-      [ChainId.MEG]: {
-        address: '0x20c000000000000000000000b9537d11c60e8b50',
-        decimals: 6,
-        name: 'Bridged USDC (Stargate)',
-      },
       [ChainId.TEM]: {
         address: '0x20C000000000000000000000b9537d11c60E8b50',
         decimals: 6,
