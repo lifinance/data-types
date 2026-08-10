@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [7.0.1](https://github.com/lifinance/data-types/compare/v7.0.0...v7.0.1) (2026-08-10)
+
+
+### Bug Fixes
+
+* **coins:** remove invalid USDCe address on MegaETH ([#270](https://github.com/lifinance/data-types/issues/270)) ([bf9d5c3](https://github.com/lifinance/data-types/commit/bf9d5c318b6307707bdce189a6cb710036ef4bc0))
+* correct chain name Nibiru ([#226](https://github.com/lifinance/data-types/issues/226)) ([8e79c5d](https://github.com/lifinance/data-types/commit/8e79c5d911c30baace5766258489f827f046232a))
+
 ## [7.0.0](https://github.com/lifinance/data-types/compare/v6.83.0...v7.0.0) (2026-08-05)
 
 
