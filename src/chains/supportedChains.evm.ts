@@ -1998,6 +1998,31 @@ export const supportedEVMChains: EVMChain[] = [
     },
   },
 
+  // 11155111 - Ethereum Sepolia Testnet
+  {
+    key: ChainKey.ETHS,
+    chainType: ChainType.EVM,
+    name: 'Ethereum Sepolia Testnet',
+    coin: CoinKey.ETH,
+    id: ChainId.ETHS,
+    mainnet: false,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/ethereum.svg',
+    relayerSupported: false,
+    multicallAddress: multicallAddresses[ChainId.ETHS],
+    metamask: {
+      chainId: prefixChainId(ChainId.ETHS),
+      blockExplorerUrls: ['https://sepolia.etherscan.io'],
+      chainName: 'Ethereum Sepolia Testnet',
+      nativeCurrency: {
+        name: 'Ether',
+        symbol: 'ETH',
+        decimals: 18,
+      },
+      rpcUrls: ['https://ethereum-sepolia-rpc.publicnode.com'],
+    },
+  },
+
   // 5031 - Somnia
   {
     key: ChainKey.SOM,
