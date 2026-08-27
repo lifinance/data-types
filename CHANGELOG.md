@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [7.1.0](https://github.com/lifinance/data-types/compare/v7.0.1...v7.1.0) (2026-08-27)
+
+
+### Features
+
+* add new chain Ethereum Sepolia Testnet ([#271](https://github.com/lifinance/data-types/issues/271)) ([c4b1313](https://github.com/lifinance/data-types/commit/c4b131338a56fa0dc99285bde394a5a30e58c87d))
+
 ### [7.0.1](https://github.com/lifinance/data-types/compare/v7.0.0...v7.0.1) (2026-08-10)
 
 
