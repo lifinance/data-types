@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [7.1.1](https://github.com/lifinance/data-types/compare/v7.1.0...v7.1.1) (2026-09-04)
+
+
+### Bug Fixes
+
+* **coins:** correct World Chain USDC to native Circle USDC ([#272](https://github.com/lifinance/data-types/issues/272)) ([ac19918](https://github.com/lifinance/data-types/commit/ac19918d2cb8d26cb48dbe1fba7162c83ef13f15))
+
 ## [7.1.0](https://github.com/lifinance/data-types/compare/v7.0.1...v7.1.0) (2026-08-27)
 
 
