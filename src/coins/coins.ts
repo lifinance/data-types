@@ -1124,6 +1124,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0xe34c91815d7fc18A9e2148bcD4241d0a5848b693',
         decimals: 6,
       },
+      [ChainId.WCC]: {
+        address: '0x79A02482A880bCE3F13e09Da970dC34db4CD24d1',
+        decimals: 6,
+      },
       [ChainId.ARCT]: {
         address: '0x3600000000000000000000000000000000000000',
         decimals: 6,
@@ -1223,12 +1227,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0xB12BFcA5A55806AaF64E99521918A4bf0fC40802',
         decimals: 6,
         name: 'Bridged USD Coin',
-        symbol: 'USDC.e',
-      },
-      [ChainId.WCC]: {
-        address: '0x79A02482A880bCE3F13e09Da970dC34db4CD24d1',
-        decimals: 6,
-        name: 'Bridged USDC (world-chain-mainnet)',
         symbol: 'USDC.e',
       },
       [ChainId.LSK]: {
