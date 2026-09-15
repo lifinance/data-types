@@ -2065,7 +2065,7 @@ export const supportedEVMChains: EVMChain[] = [
     relayerSupported: false,
     metamask: {
       chainId: prefixChainId(ChainId.OUT),
-      blockExplorerUrls: ['https://robinhoodchain.blockscout.com/'],
+      blockExplorerUrls: ['https://robin.etherscan.io/'],
       chainName: 'Robinhood Chain',
       nativeCurrency: {
         name: 'Ether',
