@@ -2097,7 +2097,12 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'USDC',
         decimals: 18,
       },
-      rpcUrls: ['https://arc-rpc.transferto.xyz/'],
+      rpcUrls: [
+        'https://rpc.drpc.mainnet.arc.io',
+        'https://rpc.quicknode.mainnet.arc.io',
+        'https://rpc.mainnet.arc.io',
+        'https://rpc.blockdaemon.mainnet.arc.io',
+      ],
     },
   },
 
