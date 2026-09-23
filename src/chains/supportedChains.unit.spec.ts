@@ -106,3 +106,12 @@ describe('validate chains', () => {
     })
   })
 })
+
+describe('validate blockchain explorer lists', () => {
+  // Offline check; the live requests to these URLs are in supportedChains.explorers.int.spec.ts.
+  supportedChains.forEach((chain) => {
+    it(`has at least one block explorer URL for ${chain.name}`, () => {
+      expect(chain.metamask.blockExplorerUrls.length).toBeGreaterThan(0)
+    })
+  })
+})
