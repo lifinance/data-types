@@ -13,6 +13,9 @@ on:
     paths:
       - 'src/chains/**'
       - 'src/coins/**'
+      # Dependency bumps (@lifi/types, viem, tronweb, …) can break the live checks too.
+      - 'package.json'
+      - 'pnpm-lock.yaml'
 
 permissions:
   contents: read
