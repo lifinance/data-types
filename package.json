@@ -47,7 +47,8 @@
   "files": [
     "src",
     "!src/assets",
-    "!src/**/*.tsbuildinfo"
+    "!src/**/*.tsbuildinfo",
+    "!src/**/*.spec.ts"
   ],
   "scripts": {
     "build": "pnpm clean && pnpm build:cjs && pnpm build:esm && pnpm build:types",
@@ -100,7 +101,7 @@
     "pinst": "^3.0.0",
     "standard-version": "^9.5.0",
     "tronweb": "^6.2.1",
-    "typescript": "^5.9.3",
+    "typescript": "^7.0.2",
     "viem": "^2.46.3",
     "vitest": "^3.0.7"
   },
