@@ -16,6 +16,10 @@ on:
       # Dependency bumps (@lifi/types, viem, tronweb, …) can break the live checks too.
       - 'package.json'
       - 'pnpm-lock.yaml'
+      # And so can changes to how this job runs.
+      - '.github/workflows/integration.yaml'
+      - '.github/actions/pnpm-install/**'
+      - '.nvmrc'
 
 permissions:
   contents: read
