@@ -72,7 +72,9 @@
     "test:cov": "pnpm test --coverage",
     "lint": "oxlint --deny-warnings",
     "format": "oxfmt --write .",
-    "format:check": "oxfmt --check ."
+    "format:check": "oxfmt --check .",
+    "test:unit": "vitest --run .unit.spec.ts",
+    "test:int": "vitest --run .int.spec.ts"
   },
   "lint-staged": {
     "*.{ts,tsx,js,mjs,cjs}": [

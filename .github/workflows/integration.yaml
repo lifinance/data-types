@@ -1,0 +1,29 @@
+name: Integration tests
+
+# Live-network specs (chain RPCs, explorer and logo URLs). Informational only: this
+# workflow is not part of publish.yaml's verify gate, so a flaky endpoint never blocks
+# a release.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * 1' # Mondays 06:00 UTC
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'src/chains/**'
+      - 'src/coins/**'
+
+permissions:
+  contents: read
+
+jobs:
+  integration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Install dependencies
+        uses: ./.github/actions/pnpm-install
+      - name: Integration tests
+        run: pnpm test:int
