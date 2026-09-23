@@ -43,7 +43,7 @@ test('native and wrapped token defined for all chains', () => {
     try {
       const gasToken = findDefaultToken(chain.coin, chain.id)
       expect(gasToken).toBeDefined()
-    } catch (e) {
+    } catch {
       throw new Error(`Failed to load gas token for ${chain.name}(${chain.id})`)
     }
   }
@@ -56,7 +56,7 @@ test('native and wrapped token defined for all chains', () => {
     try {
       const wrappedGasToken = findWrappedGasOnChain(chain.id)
       expect(wrappedGasToken).toBeDefined()
-    } catch (e) {
+    } catch {
       throw new Error(
         `Failed to load wrapped gas token for ${chain.name}(${chain.id})`
       )
