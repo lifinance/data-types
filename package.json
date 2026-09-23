@@ -73,7 +73,7 @@
     "lint": "oxlint --deny-warnings",
     "format": "oxfmt --write .",
     "format:check": "oxfmt --check .",
-    "test:unit": "vitest --run .unit.spec.ts",
+    "test:unit": "vitest --run --exclude '**/*.int.spec.ts'",
     "test:int": "vitest --run .int.spec.ts"
   },
   "lint-staged": {
