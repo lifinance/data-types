@@ -30,7 +30,7 @@ jobs:
 
   publish:
     permissions:
-      contents: write
+      contents: read # the job only reads the repo; npm auth is OIDC
       id-token: write
     runs-on: ubuntu-latest
     steps:
