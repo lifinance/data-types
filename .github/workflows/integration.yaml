@@ -1,8 +1,7 @@
 name: Integration tests
 
-# Live-network specs (chain RPCs, explorer and logo URLs). Informational only: this
-# workflow is not part of publish.yaml's verify gate, so a flaky endpoint never blocks
-# a release.
+# Live-network specs (chain RPCs, explorer and logo URLs). Never part of a merge or release
+# gate: live endpoints go down on their own.
 on:
   workflow_dispatch:
   schedule:
@@ -36,5 +35,8 @@ jobs:
         uses: ./.github/actions/pnpm-install
         with:
           cache: 'true' # read-only job
+      # On PRs a failure only adds annotations (Vitest reports each failed spec), so the PR
+      # check stays green; the weekly run fails, so its owner gets the failure email.
       - name: Integration tests
+        continue-on-error: ${{ github.event_name == 'pull_request' }}
         run: pnpm test:int
