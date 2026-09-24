@@ -68,12 +68,11 @@
     "release:alpha": "standard-version -a --prerelease alpha --skip.changelog",
     "release:beta": "standard-version -a --prerelease beta --skip.changelog",
     "typecheck": "tsc --noEmit",
-    "test": "vitest --run",
+    "test": "vitest --run --exclude '**/*.int.spec.ts'",
     "test:cov": "pnpm test --coverage",
     "lint": "oxlint --deny-warnings",
     "format": "oxfmt --write .",
     "format:check": "oxfmt --check .",
-    "test:unit": "vitest --run --exclude '**/*.int.spec.ts'",
     "test:int": "vitest --run .int.spec.ts"
   },
   "lint-staged": {
