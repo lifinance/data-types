@@ -42,3 +42,16 @@ to its bundled version. Install the "TypeScript 7" extension
 Git hooks ([husky](https://github.com/typicode/husky) +
 [lint-staged](https://github.com/lint-staged/lint-staged)) run oxlint and oxfmt on staged
 files and check commit messages with commitlint.
+
+## Release
+
+This package is released with [Changesets](https://changesets.dev).
+
+1. Add a changeset to your PR: `pnpm changeset` (pick the bump and write a 1–2 line summary).
+2. When the PR merges, CI opens or updates the **chore: version packages** PR.
+3. Merging that PR publishes the new version to npm, pushes the `vX.Y.Z` tag and creates a
+   GitHub Release.
+
+To share an unmerged build, add the `release-preview` label to a PR that has a changeset.
+CI publishes `0.0.0-preview-<sha>` under the `preview` dist-tag and comments the install
+command on the PR.
