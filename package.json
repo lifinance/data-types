@@ -64,9 +64,6 @@
     "pre-push": "pnpm build",
     "prepublishOnly": "node scripts/prepublishOnly.js",
     "prepack": "pinst --disable",
-    "release": "standard-version -a",
-    "release:alpha": "standard-version -a --prerelease alpha --skip.changelog",
-    "release:beta": "standard-version -a --prerelease beta --skip.changelog",
     "typecheck": "tsc --noEmit",
     "test": "vitest --run",
     "test:cov": "pnpm test --coverage",
@@ -74,7 +71,8 @@
     "format": "oxfmt --write .",
     "format:check": "oxfmt --check .",
     "test:unit": "vitest --run --exclude '**/*.int.spec.ts'",
-    "test:int": "vitest --run .int.spec.ts"
+    "test:int": "vitest --run .int.spec.ts",
+    "changeset:publish": "pnpm build && changeset publish"
   },
   "lint-staged": {
     "*.{ts,tsx,js,mjs,cjs}": [
@@ -89,6 +87,8 @@
     "@lifi/types": "18.4.0"
   },
   "devDependencies": {
+    "@changesets/changelog-github": "^1.0.1",
+    "@changesets/cli": "^3.0.3",
     "@commitlint/cli": "^19.7.1",
     "@commitlint/config-conventional": "^19.7.1",
     "@mysten/sui": "^1.45.2",
@@ -101,7 +101,6 @@
     "oxfmt": "0.70.0",
     "oxlint": "^1.85.0",
     "pinst": "^3.0.0",
-    "standard-version": "^9.5.0",
     "tronweb": "^6.2.1",
     "typescript": "^7.0.2",
     "viem": "^2.46.3",
