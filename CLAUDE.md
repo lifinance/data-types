@@ -10,7 +10,7 @@ and the specs check it.
 - `pnpm format` / `pnpm format:check` — oxfmt (`.oxfmtrc.json`)
 - `pnpm typecheck` — TypeScript 7 `tsc --noEmit`
 - `pnpm build` — CJS, ESM and declarations into `src/_cjs`, `src/_esm`, `src/_types`
-- `pnpm test` — every spec except `*.int.spec.ts` (offline), part of CI and of the release gate
+- `pnpm test` — every spec except the integration specs (`*.int.spec.*`, offline), part of CI and of the release gate
 - `pnpm test:int` — live-network specs (`*.int.spec.ts`: chain RPCs, logo URLs); run by
   `.github/workflows/integration.yaml`, never part of the release gate
 
