@@ -1,0 +1,42 @@
+name: Integration tests
+
+# Live-network specs (chain RPCs, explorer and logo URLs). Never part of a merge or release
+# gate: live endpoints go down on their own.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * 1' # Mondays 06:00 UTC
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'src/chains/**'
+      - 'src/coins/**'
+      # Dependency bumps (@lifi/types, viem, tronweb, …) can break the live checks too.
+      - 'package.json'
+      - 'pnpm-lock.yaml'
+      # And so can changes to how this job runs.
+      - '.github/workflows/integration.yaml'
+      - '.github/actions/pnpm-install/**'
+      - '.nvmrc'
+
+permissions:
+  contents: read
+
+jobs:
+  integration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Install dependencies
+        uses: ./.github/actions/pnpm-install
+        with:
+          cache: 'true' # read-only job
+      # On PRs a failure only adds annotations (Vitest reports each failed spec), so the PR
+      # check stays green; the weekly run fails, so its owner gets the failure email.
+      - name: Integration tests
+        continue-on-error: ${{ github.event_name == 'pull_request' }}
+        run: pnpm test:int

@@ -47,7 +47,8 @@
   "files": [
     "src",
     "!src/assets",
-    "!src/**/*.tsbuildinfo"
+    "!src/**/*.tsbuildinfo",
+    "!src/**/*.spec.ts"
   ],
   "scripts": {
     "build": "pnpm clean && pnpm build:cjs && pnpm build:esm && pnpm build:types",
@@ -55,7 +56,7 @@
     "build:esm": "tsc --project ./tsconfig.build.json --module es2015 --outDir ./src/_esm && printf '{\"type\": \"module\",\"sideEffects\":false}' > ./src/_esm/package.json",
     "build:types": "tsc --project ./tsconfig.build.json --module esnext --declarationDir ./src/_types --emitDeclarationOnly --declaration --declarationMap",
     "clean": "rm -rf dist tsconfig.tsbuildinfo tsconfig.build.tsbuildinfo src/tsconfig.build.tsbuildinfo src/_esm src/_cjs src/_types",
-    "lint:fix": "eslint --ext .tsx --ext .ts ./src --fix",
+    "lint:fix": "oxlint --fix",
     "package": "npm run build && npm pack",
     "postinstall": "husky",
     "postpack": "pinst --enable",
@@ -63,18 +64,24 @@
     "pre-push": "pnpm build",
     "prepublishOnly": "pnpm node scripts/prepublishOnly.js",
     "prepack": "pinst --disable",
-    "prettier:fix": "prettier --write ./src/.",
     "release": "standard-version -a",
     "release:alpha": "standard-version -a --prerelease alpha --skip.changelog",
     "release:beta": "standard-version -a --prerelease beta --skip.changelog",
     "typecheck": "tsc --noEmit",
-    "test": "vitest --run",
-    "test:cov": "pnpm test --coverage"
+    "test": "vitest --run --exclude '**/*.int.spec.*'",
+    "test:cov": "pnpm test --coverage",
+    "lint": "oxlint --deny-warnings",
+    "format": "oxfmt --write .",
+    "format:check": "oxfmt --check .",
+    "test:int": "vitest --run .int.spec.ts"
   },
   "lint-staged": {
-    "src/**/*.{ts,tsx}": [
-      "pnpm run lint:fix",
-      "pnpm run prettier:fix"
+    "*.{ts,tsx,js,mjs,cjs}": [
+      "oxlint --fix --deny-warnings --no-error-on-unmatched-pattern",
+      "oxfmt --write --no-error-on-unmatched-pattern"
+    ],
+    "*.{json,jsonc,md}": [
+      "oxfmt --write --no-error-on-unmatched-pattern"
     ]
   },
   "dependencies": {
@@ -86,20 +93,16 @@
     "@mysten/sui": "^1.45.2",
     "@solana/web3.js": "^1.98.4",
     "@types/fs-extra": "^11.0.4",
-    "@typescript-eslint/eslint-plugin": "^7.17.0",
-    "@typescript-eslint/parser": "^7.17.0",
     "@vitest/coverage-v8": "^3.0.7",
-    "eslint": "^8.57.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.5.5",
     "fs-extra": "^11.3.3",
     "husky": "^9.1.1",
     "lint-staged": "^15.4.3",
+    "oxfmt": "0.70.0",
+    "oxlint": "^1.85.0",
     "pinst": "^3.0.0",
-    "prettier": "^3.8.1",
     "standard-version": "^9.5.0",
     "tronweb": "^6.2.1",
-    "typescript": "^5.9.3",
+    "typescript": "^7.0.2",
     "viem": "^2.46.3",
     "vitest": "^3.0.7"
   },

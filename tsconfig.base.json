@@ -24,8 +24,9 @@
     "checkJs": false,
 
     // Interop constraints
-    "esModuleInterop": false,
-    "allowSyntheticDefaultImports": false,
+    // NOTE: TypeScript 7 removes `esModuleInterop: false` (TS5108), so this is now `true` (it was `false`).
+    // All source imports are named imports or `export *` from relative `.js` paths, so the emitted code is unchanged (checked against the published @lifi/data-types@7.1.3).
+    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "verbatimModuleSyntax": true,
 

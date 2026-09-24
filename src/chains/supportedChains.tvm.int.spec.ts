@@ -1,5 +1,5 @@
 import { describe, expect, test } from 'vitest'
-import { supportedTVMChains } from './supportedChains.tvm'
+import { supportedTVMChains } from './supportedChains.tvm.js'
 import { TronWeb } from 'tronweb'
 
 const WalletAddress = 'TJRabPrwbZy45sbavfcjinPJC18kjpRTv8'

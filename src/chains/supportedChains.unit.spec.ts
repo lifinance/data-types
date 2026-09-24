@@ -43,7 +43,7 @@ test('native and wrapped token defined for all chains', () => {
     try {
       const gasToken = findDefaultToken(chain.coin, chain.id)
       expect(gasToken).toBeDefined()
-    } catch (e) {
+    } catch {
       throw new Error(`Failed to load gas token for ${chain.name}(${chain.id})`)
     }
   }
@@ -56,7 +56,7 @@ test('native and wrapped token defined for all chains', () => {
     try {
       const wrappedGasToken = findWrappedGasOnChain(chain.id)
       expect(wrappedGasToken).toBeDefined()
-    } catch (e) {
+    } catch {
       throw new Error(
         `Failed to load wrapped gas token for ${chain.name}(${chain.id})`
       )
@@ -107,32 +107,11 @@ describe('validate chains', () => {
   })
 })
 
-// This public explorer test works for all supported chains (EVM and non-EVM) because
-// all chains share a `metamask` object structured the same way, if that's to change
-// this test will have to be adapted per VM like the RPC tests.
-describe.concurrent('validate blockchain explorers', () => {
+describe('validate blockchain explorer lists', () => {
+  // Offline check; the live requests to these URLs are in supportedChains.explorers.int.spec.ts.
   supportedChains.forEach((chain) => {
-    expect(chain.metamask.blockExplorerUrls.length).toBeGreaterThan(0)
+    it(`has at least one block explorer URL for ${chain.name}`, () => {
+      expect(chain.metamask.blockExplorerUrls.length).toBeGreaterThan(0)
+    })
   })
-
-  const explorerUrls = supportedChains.flatMap((chain) =>
-    chain.metamask.blockExplorerUrls.map((blockExplorerUrl) => ({
-      blockExplorerUrl,
-      chainKey: chain.key,
-    }))
-  )
-
-  test.for(explorerUrls)(
-    'should get a valid response from $chainKey explorer: $blockExplorerUrl',
-    { timeout: 10_000, retry: 3 },
-    async ({ blockExplorerUrl }) => {
-      const response = await fetch(blockExplorerUrl, {
-        method: 'GET',
-      })
-
-      // some explorers have advanced bot protections, best we can do is
-      // check for any valid TCP response before timeout
-      expect(response).toBeDefined()
-    }
-  )
 })
