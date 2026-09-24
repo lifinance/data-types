@@ -1,5 +1,11 @@
 # Changelog
 
+## 7.1.4
+
+### Patch Changes
+
+- [#279](https://github.com/lifinance/data-types/pull/279) [`95902b5`](https://github.com/lifinance/data-types/commit/95902b52c2108e608dfd005c4a35617ab90428a7) Thanks [@chybisov](https://github.com/chybisov)! - Build with TypeScript 7, and stop publishing the compiled spec files (the package no longer contains test files).
+
 ## Older releases (standard-version)
 
 ### [7.1.3](https://github.com/lifinance/data-types/compare/v7.1.2...v7.1.3) (2026-09-15)
