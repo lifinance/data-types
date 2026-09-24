@@ -65,7 +65,7 @@
     "prepublishOnly": "node scripts/prepublishOnly.js",
     "prepack": "pinst --disable",
     "typecheck": "tsc --noEmit",
-    "test": "vitest --run --exclude '**/*.int.spec.ts'",
+    "test": "vitest --run --exclude '**/*.int.spec.*'",
     "test:cov": "pnpm test --coverage",
     "lint": "oxlint --deny-warnings",
     "format": "oxfmt --write .",
