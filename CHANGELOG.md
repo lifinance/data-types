@@ -1,5 +1,11 @@
 # Changelog
 
+## 7.1.6
+
+### Patch Changes
+
+- [#283](https://github.com/lifinance/data-types/pull/283) [`91a4889`](https://github.com/lifinance/data-types/commit/91a488951c9625cd13d9c7ef55d72f7882551168) Thanks [@maxklenk](https://github.com/maxklenk)! - Fix the EIP-55 checksum of the USDT0 address on Rootstock, which was mis-cased and rejected by address lookups that compare verbatim.
+
 ## 7.1.5
 
 ### Patch Changes
