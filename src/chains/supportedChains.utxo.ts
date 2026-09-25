@@ -108,7 +108,7 @@ export const supportedUXTOChains: UTXOChain[] = [
     faucetUrls: [],
     metamask: {
       chainId: ChainId.ZEC.toString(),
-      blockExplorerUrls: ['https://mainnet.zcashexplorer.app'],
+      blockExplorerUrls: ['https://cipherscan.app', 'https://3xpl.com/zcash'],
       chainName: 'Zcash',
       nativeCurrency: {
         name: 'ZEC',
