@@ -1,5 +1,11 @@
 # Changelog
 
+## 7.1.5
+
+### Patch Changes
+
+- [#281](https://github.com/lifinance/data-types/pull/281) [`19fb4ce`](https://github.com/lifinance/data-types/commit/19fb4ce57f6fba7d0648cac4de3d5d579b8711fd) Thanks [@melianessa](https://github.com/melianessa)! - Switch the Zcash block explorer to CipherScan, with 3xpl as the second entry. The previous explorer routes transactions at `/transactions/`, so `/tx/{hash}` links returned 404, and it does not show Ironwood (v6) shielded value.
+
 ## 7.1.4
 
 ### Patch Changes
