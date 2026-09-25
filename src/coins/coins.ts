@@ -3017,7 +3017,7 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
       },
       [ChainId.RSK]: {
-        address: '0x779dED0C9e1022225F8e0630b35A9B54Be713736',
+        address: '0x779Ded0c9e1022225f8E0630b35a9b54bE713736',
         decimals: 6,
       },
       [ChainId.ARB]: {
