@@ -167,8 +167,8 @@ importers:
   .:
     dependencies:
       '@lifi/types':
-        specifier: 18.4.0
-        version: 18.4.0
+        specifier: 18.10.0
+        version: 18.10.0
     devDependencies:
       '@changesets/changelog-github':
         specifier: ^1.0.1
@@ -631,8 +631,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-  '@lifi/types@18.4.0':
-    resolution: {integrity: sha512-H0c2fwrS7fyPLVzEf8UydZ1rfNXCxW7TGfsqf0goGH2BiLIkcBAVIpiCzuIB+YBgKCwZ53wIvgBa+6AZe7Y5PQ==}
+  '@lifi/types@18.10.0':
+    resolution: {integrity: sha512-8kVrxH8n3SoqNqbZznCHVxyWnPY0L37pB42oyhC0s25Xo7f8vf4oXjkVykxmrXIylbwMa7lEKDYYB7TmTZ45Iw==}
 
   '@manypkg/find-root@3.1.0':
     resolution: {integrity: sha512-BcSqCyKhBVZ5YkSzOiheMCV41kqAFptW6xGqYSTjkVTl9XQpr+pqHhwgGCOHQtjDCv7Is6EFyA14Sm5GVbVABA==}
@@ -2982,7 +2982,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@lifi/types@18.4.0': {}
+  '@lifi/types@18.10.0': {}
 
   '@manypkg/find-root@3.1.0':
     dependencies:
