@@ -1357,6 +1357,10 @@ export const basicCoins: BasicCoin[] = [
         name: 'Bridged USD Coin',
         symbol: 'USDC.e',
       },
+      [ChainId.ELY]: {
+        address: '0xb47c4C8F73F009CC0C0d3f92B388d13E293F0B65',
+        decimals: 6,
+      },
     },
   },
 
@@ -1645,6 +1649,10 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0D01DC56DcaaCa66aD901c959B4011ec00000000',
         decimals: 8,
       },
+      [ChainId.ELY]: {
+        address: '0x0000000000000000000000000000000000000000',
+        decimals: 18,
+      },
     },
   },
   {
@@ -1669,6 +1677,10 @@ export const basicCoins: BasicCoin[] = [
     chains: {
       [ChainId.HYP]: {
         address: '0x5555555555555555555555555555555555555555',
+        decimals: 18,
+      },
+      [ChainId.ELY]: {
+        address: '0xbA876237B0F021A6c6D852d6c26E107997cC5E81',
         decimals: 18,
       },
     },
@@ -4530,6 +4542,16 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped INJ',
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/injective.svg',
+  },
+  [ChainId.ELY]: {
+    address: '0xbA876237B0F021A6c6D852d6c26E107997cC5E81',
+    symbol: CoinKey.WHYPE,
+    decimals: 18,
+    chainId: ChainId.ELY,
+    coinKey: CoinKey.WHYPE,
+    name: 'Wrapped HYPE',
+    logoURI:
+      'https://static.debank.com/image/hyper_token/logo_url/0x5555555555555555555555555555555555555555/752e760ec0b1a17b81c7535e09e76ef8.png',
   },
   [ChainId.OPST]: {
     address: '0x4200000000000000000000000000000000000006',
