@@ -1,5 +1,11 @@
 # Changelog
 
+## 7.2.0
+
+### Minor Changes
+
+- [#287](https://github.com/lifinance/data-types/pull/287) [`4046869`](https://github.com/lifinance/data-types/commit/4046869e9d7ecb2525ea88bff2661531f081205f) Thanks [@thesems](https://github.com/thesems)! - Add the Elysium chain (`ChainId.ELY`): chain entry, Multicall3, foundry name and HYPE, WHYPE and USDC.e tokens.
+
 ## 7.1.6
 
 ### Patch Changes
