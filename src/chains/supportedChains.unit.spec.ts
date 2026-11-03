@@ -89,7 +89,8 @@ describe('findTokenByChainIdAndAddress', () => {
 })
 
 describe('validate chains', () => {
-  const ignoredChains = [ChainId.HPL, ChainId.LTR]
+  // ELY: no public RPC until mainnet launch (2026-11-09); remove once its rpcUrls is filled
+  const ignoredChains = [ChainId.HPL, ChainId.LTR, ChainId.ELY]
   supportedEVMChains.forEach((chain) => {
     it(`validate chain ${chain.name}`, () => {
       if (ignoredChains.includes(chain.id)) {

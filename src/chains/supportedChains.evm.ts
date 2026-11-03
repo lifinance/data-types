@@ -2129,4 +2129,29 @@ export const supportedEVMChains: EVMChain[] = [
       rpcUrls: ['https://sentry.evm-rpc.injective.network'],
     },
   },
+  // 99901 - Elysium
+  {
+    key: ChainKey.ELY,
+    chainType: ChainType.EVM,
+    name: 'Elysium',
+    coin: CoinKey.HYPE,
+    id: ChainId.ELY,
+    mainnet: true,
+    logoURI:
+      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/elysium.svg',
+    multicallAddress: multicallAddresses[ChainId.ELY],
+    relayerSupported: false,
+    metamask: {
+      chainId: prefixChainId(ChainId.ELY),
+      blockExplorerUrls: ['https://elysium.kinetiq.xyz/explorer/'],
+      chainName: 'Elysium',
+      nativeCurrency: {
+        name: 'HYPE',
+        symbol: 'HYPE',
+        decimals: 18,
+      },
+      // TODO: Kinetiq has no public RPC until mainnet launch (2026-11-09); only a key-whitelisted Conduit endpoint
+      rpcUrls: [],
+    },
+  },
 ]
