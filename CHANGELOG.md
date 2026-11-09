@@ -1,5 +1,11 @@
 # Changelog
 
+## 7.2.1
+
+### Patch Changes
+
+- [#290](https://github.com/lifinance/data-types/pull/290) [`ab95c10`](https://github.com/lifinance/data-types/commit/ab95c10788271ebe0546ae295d7cb734c18390ea) Thanks [@melianessa](https://github.com/melianessa)! - Add the public Elysium RPC (`https://rpc.elysium.kinetiq.xyz`), which Kinetiq opened at the mainnet launch. The Elysium chain had no RPC URL before.
+
 ## 7.2.0
 
 ### Minor Changes
