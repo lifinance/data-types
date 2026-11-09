@@ -2150,8 +2150,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'HYPE',
         decimals: 18,
       },
-      // TODO: Kinetiq has no public RPC until mainnet launch (2026-11-09); only a key-whitelisted Conduit endpoint
-      rpcUrls: [],
+      rpcUrls: ['https://rpc.elysium.kinetiq.xyz'],
     },
   },
 ]
