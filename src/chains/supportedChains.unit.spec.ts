@@ -22,10 +22,7 @@ test('getChainByKey', () => {
 })
 
 test('native and wrapped token defined for all chains', () => {
-  // currently unused chains
-  const ignoredChainsForNativeToken = [ChainId.FSN]
   const ignoredChainsForWrappedToken = [
-    ...ignoredChainsForNativeToken,
     ChainId.BTC,
     ChainId.BCH,
     ChainId.LTC,
@@ -36,10 +33,6 @@ test('native and wrapped token defined for all chains', () => {
     ChainId.LTR,
   ]
   for (const chain of supportedChains) {
-    if (ignoredChainsForNativeToken.includes(chain.id)) {
-      continue
-    }
-
     try {
       const gasToken = findDefaultToken(chain.coin, chain.id)
       expect(gasToken).toBeDefined()
