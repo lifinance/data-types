@@ -6,3 +6,9 @@ allowBuilds:
   utf-8-validate: false
 minimumReleaseAgeExclude:
   - '@lifi/*'
+  # vitest 5.1.0 and vite 8.3.6 are inside the release-age window; remove after 2026-11-09
+  - 'vitest@5.1.0'
+  - '@vitest/coverage-v8@5.1.0'
+  - '@vitest/mocker@5.1.0'
+  - '@vitest/spy@5.1.0'
+  - 'vite@8.3.6'
