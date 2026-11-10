@@ -1,5 +1,20 @@
 # Changelog
 
+## 7.2.2
+
+### Patch Changes
+
+- [#295](https://github.com/lifinance/data-types/pull/295) [`f900bdd`](https://github.com/lifinance/data-types/commit/f900bdd59c55ea6b24138715d509e6bb09247dcb) Thanks [@melianessa](https://github.com/melianessa)! - Replace or remove public RPC URLs that no longer work:
+  
+  - XDC: replace `https://rpc.xdcrpc.com` (HTTP 429 on most calls, about 1,000 blocks behind the head) with `https://rpc.ankr.com/xdc` and `https://xdc.public-rpc.com`.
+  - Mode: replace `https://mainnet.mode.network` (incomplete TLS certificate chain) with `https://1rpc.io/mode`.
+  - World Chain: replace `https://worldchain-mainnet.gateway.tenderly.co` (HTTP 404) with `https://480.rpc.thirdweb.com`.
+  - Mantle: remove `https://mantle.public-rpc.com` ("API key disabled").
+  - Kaia: remove `https://klaytn.drpc.org` (the free plan does not serve `eth_getBlockByNumber` or `eth_getLogs`).
+  - Stellar: remove `https://stellar-soroban-public.nodies.app` (HTTP 404 "Unsupported path").
+
+- [#289](https://github.com/lifinance/data-types/pull/289) [`e04e4e2`](https://github.com/lifinance/data-types/commit/e04e4e20b8e07308b1503f714903738c4006fb5b) Thanks [@philippzentner](https://github.com/philippzentner)! - Upgrade vitest to 5.1.0 and add a `test:affected` script that reruns only the specs affected by changes since the last run. Dev tooling only; the published code is unchanged.
+
 ## 7.2.1
 
 ### Patch Changes
