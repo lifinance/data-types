@@ -27,7 +27,6 @@ export const supportedSTLChains: STLChain[] = [
       rpcUrls: [
         'https://soroban-rpc.mainnet.stellar.gateway.fm',
         'https://mainnet.sorobanrpc.com',
-        'https://stellar-soroban-public.nodies.app',
       ],
     },
   },

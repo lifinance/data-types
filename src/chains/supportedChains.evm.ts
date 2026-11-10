@@ -733,7 +733,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'ETH',
         decimals: 18,
       },
-      rpcUrls: ['https://mainnet.mode.network', 'https://mode.drpc.org'],
+      rpcUrls: ['https://1rpc.io/mode', 'https://mode.drpc.org'],
     },
   },
   // 5000 - Mantle
@@ -763,7 +763,6 @@ export const supportedEVMChains: EVMChain[] = [
         'https://rpc.mantle.xyz',
         'https://mantle-rpc.publicnode.com',
         'https://mantle.drpc.org',
-        'https://mantle.public-rpc.com',
       ],
     },
   },
@@ -941,7 +940,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'KAIA',
         decimals: 18,
       },
-      rpcUrls: ['https://public-en.node.kaia.io', 'https://klaytn.drpc.org'],
+      rpcUrls: ['https://public-en.node.kaia.io'],
     },
   },
 
@@ -1027,7 +1026,7 @@ export const supportedEVMChains: EVMChain[] = [
       },
       rpcUrls: [
         'https://worldchain-mainnet.g.alchemy.com/public',
-        'https://worldchain-mainnet.gateway.tenderly.co',
+        'https://480.rpc.thirdweb.com',
       ],
     },
   },
@@ -1315,7 +1314,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'XDC',
         decimals: 18,
       },
-      rpcUrls: ['https://rpc.xdcrpc.com'],
+      rpcUrls: ['https://rpc.ankr.com/xdc', 'https://xdc.public-rpc.com'],
     },
   },
 
