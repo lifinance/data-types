@@ -1315,7 +1315,7 @@ export const supportedEVMChains: EVMChain[] = [
         symbol: 'XDC',
         decimals: 18,
       },
-      rpcUrls: ['https://earpc.xinfin.network'],
+      rpcUrls: ['https://rpc.ankr.com/xdc', 'https://xdc.public-rpc.com'],
     },
   },
 
