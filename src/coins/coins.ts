@@ -92,14 +92,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0x6983d1e6def3690c4d616b13597a09e6193ea013',
         decimals: 18,
       },
-      [ChainId.BOB]: {
-        address: '0x0000000000000000000000000000000000000000',
-        decimals: 18,
-      },
-      [ChainId.MOO]: {
-        address: '0xfa9343c3897324496a05fc75abed6bac29f8a40f',
-        decimals: 18,
-      },
       [ChainId.AUR]: {
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
@@ -119,19 +111,7 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
-      [ChainId.BLS]: {
-        address: '0x0000000000000000000000000000000000000000',
-        decimals: 18,
-      },
-      [ChainId.OPB]: {
-        address: '0xE7798f023fC62146e8Aa1b36Da45fb70855a77Ea',
-        decimals: 18,
-      },
       [ChainId.WCC]: {
-        address: '0x0000000000000000000000000000000000000000',
-        decimals: 18,
-      },
-      [ChainId.LSK]: {
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
@@ -148,10 +128,6 @@ export const basicCoins: BasicCoin[] = [
         decimals: 18,
       },
       [ChainId.INK]: {
-        address: '0x0000000000000000000000000000000000000000',
-        decimals: 18,
-      },
-      [ChainId.BOC]: {
         address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
@@ -290,17 +266,9 @@ export const basicCoins: BasicCoin[] = [
         decimals: 18,
         symbol: 'bscBNB',
       },
-      [ChainId.MOO]: {
-        address: '0xc9baa8cfdde8e328787e29b4b078abf2dadc2055',
-        decimals: 18,
-      },
       // https://evmexplorer.velas.com/token/0x2B8e9cD44C9e09D936149549a8d207c918ecB5C4
       [ChainId.VEL]: {
         address: '0x2b8e9cd44c9e09d936149549a8d207c918ecb5c4',
-        decimals: 18,
-      },
-      [ChainId.OPB]: {
-        address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
       [ChainId.CRO]: {
@@ -390,14 +358,6 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.CEL]: {
         address: '0x90ca507a5d4458a4c6c6249d186b6dcb02a5bccd',
-        decimals: 18,
-      },
-      [ChainId.MOO]: {
-        address: '0x765277eebeca2e31912c9946eae1021199b39c61',
-        decimals: 18,
-      },
-      [ChainId.BOB]: {
-        address: '0xf74195bb8a5cf652411867c5c2c5b8c2a402be35',
         decimals: 18,
       },
       [ChainId.EVM]: {
@@ -502,19 +462,6 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
-  // > FSN
-  {
-    key: CoinKey.FSN,
-    name: CoinKey.FSN,
-    logoURI: 'https://www.bscscan.com/token/images/anyFSN_32.png',
-    verified: true,
-    chains: {
-      [ChainId.FSN]: {
-        address: '0x0000000000000000000000000000000000000000',
-        decimals: 18,
-      },
-    },
-  },
   // > MOVR
   {
     key: CoinKey.MOVR,
@@ -524,10 +471,6 @@ export const basicCoins: BasicCoin[] = [
     chains: {
       [ChainId.MOR]: {
         address: '0x0000000000000000000000000000000000000000',
-        decimals: 18,
-      },
-      [ChainId.MOO]: {
-        address: '0x1d4c2a246311bb9f827f4c768e277ff5787b7d7e',
         decimals: 18,
       },
     },
@@ -758,14 +701,6 @@ export const basicCoins: BasicCoin[] = [
         symbol: 'USD₮0',
         name: 'Tether USD',
       },
-      [ChainId.MOO]: {
-        address: '0xefaeee334f0fd1712f9a8cc375f427d9cdd40d73',
-        decimals: 6,
-      },
-      [ChainId.BOB]: {
-        address: '0x5de1677344d3cb0d7d465c10b72a8f60699c062d',
-        decimals: 6,
-      },
       [ChainId.EVM]: {
         address: '0x7FF4a56B32ee13D7D4D405887E0eA37d61Ed919e',
         decimals: 6,
@@ -824,10 +759,6 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
         name: 'USDT0',
       },
-      [ChainId.GRA]: {
-        address: '0x816E810f9F787d669FB71932DeabF6c83781Cd48',
-        decimals: 6,
-      },
       [ChainId.IMX]: {
         address: '0x68bcc7F1190AF20e7b572BCfb431c3Ac10A936Ab',
         decimals: 6,
@@ -838,14 +769,6 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.XLY]: {
         address: '0x1e4a5963abfd975d8c9021ce480b42188849d41d',
-        decimals: 6,
-      },
-      [ChainId.OPB]: {
-        address: '0x9e5aac1ba1a2e6aed6b32689dfcf62a509ca96f3',
-        decimals: 18,
-      },
-      [ChainId.LSK]: {
-        address: '0x05d032ac25d322df992303dca074ee7392c117b9',
         decimals: 6,
       },
       [ChainId.ABS]: {
@@ -885,10 +808,6 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.VAN]: {
         address: '0x88853d410299bcbfe5fcc9eef93c03115e908279',
-        decimals: 6,
-      },
-      [ChainId.BOC]: {
-        address: '0x05D032ac25d322df992303dCa074EE7392C117b9',
         decimals: 6,
       },
       [ChainId.NIB]: {
@@ -1011,14 +930,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0xcebA9300f2b948710d2653dD7B07f33A8B32118C',
         decimals: 6,
       },
-      [ChainId.MOO]: {
-        address: '0x818ec0a7fe18ff94269904fced6ae3dae6d6dc0b',
-        decimals: 6,
-      },
-      [ChainId.BOB]: {
-        address: '0x66a2a913e447d6b4bf33efbec43aaef87890fbbc',
-        decimals: 6,
-      },
       [ChainId.EVM]: {
         address: '0x51e44FfaD5C2B122C8b635671FCC8139dc636E82',
         decimals: 6,
@@ -1074,10 +985,6 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.UNI]: {
         address: '0x078D782b760474a361dDA0AF3839290b0EF57AD6',
-        decimals: 6,
-      },
-      [ChainId.LNS]: {
-        address: '0x88F08E304EC4f90D644Cec3Fb69b8aD414acf884',
         decimals: 6,
       },
       [ChainId.SON]: {
@@ -1211,12 +1118,6 @@ export const basicCoins: BasicCoin[] = [
         name: 'Bridged USD Coin',
         symbol: 'USDC.e',
       },
-      [ChainId.GRA]: {
-        address: '0xFbDa5F676cB37624f28265A144A48B0d6e87d3b6',
-        decimals: 6,
-        name: 'Bridged USD Coin',
-        symbol: 'USDC.e',
-      },
       [ChainId.KAI]: {
         address: '0xe2053bcf56d2030d2470fb454574237cf9ee3d4b',
         decimals: 6,
@@ -1227,12 +1128,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0xB12BFcA5A55806AaF64E99521918A4bf0fC40802',
         decimals: 6,
         name: 'Bridged USD Coin',
-        symbol: 'USDC.e',
-      },
-      [ChainId.LSK]: {
-        address: '0xf242275d3a6527d877f2c927a82d9b057609cc71',
-        decimals: 6,
-        name: 'Bridged USDC (Lisk)',
         symbol: 'USDC.e',
       },
       [ChainId.ERA]: {
@@ -1273,11 +1168,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0xCc0587aeBDa397146cc828b445dB130a94486e74',
         decimals: 6,
         name: 'USDC.e (Stargate)',
-      },
-      [ChainId.BOC]: {
-        address: '0xe75D0fB2C24A55cA1e3F96781a2bCC7bdba058F0',
-        decimals: 6,
-        name: 'Bridged USDC (BOB)',
       },
       [ChainId.FLR]: {
         address: '0xfbda5f676cb37624f28265a144a48b0d6e87d3b6',
@@ -1389,10 +1279,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0x1B6382DBDEa11d97f24495C9A90b7c88469134a4',
         decimals: 6,
       },
-      [ChainId.MOO]: {
-        address: '0xca01a1d0993565291051daff390892518acfad3a',
-        decimals: 6,
-      },
       [ChainId.ARB]: {
         address: '0xeb466342c4d449bc9f53a865d5cb90586f405215',
         decimals: 6,
@@ -1418,10 +1304,6 @@ export const basicCoins: BasicCoin[] = [
         decimals: 6,
       },
       [ChainId.MNT]: {
-        address: '0xeb466342c4d449bc9f53a865d5cb90586f405215',
-        decimals: 6,
-      },
-      [ChainId.BLS]: {
         address: '0xeb466342c4d449bc9f53a865d5cb90586f405215',
         decimals: 6,
       },
@@ -1493,19 +1375,6 @@ export const basicCoins: BasicCoin[] = [
   },
 
   // USDB
-  {
-    key: CoinKey.USDB,
-    name: CoinKey.USDB,
-    logoURI:
-      'https://static.debank.com/image/blast_token/logo_url/0x4300000000000000000000000000000000000003/43c9fafca023ddd62f7900f357b26714.png',
-    verified: true,
-    chains: {
-      [ChainId.BLS]: {
-        address: '0x4300000000000000000000000000000000000003',
-        decimals: 18,
-      },
-    },
-  },
 
   // Frax
   {
@@ -1553,10 +1422,6 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.PZE]: {
         address: '0xFf8544feD5379D9ffa8D47a74cE6b91e632AC44D',
-        decimals: 18,
-      },
-      [ChainId.MOO]: {
-        address: '0x322E86852e492a7Ee17f28a78c663da38FB33bfb',
         decimals: 18,
       },
       [ChainId.SEI]: {
@@ -1753,14 +1618,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0xbaab46e28388d2779e6e31fd00cf0e5ad95e327b',
         decimals: 8,
       },
-      [ChainId.MOO]: {
-        address: '0x922d641a426dcffaef11680e5358f34d97d112e1',
-        decimals: 8,
-      },
-      [ChainId.BOB]: {
-        address: '0xdc0486f8bf31df57a952bcd3c1d3e166e3d9ec8b',
-        decimals: 8,
-      },
       [ChainId.EVM]: {
         address: '0xF80699Dc594e00aE7bA200c7533a07C1604A106D',
         decimals: 8,
@@ -1793,10 +1650,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
         decimals: 8,
       },
-      [ChainId.LSK]: {
-        address: '0x03c7054bcb39f7b2e5b2c7acb37583e32d70cfa3',
-        decimals: 8,
-      },
       [ChainId.BER]: {
         address: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
         decimals: 8,
@@ -1807,10 +1660,6 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.SOE]: {
         address: '0x0555E30da8f98308EdB960aa94C0Db47230d2B9c',
-        decimals: 8,
-      },
-      [ChainId.BOC]: {
-        address: '0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3',
         decimals: 8,
       },
       [ChainId.KAT]: {
@@ -1913,14 +1762,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0x122013fd7df1c6f636a5bb8f03108e876548b455',
         decimals: 18,
       },
-      [ChainId.MOO]: {
-        address: '0xfA9343C3897324496A05fC75abeD6bAC29f8A40f',
-        decimals: 18,
-      },
-      [ChainId.BOB]: {
-        address: '0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000',
-        decimals: 18,
-      },
       [ChainId.EVM]: {
         address: '0x5842C5532b61aCF3227679a8b1BD0242a41752f2',
         decimals: 18,
@@ -1945,14 +1786,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0xdEAddEaDdeadDEadDEADDEAddEADDEAddead1111',
         decimals: 18,
       },
-      [ChainId.BLS]: {
-        address: '0x4300000000000000000000000000000000000004',
-        decimals: 18,
-      },
-      [ChainId.GRA]: {
-        address: '0xf6f832466Cd6C21967E0D954109403f36Bc8ceaA',
-        decimals: 18,
-      },
       [ChainId.IMX]: {
         address: '0x52a6c53869ce09a731cd772f245b97a4401d3348',
         decimals: 18,
@@ -1970,10 +1803,6 @@ export const basicCoins: BasicCoin[] = [
         decimals: 18,
       },
       [ChainId.WCC]: {
-        address: '0x4200000000000000000000000000000000000006',
-        decimals: 18,
-      },
-      [ChainId.LSK]: {
         address: '0x4200000000000000000000000000000000000006',
         decimals: 18,
       },
@@ -2005,16 +1834,8 @@ export const basicCoins: BasicCoin[] = [
         address: '0x4200000000000000000000000000000000000006',
         decimals: 18,
       },
-      [ChainId.LNS]: {
-        address: '0xE5ecd226b3032910CEaa43ba92EE8232f8237553',
-        decimals: 18,
-      },
       [ChainId.XDC]: {
         address: '0xa7348290de5cf01772479c48D50dec791c3fC212',
-        decimals: 18,
-      },
-      [ChainId.BOC]: {
-        address: '0x4200000000000000000000000000000000000006',
         decimals: 18,
       },
       [ChainId.ERA]: {
@@ -2331,19 +2152,6 @@ export const basicCoins: BasicCoin[] = [
       },
     },
   },
-  // > GLMR
-  {
-    key: CoinKey.GLMR,
-    name: CoinKey.GLMR,
-    logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/6836.png',
-    verified: true,
-    chains: {
-      [ChainId.MOO]: {
-        address: '0x0000000000000000000000000000000000000000',
-        decimals: 18,
-      },
-    },
-  },
   // > METIS
   {
     key: CoinKey.METIS,
@@ -2429,10 +2237,6 @@ export const basicCoins: BasicCoin[] = [
       },
       [ChainId.FTM]: {
         address: '0x9e73f99ee061c8807f69f9c6ccc44ea3d8c373ee',
-        decimals: 18,
-      },
-      [ChainId.MOO]: {
-        address: '0x43eDD7f3831b08FE70B7555ddD373C8bF65a9050',
         decimals: 18,
       },
       [ChainId.BAS]: {
@@ -2574,10 +2378,6 @@ export const basicCoins: BasicCoin[] = [
         address: '0x9C7BEBa8F6eF6643aBd725e45a4E8387eF260649',
         decimals: 18,
       },
-      [ChainId.GRA]: {
-        address: '0x0000000000000000000000000000000000000000',
-        decimals: 18,
-      },
     },
   },
   // Immutable X
@@ -2641,10 +2441,6 @@ export const basicCoins: BasicCoin[] = [
     chains: {
       [ChainId.BSC]: {
         address: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
-        decimals: 18,
-      },
-      [ChainId.OPB]: {
-        address: '0x4200000000000000000000000000000000000006',
         decimals: 18,
       },
       [ChainId.DAI]: {
@@ -2721,10 +2517,6 @@ export const basicCoins: BasicCoin[] = [
       'https://static.debank.com/image/lisk_token/logo_url/0xac485391eb2d7d88253a7f1ef18c37f4242d1a24/b8f1b2ca1cb34102fe9118b5670c07e2.png',
     verified: true,
     chains: {
-      [ChainId.LSK]: {
-        address: '0xac485391EB2d7D88253a7F1eF18C37f4242D1A24',
-        decimals: 18,
-      },
       [ChainId.ETH]: {
         address: '0x6033F7f88332B8db6ad452B7C6D5bB643990aE3f',
         decimals: 18,
@@ -2802,20 +2594,6 @@ export const basicCoins: BasicCoin[] = [
     chains: {
       [ChainId.APE]: {
         address: '0xA2235d059F80e176D931Ef76b6C51953Eb3fBEf4',
-        decimals: 18,
-      },
-    },
-  },
-
-  // Lens
-  {
-    key: CoinKey.GHO,
-    name: CoinKey.GHO,
-    logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/23508.png',
-    verified: true,
-    chains: {
-      [ChainId.LNS]: {
-        address: '0x0000000000000000000000000000000000000000',
         decimals: 18,
       },
     },
@@ -3921,16 +3699,6 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     logoURI:
       'https://static.debank.com/image/fuse_token/logo_url/0x0be9e53fd7edac9f859882afdda116645287c629/26d6e40e90bb2bf775820b1afef6ffb6.png',
   },
-  [ChainId.MOO]: {
-    address: '0xacc15dc74880c9944775448304b263d191c6077f',
-    symbol: 'WGLMR',
-    decimals: 18,
-    chainId: ChainId.MOO,
-    coinKey: 'WGLMR' as CoinKey,
-    name: 'Wrapped GLMR',
-    logoURI:
-      'https://static.debank.com/image/mobm_token/logo_url/0xacc15dc74880c9944775448304b263d191c6077f/a8442077d76b258297181c3e6eb8c9cc.png',
-  },
   [ChainId.MAM]: {
     address: '0x75cb093E4D61d2A2e65D8e0BBb01DE8d89b53481',
     symbol: 'WMETIS',
@@ -3939,16 +3707,6 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     coinKey: 'WMETIS' as CoinKey,
     name: 'Wrapped Metis',
     logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/9640.png',
-  },
-  [ChainId.BOB]: {
-    address: '0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000',
-    symbol: 'WETH',
-    decimals: 18,
-    chainId: ChainId.BOB,
-    coinKey: CoinKey.WETH,
-    name: 'Wrapped ETH',
-    logoURI:
-      'https://static.debank.com/image/boba_token/logo_url/0xdeaddeaddeaddeaddeaddeaddeaddeaddead0000/b1947b38a90e559eb950453965714be4.png',
   },
   [ChainId.CEL]: {
     address: '0x471ece3750da237f93b8e339c536989b8978a438',
@@ -4022,17 +3780,6 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     logoURI:
       'https://static.debank.com/image/mnt_token/logo_url/0x78c1b0c915c4faa5fffa6cabf0219da63d7f4cb8/a443c78c33704d48f06e5686bb87f85e.png',
   },
-  [ChainId.BLS]: {
-    // https://blastscan.io/token/0x4300000000000000000000000000000000000004
-    address: '0x4300000000000000000000000000000000000004',
-    symbol: 'WETH',
-    decimals: 18,
-    chainId: ChainId.BLS,
-    coinKey: CoinKey.WETH,
-    name: 'WETH',
-    logoURI:
-      'https://static.debank.com/image/mtr_token/logo_url/0x79a61d3a28f8c8537a3df63092927cfa1150fb3c/61844453e63cf81301f845d7864236f6.png',
-  },
   [ChainId.RSK]: {
     address: '0x542fda317318ebf1d3deaf76e0b632741a7e677d',
     symbol: 'WRBTC',
@@ -4062,16 +3809,6 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'Wrapped FRAX',
     logoURI:
       'https://static.debank.com/image/coin/logo_url/frax/c9fc14504dda4d18f661628d56f73606.png',
-  },
-  [ChainId.GRA]: {
-    // https://explorer.gravity.xyz/address/0xBB859E225ac8Fb6BE1C7e38D87b767e95Fef0EbD
-    address: '0xBB859E225ac8Fb6BE1C7e38D87b767e95Fef0EbD',
-    symbol: 'WG',
-    decimals: 18,
-    chainId: ChainId.GRA,
-    coinKey: CoinKey.WG,
-    name: 'Wrapped G',
-    logoURI: 'https://assets.gravity.xyz/token_logo.png',
   },
   [ChainId.IMX]: {
     // https://explorer.immutable.com/address/0x3a0c2ba54d6cbd3121f01b96dfd20e99d1696c9d
@@ -4105,17 +3842,6 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     logoURI:
       'https://static.debank.com/image/xlayer_token/logo_url/0xe538905cf8410324e03a5a23c1c177a474d59b2b/b58d6980429c56560d9241765bdf9c2b.png',
   },
-  [ChainId.OPB]: {
-    // https://opbnb.bscscan.com/token/0x4200000000000000000000000000000000000006
-    address: '0x4200000000000000000000000000000000000006',
-    symbol: 'WBNB',
-    decimals: 18,
-    chainId: ChainId.OPB,
-    coinKey: CoinKey.WBNB,
-    name: 'Wrapped BNB',
-    logoURI:
-      'https://static.debank.com/image/bsc_token/logo_url/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c/1177dec1b9b7f58a799c3f22d93b04e1.png',
-  },
   [ChainId.WCC]: {
     // https://worldscan.org/token/0x4200000000000000000000000000000000000006
     address: '0x4200000000000000000000000000000000000006',
@@ -4126,17 +3852,6 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: 'WETH',
     logoURI:
       'https://static.debank.com/image/world_token/logo_url/world/48bfb74adddd170e936578aec422836d.png',
-  },
-  [ChainId.LSK]: {
-    // https://blockscout.lisk.com/token/0x4200000000000000000000000000000000000006
-    address: '0x4200000000000000000000000000000000000006',
-    symbol: 'WETH',
-    decimals: 18,
-    chainId: ChainId.LSK,
-    coinKey: CoinKey.WETH,
-    name: 'WETH',
-    logoURI:
-      'https://static.debank.com/image/lyra_token/logo_url/lyra/48bfb74adddd170e936578aec422836d.png',
   },
   [ChainId.ABS]: {
     // https://explorer.mainnet.abs.xyz/address/0x3439153EB7AF838Ad19d56E1571FBD09333C2809
@@ -4214,15 +3929,6 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     logoURI:
       'https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png',
   },
-  [ChainId.LNS]: {
-    address: '0x6bDc36E20D267Ff0dd6097799f82e78907105e2F',
-    symbol: 'WGHO',
-    decimals: 18,
-    chainId: ChainId.LNS,
-    coinKey: CoinKey.WGHO,
-    name: 'WGHO',
-    logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/23508.png',
-  },
   [ChainId.HYP]: {
     address: '0x5555555555555555555555555555555555555555',
     symbol: CoinKey.WHYPE,
@@ -4242,16 +3948,6 @@ export const wrappedTokens: { [ChainId: string]: StaticToken } = {
     name: CoinKey.WXDC,
     logoURI:
       'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/xdc.svg',
-  },
-  [ChainId.BOC]: {
-    address: '0x4200000000000000000000000000000000000006',
-    symbol: CoinKey.WETH,
-    decimals: 18,
-    chainId: ChainId.BOC,
-    coinKey: CoinKey.WETH,
-    name: CoinKey.WETH,
-    logoURI:
-      'https://static.debank.com/image/eth_token/logo_url/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2/61844453e63cf81301f845d7864236f6.png',
   },
   [ChainId.ETL]: {
     address: '0xc9B53AB2679f573e480d01e0f49e2B5CFB7a3EAb',

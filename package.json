@@ -84,7 +84,7 @@
     ]
   },
   "dependencies": {
-    "@lifi/types": "18.15.0"
+    "@lifi/types": "19.0.0"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^1.0.1",

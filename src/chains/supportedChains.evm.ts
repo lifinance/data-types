@@ -321,35 +321,6 @@ export const supportedEVMChains: EVMChain[] = [
     },
   },
 
-  // 1284 Moonbeam
-  {
-    key: ChainKey.MOO,
-    chainType: ChainType.EVM,
-    name: 'Moonbeam',
-    coin: CoinKey.GLMR,
-    id: 1284,
-    mainnet: true,
-    logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/moonbeam.svg',
-    tokenlistUrl:
-      'https://raw.githubusercontent.com/BeamSwap/beamswap-tokenlist/main/tokenlist.json',
-    multicallAddress: multicallAddresses[ChainId.MOO],
-    metamask: {
-      chainId: prefixChainId(1284),
-      blockExplorerUrls: ['https://moonbeam.moonscan.io/'],
-      chainName: 'Moonbeam',
-      nativeCurrency: {
-        name: 'GLMR',
-        symbol: 'GLMR',
-        decimals: 18,
-      },
-      rpcUrls: [
-        'https://rpc.api.moonbeam.network',
-        'https://moonbeam-rpc.publicnode.com',
-        'https://moonbeam.drpc.org',
-      ],
-    },
-  },
   // 42220 Celo Mainnet
   {
     key: ChainKey.CEL,
@@ -455,32 +426,6 @@ export const supportedEVMChains: EVMChain[] = [
         decimals: 18,
       },
       rpcUrls: ['https://evm.cronos.org', 'https://cronos.drpc.org'],
-    },
-  },
-  // 288 Boba Network
-  {
-    key: ChainKey.BOB,
-    chainType: ChainType.EVM,
-    name: 'Boba',
-    coin: CoinKey.ETH,
-    id: 288,
-    mainnet: true,
-    logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/boba.svg',
-    // TODO: we should update token list url to latest one
-    tokenlistUrl:
-      'https://raw.githubusercontent.com/OolongSwap/boba-community-token-list/main/build/boba.tokenlist.json',
-    multicallAddress: multicallAddresses[ChainId.BOB],
-    metamask: {
-      chainId: prefixChainId(288),
-      blockExplorerUrls: ['https://bobascan.com/'],
-      chainName: 'Boba Network',
-      nativeCurrency: {
-        name: 'ETH',
-        symbol: 'ETH',
-        decimals: 18,
-      },
-      rpcUrls: ['https://mainnet.boba.network'],
     },
   },
   // 106 Velas EVM Mainnet
@@ -767,35 +712,6 @@ export const supportedEVMChains: EVMChain[] = [
     },
   },
 
-  // 81457 - Blast
-  {
-    key: ChainKey.BLS,
-    chainType: ChainType.EVM,
-    name: 'Blast',
-    coin: CoinKey.ETH,
-    id: 81457,
-    mainnet: true,
-    logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/blast.svg',
-    multicallAddress: multicallAddresses[ChainId.BLS],
-    relayerSupported: true,
-    metamask: {
-      chainId: prefixChainId(81457),
-      blockExplorerUrls: ['https://blastscan.io/', 'https://blastexplorer.io/'],
-      chainName: 'Blast',
-      nativeCurrency: {
-        name: 'Ethereum',
-        symbol: 'ETH',
-        decimals: 18,
-      },
-      rpcUrls: [
-        'https://rpc.blast.io',
-        'https://blast-rpc.publicnode.com',
-        'https://blast.drpc.org',
-      ],
-    },
-  },
-
   // 30 - Rootstock
   {
     key: ChainKey.RSK,
@@ -864,30 +780,6 @@ export const supportedEVMChains: EVMChain[] = [
         decimals: 18,
       },
       rpcUrls: ['https://rpc.frax.com', 'https://fraxtal.gateway.tenderly.co'],
-    },
-  },
-
-  // 1625 - Gravity
-  {
-    key: ChainKey.GRA,
-    chainType: ChainType.EVM,
-    name: 'Gravity',
-    coin: CoinKey.G,
-    id: 1625,
-    mainnet: true,
-    logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/gravity.svg',
-    multicallAddress: multicallAddresses[ChainId.GRA],
-    metamask: {
-      chainId: prefixChainId(1625),
-      blockExplorerUrls: ['https://explorer.gravity.xyz/'],
-      chainName: 'Gravity Alpha Mainnet',
-      nativeCurrency: {
-        name: 'G',
-        symbol: 'G',
-        decimals: 18,
-      },
-      rpcUrls: ['https://rpc.gravity.xyz/'],
     },
   },
 
@@ -972,37 +864,6 @@ export const supportedEVMChains: EVMChain[] = [
     },
   },
 
-  // 204 - opBNB
-  {
-    key: ChainKey.OPB,
-    chainType: ChainType.EVM,
-    name: 'opBNB',
-    coin: CoinKey.BNB,
-    id: 204,
-    mainnet: true,
-    logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/opbnb.svg',
-    multicallAddress: multicallAddresses[ChainId.OPB],
-
-    metamask: {
-      chainId: prefixChainId(204),
-      blockExplorerUrls: [
-        'https://opbnb.bscscan.com/',
-        'https://opbnbscan.com/',
-      ],
-      chainName: 'opBNB Mainnet',
-      nativeCurrency: {
-        name: 'BNB',
-        symbol: 'BNB',
-        decimals: 18,
-      },
-      rpcUrls: [
-        'https://opbnb-mainnet-rpc.bnbchain.org',
-        'https://1rpc.io/opbnb',
-      ],
-    },
-  },
-
   // 480 - WCC
   {
     key: ChainKey.WCC,
@@ -1028,31 +889,6 @@ export const supportedEVMChains: EVMChain[] = [
         'https://worldchain-mainnet.g.alchemy.com/public',
         'https://480.rpc.thirdweb.com',
       ],
-    },
-  },
-
-  // 1135 - LSK
-  {
-    key: ChainKey.LSK,
-    chainType: ChainType.EVM,
-    name: 'Lisk',
-    coin: CoinKey.ETH,
-    id: ChainId.LSK,
-    mainnet: true,
-    logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/lisk.svg',
-    multicallAddress: multicallAddresses[ChainId.LSK],
-
-    metamask: {
-      chainId: prefixChainId(1135),
-      blockExplorerUrls: ['https://blockscout.lisk.com/'],
-      chainName: 'Lisk',
-      nativeCurrency: {
-        name: 'Ethereum',
-        symbol: 'ETH',
-        decimals: 18,
-      },
-      rpcUrls: ['https://rpc.api.lisk.com', 'https://lisk.drpc.org'],
     },
   },
 
@@ -1238,31 +1074,6 @@ export const supportedEVMChains: EVMChain[] = [
   },
 
   {
-    key: ChainKey.LNS,
-    chainType: ChainType.EVM,
-    name: 'Lens',
-    coin: CoinKey.GHO,
-    id: ChainId.LNS,
-    mainnet: true,
-    logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/lens.svg',
-    multicallAddress: multicallAddresses[ChainId.LNS],
-    relayerSupported: false,
-
-    metamask: {
-      chainId: prefixChainId(ChainId.LNS),
-      blockExplorerUrls: ['https://explorer.lens.xyz/'],
-      chainName: 'Lens',
-      nativeCurrency: {
-        name: 'GHO',
-        symbol: 'GHO',
-        decimals: 18,
-      },
-      rpcUrls: ['https://api.lens.matterhosted.dev'],
-    },
-  },
-
-  {
     key: ChainKey.HYP,
     chainType: ChainType.EVM,
     name: 'HyperEVM',
@@ -1315,31 +1126,6 @@ export const supportedEVMChains: EVMChain[] = [
         decimals: 18,
       },
       rpcUrls: ['https://rpc.ankr.com/xdc', 'https://xdc.public-rpc.com'],
-    },
-  },
-
-  {
-    key: ChainKey.BOC, // BOB was taken by Boba Chain already
-    chainType: ChainType.EVM,
-    name: 'BOB',
-    coin: CoinKey.ETH,
-    id: ChainId.BOC,
-    mainnet: true,
-    logoURI:
-      'https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/bob.svg',
-    multicallAddress: multicallAddresses[ChainId.BOC],
-    relayerSupported: false,
-
-    metamask: {
-      chainId: prefixChainId(ChainId.BOC),
-      blockExplorerUrls: ['https://explorer.gobob.xyz/'],
-      chainName: 'BOB',
-      nativeCurrency: {
-        name: 'ETH',
-        symbol: 'ETH',
-        decimals: 18,
-      },
-      rpcUrls: ['https://rpc.gobob.xyz'],
     },
   },
 
