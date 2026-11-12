@@ -167,8 +167,8 @@ importers:
   .:
     dependencies:
       '@lifi/types':
-        specifier: 0.0.0-preview-cc1fa41
-        version: 0.0.0-preview-cc1fa41
+        specifier: 19.0.0
+        version: 19.0.0
     devDependencies:
       '@changesets/changelog-github':
         specifier: ^1.0.1
@@ -626,8 +626,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-  '@lifi/types@0.0.0-preview-cc1fa41':
-    resolution: {integrity: sha512-mGMdbp3qJqYEzk+Tlu5tv6TXHaud1U06jtF4cVLGP+9t1yvABaCyz+IJanddWVIQDvI9LPevZAMOBTV/8unM8g==}
+  '@lifi/types@19.0.0':
+    resolution: {integrity: sha512-ejfwohrnbsIXuWWu67DDVk/4RzHb+CCvZM7hLorRQHMIUUzwUUiiial17LaHSyDGT8HgYq8+puv6LcY9DdXcLw==}
 
   '@manypkg/find-root@3.1.0':
     resolution: {integrity: sha512-BcSqCyKhBVZ5YkSzOiheMCV41kqAFptW6xGqYSTjkVTl9XQpr+pqHhwgGCOHQtjDCv7Is6EFyA14Sm5GVbVABA==}
@@ -2914,7 +2914,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@lifi/types@0.0.0-preview-cc1fa41': {}
+  '@lifi/types@19.0.0': {}
 
   '@manypkg/find-root@3.1.0':
     dependencies:
